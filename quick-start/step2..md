@@ -1,6 +1,6 @@
 # Step2. 컴포넌트 배포
 
-## 1. "Hello World" 웹페이지 작성하기
+1\. "Hello World" 웹페이지 작성하기
 
 index.html 파일명으로 아래 코드를 작성해주세요.
 
@@ -17,12 +17,22 @@ index.html 파일명으로 아래 코드를 작성해주세요.
 
 생성된 index.html 파일을 zip 형태로 압축을 합니다. (파일명 상관없음)
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>MAC에서 index.html 압축하</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>MAC에서 index.html 압축하</p></figcaption></figure>
 
 ## 3. zip파일을 DAMDA콘솔에 업로드
 
-1. damda.lge.com 에 접속을 합니다. \
-   ![](<../.gitbook/assets/image (1).png>)
+1. DAMDA Console([http://damda.lge.com](http://damda.lge.com))에 접속하고 본인의 계정을 이용하여 로그인을 합니다.&#x20;
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>[DAMDA Console] Login 화면</p></figcaption></figure>
+
+2\. 좌측 메뉴의 '**컴포넌트**'를 선택하여 컴포넌트 화면으로 진입합니다.&#x20;
+
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>[DAMDA Console] 컴포넌트 화</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+1. \
+
 2.
 
 ## 4. DAMDA콘솔에서 배포
