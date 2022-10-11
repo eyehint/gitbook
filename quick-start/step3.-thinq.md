@@ -4,15 +4,15 @@
 
 // DAMDA-ThinQ등록하기 앱 진입 > QR코드 or PIN코드 입력 > 화면 순서대로 추
 
-스마트폰의 ThinQ App에서 계정공유하기를 통해 DAMDA Hub를 내 제품으로 등록합니다
+스마트폰의 ThinQ App에서 계정공유하기를 통해 DAMDA Hub를 내 제품으로 등록합니다\
+![](<../.gitbook/assets/image (1).png>)
 
-(스크린샷 수정 필요)
 
-![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fl3Km0lGSEvAZ1z7FtNCb%2Fuploads%2FF9HBkOZa27bamfPAMcTm%2Fimage.png?alt=media\&token=14cb92f2-d9e5-4642-8bfd-739a69c8fa93)
 
 ## &#x20;2. ThinQ앱에서 기기 확인하기
 
-// ThinQ앱에 추가된 기기카드 출력되는 화면 추가
+// ThinQ앱에 추가된 기기카드 출력되는 화면 추가\
+(기존에 만들어진 기기들 삭제 후 기기가 하나 생긴 화면에서 캡처하는게 좋을 것 같습니다. 그리고 제품명 변경 후 캡처하면 좋을 것 같습니다.)
 
 ## 3. 샘플 컴포넌트 배포하기
 

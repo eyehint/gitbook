@@ -113,12 +113,14 @@ DAMDA Installer CLI Version: 1.0.3
 
 4. 설치가 완료되면 "Next" 버튼을 눌러 다음단계로 이동합니다 \
    (설치 과정은 약 10분 정도 소요됩니다. 네트워크 환경에 따라 더 오래 소요될 수 있습니다.)\
-   ![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fl3Km0lGSEvAZ1z7FtNCb%2Fuploads%2FiVEw9LLe2TVUGYZgOPBq%2Fimage.png?alt=media\&token=7bd85b06-c8f6-468d-a9fb-79c896a2a43b)​![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fl3Km0lGSEvAZ1z7FtNCb%2Fuploads%2F3LRR63Elbkqo7IbIiLln%2Fimage.png?alt=media\&token=40484120-996c-4958-8733-43ca3c3ad5ad)\
+   ![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fl3Km0lGSEvAZ1z7FtNCb%2Fuploads%2FiVEw9LLe2TVUGYZgOPBq%2Fimage.png?alt=media\&token=7bd85b06-c8f6-468d-a9fb-79c896a2a43b) ​![](<../.gitbook/assets/image (2).png>)\
 
 5. 설치 과정이 완료 된 것을 확인합니다\
 
-6. DAMDA 디바이스가 설치되었습니다. [DAMDA Console](http://damda.lge.com/)의 디바이스 탭에 기기가 생성된 것을 확인할 수 있습니다\
-   // 디바이스 설치된 콘솔 디바이스 탭 이미지 추
+6.  DAMDA 디바이스가 설치되었습니다. [DAMDA Console](http://damda.lge.com/)의 디바이스 탭에 기기가 생성된 것을 확인할 수 있습니다\
+
+
+    <figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="CLI" %}
