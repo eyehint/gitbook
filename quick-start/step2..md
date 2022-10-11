@@ -31,11 +31,11 @@ index.html 파일명으로 아래 코드를 작성해주세요.
 
 3\. '**컴포넌트 생성**' 버튼을 클릭하면 컴포넌트 생성 팝업이 나타납니다.&#x20;
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption><p>[DAMDA Console] 컴포넌트 생성</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p>[DAMDA Console] 컴포넌트 생성</p></figcaption></figure>
 
 4\. **컴포넌트명**과 **설명**을 입하고 '**다음**' 버튼을 클릭하여 컴포넌트 추가 설정 화면으로 이동합니다.&#x20;
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption><p>[DAMDA Console] 컴포넌트 생성 - 추가설</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p>[DAMDA Console] 컴포넌트 생성 - 추가설</p></figcaption></figure>
 
 5\. '**코드**' 항목의 '**추가**' 버튼을 이용하여 2단계에서 생성된 zip 파일을 추가한 뒤 '**저장**' 버튼을 통해 컴포넌트를 저장합니다.
 
@@ -53,7 +53,7 @@ index.html 파일명으로 아래 코드를 작성해주세요.
 
 3\. 화면 하단 **배포 대상**에 배포할 대상 **DAMDA 기기**를 선택합니다. (※ _DAMDA 기기의 정보는 '**디바이스**' 탭을 통해 확인 가능합니다_)
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 4\. '배포 요청' 버튼을 클릭하면 배포가 시작되고 배포 과정이 화면 하단에 표시됩니다.
 

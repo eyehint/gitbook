@@ -10,9 +10,11 @@
 ## FUNDAMENTALS
 
 * [DAMDA 기기](group-1/page-1.md)
-  * [DAMDA Installer](fundamentals/damda/damda-installer.md)
   * [DAMDA Debugging Tool](fundamentals/damda/damda-debugging-tool.md)
   * [DAMDA Home](fundamentals/damda/damda-home.md)
+  * [DAMDA Installer](fundamentals/damda/damda-installer/README.md)
+    * [Uninstall DAMDA](fundamentals/damda/damda-installer/uninstall-damda.md)
+    * [Remove DAMDA Installer](fundamentals/damda/damda-installer/remove-damda-installer.md)
 * [DAMDA Cloud](fundamentals/damda-cloud/README.md)
   * [컴포넌트 배포하기](fundamentals/damda-cloud/undefined.md)
   * [계정 생성하기](fundamentals/damda-cloud/undefined-1.md)
