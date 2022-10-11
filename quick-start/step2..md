@@ -21,7 +21,9 @@ index.html 파일명으로 아래 코드를 작성해주세요.
 
 ## 3. zip파일을 DAMDA콘솔에 업로드
 
-// 업로드한 화면 추가
+1. damda.lge.com 에 접속을 합니다. \
+   ![](<../.gitbook/assets/image (1).png>)
+2.
 
 ## 4. DAMDA콘솔에서 배포
 
