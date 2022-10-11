@@ -37,15 +37,25 @@ index.html 파일명으로 아래 코드를 작성해주세요.
 
 <figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption><p>[DAMDA Console] 컴포넌트 생성 - 추가설</p></figcaption></figure>
 
-5\. '코드' 항목의 '추가' 버튼을 이용하여 2단계에서 생성된  zip 파일을 추가한 뒤 '저장' 버튼을 통해 컴포넌트를 저장합니다.
+5\. '**코드**' 항목의 '**추가**' 버튼을 이용하여 2단계에서 생성된 zip 파일을 추가한 뒤 '**저장**' 버튼을 통해 컴포넌트를 저장합니다.
 
-6\. 저장이 완료되면 내 컴포넌트에 새로운 컴포넌트가 추가된 것을 확인할 수 있습니다.&#x20;
+6\. 저장이 완료되면 '**내 컴포넌트'**에 새로운 컴포넌트가 추가된 것을 확인할 수 있습니다.&#x20;
 
 <figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>[DAMDA Console] 컴포넌트 화면 - 컴포넌트 추가시</p></figcaption></figure>
 
 ## 4. DAMDA콘솔에서 배포
 
-//배포 하는 화면 추가
+1.업로드 된 컴포넌트의 좌측에 표시되는 선택박스를 선택한 뒤 오른쪽 하단의 '배포하기' 버튼을 클릭합니다.
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+2\. 내 컴포넌트(`com.damda.sample.hellodamda`)와 웹서버 퍼블릭 컴포넌트(`com.damda.webserver`)만 남겨두고 나머지는 모두 제외 버튼을 통해 삭제합니다. _(_※ _퍼블릭 컴포넌트는 자동으로 추가되기 때문에 불필요한 컴포넌트는 배포내용에서 제외합니다)_
+
+3\. 배포 대상에 배포할 대상 DAMDA 기기를 선택합니다. (※ _DAMDA 기기의 정보는 '**디바이스**' 탭을 통해 확인 가능합니다_)
+
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+
+##
 
 ## 5. DAMDA Home에서 배포된 컴포넌트 확인
 
