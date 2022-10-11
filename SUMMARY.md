@@ -9,9 +9,17 @@
 
 ## FUNDAMENTALS
 
-* [DAMDA 기기](fundamentals/damda/README.md)
+* [DAMDA 기기](group-1/page-1.md)
   * [DAMDA Installer](fundamentals/damda/damda-installer.md)
   * [DAMDA Debugging Tool](fundamentals/damda/damda-debugging-tool.md)
   * [DAMDA Home](fundamentals/damda/damda-home.md)
-* [DAMDA Cloud](fundamentals/damda-cloud.md)
-* [DAMDA Tools](fundamentals/damda-tools.md)
+* [DAMDA Cloud](fundamentals/damda-cloud/README.md)
+  * [컴포넌트 배포하기](fundamentals/damda-cloud/undefined.md)
+  * [계정 생성하기](fundamentals/damda-cloud/undefined-1.md)
+* [DAMDA Tools](fundamentals/damda-tools/README.md)
+  * [DAMDA CLI](fundamentals/damda-tools/damda-cli.md)
+
+## REFERENCE
+
+* [API Reference](reference/api-reference.md)
+* [Samples](reference/samples.md)
