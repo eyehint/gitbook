@@ -62,6 +62,17 @@ index.html 파일명으로 아래 코드를 작성해주세요.
 5\. '배포 완료' 표시를 통해 컴포넌트의 배포가 완료된 것을 확인할 수 있습니다.  \
 // To Do : 배포 완료 표시 화면 추가하기&#x20;
 
-## 5. DAMDA Home에서 배포된 컴포넌트 확인
+## 5. 배포된 컴포넌트 확인
 
-// damda home 어플리케이션 리스트에서 hello world 컴포넌트 실행후, hello world 실행 확인하면 화면 추
+#### 1) DAMDA Console에서 확인하기
+
+DAMDA Console  **'디바이스'** 화면에서 배포된 기기를 선택(_'**Details**' 누름_)하면 오른쪽 하단에 컴포넌트 상태를 확인할 수 있습니다. \
+**내 컴포넌트(**_**`com.damda.sample.hellodamda`**_**)**의 상태가 "**FINISHED**" 이고, **웹 서버 퍼블릭 컴포넌트 (**_**`com.damda.webserver`**_**)**의 상태가 "**RUNNING**" 이면 정상적으로 배포된 상태입니다.&#x20;
+
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+#### 2) DAMDA 기기 (DAMDA Home)에서 확인하기
+
+#### 3) 개발 PC에서 확인하기
+
+// dada home 어플리케이션 리스트에서 hello world 컴포넌트 실행후, hello world 실행 확인하면 화면 추
