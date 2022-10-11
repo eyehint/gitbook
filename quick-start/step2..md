@@ -23,17 +23,21 @@ index.html 파일명으로 아래 코드를 작성해주세요.
 
 1. DAMDA Console([http://damda.lge.com](http://damda.lge.com))에 접속하고 본인의 계정을 이용하여 로그인을 합니다.&#x20;
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>[DAMDA Console] Login 화면</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>[DAMDA Console] Login 화면</p></figcaption></figure>
 
 2\. 좌측 메뉴의 '**컴포넌트**'를 선택하여 컴포넌트 화면으로 진입합니다.&#x20;
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>[DAMDA Console] 컴포넌트 화</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>[DAMDA Console] 컴포넌트</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+3\. '컴포넌트 생성' 버튼을 클릭하면 컴포넌트 생성 팝업이 나타납니다.&#x20;
 
-1. \
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption><p>[DAMDA Console] 컴ㅗㅁ포ㄴ 생ㅓ</p></figcaption></figure>
 
-2.
+4\. 컴포넌트명(com.damda.sample.hellodamda)과 설명을 작성하고 '다음' 버튼을 클릭하여 컴포넌트 추가 설정 화면으로 이동합니다.&#x20;
+
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+
 
 ## 4. DAMDA콘솔에서 배포
 
