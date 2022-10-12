@@ -8,7 +8,7 @@ index.html 파일명으로 아래 코드를 작성해주세요.
 <!-- index.html (Hello, Damda) Sample Code -->
 <html>
     <body>
-        Hello, Damda
+        Hello! Damda!!
     </body>
 </html>
 ```
