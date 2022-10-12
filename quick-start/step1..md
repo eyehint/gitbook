@@ -117,10 +117,14 @@ DAMDA Installer CLI Version: 1.0.3
 
 5. 설치 과정이 완료 된 것을 확인합니다\
 
-6.  DAMDA 디바이스가 설치되었습니다. [DAMDA Console](http://damda.lge.com/)의 디바이스 탭에 기기가 생성된 것을 확인할 수 있습니다\
+6.  [DAMDA Console](http://damda.lge.com/)의 디바이스 탭에 기기가 생성된 것을 확인할 수 있습니다\
 
 
     <figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+7. 이제 라즈베리파이에서 DAMDA Home 앱을 사용할 수 있습니다\
+   ****![](../.gitbook/assets/image.png)\
+   \
+
 {% endtab %}
 
 {% tab title="CLI" %}
