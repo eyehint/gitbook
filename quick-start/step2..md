@@ -1,4 +1,4 @@
-# Step2. 컴포넌트 배포 (Hello Damda)
+# Step2. 컴포넌트(Hello Damda) 배포 따라하기
 
 1\. "Hello World" 웹페이지 작성하기
 
@@ -47,7 +47,7 @@ index.html 파일명으로 아래 코드를 작성해주세요.
 
 1.업로드 된 컴포넌트의 좌측에 표시되는 **선택박스**를 선택한 뒤 오른쪽 하단의 '**배포하기**' 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 2\. 내 컴포넌트(`com.damda.sample.hellodamda`)와 웹서버 퍼블릭 컴포넌트(`com.damda.webserver`)만 남겨두고 나머지는 모두 **제외** 버튼을 통해 삭제합니다. _(_※ _퍼블릭 컴포넌트는 자동으로 추가되기 때문에 불필요한 컴포넌트는 배포 내용에서 제외합니다)_
 
