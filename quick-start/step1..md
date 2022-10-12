@@ -23,7 +23,7 @@ description: DAMDA를 사용하기 위한 환경 설정 방법입니다
 필수 패키지 들을 설치합니다
 
 ```shell
-sudo apt install -y default-jdk unzip curl python3-pip libatlas-base-dev proj-bin proj-data libproj-dev libgeos-dev libgdal-dev python3-virtualenv docker.io docker-compose npm nodejs npx
+sudo apt install -y default-jdk unzip curl python3-pip libatlas-base-dev proj-bin proj-data libproj-dev libgeos-dev libgdal-dev python3-virtualenv docker.io docker-compose npm nodejs
 ```
 
 ### Step3: Download Installer
