@@ -75,4 +75,11 @@ DAMDA Console  **'디바이스'** 화면에서 배포된 기기를 선택(_'**De
 
 #### 3) 개발 PC에서 확인하기
 
-// dada home 어플리케이션 리스트에서 hello world 컴포넌트 실행후, hello world 실행 확인하면 화면 추
+개발 PC의 브라우저를 통해 샘플 컴포넌트의 화면을 확인할 수 있습니다. \
+브라우저의 주소창에 `http://<damda device ip>:30001/<component_id>/<component version>/<압축파일명>/index.html` 을 입력하면 해당 앱의 화면을 확인할 수 있습니다.&#x20;
+
+```
+ex) http://192.168.50.25:30001/com.damda.sample.hellodamda/1.0.0/hellodamda/index.html
+```
+
+<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
