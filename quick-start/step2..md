@@ -1,4 +1,4 @@
-# Step2. 컴포넌트 배포
+# Step2. 컴포넌트 배포 (Hello Damda)
 
 1\. "Hello World" 웹페이지 작성하기
 
