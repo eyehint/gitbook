@@ -86,7 +86,7 @@ sudo apt install ./damda-installer_1.0.3-1_ubuntu.deb
 {% hint style="info" %}
 설치 후, 아래와 같이 커널 업그레이드 안내가 나오는 경우가 있습니다.\
 확인하고 계속 진행해주세요\
-<img src="../.gitbook/assets/image (6) (2).png" alt="" data-size="original">
+<img src="../.gitbook/assets/image (6) (3).png" alt="" data-size="original">
 {% endhint %}
 {% endtab %}
 
@@ -111,7 +111,7 @@ DAMDA Installer CLI Version: 1.0.3
 {% tab title="GUI" %}
 1. DAMDA Installer 아이콘을 눌러서 실행합니다\
    \[RaspberryPi OS]                                         \[Ubuntu mate]\
-   ![](<../.gitbook/assets/image (7) (2).png>)   ![Menu > "damda" 검색](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fl3Km0lGSEvAZ1z7FtNCb%2Fuploads%2Fo39jplzTATPRX20mYEYA%2Fimage.png?alt=media\&token=df171290-7f44-4663-8051-69634d1bca2d)\
+   ![](<../.gitbook/assets/image (7) (2) (1).png>)   ![Menu > "damda" 검색](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fl3Km0lGSEvAZ1z7FtNCb%2Fuploads%2Fo39jplzTATPRX20mYEYA%2Fimage.png?alt=media\&token=df171290-7f44-4663-8051-69634d1bca2d)\
 
 2. Installer에 DAMDA id와 password 입력합니다\
    ![](<../.gitbook/assets/image (17).png>)\
@@ -125,14 +125,14 @@ DAMDA Installer CLI Version: 1.0.3
 
 5. 설치 과정이 완료 된 것을 확인합니다. \
    앞으로 컴포넌트 배포할 때 필요한 정보인, DAMDA 기기명을 확인할 수 있습니다.\
-   ![](<../.gitbook/assets/image (2).png>)\
+   ![](<../.gitbook/assets/image (2) (1).png>)\
 
 6. 설치 완료 화면에서 ID 확인을 못한 경우 Installer를 다시 실행해서 확인할 수도 있습니다.\
-   ![](<../.gitbook/assets/image (5).png>)\
+   ![](<../.gitbook/assets/image (5) (3).png>)\
 
 7.  [DAMDA Console](http://damda.lge.com/)의 디바이스 탭에서 동일한 디바이스 ID로 기기가 생성된 것을 확인할 수 있습니다.
 
-    <figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (12) (2).png" alt=""><figcaption></figcaption></figure>
 8. 이제 라즈베리파이에 컴포넌트를 배포할 수 있는 준비가 완료되었습니다!
 {% endtab %}
 
