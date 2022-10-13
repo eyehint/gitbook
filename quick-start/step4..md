@@ -41,5 +41,5 @@ component를 배포하기 위해서 DAMDA Console에서 생성한다
 
 배포를 진행한다.
 
-![](<../.gitbook/assets/image (10).png>)
+![](<../.gitbook/assets/image (10) (1).png>)
 

@@ -53,7 +53,7 @@ curl -O https://damda.s3.ap-northeast-2.amazonaws.com/installer/damda-installer_
 {% tab title="Installer 설치" %}
 * DAMDA 사용자들만 installer 패키지를 받을 수 있습니다. 명령어 입력 후, 잠시 기다리면 DAMDA 계정을 입력하도록 메세지가 나옵니다.&#x20;
 * DAMDA 계정을 입력할 때 까지 설치가 진행되지 않습니다.&#x20;
-* DAMDA 계정 입력이 잘못 된 경우, [Installer를 제거](../fundamentals/damda/damda-installer/remove-damda-installer.md)하고 다시 설치 진행해야합니다.
+* DAMDA 계정 입력이 잘못 된 경우 설치가 종료 되므로, 다시 설치 명령어를 입력해주시기 바랍니다.
 
 {% code title="Raspberry Pi" %}
 ```shell
@@ -80,6 +80,14 @@ Progress: [ 20%] [####################################..........................
 sudo apt install ./damda-installer_1.0.3-1_ubuntu.deb
 ```
 {% endcode %}
+
+
+
+{% hint style="info" %}
+설치 후, 아래와 같이 커널 업그레이드 안내가 나오는 경우가 있습니다.\
+확인하고 계속 진행해주세요\
+<img src="../.gitbook/assets/image (6).png" alt="" data-size="original">
+{% endhint %}
 {% endtab %}
 
 {% tab title="Installer 설치 확인" %}
@@ -106,23 +114,27 @@ DAMDA Installer CLI Version: 1.0.3
    ![](<../.gitbook/assets/image (7) (2).png>)   ![Menu > "damda" 검색](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fl3Km0lGSEvAZ1z7FtNCb%2Fuploads%2Fo39jplzTATPRX20mYEYA%2Fimage.png?alt=media\&token=df171290-7f44-4663-8051-69634d1bca2d)\
 
 2. Installer에 DAMDA id와 password 입력합니다\
-   ![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fl3Km0lGSEvAZ1z7FtNCb%2Fuploads%2FfrLwzBJnl9AwXT8JUcwk%2Fimage.png?alt=media\&token=1c2059d0-6a04-479a-b65f-bb9427f9e038)\
+   ![](<../.gitbook/assets/image (17).png>)\
 
 3. "Install" 버튼 클릭합니다\
-   ![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fl3Km0lGSEvAZ1z7FtNCb%2Fuploads%2F864kgxVwYclEkleIzerW%2Fimage.png?alt=media\&token=033a5c0f-44ac-4158-8ed8-16e7b5c366df)\
+   ![](<../.gitbook/assets/image (7).png>)\
 
 4. 설치가 완료되면 "Next" 버튼을 눌러 다음단계로 이동합니다 \
    (설치 과정은 약 10분 정도 소요됩니다. 네트워크 환경에 따라 더 오래 소요될 수 있습니다.)\
-   ![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fl3Km0lGSEvAZ1z7FtNCb%2Fuploads%2FiVEw9LLe2TVUGYZgOPBq%2Fimage.png?alt=media\&token=7bd85b06-c8f6-468d-a9fb-79c896a2a43b) ​![](<../.gitbook/assets/image (2) (3).png>)\
+   ![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fl3Km0lGSEvAZ1z7FtNCb%2Fuploads%2FiVEw9LLe2TVUGYZgOPBq%2Fimage.png?alt=media\&token=7bd85b06-c8f6-468d-a9fb-79c896a2a43b) ​![](<../.gitbook/assets/image (11).png>)\
 
-5. 설치 과정이 완료 된 것을 확인합니다\
+5. 설치 과정이 완료 된 것을 확인합니다. \
+   앞으로 컴포넌트 배포할 때 필요한 정보인, DAMDA 기기명을 확인할 수 있습니다.\
+   ![](<../.gitbook/assets/image (2).png>)\
 
-6.  [DAMDA Console](http://damda.lge.com/)의 디바이스 탭에 기기가 생성된 것을 확인할 수 있습니다\
+6. 설치 완료 화면에서 ID 확인을 못한 경우 Installer를 다시 실행해서 확인할 수도 있습니다.\
+   ![](../.gitbook/assets/image.png)\
 
+7.  [DAMDA Console](http://damda.lge.com/)의 디바이스 탭에서 동일한 디바이스 ID로 기기가 생성된 것을 확인할 수 있습니다.
 
-    <figure><img src="../.gitbook/assets/image (8) (3).png" alt=""><figcaption></figcaption></figure>
-7. 이제 라즈베리파이에서 DAMDA Home 앱을 사용할 수 있습니다\
-   ****![](<../.gitbook/assets/image (14).png>)\
+    <figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+8. 이제 라즈베리파이에서 DAMDA Home 앱을 사용할 수 있습니다\
+   ****![](<../.gitbook/assets/image (4).png>)\
    \
 
 {% endtab %}
