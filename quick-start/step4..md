@@ -2,11 +2,12 @@
 
 ## 1. Debugging 용 Test Component 코드 작성
 
-아래의 예제코드를 작성한다.
+아래의 예제코드를 작성합니다.
 
-로그는 json type이며 key 값에는 level, message, function, timestamp가 들어가야한다.
-
-log가 저장되는 path는 /var/log/damda/{file이름} 이어야 한다.
+Log를 Debugging 콘솔에서 보기위해서는\
+&#x20;   1\.  json type으로 작성되어야 합니다\
+&#x20;   2\. json 안에는 level, message, function, timestamp의 요소가 들어가야 합니다.\
+&#x20;   3\. Log의 path는 /var/log/damda/{file이름} 이어야 합니다.
 
 <pre><code># main.py
 <strong>import logging
@@ -33,13 +34,13 @@ if __name__ == '__main__':
 
 ## 2. Test Component 생성 및 배포
 
-component를 배포하기 위해서 DAMDA Console에서 생성한다
+component를 배포하기 위해서 DAMDA Console에서 생성합니다.
 
 <figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
-배포를 진행한다.
+아래와 같이 생성된 component의 배포를 진행합니다.
 
 <figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -49,11 +50,14 @@ todo: damda console에서 못들어가는 이슈 확인
 
 todo: component 상세정보 안보이는 것 이슈 확인
 
-아래 처럼 현재 기기 상태와 배포된 컴포넌트의 요약정보를 알 수 있다.
+아래 처럼 현재 기기 상태정보와 배포된 컴포넌트의 요약정보를 알 수 있습니다.
 
 <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-Log 탭에 가면 저장된 log 파일을 실시간으로 확인 할 수 있다.
+Log 탭에 가면 저장된 log 파일을 실시간으로 모니터링 할 수 있습니다.
 
 <figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
+리소스 탭에서는 현재 사용중인 포트의 번호를 확인할 수 있습니다.
+
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>

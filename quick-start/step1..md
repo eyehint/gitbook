@@ -86,7 +86,7 @@ sudo apt install ./damda-installer_1.0.3-1_ubuntu.deb
 {% hint style="info" %}
 설치 후, 아래와 같이 커널 업그레이드 안내가 나오는 경우가 있습니다.\
 확인하고 계속 진행해주세요\
-<img src="../.gitbook/assets/image (6).png" alt="" data-size="original">
+<img src="../.gitbook/assets/image (6) (2).png" alt="" data-size="original">
 {% endhint %}
 {% endtab %}
 
