@@ -12,5 +12,5 @@ DAMDA 설치 후 사용할 수 있습니다
 
 "메뉴 > 기타 > Damda Home"을 통해 Home을 실행할 수 있습니다
 
-![](../../.gitbook/assets/image.png)
+![](<../../.gitbook/assets/image (3).png>)
 

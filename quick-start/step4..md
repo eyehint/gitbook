@@ -1,9 +1,13 @@
 # Step4. 디버깅 하기
 
-## 1. Debugging 용 Test Component 만들기
+## 1. Debugging 용 Test Component 코드 작성
 
-<pre><code><strong># main.py
-</strong><strong>import logging
+아래의 예제코드를 작성한다.
+
+로그는 json type이며 key 값에는 level, message, function, timestamp가 들어가야한다.
+
+<pre><code># main.py
+<strong>import logging
 </strong>import json
 import time
 
@@ -25,7 +29,17 @@ if __name__ == '__main__':
         logger.info("Hello debug world")
         time.sleep(30)</code></pre>
 
-위와 같이 logging을 할 수 있는 코드를 만든다.
 
-로그는 json type이며 key 값에는 level, message, function, timestamp가 들어가야한다.
+
+## 2. Test Component 생성 및 배포
+
+component를 배포하기 위해서 DAMDA Console에서 생성한다
+
+![](<../.gitbook/assets/image (16).png>)
+
+![](<../.gitbook/assets/image (8).png>)
+
+배포를 진행한다.
+
+![](<../.gitbook/assets/image (10).png>)
 
