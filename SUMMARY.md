@@ -27,11 +27,12 @@
 ## REFERENCE
 
 * [API Reference](reference/api-reference/README.md)
+  * [HubAgent API](reference/api-reference/hubagent-api.md)
   * [가전 API](reference/api-reference/api.md)
   * [Hub API](reference/api-reference/hub-api.md)
   * [ThinQ API](reference/api-reference/thinq-api.md)
   * [Rule API](reference/api-reference/rule-api.md)
-* [Samples](reference/samples/README.md)
+* [Samples](reference/samples.md)
   * [Hello DAMDA](reference/samples/hello-damda.md)
   * [Control App](reference/samples/control-app.md)
   * [Debugging App](reference/samples/debugging-app.md)
