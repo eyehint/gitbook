@@ -23,7 +23,7 @@ DAMDA 설치 후 사용할 수 있습니다
 ## 설치된 앱목록 확인
 
 DAMDA Console을 통해 배포한 앱들을 확인할 수 있습니다.\
-index.html을 포함한 앱의 경우, 아이콘을 클릭하면 index.html로 이동합니다. 자세한 [컴포넌트 생성 방법](../damda-cloud/undefined.md#undefined)은 가이드를 확인해주세요. \
+index.html을 포함한 앱의 경우, 아이콘을 클릭하면 index.html로 이동합니다. 자세한 [컴포넌트 생성 방법](../damda-cloud/undefined/undefined.md#undefined)은 가이드를 확인해주세요. \
 DAMDA Hub를 클릭하면 DAMDA에서 제공하는 허브 기능을 사용해볼 수 있습니다.
 
 // 캡처

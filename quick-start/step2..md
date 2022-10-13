@@ -41,7 +41,7 @@ index.html 파일명으로 아래 코드를 작성해주세요.
 
 6\. 저장이 완료되면 '**내 컴포넌트'**에 새로운 컴포넌트가 추가된 것을 확인할 수 있습니다.&#x20;
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>[DAMDA Console] 컴포넌트 화면 - 컴포넌트 추가시</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption><p>[DAMDA Console] 컴포넌트 화면 - 컴포넌트 추가시</p></figcaption></figure>
 
 ## 4. DAMDA콘솔에서 배포
 
