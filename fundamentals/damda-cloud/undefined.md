@@ -22,7 +22,7 @@
 
 기존에 만든 컴포넌트에 새로운 버전을 추가 할때도 버전을 잘 못입력하면 "동일한 버전이 존재합니다"라는 에러가 발생할 수 있습니다.
 
-<img src="../../.gitbook/assets/image (15) (1).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (15).png" alt="" data-size="original">
 
 </details>
 
