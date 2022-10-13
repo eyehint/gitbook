@@ -1,5 +1,7 @@
 # 컴포넌트 배포하기
 
+## 컴포넌트 생
+
 ## TroubleShooting
 
 <details>
