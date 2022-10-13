@@ -111,13 +111,13 @@ DAMDA Installer CLI Version: 1.0.3
 {% tab title="GUI" %}
 1. DAMDA Installer 아이콘을 눌러서 실행합니다\
    \[RaspberryPi OS]                                         \[Ubuntu mate]\
-   ![](<../.gitbook/assets/image (7) (2) (1).png>)   ![Menu > "damda" 검색](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fl3Km0lGSEvAZ1z7FtNCb%2Fuploads%2Fo39jplzTATPRX20mYEYA%2Fimage.png?alt=media\&token=df171290-7f44-4663-8051-69634d1bca2d)\
+   ![](<../.gitbook/assets/image (7) (2).png>)   ![Menu > "damda" 검색](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fl3Km0lGSEvAZ1z7FtNCb%2Fuploads%2Fo39jplzTATPRX20mYEYA%2Fimage.png?alt=media\&token=df171290-7f44-4663-8051-69634d1bca2d)\
 
 2. Installer에 DAMDA id와 password 입력합니다\
-   ![](<../.gitbook/assets/image (17) (1).png>)\
+   ![](<../.gitbook/assets/image (17).png>)\
 
 3. "Install" 버튼 클릭합니다\
-   ![](<../.gitbook/assets/image (7) (2).png>)\
+   ![](<../.gitbook/assets/image (7) (4).png>)\
 
 4. 설치가 완료되면 "Next" 버튼을 눌러 다음단계로 이동합니다 \
    (설치 과정은 약 10분 정도 소요됩니다. 네트워크 환경에 따라 더 오래 소요될 수 있습니다.)\
@@ -128,15 +128,12 @@ DAMDA Installer CLI Version: 1.0.3
    ![](<../.gitbook/assets/image (2).png>)\
 
 6. 설치 완료 화면에서 ID 확인을 못한 경우 Installer를 다시 실행해서 확인할 수도 있습니다.\
-   ![](<../.gitbook/assets/image (9).png>)\
+   ![](<../.gitbook/assets/image (5).png>)\
 
 7.  [DAMDA Console](http://damda.lge.com/)의 디바이스 탭에서 동일한 디바이스 ID로 기기가 생성된 것을 확인할 수 있습니다.
 
     <figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
-8. 이제 라즈베리파이에서 DAMDA Home 앱을 사용할 수 있습니다\
-   ****![](<../.gitbook/assets/image (10).png>)\
-   \
-
+8. 이제 라즈베리파이에 컴포넌트를 배포할 수 있는 준비가 완료되었습니다!
 {% endtab %}
 
 {% tab title="CLI" %}
@@ -163,3 +160,7 @@ Device ID: Damda-V2-XXXXXXXXXX
 /// e디바이스 생성 화면 추
 {% endtab %}
 {% endtabs %}
+
+{% hint style="info" %}
+DAMDA Home앱이 설치된 것을 확인할 수 있습니다. Home앱에서는 설치된 컴포넌트 리스트 확인 등 다양한 기능을 사용할 수 있습니다i
+{% endhint %}

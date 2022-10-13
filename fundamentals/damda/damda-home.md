@@ -14,7 +14,7 @@ DAMDA 설치 후 사용할 수 있습니다
 
 "메뉴 > 기타 > Damda Home"을 통해 Home을 실행할 수 있습니다
 
-![](<../../.gitbook/assets/image (1).png>)
+![](<../../.gitbook/assets/image (5) (2).png>)
 
 ## 설치된 앱목록 확인
 

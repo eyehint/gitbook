@@ -35,13 +35,13 @@ if __name__ == '__main__':
 
 component를 배포하기 위해서 DAMDA Console에서 생성한다
 
-![](<../.gitbook/assets/image (17).png>)
+![](<../.gitbook/assets/image (16).png>)
 
-![](<../.gitbook/assets/image (22).png>)
+![](<../.gitbook/assets/image (8).png>)
 
 배포를 진행한다.
 
-![](<../.gitbook/assets/image (20).png>)
+![](<../.gitbook/assets/image (10) (1).png>)
 
 ## 3.Debugging Console
 
