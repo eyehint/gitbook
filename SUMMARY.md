@@ -26,5 +26,6 @@
 
 ## REFERENCE
 
-* [API Reference](reference/api-reference.md)
+* [API Reference](reference/api-reference/README.md)
+  * [가전 API](reference/api-reference/api.md)
 * [Samples](reference/samples.md)
