@@ -2,13 +2,12 @@
 
 ## 1. ThinQ등록하기
 
-// DAMDA-ThinQ등록하기 앱 진입 > QR코드 or PIN코드 입력 > 화면 순서대로 추
-
-스마트폰의 ThinQ App에서 계정공유하기를 통해 DAMDA Hub를 내 제품으로 등록합니다\
-
+라즈베리파이에서 DAMDA Home 앱을 실행 시킵니다. Home 에서 'ThinQ에 내 제품으로 등록하기'를 클릭합니다.\
+ThinQ 로그인을 할 수 있는 앱이 실행되어 Pin과 QR코드가 화면에 보입니다.
 
 <figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
+스마트폰에서 사용하려는 계정을 가진 ThinQ App을 실행 시킵니다. '설정' > 'ThinQ 계정 공유' 메뉴를 선택합니다. 앱에서 제공하는 Pin이나 QR 로그인을 진행합니다. ThinQ 로그인 정보가 DAMDA 로 전달되고 자동으로 DMADA 기기를 허브로 등록하는 과정이 진행됩니다.\
 
 
 ## &#x20;2. ThinQ앱에서 기기 확인하기
