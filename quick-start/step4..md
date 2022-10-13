@@ -46,9 +46,7 @@ component를 배포하기 위해서 DAMDA Console에서 생성합니다.
 
 ## 3.Debugging Console
 
-todo: damda console에서 못들어가는 이슈 확인
-
-todo: component 상세정보 안보이는 것 이슈 확인
+브라우저에서 http://{raspberry pi IP}:8787 로 들어갑니다.
 
 아래 처럼 현재 기기 상태정보와 배포된 컴포넌트의 요약정보를 알 수 있습니다.
 
