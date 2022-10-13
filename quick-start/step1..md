@@ -125,7 +125,7 @@ DAMDA Installer CLI Version: 1.0.3
 
 5. 설치 과정이 완료 된 것을 확인합니다. \
    앞으로 컴포넌트 배포할 때 필요한 정보인, DAMDA 기기명을 확인할 수 있습니다.\
-   ![](<../.gitbook/assets/image (2) (1).png>)\
+   ![](<../.gitbook/assets/image (2) (1) (2).png>)\
 
 6. 설치 완료 화면에서 ID 확인을 못한 경우 Installer를 다시 실행해서 확인할 수도 있습니다.\
    ![](<../.gitbook/assets/image (5) (3).png>)\
