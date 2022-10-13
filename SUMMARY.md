@@ -28,4 +28,11 @@
 
 * [API Reference](reference/api-reference/README.md)
   * [가전 API](reference/api-reference/api.md)
-* [Samples](reference/samples.md)
+  * [Hub API](reference/api-reference/hub-api.md)
+  * [ThinQ API](reference/api-reference/thinq-api.md)
+  * [Rule API](reference/api-reference/rule-api.md)
+* [Samples](reference/samples/README.md)
+  * [Hello DAMDA](reference/samples/hello-damda.md)
+  * [Control App](reference/samples/control-app.md)
+  * [Debugging App](reference/samples/debugging-app.md)
+  * [가전 App](reference/samples/app.md)
