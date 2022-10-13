@@ -53,7 +53,7 @@ curl -O https://damda.s3.ap-northeast-2.amazonaws.com/installer/damda-installer_
 {% tab title="Installer 설치" %}
 * DAMDA 사용자들만 installer 패키지를 받을 수 있습니다. 명령어 입력 후, 잠시 기다리면 DAMDA 계정을 입력하도록 메세지가 나옵니다.&#x20;
 * DAMDA 계정을 입력할 때 까지 설치가 진행되지 않습니다.&#x20;
-* DAMDA 계정 입력이 잘못 된 경우, [Installer를 제거](../fundamentals/damda/damda-installer/damda-installer.md)하고 다시 설치 진행해야합니다.
+* DAMDA 계정 입력이 잘못 된 경우, [Installer를 제거](../fundamentals/damda/damda-installer/remove-damda-installer.md)하고 다시 설치 진행해야합니다.
 
 {% code title="Raspberry Pi" %}
 ```shell
@@ -120,9 +120,9 @@ DAMDA Installer CLI Version: 1.0.3
 6.  [DAMDA Console](http://damda.lge.com/)의 디바이스 탭에 기기가 생성된 것을 확인할 수 있습니다\
 
 
-    <figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (8) (3).png" alt=""><figcaption></figcaption></figure>
 7. 이제 라즈베리파이에서 DAMDA Home 앱을 사용할 수 있습니다\
-   ****![](../.gitbook/assets/image.png)\
+   ****![](<../.gitbook/assets/image (4).png>)\
    \
 
 {% endtab %}

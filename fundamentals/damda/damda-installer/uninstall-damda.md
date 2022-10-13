@@ -4,7 +4,7 @@ description: >-
   "디바이스"탭에서도 기기가 사라지게 됩니다.
 ---
 
-# Uninstall DAMDA
+# DAMDA 삭제하기
 
 {% tabs %}
 {% tab title="GUI" %}

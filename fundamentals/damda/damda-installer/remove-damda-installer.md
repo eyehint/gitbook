@@ -2,7 +2,7 @@
 description: Installer 를 삭제하는 가이드 입니다
 ---
 
-# Remove DAMDA Installer
+# DAMDA Installer 삭제하기
 
 {% hint style="warning" %}
 Installer를 삭제하면 DAMDA 를 사용할 수 없습니다! 안정적인 동작을 위해 DAMDA를 제거한 후, Installer를 삭제하는 것을 권장합니다
