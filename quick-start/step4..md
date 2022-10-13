@@ -36,7 +36,7 @@ if __name__ == '__main__':
 
 component를 배포하기 위해서 DAMDA Console에서 생성합니다.
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
@@ -52,12 +52,12 @@ todo: component 상세정보 안보이는 것 이슈 확인
 
 아래 처럼 현재 기기 상태정보와 배포된 컴포넌트의 요약정보를 알 수 있습니다.
 
-<figure><img src="../.gitbook/assets/image (4) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 Log 탭에 가면 저장된 log 파일을 실시간으로 모니터링 할 수 있습니다.
 
-<figure><img src="../.gitbook/assets/image (7) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 리소스 탭에서는 현재 사용중인 포트의 번호를 확인할 수 있습니다.
 
-<figure><img src="../.gitbook/assets/image (6) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>

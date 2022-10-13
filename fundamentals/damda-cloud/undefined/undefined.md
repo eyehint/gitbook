@@ -8,7 +8,7 @@ description: 컴포넌트 생성 창에서 입력해야 하는 각 항목에 대
 
 [Damda Console](http://damda.lge.com/)에서 "컴포넌트 생성" 버튼을 클릭하여 컴포넌트 만들수 있습니다. 컴포넌트 생성에 필요한 정보들을 입력합니다.
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 사전에 컴포넌트로 만들 코드를 zip파일로 묶어 준비합니다. 압축파일을 풀었을 때, '압축파일명/' 밑에 코드 파일이 생성되도록 압축해야합니다.&#x20;
@@ -16,7 +16,7 @@ description: 컴포넌트 생성 창에서 입력해야 하는 각 항목에 대
 
 ### 컴포넌트 기본 정보 설정
 
-![](<../../../.gitbook/assets/image (2) (6).png>)                  ![](<../../../.gitbook/assets/image (2) (2).png>)
+![](<../../../.gitbook/assets/image (2) (6).png>)                  ![](<../../../.gitbook/assets/image (2) (5).png>)
 
 #### ****
 
@@ -156,7 +156,7 @@ python {root}/zip파일명 app.py
 
 각 life cycle 의 '작성' 버튼을 눌러 단계별 세부내용을 설정할 수 있습니다.
 
-<figure><img src="../../../.gitbook/assets/image (10) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 **환경 변수**
 
@@ -171,7 +171,7 @@ Script 항목에서 '+'를 누르면 스크립트를 입력할 수 있는 칸이
 ```
 
 예시로 Debugging Console의 설치 스크립트는 아래와 같이 작성됩니다. 같은 내용을 Debugging Console의 상세화면에서 확인할 수 있습니다. \
-![](<../../../.gitbook/assets/image (15).png>) ![](<../../../.gitbook/assets/image (31).png>)
+![](../../../.gitbook/assets/image.png) ![](<../../../.gitbook/assets/image (14).png>)
 
 ## 컴포넌트 타입 별 Tip
 

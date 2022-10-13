@@ -9,18 +9,17 @@ description: DAMDA를 사용하기 위한 환경 설정 방법입니다
 ### Step1: Prerequisites
 
 * DAMDA 계정
-  * DAMDA 환경을 구성하기 위해 DAMDA 계정이 필요합니다
-  * DAMDA 계정이 없는 경우, [DAMDA Console](http://damda.lge.com/login?redirect=%2Fhome) 로 이동하여 계정 생성합니다\
-    계정 생성 가이드 (링크)
+  * DAMDA 환경을 구성하기 위해 DAMDA 계정이 필요합니다.&#x20;
+  * DAMDA 계정이 없는 경우, [DAMDA Console](http://damda.lge.com/login?redirect=%2Fhome) 로 이동하여 [계정 생성](../fundamentals/damda-cloud/undefined-1.md)합니다.
 * RaspberryPi 4 준비
-  * RaspberryPi에 OS를 설치해서 사용할 준비를 합니다
-  * 지원 OS는 **RaspberryPi OS(권장)**, Ubuntu mate 입니다
+  * RaspberryPi에 OS를 설치해서 사용할 준비를 합니다.&#x20;
+  * 지원 OS는 **RaspberryPi OS(권장)**, Ubuntu mate 입니다.&#x20;
     * Raspberry Pi OS 공식 페이: [https://www.raspberrypi.com/software/](https://www.raspberrypi.com/software/)
-    * &#x20;Ubuntu MATE for Raspberry Pi 공식 페이: [https://ubuntu-mate.org/raspberry-pi/](https://ubuntu-mate.org/raspberry-pi/)
+    * &#x20;Ubuntu MATE for Raspberry Pi 공식 페이지: [https://ubuntu-mate.org/raspberry-pi/](https://ubuntu-mate.org/raspberry-pi/)
 
 ### Step2: Install the library
 
-필수 패키지 들을 설치합니다
+필수 패키지 들을 설치합니다.
 
 ```shell
 sudo apt install -y default-jdk unzip curl python3-pip libatlas-base-dev proj-bin proj-data libproj-dev libgeos-dev libgdal-dev python3-virtualenv docker.io docker-compose npm nodejs
@@ -28,7 +27,7 @@ sudo apt install -y default-jdk unzip curl python3-pip libatlas-base-dev proj-bi
 
 ### Step3: Download Installer
 
-Installer setup 파일을 다운 받습니다
+Installer setup 파일을 다운 받습니다.
 
 Installer setup 파일:&#x20;
 
@@ -97,7 +96,9 @@ damda version 확인을 통해 installer 설치가 완료 되었는지 확인할
 sudo damda --version
 ```
 
-설치가 완료되면 아래와 같이 버전명을 확인할 수 있습니다
+
+
+설치가 완료되면 아래와 같이 버전명을 확인할 수 있습니다.
 
 ```
 DAMDA Installer CLI Version: 1.0.3
@@ -109,33 +110,33 @@ DAMDA Installer CLI Version: 1.0.3
 
 {% tabs %}
 {% tab title="GUI" %}
-1. DAMDA Installer 아이콘을 눌러서 실행합니다\
+1. DAMDA Installer 아이콘을 눌러서 실행합니다. \
    \[RaspberryPi OS]                                         \[Ubuntu mate]\
-   ![](<../.gitbook/assets/image (7) (2) (1).png>)   ![Menu > "damda" 검색](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fl3Km0lGSEvAZ1z7FtNCb%2Fuploads%2Fo39jplzTATPRX20mYEYA%2Fimage.png?alt=media\&token=df171290-7f44-4663-8051-69634d1bca2d)\
+   ![](<../.gitbook/assets/image (7) (2).png>)   ![Menu > "damda" 검색](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fl3Km0lGSEvAZ1z7FtNCb%2Fuploads%2Fo39jplzTATPRX20mYEYA%2Fimage.png?alt=media\&token=df171290-7f44-4663-8051-69634d1bca2d)\
 
-2. Installer에 DAMDA id와 password 입력합니다\
+2. Installer에 DAMDA id와 password 입력합니다. \
    ![](<../.gitbook/assets/image (17) (1).png>)\
 
-3. "Install" 버튼 클릭합니다\
+3. "Install" 버튼 클릭합니다. \
    ![](<../.gitbook/assets/image (7) (4).png>)\
 
-4. 설치가 완료되면 "Next" 버튼을 눌러 다음단계로 이동합니다 \
+4. 설치가 완료되면 "Next" 버튼을 눌러 다음단계로 이동합니다. \
    (설치 과정은 약 10분 정도 소요됩니다. 네트워크 환경에 따라 더 오래 소요될 수 있습니다.)\
-   ![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fl3Km0lGSEvAZ1z7FtNCb%2Fuploads%2FiVEw9LLe2TVUGYZgOPBq%2Fimage.png?alt=media\&token=7bd85b06-c8f6-468d-a9fb-79c896a2a43b) ​![](<../.gitbook/assets/image (29).png>)\
+   ![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fl3Km0lGSEvAZ1z7FtNCb%2Fuploads%2FiVEw9LLe2TVUGYZgOPBq%2Fimage.png?alt=media\&token=7bd85b06-c8f6-468d-a9fb-79c896a2a43b) ​![](<../.gitbook/assets/image (25).png>)\
 
 5. 설치 과정이 완료 된 것을 확인합니다. \
    앞으로 컴포넌트 배포할 때 필요한 정보인, DAMDA 기기명을 확인할 수 있습니다.\
    \
-   ![](<../.gitbook/assets/image (25).png>)\
+   ![](<../.gitbook/assets/image (13).png>)\
 
 6. 설치 완료 화면에서 ID 확인을 못한 경우 Installer를 다시 실행해서 확인할 수도 있습니다.\
-   ![](<../.gitbook/assets/image (7).png>)\
+   ![](<../.gitbook/assets/image (26).png>)\
 
 7.  [DAMDA Console](http://damda.lge.com/)의 디바이스 탭에서 동일한 디바이스 ID로 기기가 생성된 것을 확인할 수 있습니다.\
 
 
-    <figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
-8. 이제 라즈베리파이에 컴포넌트를 배포할 수 있는 준비가 완료되었습니다!
+    <figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+8. 이제 라즈베리파이가 DAMDA 디바이스가 되었습니다. 컴포넌트를 배포할 수 있는 준비가 완료되었습니다!
 {% endtab %}
 
 {% tab title="CLI" %}
@@ -168,7 +169,7 @@ Device ID: Damda-V2-XXXXXXXXXX
 
 [damda console](http://damda.lge.com/home)에도 디바이스가 만들어 진 것을 확인할 수 있습니다
 
-<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
