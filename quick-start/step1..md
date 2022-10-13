@@ -10,7 +10,7 @@ description: DAMDA를 사용하기 위한 환경 설정 방법입니다
 
 * DAMDA 계정
   * DAMDA 환경을 구성하기 위해 DAMDA 계정이 필요합니다.&#x20;
-  * DAMDA 계정이 없는 경우, [DAMDA Console](http://damda.lge.com/login?redirect=%2Fhome) 로 이동하여 [계정 생성](../fundamentals/damda-cloud/undefined-1.md)합니다.
+  * DAMDA 계정이 없는 경우, [DAMDA Console](http://damda.lge.com/login?redirect=%2Fhome) 로 이동하여 [계정 생성](../fundamentals/damda-cloud/undefined.md)합니다.
 * RaspberryPi 4 준비
   * RaspberryPi에 OS를 설치해서 사용할 준비를 합니다.&#x20;
   * 지원 OS는 **RaspberryPi OS(권장)**, Ubuntu mate 입니다.&#x20;
@@ -31,7 +31,7 @@ Installer setup 파일을 다운 받습니다.
 
 Installer setup 파일:&#x20;
 
-* Raspberry Pi OS: damda-installer\_1.0.3-1\_pi.deb
+* Raspberry Pi OS: [damda-installer\_1.0.3-1\_pi.deb](https://damda-component-artifacts.s3.ap-northeast-2.amazonaws.com/installer/1.0.3/damda-installer\_1.0.3-1\_pi.deb)
 * Ubutu: damda-installer\_1.0.3-1\_ubuntu.deb
 
 {% code title="Raspberry Pi" %}

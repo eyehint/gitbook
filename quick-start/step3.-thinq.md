@@ -5,7 +5,9 @@
 // DAMDA-ThinQ등록하기 앱 진입 > QR코드 or PIN코드 입력 > 화면 순서대로 추
 
 스마트폰의 ThinQ App에서 계정공유하기를 통해 DAMDA Hub를 내 제품으로 등록합니다\
-![](<../.gitbook/assets/image (1) (2).png>)
+
+
+<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 
 
