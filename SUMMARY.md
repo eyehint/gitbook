@@ -19,6 +19,7 @@
 * [DAMDA Cloud](fundamentals/damda-cloud/README.md)
   * [컴포넌트](fundamentals/damda-cloud/undefined/README.md)
     * [컴포넌트 생성하기](fundamentals/damda-cloud/undefined/undefined.md)
+    * [컴포넌트 배포하기](fundamentals/damda-cloud/undefined/undefined-1.md)
   * [계정 생성하기](fundamentals/damda-cloud/undefined-1.md)
 * [DAMDA Tools](fundamentals/damda-tools/README.md)
   * [DAMDA CLI](fundamentals/damda-tools/damda-cli.md)

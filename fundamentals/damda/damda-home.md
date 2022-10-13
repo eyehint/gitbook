@@ -14,16 +14,16 @@ DAMDA 설치 후 사용할 수 있습니다
 
 "메뉴 > 기타 > DAMDA Home"을 통해 실행할 수 있습니다
 
-![](<../../.gitbook/assets/image (18) (2).png>)
+![](<../../.gitbook/assets/image (18) (3).png>)
 
 // Home 캡처 변경 필요&#x20;
 
-<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p>DAMDA Home 시작 화면 </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (6).png" alt=""><figcaption><p>DAMDA Home 시작 화면 </p></figcaption></figure>
 
 \
 '서울특별시 서초구 양재동' 글씨를 클릭하면 원하는 위치로 바꿔서 기상 정보를 확인할 수 있습니다.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 ## 설치된 앱목록 확인
 
@@ -67,10 +67,10 @@ webOSTV가 같은 네트워크 상에 있다면, TV를 등록하고 제어 해�
 1. TV를 구분할 alias 를 입력해줍니다
 2. TV의 IP정보를 입력해줍니다
 3. "추가하기"버튼을 눌러줍니다.\
-   ![](<../../.gitbook/assets/image (21) (1).png>)\
+   ![](<../../.gitbook/assets/image (21).png>)\
 
 4. 잠시 기다리면 TV 카드가 추가된 것을 확인할 수 있습니다.\
-   ![](<../../.gitbook/assets/image (12).png>)
+   ![](<../../.gitbook/assets/image (12) (1).png>)
 
 ### 서브기기 제어하기
 
@@ -83,6 +83,6 @@ webOSTV가 같은 네트워크 상에 있다면, TV를 등록하고 제어 해�
 
 1. TV 카드를 누릅니다.&#x20;
 2. 기기 제어 패널에서 setVolume에 원하는 값을 입력합니다. \
-   ![](<../../.gitbook/assets/image (2) (1).png>)
+   ![](<../../.gitbook/assets/image (2) (1) (1).png>)
 3. "실행하기"를 클릭합니다.&#x20;
 4. TV의 볼륨이 2로 설정됩니다.&#x20;

@@ -9,7 +9,7 @@ DAMDA를 설치하고 사용하기 위해서는 DAMDA 계정이 필요합니다.
     <figure><img src="../../.gitbook/assets/image (8) (4).png" alt=""><figcaption></figcaption></figure>
 2.  계정 정보를 입력합니다. EP mail 주소를 사용하여 가입할 수 있습니다. 정보를 모두 입력하면 "계정 생성" 버튼을 누릅니다
 
-    <figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 3. EP 메일함으로 이동하여 가입 확인 메일을..?
 4. DAMDA 에 로그인\~
 
