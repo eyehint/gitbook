@@ -36,9 +36,9 @@ if __name__ == '__main__':
 
 component를 배포하기 위해서 DAMDA Console에서 생성합니다.
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (3).png" alt=""><figcaption></figcaption></figure>
 
 아래와 같이 생성된 component의 배포를 진행합니다.
 

@@ -1,10 +1,24 @@
+---
+description: 컴포넌트 생성 창에서 입력해야 하는 각 항목에 대한 가이드 페이지 입니다.
+---
+
 # 컴포넌트 생성하기
 
-## 컴포넌트 정보&#x20;
+## 컴포넌트 정보 입력&#x20;
 
+[Damda Console](http://damda.lge.com/)에서 "컴포넌트 생성" 버튼을 클릭하여 컴포넌트 만들수 있습니다. 컴포넌트 생성에 필요한 정보들을 입력합니다.
 
+<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
-![](<../../../.gitbook/assets/image (2) (6).png>)                  ![](<../../../.gitbook/assets/image (2).png>)
+{% hint style="info" %}
+사전에 컴포넌트로 만들 코드를 zip파일로 묶어 준비합니다. 압축파일을 풀었을 때, '압축파일명/' 밑에 코드 파일이 생성되도록 압축해야합니다.&#x20;
+{% endhint %}
+
+### 컴포넌트 기본 정보 설정
+
+![](<../../../.gitbook/assets/image (2) (6).png>)                  ![](<../../../.gitbook/assets/image (2) (2).png>)
+
+#### ****
 
 #### **컴포넌트 명 (필수)**
 
@@ -16,7 +30,7 @@
 
 #### **태그**&#x20;
 
-컴포넌트의 기타 정보를 태그로 추가해서 관리할 수 있습니다. 필요하지 않다면 비워두도 좋습니다.
+컴포넌트의 기타 정보를 태그로 추가해서 관리할 수 있습니다.
 
 #### **코드 (필수)**
 
@@ -30,22 +44,22 @@ python {root}/zip파일명 app.py
 
 #### **환경 변수**
 
-컴포넌트가 실행될 때 사용할 환경 변수를 정의합니다.
+컴포넌트가 실행될 때 사용할 환경 변수를 정의합니다. 여기서 설정한 환경변수는 모든 lifecycle(초기 설정, 설치, 실행, 종료)에 적용됩니다. port, phase등 실행을 위해 필요한 configuration 정보를 환경 변수로 관리할 때 사용합니다.
 
-#### **실행 스크립트**
+#### **실행 스크립트 (**Life cycle 스크립트)
 
-실행 스크립트는 4가지 종류가 있습니다. 초기 설정, 설치, 실행, 종료 입니다.
+실행스크립트는 컴포넌트의 life cycle 별로 정의합니다. **초기 설정, 설치, 실행, 종료** 4가지 종류가 있습니다.
 
 {% tabs %}
 {% tab title="초기 설정" %}
-다음과 같은 경우에 실행됨
+다음과 같은 경우에 실행됩니다.&#x20;
 
 * 컴포넌트가 코어 디바이스에 처음 배포 될 때
 * 컴포넌트의 버전이 바뀌었을때
 * 컴포넌트의 설정 업데이트로 bootstrap 스크립트가 바뀌었을때
 * GGC s/w가 재시작되거나 코어 디바이스가 재시작 될 때 실행
 
-다음과 같은 항목을 포함할 수 있음
+다음과 같은 항목을 포함할 수 있습니다.
 
 * Script: bootstrap에서 실행할 스크립트
 * RequiresPrivilege: root 권한으로 실행할지 여부 (default: false)
@@ -61,12 +75,12 @@ python {root}/zip파일명 app.py
 {% endtab %}
 
 {% tab title="설치" %}
-다음과 같은 경우에 실행됨
+다음과 같은 경우에 실행됩니다.
 
 * 컴포넌트를 설치할때 실행
 * GGC s/w가 실행 (launch)될 때 마다 실행
 
-다음과 같은 항목을 포함할 수 있음
+다음과 같은 항목을 포함할 수 있습니다.
 
 * Script: install에서 실행할 스크립트
 * RequiresPrivilege: root 권한으로 실행할지 여부 (default: false)
@@ -85,12 +99,12 @@ python {root}/zip파일명 app.py
 * pip3 install이나 컴포넌트 실행을 위해 필요한 configuration 준비
 {% endtab %}
 
-{% tab title="실행" %}
-다음과 같은 경우에 실행됨
+{% tab title="실행 (필수)" %}
+다음과 같은 경우에 실행됩니다.
 
 * 컴포넌트가 시작 될 때 실행
 
-다음과 같은 항목을 포함할 수 있음
+다음과 같은 항목을 포함할 수 있습니다.
 
 * Script: run에서 실행할 스크립트
 * RequiresPrivilege: root 권한으로 실행할지 여부 (default: false)
@@ -113,11 +127,11 @@ python {root}/zip파일명 app.py
 {% endtab %}
 
 {% tab title="종료" %}
-다음과 같은 경우에 실행됨
+다음과 같은 경우에 실행됩니다.
 
 * 컴포넌트를 내릴 때 실행 (shut down)
 
-다음과 같은 항목을 포함할 수 있음
+다음과 같은 항목을 포함할 수 있습니다.
 
 * Script: shutdown에서 실행할 스크립트
 * RequiresPrivilege: root 권한으로 실행할지 여부 (default: false)
@@ -138,20 +152,38 @@ python {root}/zip파일명 app.py
 {% endtab %}
 {% endtabs %}
 
-각 스크립트에 '**작성**' 버튼을 누르면 스크립트의 세부내용을 설정하는 창이 나타납니다.
+### Life cycle 상세 설정
+
+각 life cycle 의 '작성' 버튼을 눌러 단계별 세부내용을 설정할 수 있습니다.
 
 <figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
-Script의 '**+**'를 누르면 스크립트를 입력할 수 있는 칸이 생성됩니다. 이 때, 스크립트는 **한칸에 하나의 command만** 입력해야 합니다.&#x20;
+**환경 변수**
 
-![](../../../.gitbook/assets/image.png)\
+각 life cycle에서 사용될 환경변수를 정의합니다. 이 곳에 선언된 환경변수는, 정의된 life cycle에서만 유효합니다.&#x20;
 
+#### Script
 
+Script 항목에서 '+'를 누르면 스크립트를 입력할 수 있는 칸이 생성됩니다. 여러 줄의 스크립트를 작성하고 싶은 경우, 칸을 추가하며 한 칸당 하나의 스크립트를 입력합니다. 이때 추가한 스크립트들은 컴포넌트 정보 창에서 아래와 같은 형태로 보여지게 됩니다.
 
+```
+(스크립트 1) && (스크립트 2) && (스크립트 3)
+```
 
-### Python 컴포넌트 스크립트 참고사&#x20;
+예시로 Debugging Console의 설치 스크립트는 아래와 같이 작성됩니다. 같은 내용을 Debugging Console의 상세화면에서 확인할 수 있습니다. \
+![](<../../../.gitbook/assets/image (30).png>) ![](<../../../.gitbook/assets/image (24).png>)
+
+## 컴포넌트 타입 별 Tip
+
+### Home에서 직접 실행할 수 있는 컴포넌트 작성 방법
+
+컴포넌트 코드의 root 경로에 index.html을 추가합니다. Home에서 앱(컴포넌트)의 아이콘을 클릭하면 정의한 index.html 페이지를 실행합니다. 예시로 [Hello Damda](../../../quick-start/step2..md)를 참고할 수 있습니다.
+
+### Python 컴포넌트 스크립트 참고사항
 
 ### Nodejs 컴포넌트 스크립트 참고사항
+
+// 상세 가이드 제공 예정
 
 ## TroubleShooting
 
@@ -159,7 +191,7 @@ Script의 '**+**'를 누르면 스크립트를 입력할 수 있는 칸이 생�
 
 <summary><strong>ValidationExcption</strong> 발생</summary>
 
-****![](<../../../.gitbook/assets/image (2) (2).png>)****
+****![](<../../../.gitbook/assets/image (2) (2) (1).png>)****
 
 코드 파일이 업로드 중인 경우 ValidationException 이 발생할 수 있습니다 잠시 기다렸다가 다시 저장버튼을 눌러주세요
 
@@ -173,7 +205,7 @@ Script의 '**+**'를 누르면 스크립트를 입력할 수 있는 칸이 생�
 
 기존에 만든 컴포넌트에 새로운 버전을 추가 할때도 버전을 잘 못입력하면 "동일한 버전이 존재합니다"라는 에러가 발생할 수 있습니다.
 
-<img src="../../../.gitbook/assets/image (15) (1).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/image (15).png" alt="" data-size="original">
 
 </details>
 

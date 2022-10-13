@@ -12,6 +12,7 @@
 * [DAMDA 기기](group-1/page-1.md)
   * [DAMDA Debugging Tool](fundamentals/damda/damda-debugging-tool.md)
   * [DAMDA Home](fundamentals/damda/damda-home.md)
+  * [Custom Sub Device](fundamentals/damda/custom-sub-device.md)
   * [DAMDA Installer](fundamentals/damda/damda-installer/README.md)
     * [DAMDA 삭제하기](fundamentals/damda/damda-installer/uninstall-damda.md)
     * [DAMDA Installer 삭제하기](fundamentals/damda/damda-installer/remove-damda-installer.md)
