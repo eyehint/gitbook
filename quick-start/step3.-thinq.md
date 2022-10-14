@@ -34,7 +34,7 @@ DAMDA 기기가 정상적으로 등록이 완료되면 해당 기기 정보를 L
 
 본인의 LG ThinQ 앱 화면에 아래와 같이 "**DAMDA 제품**" 카드가 정상적으로 나타나는지 확인해 보세요
 
-<img src="../.gitbook/assets/image (3).png" alt="" data-size="original">
+<img src="../.gitbook/assets/image (3) (3).png" alt="" data-size="original">
 
 ## 3. ThinQ 연동 샘플 컴포넌트 배포하기 (Control app)
 
