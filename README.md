@@ -5,7 +5,7 @@ coverY: 0
 
 # DAMDA Overview
 
-## DAMDA 는  <a href="#damda" id="damda"></a>
+## DAMDA는  <a href="#damda" id="damda"></a>
 
 우리가 상상하는 무엇이든 빠르게 개발하고 실행해 볼 수 있는 개발자를 위한 공간입니다. LG 제품과의 통신은 물론 제어까지, 기기를 통해 제공할 다양한 서비스들을 직접 만들고 경험해 보세요.
 
@@ -21,9 +21,9 @@ coverY: 0
 
 damda 플랫폼을 이용한 작업은 개발 PC에서 damda 디바이스로 실행할 애플리케이션을 개발하는 것으로 시작합니다. 개발이 완료되면 damda 개발자는 damda Console을 통하여 컴포넌트를 생성하게 됩니다. 컴포넌트는 damda 클라우드에서 damda 디바이스로 실행할 애플리케이션의 소스코드, 그리고 이를 빌드하고 실행할 수 있는 스크립트 등을 관리하는 소프트웨어 모듈입니다.
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
-## '22년 DAMDA 는 &#x20;
+## '22년 DAMDA는 &#x20;
 
 '21년 대비 전반적인 안정성 향상 및 편의성 개선되었으며, 호환성 또한 확대되었습니다. 추가로 ThinQ앱 연동과 Hub기능 제공 등 새롭게 추가된 기능도 제공합니다. 상세내용은 [Broken link](broken-reference "mention") 메뉴에서 각 항목별로 확인이 가능합니다.
 

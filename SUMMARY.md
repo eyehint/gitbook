@@ -38,6 +38,7 @@
     * [Error / Exceptions](reference/api-reference/thinq-api/error-exceptions.md)
     * [APIs](reference/api-reference/thinq-api/apis/README.md)
       * [POST /account](reference/api-reference/thinq-api/apis/undefined.md)
+      * [GET /home](reference/api-reference/thinq-api/apis/get-home.md)
   * [Rule API](reference/api-reference/rule-api.md)
   * [Hub API](reference/api-reference/hub-api.md)
   * [가전 API](reference/api-reference/api.md)
