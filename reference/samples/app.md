@@ -19,7 +19,7 @@ description: 가전 API를 활용한 샘플코드 입니다.
 
 아래 public component를 사용하는 컴포넌트 입니다.
 
-* [com.damda.thinq-backend-api](https://docs.damda.lge.com/reference/api-reference/api/undefined)
+* [com.damda.thinq-backend-api](../api-reference/api/undefined.md)
 
 
 

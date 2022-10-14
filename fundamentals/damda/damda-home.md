@@ -24,7 +24,7 @@ Home의 첫화면에서 **시간 및 지역기반 날씨정보**, 그리고 **DA
 
 '서울특별시 서초구 양재동' 글씨를 클릭하면 원하는 위치로 바꿔서 기상 정보를 확인할 수 있습니다
 
-<figure><img src="../../.gitbook/assets/image (2) (3).png" alt=""><figcaption><p>위치 선택 화면</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (3) (2).png" alt=""><figcaption><p>위치 선택 화면</p></figcaption></figure>
 
 ## 설치된 앱목록 확인
 
@@ -44,7 +44,7 @@ DAMDA가 설치된 기기를 ThinQ에 내 제품으로 등록할 수 있습니�
 
 가이드에 따라 스마트폰의 ThinQ앱을 실행시키고 앱 설정 > 'ThinQ 계정 공유' 메뉴를 통해 앱의 로그인 정보를 허브에 공유합니다. DAMDA 기기가 공유된 계정에 제품으로 자동 등록이 됩니다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (2) (10).png" alt=""><figcaption><p>Home에서 설치한 Component 리스트 확인</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Home에서 설치한 Component 리스트 확인</p></figcaption></figure>
 
 ThinQ앱에서 'DAMDA 제품'이라는 이름의 카드가 생성된 것을 확인할 수 있습니다. \
 ![](<../../.gitbook/assets/image (39).png>)
