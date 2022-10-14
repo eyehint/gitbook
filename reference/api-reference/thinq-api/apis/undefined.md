@@ -18,15 +18,9 @@ description: DAMDA 기기 내부에 사용자의 계정을 등록 또는 변경 
 >
 > **Parameter (Body)**
 >
-> * username (String) <mark style="color:red;">\*</mark> : ThinQ 계정 ID
-> * password (String) <mark style="color:red;">\*</mark> : ThinQ 계정 Password
+> * username (<mark style="color:red;">require</mark>) : ThinQ 계정 ID
+> * password (<mark style="color:red;">require</mark>) : ThinQ 계정 Password
 
 #### **Response**
 
-> **Type** : Object
-
-#### Response Example
-
-```json
-{}
-```
+> {}

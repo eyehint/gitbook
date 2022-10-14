@@ -4,13 +4,13 @@ description: DAMDA 기기 내부에 등록된 사용자의 Home 정보를 조회
 
 # POST /hub/control
 
-### 등록된 사용자의 ThinQ 서비스 Home 정보를 조회합니다. &#x20;
+### DAMDA 기기 (및 서브기기, User Component)를 제어합니다.
 
 #### Request
 
-> **URL** : http://localhost:8951**/home**
+> **URL** : http://localhost:8951**/hub/control**
 >
-> **METHOD** : <mark style="color:blue;">**GET**</mark>
+> **METHOD** : <mark style="color:green;">**POST**</mark>
 >
 > **Header**&#x20;
 >
@@ -18,37 +18,37 @@ description: DAMDA 기기 내부에 등록된 사용자의 Home 정보를 조회
 >
 > **Parameter (Body)**
 >
-> * None
+> * ctrlKey (String) \* : 제어할 대상 "Hub", "subDevice", "component"&#x20;
+> * command (String) \* : 제어 대상에서 동작하기 위해 정의된 command (제어 대상별로 다름)
+> * dataSetList (String) :&#x20;
+> * componentId (String) \* : 제어할 component의 id \
+>   (componentId는 ctrlKey가 "component"일 때만 필수 값으로 요구됩니다. )
 
 #### **Response**
 
-> List
+> **Type** : Object
+>
+> * resultCode (string) : 기기제어 결과 코드 값
+> * result (Object) : 기기 제어 결과&#x20;
+>   * messageId (Sting)
+>   * msg (Object) : 기기 제어 결과 정
+>   * msgType (String)&#x20;
+>   * timestamp (String)
 
 #### Response Example
 
 ```json
-[    
-    {
-        "homeId": "164903371889065633",
-        "homeName": "damda 홈",
-        "homeOrder": -1,
-        "regDtUtc": "20220404005522",
-        "lastUseDt": "20220414140037",
-        "sharedYn": "N",
-        "bgImage": "62",
-        "bgImageUrl": "",
-        "startColor": "#ECECEC",
-        "centerColor": "",
-        "endColor": "",
-        "area": "3430109",
-        "latitude": "37.4698659",
-        "longitude": "127.0266905",
-        "localizedAddress": "2330442##양재1동",
-        "newHomeYn": "N",
-        "atHomeYn": "N",
-        "concurrency2": "Y"
+{
+    "resultCode": "0000",
+    "result": {
+        "messageId": "py4h2eI1SiieXZKYkUm6uw",
+        "msg": {
+            "id": "4006a0fd8b3a",
+            "result": "success",
+            "type": "HTS000"
+        },
+        "msgType": "controlResult",
+        "timestamp": 1647320135
     }
-]
+}
 ```
-
-> ``
