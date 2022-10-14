@@ -156,7 +156,7 @@ python {root}/zip파일명 app.py
 
 각 life cycle 의 '작성' 버튼을 눌러 단계별 세부내용을 설정할 수 있습니다.
 
-<figure><img src="../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 **환경 변수**
 
@@ -191,7 +191,7 @@ Script 항목에서 '+'를 누르면 스크립트를 입력할 수 있는 칸이
 
 <summary><strong>ValidationExcption</strong> 발생</summary>
 
-****![](<../../../.gitbook/assets/image (2) (2) (1).png>)****
+****![](<../../../.gitbook/assets/image (2) (2) (1) (1).png>)****
 
 코드 파일이 업로드 중인 경우 ValidationException 이 발생할 수 있습니다 잠시 기다렸다가 다시 저장버튼을 눌러주세요
 

@@ -4,13 +4,13 @@ description: DAMDA 기기 내부에 등록된 사용자의 Home 정보를 조회
 
 # DELETE /hub
 
-### 등록된 사용자의 ThinQ 서비스 Home 정보를 조회합니다. &#x20;
+### ThinQ 서버에 저장된 Hub를 제거(unregister) 합니다.
 
 #### Request
 
-> **URL** : http://localhost:8951**/home**
+> **URL** : http://localhost:8951**/hub**
 >
-> **METHOD** : <mark style="color:blue;">**GET**</mark>
+> **METHOD** : <mark style="color:red;">**DELETE**</mark>
 >
 > **Header**&#x20;
 >
@@ -22,33 +22,10 @@ description: DAMDA 기기 내부에 등록된 사용자의 Home 정보를 조회
 
 #### **Response**
 
-> List
+> **Type** : Object
 
 #### Response Example
 
 ```json
-[    
-    {
-        "homeId": "164903371889065633",
-        "homeName": "damda 홈",
-        "homeOrder": -1,
-        "regDtUtc": "20220404005522",
-        "lastUseDt": "20220414140037",
-        "sharedYn": "N",
-        "bgImage": "62",
-        "bgImageUrl": "",
-        "startColor": "#ECECEC",
-        "centerColor": "",
-        "endColor": "",
-        "area": "3430109",
-        "latitude": "37.4698659",
-        "longitude": "127.0266905",
-        "localizedAddress": "2330442##양재1동",
-        "newHomeYn": "N",
-        "atHomeYn": "N",
-        "concurrency2": "Y"
-    }
-]
+{}
 ```
-
-> ``
