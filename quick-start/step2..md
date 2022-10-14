@@ -57,7 +57,7 @@ index.html 파일명으로 아래 코드를 작성해주세요.
 
 4\. '배포 요청' 버튼을 클릭하면 배포가 시작되고 배포 과정이 화면 하단에 표시됩니다.
 
-<figure><img src="../.gitbook/assets/image (3) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 5\. '배포 완료' 표시를 통해 컴포넌트의 배포가 완료된 것을 확인할 수 있습니다.  \
 // To Do : 배포 완료 표시 화면 추가하기&#x20;

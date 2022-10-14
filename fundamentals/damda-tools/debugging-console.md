@@ -2,7 +2,7 @@
 
 ### 기기 상태 요약정보
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>코어 디바이스의 정보, 배포상태, 로그 등을 간략하게 볼 수 있습니다.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (4).png" alt=""><figcaption><p>코어 디바이스의 정보, 배포상태, 로그 등을 간략하게 볼 수 있습니다.</p></figcaption></figure>
 
 ### 컴포넌트 로그 모니터링
 
