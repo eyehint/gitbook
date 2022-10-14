@@ -52,7 +52,7 @@ component를 배포하기 위해서 DAMDA Console에서 생성합니다.
 
 브라우저에서 http://{raspberry pi 주소}:8787 로 들어가면
 
-아래와 같이 디버깅 정보들 확인 할 수 있습니다.
+Debugging Console 관련된 상세한 내용은 아래 페이지에서 확인해주세요
 
 {% content-ref url="../fundamentals/damda-tools/debugging-console.md" %}
 [debugging-console.md](../fundamentals/damda-tools/debugging-console.md)
