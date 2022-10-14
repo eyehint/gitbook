@@ -4,14 +4,12 @@ description: 가전 API를 활용한 샘플코드 입니다.
 
 # 가전 App
 
-
-
 ### Prerequisites
 
 * [node](https://nodejs.org/ko/)
 * npm : node 설치시 자동으로 설치됨
 * [vue-cil](https://cli.vuejs.org/guide/installation.html)
-* ThinQ 엡에서 실기기 등록 or ThinQ Simulator([https://simulator.lgthinq.com/](https://simulator.lgthinq.com/)) 가상기기 등록 (LG Account, KR)
+* ThinQ 에서 실기기 등록 or ThinQ Simulator([https://simulator.lgthinq.com/](https://simulator.lgthinq.com/)) 가상기기 등록 (LG Account, KR)
 
 
 

@@ -1,6 +1,11 @@
 # 가전 API
 
-\
-가전 API를 쓰기위해서는 퍼블릭 컴포넌트의 com.damda.thinq-web 컴포넌트를 배포하여야 합니다.
+## 준비사항
 
-base url은 127.0.0.1:8705 입니다.
+퍼블릭 컴포넌트 **com.damda.public.thinq-backend-api**를 배포하여야 합니다.
+
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+## Base URL
+
+Base Url은 {DAMDA 기기 api}:8705 입니다.
