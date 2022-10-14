@@ -23,6 +23,7 @@
     * [컴포넌트 배포하기](fundamentals/damda-cloud/undefined-1/undefined-1.md)
 * [DAMDA Tools](fundamentals/damda-tools/README.md)
   * [DAMDA CLI](fundamentals/damda-tools/damda-cli.md)
+  * [Debugging Console](fundamentals/damda-tools/debugging-console.md)
 
 ## REFERENCE
 
