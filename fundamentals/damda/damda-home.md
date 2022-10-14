@@ -18,7 +18,7 @@ DAMDA 설치 후 사용할 수 있습니다
 
 Home의 첫화면에서 **시간 및 지역기반 날씨정보**, 그리고 **DAMDA Hub앱**이 있는 것을 확인할 수 있습니다.
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p>Home 첫 화면</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (3).png" alt=""><figcaption><p>Home 첫 화면</p></figcaption></figure>
 
 #### 날씨 정보 위치 변경하기&#x20;
 
@@ -45,7 +45,7 @@ DAMDA가 설치된 기기를 ThinQ에 내 제품으로 등록할 수 있습니�
 가이드에 따라 스마트폰의 ThinQ앱을 실행시키고 앱 설정 > 'ThinQ 계정 공유' 메뉴를 통해 앱의 로그인 정보를 허브에 공유합니다. DAMDA 기기가 공유된 계정에 제품으로 자동 등록이 됩니다. 완료 후 ThinQ앱에서 'DAMDA 제품'이라는 이름의 카드가 생성된 것을 확인할 수 있습니다. \
 
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 // home 화면 캡처&#x20;
 

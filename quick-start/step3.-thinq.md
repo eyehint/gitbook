@@ -1,4 +1,4 @@
-# Step3. ThinQ 연동하기
+# Step3. ThinQ 연결하기
 
 ## 1. ThinQ등록하기
 
@@ -8,7 +8,7 @@ Home 에서 **'ThinQ에 내 제품으로 등록하기**'를 클릭합니다.&#x2
 
 ThinQ 로그인을 할 수 있는 앱이 실행되어 Pin/QR코드가 화면에 보입니다.
 
-<figure><img src="../.gitbook/assets/image (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 스마트폰에서 사용하려는 계정을 가진 **LG ThinQ App**을 실행 시킵니다.&#x20;
 
@@ -26,7 +26,7 @@ DAMDA 기기가 정상적으로 등록이 완료되면 해당 기기 정보를 L
 
 본인의 LG ThinQ 앱 화면에 아래와 같이 "**DAMDA 제품**" 카드가 정상적으로 나타나는지 확인해 보세요
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
 
 ## 3. ThinQ 연동 샘플 컴포넌트 배포하기 (Control app)
 
