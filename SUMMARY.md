@@ -30,7 +30,6 @@
 ## REFERENCE
 
 * [API Reference](reference/api-reference/README.md)
-  * [HubAgent API](reference/api-reference/hubagent-api.md)
   * [가전 API](reference/api-reference/api.md)
     * [가전 상태 조회](reference/api-reference/api/undefined.md)
     * [가전 제어](reference/api-reference/api/undefined-1.md)
