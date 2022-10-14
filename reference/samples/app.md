@@ -79,7 +79,7 @@ description: 가전 API를 활용한 샘플코드 입니다.
 
     <figure><img src="../../.gitbook/assets/스크린샷 2022-10-14 오후 2.44.50 (1).png" alt=""><figcaption></figcaption></figure>
 
-* **실행 스크립트** : 코드가 디바이스에 설치 후 실행하기 위해 필요한 스크립트
+* **Script** : 코드가 디바이스에 설치 후 '**실행'** 단계에서 실행될 스크립트
 * ```
   npx http-server {root}/dist -p 9019
   ```

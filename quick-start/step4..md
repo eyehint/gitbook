@@ -11,9 +11,9 @@ description: DAMDA제품을 디버깅하기 위한 방법을 설명합니다.
 Log를 Debugging 콘솔에서 보기위해서는\
 &#x20;   1\.  json type으로 작성되어야 합니다\
 &#x20;   2\. json 안에는 level, message, function, timestamp의 요소가 들어가야 합니다.\
-&#x20;   3\. Log의 path는 /var/log/damda/{file이름} 이어야 합니다.
+&#x20;   3\. Log의 path는 `/var/log/damda/{file이름}`이어야 합니다.
 
-<pre><code># main.py
+<pre class="language-python"><code class="lang-python"># main.py
 <strong>import logging
 </strong>import json
 import time
