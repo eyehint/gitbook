@@ -105,7 +105,7 @@ true / false 중에 입력되므로 별도로 정의하지 않고, 생략 합니
 
 <summary>webOSTV capability</summary>
 
-파일명: webOSTV\_v1.json
+파일 이: webOSTV\_v1.json
 
 ```
 {
@@ -272,6 +272,71 @@ true / false 중에 입력되므로 별도로 정의하지 않고, 생략 합니
 
 <summary>sensorLight</summary>
 
-파일명: sensorLight\_v1.json
+파일 이: sensorLight\_v1.json
+
+```
+{
+    "id": "sensorLight",
+    "version": 1,
+    "name": "sensor_Light",
+    "attributes": {
+        "turnOn": {
+            "schema": {
+                "properties": {
+                    "value": {
+                        "type": "boolean"
+                    }
+                }
+            }
+        },
+        "brightness": {
+            "schema": {
+                "properties": {
+                    "value": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 10
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "on": {
+            "name": "on",
+            "arguments": []
+        },
+        "off": {
+            "name": "off",
+            "arguments": []
+        },
+        "toggle": {
+            "name": "toggle",
+            "arguments": []
+        },
+        "upBrightness": {
+            "name": "up_brightness",
+            "arguments": []
+        },
+        "downBrightness": {
+            "name": "down_brightness",
+            "arguments": []
+        },
+        "setBrightness": {
+            "name": "set_brightness",
+            "arguments": [
+                {
+                    "name": "value",
+                    "schema": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 10
+                    }
+                }
+            ]
+        }
+    }
+}
+```
 
 </details>
