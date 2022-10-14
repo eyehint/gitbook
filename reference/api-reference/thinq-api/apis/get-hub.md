@@ -1,14 +1,10 @@
----
-description: DAMDA 기기 내부에 등록된 사용자의 Home 정보를 조회합니다.
----
-
 # GET /hub
 
-### 등록된 사용자의 ThinQ 서비스 Home 정보를 조회합니다. &#x20;
+### ThinQ 서비스에 저장된 DAMDA 기기의 정보를 조회합니다. &#x20;
 
 #### Request
 
-> **URL** : http://localhost:8951**/home**
+> **URL** : http://localhost:8951**/hub**
 >
 > **METHOD** : <mark style="color:blue;">**GET**</mark>
 >
@@ -22,33 +18,65 @@ description: DAMDA 기기 내부에 등록된 사용자의 Home 정보를 조회
 
 #### **Response**
 
-> List
+> **Type** : Object
 
 #### Response Example
 
 ```json
-[    
-    {
-        "homeId": "164903371889065633",
-        "homeName": "damda 홈",
-        "homeOrder": -1,
-        "regDtUtc": "20220404005522",
-        "lastUseDt": "20220414140037",
-        "sharedYn": "N",
-        "bgImage": "62",
-        "bgImageUrl": "",
-        "startColor": "#ECECEC",
-        "centerColor": "",
-        "endColor": "",
-        "area": "3430109",
-        "latitude": "37.4698659",
-        "longitude": "127.0266905",
-        "localizedAddress": "2330442##양재1동",
-        "newHomeYn": "N",
-        "atHomeYn": "N",
-        "concurrency2": "Y"
+{
+    "alias": "DAMDA 허브2",
+    "blackboxYn": "Y",
+    "clientDeviceId": "",
+    "concurrencyYn": "",
+    "countryCode": "KR",
+    "deviceCode": "",
+    "deviceId": "311860f6-2bcc-46ad-ae31-be481b3f4d67",
+    "deviceIdSelfMadeYn": "N",
+    "deviceState": "E",
+    "deviceType": "9001",
+    "drServiceYn": "N",
+    "fareTarget": "",
+    "fwVer": "",
+    "guardTimeInterval": null,
+    "homeId": "164903371889065633",
+    "key": "",
+    "macAddress": "",
+    "modelName": "DAMDA_HUB_9001",
+    "modelNumber": "",
+    "modemFotaStartTime": null,
+    "monitoringInterval": null,
+    "networkType": "",
+    "nlpAlias": "none",
+    "owner": "KR2009066177803",
+    "parentId": "",
+    "registeredAt": "2022-04-15T08:02:07.037545+00:00",
+    "remoteControlType": "",
+    "roomId": "",
+    "sdsGuide": null,
+    "sleep": "",
+    "softapId": "",
+    "softapPass": "",
+    "ssid": "",
+    "timezoneCode": "Asia/Seoul",
+    "webOSUuid": "",
+    "webOSVersion": "",
+    "homeOrder": -1,
+    "newRegYn": "N",
+    "order": 0,
+    "regDtUtc": "20220415080207117",
+    "regDt": "20220415080207117",
+    "rejectYn": "N",
+    "roomOrder": -1,
+    "serviceCode": "SVC202",
+    "userNo": "KR2009066177803",
+    "snapshot": {
+        "metadata": {},
+        "online": true
+    },
+    "meta": {
+        "key": "val"
     }
-]
+}
 ```
 
 > ``

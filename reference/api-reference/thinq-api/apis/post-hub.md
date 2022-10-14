@@ -4,13 +4,13 @@ description: DAMDA 기기 내부에 등록된 사용자의 Home 정보를 조회
 
 # POST /hub
 
-### 등록된 사용자의 ThinQ 서비스 Home 정보를 조회합니다. &#x20;
+### (기기가 ThinQ 서버에 등록되어 있지 않은 경우)DAMDA 기기를 서버에 등록하고, 기기에 사용자가 정의한 정보(meta)를 저장합니다.&#x20;
 
 #### Request
 
-> **URL** : http://localhost:8951**/home**
+> **URL** : http://localhost:8951**/hub**
 >
-> **METHOD** : <mark style="color:blue;">**GET**</mark>
+> **METHOD** : <mark style="color:green;">**POST**</mark>
 >
 > **Header**&#x20;
 >
@@ -18,13 +18,12 @@ description: DAMDA 기기 내부에 등록된 사용자의 Home 정보를 조회
 >
 > **Parameter (Body)**
 >
-> * None
+> * home\_id (String) <mark style="color:red;">\*</mark> : 사용자의 기기를 등록할 ThinQ Home ID 값
+> * meta (Object) : 사용자가 추가로 저장할 정보
 
-#### **Response**
+#### **Response**쑈
 
-> List
-
-#### Response Example
+> #### Response Example
 
 ```json
 [    
