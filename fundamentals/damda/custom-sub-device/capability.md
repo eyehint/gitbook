@@ -78,26 +78,200 @@ value에 들어와야하는 값이 명확히 정해져있는 경우, enum 사용
 {% endtab %}
 
 {% tab title="integer 타입" %}
+value에 들어올 수 있는 minimum, maximum 값을 정의
 
+```
+"value": {
+    "type": "integer",
+    "minimum": 0,
+    "maximum": 100
+}
+```
 {% endtab %}
 
 {% tab title="bool 타입" %}
-
+true / false 중에 입력되므로 별도로 정의하지 않고, 생략 합니다
 {% endtab %}
 {% endtabs %}
 
-*
-  * string 타입\
+* arguments의 value 범위 정의 방법
+  * 빈값이면 \[]로 value를 주면됩니다. `"arguments":[]`
+  * 값을 작성하는 경우, control 명령에 의해 호출 될 때, parameter가 범위안에 들어와있는지 체크합니다
+  * 현재 minimum / maximum 체크만을 지원합니다
 
-  * int
-  * bool \
-    true / false 중에 입력되므로 별도로 정의하지 않고, 생략 합니다\
-    \
+## Capability Example
 
-* arguments의 경우
-  1.  빈값이면 \[]로 value를 주면됩니다.
+<details>
 
-      | `"arguments":[]` |
-      | ---------------- |
-  2. 값을 작성하는 경우, control 명령에 의해 호출 될 때, parameter가 범위안에 들어와있는지 체크합니다
-  3. 현재 minimum / maximum 체크만을 지원합니다
+<summary>webOSTV capability</summary>
+
+파일명: webOSTV\_v1.json
+
+```
+{
+    "id": "webOSTV",
+    "version": 1,
+    "name": "webOS TV",
+    "attributes": {
+        "power": {
+            "schema": {
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "on",
+                            "off"
+                        ]
+                    }
+                }
+            }
+        },
+        "volume": {
+            "schema": {
+                "properties": {
+                    "value": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 100
+                    }
+                }
+            }
+        },
+        "muted": {
+            "schema": {
+                "properties": {
+                    "value": {
+                        "type": "boolean"
+                    }
+                }
+            }
+        },
+        "programName": {
+            "schema": {
+                "properties": {
+                    "value": {
+                        "type": "string"
+                    }
+                }
+            }
+        },
+        "channelName": {
+            "schema": {
+                "properties": {
+                    "value": {
+                        "type": "string"
+                    }
+                }
+            }
+        },
+        "channelNumber": {
+            "schema": {
+                "properties": {
+                    "value": {
+                        "type": "string"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "powerOn": {
+            "name": "power_on",
+            "arguments": []
+        },
+        "powerOff": {
+            "name": "power_off",
+            "arguments": []
+        },
+        "setVolume": {
+            "name": "set_volume",
+            "arguments": [
+                {
+                    "name": "volume",
+                    "schema": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 100
+                    }
+                }
+            ]
+        },
+        "mute": {
+            "name": "mute",
+            "arguments": [
+                {
+                    "name": "mute",
+                    "schema": {
+                        "type": "boolean"
+                    }
+                }
+            ]
+        },
+        "volumeUp": {
+            "name": "volume_up",
+            "arguments": []
+        },
+        "volumeDown": {
+            "name": "volume_down",
+            "arguments": []
+        },
+        "channelUp": {
+            "name": "channel_up",
+            "arguments": []
+        },
+        "channelDown": {
+            "name": "channel_down",
+            "arguments": []
+        },
+        "home": {
+            "name": "home",
+            "arguments": []
+        },
+        "back": {
+            "name": "back",
+            "arguments": []
+        },
+        "ok": {
+            "name": "ok",
+            "arguments": []
+        },
+        "left": {
+            "name": "left",
+            "arguments": []
+        },
+        "right": {
+            "name": "right",
+            "arguments": []
+        },
+        "up": {
+            "name": "up",
+            "arguments": []
+        },
+        "down": {
+            "name": "down",
+            "arguments": []
+        },
+        "capture": {
+            "name": "capture",
+            "arguments": [
+                {
+                    "name": "upload_uri",
+                    "schema": {
+                        "type": "string"
+                    }
+                }
+            ]
+        }
+    }
+}
+```
+
+</details>
+
+<details>
+
+<summary>sensorLight</summary>
+
+파일명: sensorLight\_v1.json
+
+</details>
