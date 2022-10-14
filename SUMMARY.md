@@ -10,7 +10,7 @@
 ## FUNDAMENTALS
 
 * [DAMDA 기기](group-1/page-1.md)
-  * [DAMDA Debugging Console](fundamentals/damda-tools/debugging-console.md)
+  * [DAMDA Debugging Console](fundamentals/damda/damda-debugging-console.md)
   * [DAMDA Home](fundamentals/damda/damda-home.md)
   * [Custom Sub Device](fundamentals/damda/custom-sub-device.md)
   * [DAMDA Installer](fundamentals/damda/damda-installer/README.md)

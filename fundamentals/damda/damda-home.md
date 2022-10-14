@@ -10,20 +10,20 @@ description: >-
 DAMDA 설치 후 사용할 수 있습니다
 {% endhint %}
 
-## Home 실행하기
+## DAMDA Home 시작하기
 
 "메뉴 > 기타 > DAMDA Home"을 통해 실행할 수 있습니다
 
 ![](<../../.gitbook/assets/image (18).png>)
 
-// Home 캡처 변경 필요&#x20;
+Home의 첫화면에서 시간 및 지역기반 날씨정보, 그리고 Hub앱이 있는 것을 확인할 수 있습니다.
 
-<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p>DAMDA Home 시작 화면 </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 \
 '서울특별시 서초구 양재동' 글씨를 클릭하면 원하는 위치로 바꿔서 기상 정보를 확인할 수 있습니다.
 
-<figure><img src="../../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ## 설치된 앱목록 확인
 
