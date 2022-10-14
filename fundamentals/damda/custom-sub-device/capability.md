@@ -53,7 +53,7 @@ Capability 파일명 규칙은 {capability id}\_v{capability version}.json 입�
 ```
 
 * 생략 가능이라고 적혀있지 않은 요소는 모두 필수로 들어가야합니다.
-* <mark style="color:red;">**attribute의 이름과 command이름은 반드시 camelCase**</mark>**로 정의**합니다.
+* **attribute의 이름과 command이름은 반드시 camelCase로 정의**합니다.
 * attribute의 경우 각 타입별로 value의 범위를 정의한 예시는 다음과 같습니다. 특별히 value값 범위 지정이 필요하지 않다면 생략합니다.
 
 {% tabs %}
