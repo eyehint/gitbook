@@ -16,7 +16,7 @@ description: 컴포넌트 생성 창에서 입력해야 하는 각 항목에 대
 
 ### 컴포넌트 기본 정보 설정
 
-![](<../../../.gitbook/assets/image (2) (6).png>)                  ![](<../../../.gitbook/assets/image (2) (5).png>)
+![](<../../../.gitbook/assets/image (2) (6).png>)                  ![](<../../../.gitbook/assets/image (2) (5) (1).png>)
 
 #### ****
 

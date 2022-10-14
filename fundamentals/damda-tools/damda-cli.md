@@ -1,7 +1,5 @@
 ---
-description: >-
-  웹브라우저에서 DAMDA Console을 통한 배포 대신에 CLI(Commend Line Interface) 통해서도 배포할 경우
-  사용합니다.
+description: 웹브라우저에서 DAMDA Console을 통한 개발 대신에 CLI(Commend Line Interface) 통해서도 개발할 수 있습니다.
 ---
 
 # DAMDA CLI
@@ -22,7 +20,7 @@ $ damda --install-completion    # [Optional] Install completion for the current 
 
 Commands to manage DAMDA account information so that you can use functions such as component creation/deletion/deployment by accessing the DAMDA cloud with the DAMDA CLI
 
-// 상세 내용 업데이트 예정
+// 상세 내용 업데이트 예
 
 ### Component
 
