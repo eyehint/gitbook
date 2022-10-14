@@ -23,7 +23,7 @@ Home의 첫화면에서 시간 및 지역기반 날씨정보, 그리고 Hub앱�
 \
 '서울특별시 서초구 양재동' 글씨를 클릭하면 원하는 위치로 바꿔서 기상 정보를 확인할 수 있습니다.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
 
 ## 설치된 앱목록 확인
 
