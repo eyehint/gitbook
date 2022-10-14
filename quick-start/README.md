@@ -1,6 +1,5 @@
 ---
 description: DAMDA를 빠르게 구성하기 위한 가이드 입니다.
-layout: editorial
 ---
 
 # Quick Start
