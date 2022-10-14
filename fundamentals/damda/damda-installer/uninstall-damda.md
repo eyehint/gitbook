@@ -13,7 +13,7 @@ description: >-
    ![](<../../../.gitbook/assets/image (23).png>)   ![Menu > "damda" 검색](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fl3Km0lGSEvAZ1z7FtNCb%2Fuploads%2Fo39jplzTATPRX20mYEYA%2Fimage.png?alt=media\&token=df171290-7f44-4663-8051-69634d1bca2d)\
 
 2. Installer에 DAMDA id와 password 입력합니다\
-   ![](<../../../.gitbook/assets/image (1) (5).png>)\
+   ![](<../../../.gitbook/assets/image (1).png>)\
 
 3. "Uninstall" 버튼 클릭합니다\
    ![](<../../../.gitbook/assets/image (17).png>)\
