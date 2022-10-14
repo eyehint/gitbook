@@ -44,10 +44,10 @@ DAMDA가 설치된 기기를 ThinQ에 내 제품으로 등록할 수 있습니�
 
 가이드에 따라 스마트폰의 ThinQ앱을 실행시키고 앱 설정 > 'ThinQ 계정 공유' 메뉴를 통해 앱의 로그인 정보를 허브에 공유합니다. DAMDA 기기가 공유된 계정에 제품으로 자동 등록이 됩니다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Home에서 설치한 Component 리스트 확인</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Home에서 설치한 Component 리스트 확인</p></figcaption></figure>
 
 ThinQ앱에서 'DAMDA 제품'이라는 이름의 카드가 생성된 것을 확인할 수 있습니다. \
-![](<../../.gitbook/assets/image (39).png>)
+![](<../../.gitbook/assets/image (5).png>)
 
 \
 ThinQ앱에서 'DAMDA 제품' 카드를 클릭하면 DAMDA Hub와 연결된 서브기기를 제어할 수 있습니다. DAMDA Hub에 기기를 등록하는 방법은 ['서브기기 연동하기'](damda-home.md#undefined-1)를 참고해주세요. \
@@ -77,7 +77,7 @@ webOSTV가 같은 네트워크 상에 있다면, TV를 등록하고 제어 해�
    ![](<../../.gitbook/assets/image (21) (1).png>)\
 
 4. 잠시 기다리면 TV 카드가 추가된 것을 확인할 수 있습니다.\
-   ![](<../../.gitbook/assets/image (12) (3).png>)
+   ![](<../../.gitbook/assets/image (12).png>)
 
 ### 서브기기 제어하기
 

@@ -14,7 +14,7 @@
 
 ### 네트워크 리소스 모니터
 
-<figure><img src="../../.gitbook/assets/image (6) (2).png" alt=""><figcaption><p>현재 사용중인 포트의 정보를 모니터링 할 수 있습니다.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (2) (1).png" alt=""><figcaption><p>현재 사용중인 포트의 정보를 모니터링 할 수 있습니다.</p></figcaption></figure>
 
 
 
