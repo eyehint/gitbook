@@ -1,5 +1,5 @@
 ---
-description: DAMDA의 개발과정, 구성요소와 '22년 새롭게 재탄생한 damda를 설명하고 추가로 DAMDA-ThinQ앱 해커톤 구성을 소개합니다.
+description: DAMDA의 개발과정, 구성요소와 '22년 새롭게 재탄생한 DAMDA를 설명하고 추가로 DAMDA-ThinQ앱 해커톤을 소개합니다.
 coverY: 0
 ---
 
