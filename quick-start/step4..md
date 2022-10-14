@@ -38,7 +38,7 @@ component를 배포하기 위해서 DAMDA Console에서 생성합니다.
 
 <figure><img src="../.gitbook/assets/image (16) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (4).png" alt=""><figcaption></figcaption></figure>
 
 아래와 같이 생성된 component의 배포를 진행합니다.
 

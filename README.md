@@ -5,8 +5,6 @@ coverY: 0
 
 # DAMDA Overview
 
-
-
 ## DAMDA <a href="#damda" id="damda"></a>
 
 우리가 상상하는 무엇이든 빠르게 개발하고 실행해 볼 수 있는 개발자를 위한 공간입니다. LG 제품과의 통신은 물론 제어까지, 기기를 통해 제공할 다양한 서비스들을 직접 만들고 경험해 보세요.
@@ -27,16 +25,14 @@ damda 플랫폼을 이용한 작업은 개발 PC에서 damda 디바이스로 실
 
 ## DAMDA-ThinQ앱 해커톤 구성  <a href="#damda-4" id="damda-4"></a>
 
-
-
-* 새로운 제품과 서비스에 대한 아이디어를 쉽고 빠르게 Prototyping 할 수 있는 DAMDA개발환경과 ThinQ앱플랫폼을 활용하여 내 아이디어로 만든 PoC제품이 ThinQ앱에서 어떻게 보여지고, 어떤 동작을 하면 좋을지 등 머리속으로만 상상한 것들을 직접 만들어 볼 수 있습니다.
+새로운 제품과 서비스에 대한 아이디어를 쉽고 빠르게 Prototyping 할 수 있는 DAMDA개발환경과 ThinQ앱플랫폼을 활용하여 내 아이디어로 만든 PoC제품이 ThinQ앱에서 어떻게 보여지고, 어떤 동작을 하면 좋을지 등 머리속으로만 상상한 것들을 직접 만들어 볼 수 있습니다.
 
 **예시로 새로운 홈허브 제품을 만들어 본다면,**
 
-* 홈허브에 탑재되었으면 하는 기능/서비스를 개발 → DAMDA개발환경
+* 홈허브에 탑재되었으면 하는 기능/서비스를 개발 → **DAMDA개발환경**
 * 홉허브가 ThinQ앱 안에서 동작되었으면 하는 기능/서비스를 개발 → ThinQ앱플랫폼
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 ## DAMDA 지금 시작하기 <a href="#damda-4" id="damda-4"></a>
 
