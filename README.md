@@ -1,5 +1,5 @@
 ---
-description: DAMDA의 개발과정, 구성요소를 설명하고 추가로 DAMDA-ThinQ앱 해커톤 구성을 소개합니다.
+description: DAMDA의 개발과정, 구성요소와 '22년 새롭게 재탄생한 damda를 설명하고 추가로 DAMDA-ThinQ앱 해커톤 구성을 소개합니다.
 coverY: 0
 ---
 
@@ -21,7 +21,7 @@ coverY: 0
 
 damda 플랫폼을 이용한 작업은 개발 PC에서 damda 디바이스로 실행할 애플리케이션을 개발하는 것으로 시작합니다. 개발이 완료되면 damda 개발자는 damda Console을 통하여 컴포넌트를 생성하게 됩니다. 컴포넌트는 damda 클라우드에서 damda 디바이스로 실행할 애플리케이션의 소스코드, 그리고 이를 빌드하고 실행할 수 있는 스크립트 등을 관리하는 소프트웨어 모듈입니다.
 
-<figure><img src=".gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ## '22년 DAMDA는 &#x20;
 

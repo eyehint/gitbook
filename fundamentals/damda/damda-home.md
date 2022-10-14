@@ -14,7 +14,7 @@ DAMDA 설치 후 사용할 수 있습니다
 
 "메뉴 > 기타 > DAMDA Home"을 통해 실행할 수 있습니다
 
-![](<../../.gitbook/assets/image (18) (3).png>)
+![](<../../.gitbook/assets/image (18).png>)
 
 Home의 첫화면에서 **시간 및 지역기반 날씨정보**, 그리고 **DAMDA Hub앱**이 있는 것을 확인할 수 있습니다.
 
