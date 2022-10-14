@@ -38,6 +38,8 @@ DAMDA 기기가 정상적으로 등록이 완료되면 해당 기기 정보를 L
 
 업데이트 예정입니다. &#x20;
 
+TPA 개발 가이드는 [https://thinqapp.developer.lge.com/ko/documentation/development/ihm-development/ihm\_development\_guide/ ](https://thinqapp.developer.lge.com/ko/documentation/development/ihm-development/ihm\_development\_guide/)를 참고해주세요
+
 ## 5. ThinQ 연동 샘플 실행결과
 
 업데이트 예정입니다. &#x20;
