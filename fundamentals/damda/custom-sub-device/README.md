@@ -17,10 +17,10 @@ capability는 `capabilites/` 아래에, 기기 코드는 `functions/` 아래에,
 ```shell
 root@raspberrypi:/opt/damda/sub-devices/user-devices# ls -al
 합계 20
-drwxr-xr-x 5 root root 4096 10월 14 13:04 .
+drwxr-xr-x 5 root root 4096 10월 14 13:37 .
 drwxr-xr-x 4 root root 4096 10월 14 13:04 ..
 drwxr-xr-x 2 root root 4096 10월 14 13:04 capabilities
-drwxr-xr-x 2 root root 4096 10월 14 13:04 functinos
+drwxr-xr-x 2 root root 4096 10월 14 13:04 functions
 drwxr-xr-x 2 root root 4096 10월 14 13:04 profiles
 ```
 

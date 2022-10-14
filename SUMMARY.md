@@ -64,3 +64,4 @@
   * [Control App](reference/samples/control-app.md)
   * [Debugging App](reference/samples/debugging-app.md)
   * [가전 App](reference/samples/app.md)
+  * [Proto Sub Device](reference/samples/proto-sub-device.md)

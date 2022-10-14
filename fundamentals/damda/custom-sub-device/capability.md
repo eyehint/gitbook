@@ -4,11 +4,15 @@ Capability는 기기가 가지고 있는 상태 정보(attributes) 및 제어 �
 
 ## Template
 
+{% hint style="warning" %}
+Capability 파일명 규칙은 {capability id}\_v{capability version}.json 입니다.
+{% endhint %}
+
 ```json
 {
     "id": [capability의 id (type=string)],
     "version": [capability 버전 (type=int)],
-    "name": [기기의 이름 (type=string)],
+    "name": [식별을 위한 capability의 이름 (type=string)],
     "attributes": {
         [attribute 이름 1 (type=string)]: {
             "schema": {
@@ -73,7 +77,7 @@ value에 들어와야하는 값이 명확히 정해져있는 경우, enum 사용
         "on",
         "off"
     ]
-}o
+}
 ```
 {% endtab %}
 

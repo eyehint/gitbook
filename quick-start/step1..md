@@ -123,7 +123,7 @@ DAMDA Installer CLI Version: 1.0.3
    ![](<../.gitbook/assets/image (17) (1).png>)\
 
 3. "Install" 버튼 클릭합니다. \
-   ![](<../.gitbook/assets/image (7) (4) (1).png>)\
+   ![](<../.gitbook/assets/image (7) (4).png>)\
 
 4. 설치가 완료되면 "Next" 버튼을 눌러 다음단계로 이동합니다. \
    (설치 과정은 약 10분 정도 소요됩니다. 네트워크 환경에 따라 더 오래 소요될 수 있습니다.)\
@@ -138,7 +138,7 @@ DAMDA Installer CLI Version: 1.0.3
 
 7.  [DAMDA Console](http://damda.lge.com/)의 디바이스 탭에서 동일한 디바이스 ID로 기기가 생성된 것을 확인할 수 있습니다.
 
-    <figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (5) (4).png" alt=""><figcaption></figcaption></figure>
 
 
 8. 이제 라즈베리파이가 DAMDA 디바이스가 되었습니다. 컴포넌트를 배포할 수 있는 준비가 완료되었습니다!

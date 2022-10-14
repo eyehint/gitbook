@@ -156,7 +156,7 @@ python {root}/zip파일명 app.py
 
 각 life cycle 의 '작성' 버튼을 눌러 단계별 세부내용을 설정할 수 있습니다.
 
-<figure><img src="../../../.gitbook/assets/image (10) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 **환경 변수**
 
@@ -171,7 +171,7 @@ Script 항목에서 '+'를 누르면 스크립트를 입력할 수 있는 칸이
 ```
 
 예시로 Debugging Console의 설치 스크립트는 아래와 같이 작성됩니다. 같은 내용을 Debugging Console의 상세화면에서 확인할 수 있습니다. \
-![](<../../../.gitbook/assets/image (2) (7) (1).png>) ![](<../../../.gitbook/assets/image (14).png>)
+![](<../../../.gitbook/assets/image (2) (7).png>) ![](<../../../.gitbook/assets/image (14).png>)
 
 ## 컴포넌트 타입 별 Tip
 
