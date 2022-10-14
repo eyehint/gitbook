@@ -42,7 +42,6 @@
   * [Rule API](reference/api-reference/rule-api.md)
   * [Hub API](reference/api-reference/hub-api.md)
   * [가전 API](reference/api-reference/api.md)
-    * [Page 1](reference/api-reference/api/page-1.md)
     * [가전 상태 조회](reference/api-reference/api/undefined.md)
     * [가전 제어](reference/api-reference/api/undefined-1.md)
     * [APIs](reference/api-reference/api/apis/README.md)
