@@ -1,3 +1,7 @@
+---
+description: DAMDA제품을 디버깅하기 위한 방법을 설명합니다.
+---
+
 # Step4. 디버깅 하기
 
 ## 1. Debugging 용 Test Component 코드 작성
