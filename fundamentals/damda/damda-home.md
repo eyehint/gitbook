@@ -23,7 +23,7 @@ DAMDA 설치 후 사용할 수 있습니다
 \
 '서울특별시 서초구 양재동' 글씨를 클릭하면 원하는 위치로 바꿔서 기상 정보를 확인할 수 있습니다.
 
-<figure><img src="../../.gitbook/assets/image (2) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 설치된 앱목록 확인
 
@@ -83,6 +83,6 @@ webOSTV가 같은 네트워크 상에 있다면, TV를 등록하고 제어 해�
 
 1. TV 카드를 누릅니다.&#x20;
 2. 기기 제어 패널에서 setVolume에 원하는 값을 입력합니다. \
-   ![](<../../.gitbook/assets/image (2) (1).png>)
+   ![](<../../.gitbook/assets/image (2) (1) (3).png>)
 3. "실행하기"를 클릭합니다.&#x20;
 4. TV의 볼륨이 2로 설정됩니다.&#x20;
