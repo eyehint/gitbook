@@ -156,7 +156,7 @@ python {root}/zip파일명 app.py
 
 각 life cycle 의 '작성' 버튼을 눌러 단계별 세부내용을 설정할 수 있습니다.
 
-<figure><img src="../../../.gitbook/assets/image (10) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 **환경 변수**
 
