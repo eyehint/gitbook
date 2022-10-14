@@ -36,7 +36,7 @@ damda 플랫폼을 이용한 작업은 개발 PC에서 damda 디바이스로 실
 **예시로 새로운 "홈허브" 제품을 만들어 본다면, 아래과 같이 개발할 수 있습니다.**
 
 * 홈허브에 탑재되었으면 하는 기능/서비스를 개발 → **DAMDA개발환경**
-* 홉허브가 ThinQ앱 안에서 동작되었으면 하는 기능/서비스를 개발 → ThinQ앱플랫폼
+* 허브가 ThinQ앱 안에서 동작되었으면 하는 기능/서비스를 개발 → **ThinQ앱플랫폼**
 
 <figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 

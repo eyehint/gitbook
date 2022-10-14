@@ -57,25 +57,38 @@ description: 가전 API를 활용한 샘플코드 입니다.
     빌드된 dist 폴더의 모든 파일을 압축합니다
 
     * dist/\*
-5. [DAMDA console](https://damda.lge.com/) 로그인 > 컴포넌트 > 컴포넌트 추가
-   * 컴포넌트 생성을 위해 필요한 정보를 넣어 줍니다.
-   * 컴포넌트명 : "com.damda.sample.thinqweb-example" 입력\
-     \- Unique한 이름을 지정해야 함. damda 플랫폼 내 중복되는 이름의 컴포넌트가 존재하는 경우 컴포넌트 생성 불가\
-     \- 컴포넌트명 추천 형식 : com.<개인 식별 키워드>.sample.thinqweb-example
-   * 설명 : ‘Thinq web front 예제’ 입력
-   * 코드 : '3. 예제 코드 파일 압축' 단계에서 생성한 'thinqweb.zip' 파일 업로드
-   * 실행 스크립트 : 코드가 디바이스에 설치 후 실행하기 위해 필요한 스크립트 작성
-   * ```
-     npx http-server {root}/dist -p 9019
-     ```
-   * 홈 화면 출력' 체크
-   * 썸네일 이미지 : 자유롭게 선택
-   * 앱 이름 : 'ThinqWeb예제' 입력
-   * 접속 링크 : 'http://127.0.0.1:9019' 입력\
-     \- 홈 화면에서 썸네일 클릭 시 이동할 링크 주소
-6.  컴포넌트 생성 완료
+5.  DAMDA Console([http://damda.lge.com](http://damda.lge.com/))에 접속하고 본인의 계정을 이용하여 로그인을 합니다.
 
-    <figure><img src="https://developer.damda.lge.com/assets/img/example3-2.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="https://92628155-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fvgd5fM997o3xx0yyghJF%2Fuploads%2FdHk0ezB9jUx2vUSUhfGu%2Fimage.png?alt=media&#x26;token=0b1569a8-65d1-4846-a93c-1122c7c7bb40" alt=""><figcaption></figcaption></figure>
+6.  좌측 메뉴의 '**컴포넌트**'를 선택하여 컴포넌트 화면으로 진입합니다.
+
+    <figure><img src="https://92628155-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fvgd5fM997o3xx0yyghJF%2Fuploads%2FDnj4ImNtHxIbr3I9ulra%2Fimage.png?alt=media&#x26;token=35f4b376-e8e6-459a-bf70-f0b92b2880f7" alt=""><figcaption></figcaption></figure>
+7.  '**컴포넌트 생성**' 버튼을 클릭하면 컴포넌트 생성 팝업이 나타납니다.
+
+    <figure><img src="https://92628155-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fvgd5fM997o3xx0yyghJF%2Fuploads%2F2dV4vKkuOQWhZeDPu1Cd%2Fimage.png?alt=media&#x26;token=381c392b-9bb9-4af9-b430-e55368d42915" alt=""><figcaption></figcaption></figure>
+8.  **컴포넌트명**과 **설명**을 입하고 '**다음**' 버튼을 클릭하여 컴포넌트 추가 설정 화면으로 이동합니다.
+
+    <figure><img src="https://92628155-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fvgd5fM997o3xx0yyghJF%2Fuploads%2F7mf3OXtEQiHWiFMtF6AC%2Fimage.png?alt=media&#x26;token=78f88ad5-cb95-4c68-a43a-7e45ba5ac77f" alt=""><figcaption></figcaption></figure>
+
+    * **컴포넌트명** : "com.damda.sample.thinqweb-example" 입력\
+      \- Unique한 이름을 지정해야 함. damda 플랫폼 내 중복되는 이름의 컴포넌트가 존재하는 경우 컴포넌트 생성 불가\
+      \- 컴포넌트명 추천 형식 : com.<개인 식별 키워드>.sample.thinqweb-example
+    * **설명** : ‘Thinq web front 예제’ 입력
+9. '**코드**' 항목의 '**추가**' 버튼을 이용하여 4단계에서 압축해둔 파일을 업로드합니다.
+10. '**실행 스크립트**' 항목의 '**작성**' 버튼을 이용하여 실행 단계에서 사용할 실행 스크립트를 작성합니다.
+
+    <figure><img src="../../.gitbook/assets/스크린샷 2022-10-14 오후 2.44.50 (1).png" alt=""><figcaption></figcaption></figure>
+
+* **실행 스크립트** : 코드가 디바이스에 설치 후 실행하기 위해 필요한 스크립트
+* ```
+  npx http-server {root}/dist -p 9019
+  ```
+
+****
+
+**컴포넌트 생성 완료**
+
+<figure><img src="https://developer.damda.lge.com/assets/img/example3-2.png" alt=""><figcaption></figcaption></figure>
 
 ****
 
@@ -84,7 +97,9 @@ description: 가전 API를 활용한 샘플코드 입니다.
 1.  배포할 컴포넌트를 모두 선택 > 배포하기 (public 컴포넌트는 기본적으로 모두 배포 리스트에 추가됨)
 
     <figure><img src="https://developer.damda.lge.com/assets/img/example3-3.png" alt=""><figcaption></figcaption></figure>
-2. 배포할 컴포넌트 리스트를 확인 > 배포할 "코어 디바이스 선택" > 배포요청![](https://developer.damda.lge.com/assets/img/example3-4.png)
+2.  배포할 컴포넌트 리스트를 확인 > 배포할 "코어 디바이스 선택" > 배포요청
+
+    <figure><img src="https://developer.damda.lge.com/assets/img/example3-4.png" alt=""><figcaption></figcaption></figure>
 
 ****
 
