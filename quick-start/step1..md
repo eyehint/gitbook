@@ -29,6 +29,11 @@ sudo apt install -y default-jdk unzip curl python3-pip libatlas-base-dev proj-bi
 
 Installer setup 파일을 다운 받습니다.
 
+{% hint style="warning" %}
+현재 설치파일은 공개 되어 있지 않습니다. \
+막바지 준비를 마치고, 해커톤 시작(11/02) 전에 공개 예정입니다!
+{% endhint %}
+
 Installer setup 파일:&#x20;
 
 * Raspberry Pi OS: damda-installer\_1.0.3-1\_pi.deb
