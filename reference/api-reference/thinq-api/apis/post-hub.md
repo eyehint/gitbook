@@ -21,9 +21,18 @@ description: DAMDA 기기 내부에 등록된 사용자의 Home 정보를 조회
 > * home\_id (String) <mark style="color:red;">\*</mark> : 사용자의 기기를 등록할 ThinQ Home ID 값
 > * meta (Object) : 사용자가 추가로 저장할 정보
 
-#### **Response**쑈
+#### **Response**
 
-> #### Response Example
+> **Type** : Object
+>
+> * device\_id (String)
+> * home\_id (String)
+> * meta (Object)
+> * device\_type (String)
+> * model\_name (String)
+> * alias\_prefix (String)
+
+#### Response Example
 
 ```json
 [    
