@@ -171,7 +171,7 @@ Script 항목에서 '+'를 누르면 스크립트를 입력할 수 있는 칸이
 ```
 
 예시로 Debugging Console의 설치 스크립트는 아래와 같이 작성됩니다. 같은 내용을 Debugging Console의 상세화면에서 확인할 수 있습니다. \
-![](<../../../.gitbook/assets/image (2).png>) ![](<../../../.gitbook/assets/image (14).png>)
+![](<../../../.gitbook/assets/image (2) (1).png>) ![](<../../../.gitbook/assets/image (14).png>)
 
 ## 컴포넌트 타입 별 Tip
 
@@ -205,7 +205,7 @@ Script 항목에서 '+'를 누르면 스크립트를 입력할 수 있는 칸이
 
 기존에 만든 컴포넌트에 새로운 버전을 추가 할때도 버전을 잘 못입력하면 "동일한 버전이 존재합니다"라는 에러가 발생할 수 있습니다.
 
-<img src="../../../.gitbook/assets/image (15) (1).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/image (15) (1) (1).png" alt="" data-size="original">
 
 </details>
 

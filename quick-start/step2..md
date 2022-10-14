@@ -17,7 +17,7 @@ index.html 파일명으로 아래 코드를 작성해주세요.
 
 생성된 index.html 파일을 zip 형태로 압축을 합니다. (파일명 상관없음)
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption><p>MAC에서 index.html 압축하</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>MAC에서 index.html 압축하</p></figcaption></figure>
 
 ## 3. zip파일을 DAMDA콘솔에 업로드
 
@@ -53,7 +53,7 @@ index.html 파일명으로 아래 코드를 작성해주세요.
 
 3\. 화면 하단 **배포 대상**에 배포할 대상 **DAMDA 기기**를 선택합니다. (※ _DAMDA 기기의 정보는 '**디바이스**' 탭을 통해 확인 가능합니다_)
 
-<figure><img src="../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 4\. '배포 요청' 버튼을 클릭하면 배포가 시작되고 배포 과정이 화면 하단에 표시됩니다.
 
