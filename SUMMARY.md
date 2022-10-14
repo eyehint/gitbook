@@ -11,6 +11,7 @@
 
 * [DAMDA 기기](group-1/page-1.md)
   * [DAMDA Debugging Tool](fundamentals/damda/damda-debugging-tool.md)
+  * [DAMDA Debugging Console](fundamentals/damda/damda-debugging-console.md)
   * [DAMDA Home](fundamentals/damda/damda-home.md)
   * [Custom Sub Device](fundamentals/damda/custom-sub-device.md)
   * [DAMDA Installer](fundamentals/damda/damda-installer/README.md)
@@ -23,7 +24,7 @@
     * [컴포넌트 배포하기](fundamentals/damda-cloud/undefined-1/undefined-1.md)
 * [DAMDA Tools](fundamentals/damda-tools/README.md)
   * [DAMDA CLI](fundamentals/damda-tools/damda-cli.md)
-  * [Debugging Console](fundamentals/damda-tools/debugging-console.md)
+  * [DAMDA Simulator](fundamentals/damda-tools/damda-simulator.md)
 
 ## REFERENCE
 

@@ -171,7 +171,7 @@ Script 항목에서 '+'를 누르면 스크립트를 입력할 수 있는 칸이
 ```
 
 예시로 Debugging Console의 설치 스크립트는 아래와 같이 작성됩니다. 같은 내용을 Debugging Console의 상세화면에서 확인할 수 있습니다. \
-![](<../../../.gitbook/assets/image (2).png>) ![](<../../../.gitbook/assets/image (14).png>)
+![](../../../.gitbook/assets/image.png) ![](<../../../.gitbook/assets/image (14).png>)
 
 ## 컴포넌트 타입 별 Tip
 
