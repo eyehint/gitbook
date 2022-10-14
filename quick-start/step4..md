@@ -50,6 +50,6 @@ component를 배포하기 위해서 DAMDA Console에서 생성합니다.
 
 아래와 같이 디버깅 정보들 확인 할 수 있습니다.
 
-{% content-ref url="../fundamentals/damda/damda-debugging-console.md" %}
-[damda-debugging-console.md](../fundamentals/damda/damda-debugging-console.md)
+{% content-ref url="../fundamentals/damda-tools/debugging-console.md" %}
+[debugging-console.md](../fundamentals/damda-tools/debugging-console.md)
 {% endcontent-ref %}
