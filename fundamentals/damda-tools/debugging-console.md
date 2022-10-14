@@ -2,7 +2,7 @@
 
 ### 기기 상태 요약정보
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 ### 컴포넌트 로그 모니터링
 

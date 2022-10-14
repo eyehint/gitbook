@@ -23,7 +23,7 @@ DAMDA 설치 후 사용할 수 있습니다
 \
 '서울특별시 서초구 양재동' 글씨를 클릭하면 원하는 위치로 바꿔서 기상 정보를 확인할 수 있습니다.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 ## 설치된 앱목록 확인
 
