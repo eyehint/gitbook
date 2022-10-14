@@ -14,7 +14,7 @@ description: DAMDA를 사용하기 위한 환경 설정 방법을 설명합니�
 * RaspberryPi 4 준비
   * RaspberryPi에 OS를 설치해서 사용할 준비를 합니다.&#x20;
   * 지원 OS는 **RaspberryPi OS(권장)**, Ubuntu mate 입니다.&#x20;
-    * Raspberry Pi OS 공식 페이: [https://www.raspberrypi.com/software/](https://www.raspberrypi.com/software/)
+    * Raspberry Pi OS 공식 페이지: [https://www.raspberrypi.com/software/](https://www.raspberrypi.com/software/)
     * &#x20;Ubuntu MATE for Raspberry Pi 공식 페이지: [https://ubuntu-mate.org/raspberry-pi/](https://ubuntu-mate.org/raspberry-pi/)
 
 ### Step2: Install the library
@@ -166,8 +166,9 @@ Device ID: Damda-V2-XXXXXXXXXX
 
 설치 완료 후, damda info 명령을 통해 기기가 생성된 것을 확인할 수 있습니다.
 
-```
-// Some code
+```shell
+$ sudo damda info
+DAMDA Device ID: Damda-V2-ZAhi2pjmSpatGd4ITFl5zA
 ```
 
 
