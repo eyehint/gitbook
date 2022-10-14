@@ -18,7 +18,7 @@ DAMDA 설치 후 사용할 수 있습니다
 
 Home의 첫화면에서 **시간 및 지역기반 날씨정보**, 그리고 **DAMDA Hub앱**이 있는 것을 확인할 수 있습니다.
 
-<figure><img src="../../.gitbook/assets/image (10) (3).png" alt=""><figcaption><p>Home 첫 화면</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p>Home 첫 화면</p></figcaption></figure>
 
 #### 날씨 정보 위치 변경하기&#x20;
 
@@ -32,7 +32,7 @@ DAMDA Console을 통해 배포한 컴포넌트들을 확인할 수 있습니다.
 index.html을 포함한 앱의 경우, 아이콘을 클릭하면 index.html로 이동합니다. 자세한 [컴포넌트 생성 방법](../damda-cloud/undefined-1/undefined.md#undefined)은 가이드를 확인해주세요. \
 DAMDA Hub를 클릭하면 DAMDA에서 제공하는 허브 기능을 사용해  수 있습니다.
 
-<figure><img src="../../.gitbook/assets/image (2) (4).png" alt=""><figcaption><p>Home 앱에서 설치된 컴포넌트(앱) 목록 확인</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Home 앱에서 설치된 컴포넌트(앱) 목록 확인</p></figcaption></figure>
 
 ## ThinQ 연동하기
 
@@ -42,19 +42,19 @@ DAMDA가 설치된 기기를 ThinQ에 내 제품으로 등록할 수 있습니�
 
 <figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 
-가이드에 따라 스마트폰의 ThinQ앱을 실행시키고 앱 설정 > 'ThinQ 계정 공유' 메뉴를 통해 앱의 로그인 정보를 허브에 공유합니다. DAMDA 기기가 공유된 계정에 제품으로 자동 등록이 됩니다. 완료 후 ThinQ앱에서 'DAMDA 제품'이라는 이름의 카드가 생성된 것을 확인할 수 있습니다. \
+가이드에 따라 스마트폰의 ThinQ앱을 실행시키고 앱 설정 > 'ThinQ 계정 공유' 메뉴를 통해 앱의 로그인 정보를 허브에 공유합니다. DAMDA 기기가 공유된 계정에 제품으로 자동 등록이 됩니다.&#x20;
 
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Home에서 설치한 Component 리스트 확인</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+ThinQ앱에서 'DAMDA 제품'이라는 이름의 카드가 생성된 것을 확인할 수 있습니다. \
+![](<../../.gitbook/assets/image (3).png>)
 
-// home 화면 캡처&#x20;
-
-// ThinQ 앱 캡처
-
+\
 ThinQ앱에서 'DAMDA 제품' 카드를 클릭하면 DAMDA Hub와 연결된 서브기기를 제어할 수 있습니다. DAMDA Hub에 기기를 등록하는 방법은 ['서브기기 연동하기'](damda-home.md#undefined-1)를 참고해주세요. \
 
 
-TPA를 통해 나만의 카드를 만들어서 DAMDA에 설치한 내 컴포넌트와 통신할 수도 있습니다.&#x20;
+TPA를 통해 나만의 카드를 만들어서 DAMDA에 설치한 내 컴포넌트와 통신할 수도 있습니다.\
+TPA 개발 가이드: [https://thinqapp.developer.lge.com/ko/documentation/development/ihm-development/ihm\_development\_guide/](https://thinqapp.developer.lge.com/ko/documentation/development/ihm-development/ihm\_development\_guide/)&#x20;
 
 ## DAMDA Hub 사용하기
 
