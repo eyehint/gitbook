@@ -4,7 +4,7 @@ description: DAMDA 기기 내부에 사용자의 계정을 등록 또는 변경 
 
 # POST /account
 
-#### EMP 서버에서 access\_token, refresh\_token, user\_no, expired\_time을 전달받아 DAMDA 기기 내부(DB)에 저장합니다.&#x20;
+### EMP 서버에서 access\_token, refresh\_token, user\_no, expired\_time을 전달받아 DAMDA 기기 내부(DB)에 저장합니다.&#x20;
 
 #### Request
 
