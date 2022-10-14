@@ -28,14 +28,14 @@ description: 가전 API를 활용한 샘플코드 입니다.
 ◎ 로컬에서의 실행은 코드가 정상인지 확인하는 용도이며 백엔드 연동이 안되어 프로그램이 정상적으로 동작하지는 않습니다.
 
 {% file src="../../.gitbook/assets/thinq-web-front-example.zip" %}
-샘플 코
+샘플 코드
 {% endfile %}
 
 1. 상단의 샘플 코드 다운로드
 2. 압축 해제 후 터미널에서 다음 명령 실행
    * ```
      npm install
-     npm run build
+     npm run serve
      ```
 3. [http://localhost:9001](http://localhost:9001/) 로 접속하여 로그인 페이지 확인
 
