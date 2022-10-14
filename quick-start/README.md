@@ -1,2 +1,6 @@
+---
+layout: editorial
+---
+
 # Quick Start
 

@@ -31,7 +31,7 @@ Installer setup 파일을 다운 받습니다.
 
 Installer setup 파일:&#x20;
 
-* Raspberry Pi OS: damda-installer\_1.0.3-1\_pi.deb
+* Raspberry Pi OS: [damda-installer\_1.0.3-1\_pi.deb](https://damda-component-artifacts.s3.ap-northeast-2.amazonaws.com/installer/1.0.3/damda-installer\_1.0.3-1\_pi.deb)
 * Ubutu: damda-installer\_1.0.3-1\_ubuntu.deb
 
 {% code title="Raspberry Pi" %}
