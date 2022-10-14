@@ -4,7 +4,7 @@ description: DAMDA 기기 내부에 등록된 사용자의 Home 정보를 조회
 
 # POST /hub/control
 
-### DAMDA 기기 (및 서브기기, User Component)를 제어합니다.
+### DAMDA 기기 및 서브기기, Component를 제어합니다.
 
 #### Request
 

@@ -4,7 +4,7 @@ description: DAMDA 기기 내부에 등록된 사용자의 Home 정보를 조회
 
 # POST /hub
 
-### (기기가 ThinQ 서버에 등록되어 있지 않은 경우)DAMDA 기기를 서버에 등록하고, 기기에 사용자가 정의한 정보(meta)를 저장합니다.&#x20;
+### DAMDA 기기를 서버에 등록하고, 기기에 사용자가 정의한 정보(meta)를 저장합니다.&#x20;
 
 #### Request
 
