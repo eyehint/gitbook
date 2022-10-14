@@ -8,6 +8,8 @@
 
 ### 컴포넌트 로그 모니터링
 
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 ### 유저 생성 로그 모니터
 
 <figure><img src="../../.gitbook/assets/image (7) (2) (1).png" alt=""><figcaption></figcaption></figure>
