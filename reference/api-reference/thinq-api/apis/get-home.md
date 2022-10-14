@@ -22,7 +22,7 @@ description: DAMDA 기기 내부에 등록된 사용자의 Home 정보를 조회
 
 #### **Response**
 
-> List
+> **Type** : List
 
 #### Response Example
 
@@ -50,5 +50,3 @@ description: DAMDA 기기 내부에 등록된 사용자의 Home 정보를 조회
     }
 ]
 ```
-
-> ``
