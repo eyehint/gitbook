@@ -34,6 +34,7 @@
 
 * [API Reference](reference/api-reference/README.md)
   * [가전 API](reference/api-reference/api.md)
+    * [Page 1](reference/api-reference/api/page-1.md)
     * [가전 상태 조회](reference/api-reference/api/undefined.md)
     * [가전 제어](reference/api-reference/api/undefined-1.md)
     * [APIs](reference/api-reference/api/apis/README.md)
@@ -48,6 +49,7 @@
       * [Event/Push Callback (Websocket)](reference/api-reference/api/apis/event-push-callback-websocket.md)
   * [ThinQ API](reference/api-reference/thinq-api.md)
     * [공통 Headers](reference/api-reference/thinq-api/headers.md)
+    * [Error / Exceptions](reference/api-reference/thinq-api/error-exceptions.md)
   * [Rule API](reference/api-reference/rule-api.md)
   * [Hub API](reference/api-reference/hub-api.md)
 * [Samples](reference/samples.md)

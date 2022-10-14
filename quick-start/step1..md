@@ -127,7 +127,7 @@ DAMDA Installer CLI Version: 1.0.3
 
 4. 설치가 완료되면 "Next" 버튼을 눌러 다음단계로 이동합니다. \
    (설치 과정은 약 10분 정도 소요됩니다. 네트워크 환경에 따라 더 오래 소요될 수 있습니다.)\
-   ![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fl3Km0lGSEvAZ1z7FtNCb%2Fuploads%2FiVEw9LLe2TVUGYZgOPBq%2Fimage.png?alt=media\&token=7bd85b06-c8f6-468d-a9fb-79c896a2a43b) ​![](<../.gitbook/assets/image (3) (3) (2).png>)\
+   ![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fl3Km0lGSEvAZ1z7FtNCb%2Fuploads%2FiVEw9LLe2TVUGYZgOPBq%2Fimage.png?alt=media\&token=7bd85b06-c8f6-468d-a9fb-79c896a2a43b) ​![](<../.gitbook/assets/image (3) (3).png>)\
 
 5. 설치 과정이 완료 된 것을 확인합니다. \
    앞으로 컴포넌트 배포할 때 필요한 정보인, DAMDA 기기명을 확인할 수 있습니다.\
