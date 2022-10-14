@@ -28,8 +28,6 @@ description: 가전 API를 활용한 샘플코드 입니다.
 ◎ 로컬에서의 실행은 코드가 정상인지 확인하는 용도이며 백엔드 연동이 안되어 프로그램이 정상적으로 동작하지는 않습니다.
 
 {% file src="../../.gitbook/assets/thinq-web-front-example.zip" %}
-샘플 코드
-{% endfile %}
 
 1. 상단의 샘플 코드 다운로드
 2. 압축 해제 후 터미널에서 다음 명령 실행
@@ -46,8 +44,6 @@ description: 가전 API를 활용한 샘플코드 입니다.
 **컴포넌트 생성**
 
 {% file src="../../.gitbook/assets/thinq-web-front-example.zip" %}
-샘플 코드
-{% endfile %}
 
 1. 상단의 샘플 코드 다운로드
 2. 압축 해제 후 터미널에서 다음 명령 실행
@@ -81,12 +77,16 @@ description: 가전 API를 활용한 샘플코드 입니다.
 
     <figure><img src="https://developer.damda.lge.com/assets/img/example3-2.png" alt=""><figcaption></figcaption></figure>
 
+****
+
 **컴포넌트 배포**
 
 1.  배포할 컴포넌트를 모두 선택 > 배포하기 (public 컴포넌트는 기본적으로 모두 배포 리스트에 추가됨)
 
     <figure><img src="https://developer.damda.lge.com/assets/img/example3-3.png" alt=""><figcaption></figcaption></figure>
 2. 배포할 컴포넌트 리스트를 확인 > 배포할 "코어 디바이스 선택" > 배포요청![](https://developer.damda.lge.com/assets/img/example3-4.png)
+
+****
 
 **컴포넌트 실행 확인**
 
