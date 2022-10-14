@@ -56,6 +56,6 @@ Log 탭에 가면 저장된 log 파일을 실시간으로 모니터링 할 수 �
 
 <figure><img src="../.gitbook/assets/image (7) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
-리소스 탭에서는 현재 사용중인 포트의 번호를 확인할 수 있습니다.
+리소스 탭에서는 현재 사용중인 포트번호를 확인할 수 있습니다.
 
 <figure><img src="../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>
