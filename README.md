@@ -23,7 +23,7 @@ damda 플랫폼을 이용한 작업은 개발 PC에서 damda 디바이스로 실
 
 <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-## '22년 DAMDA Overview
+## '22년 DAMDA&#x20;
 
 '22년 DAMDA는 '21년 대비 전반적인 안정성 향상  편의성 개선되었으며, 호환성 또한 확대되었습니다. 추가로 ThinQ앱 연동과 Hub기능 제공 등 새롭게 추가된 기능도 제공합니다. 상세내용은 [Broken link](broken-reference "mention") 메뉴에서 각 항목별로 확인이 가능합니다.
 
