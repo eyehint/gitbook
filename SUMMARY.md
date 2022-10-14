@@ -37,7 +37,7 @@
     * [공통 Headers](reference/api-reference/thinq-api/headers.md)
     * [Error / Exceptions](reference/api-reference/thinq-api/error-exceptions.md)
     * [APIs](reference/api-reference/thinq-api/apis/README.md)
-      * [기기 내 계정 등록하기](reference/api-reference/thinq-api/apis/undefined.md)
+      * [기기 내 ThinQ 계정 등록/변경](reference/api-reference/thinq-api/apis/thinq.md)
   * [Rule API](reference/api-reference/rule-api.md)
   * [Hub API](reference/api-reference/hub-api.md)
   * [가전 API](reference/api-reference/api.md)
