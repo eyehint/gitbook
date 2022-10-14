@@ -2,11 +2,11 @@
 
 ### 기기 상태 요약정보
 
-<figure><img src="../../.gitbook/assets/image (4) (4).png" alt=""><figcaption><p>코어 디바이스의 정보, 배포상태, 로그 등을 간략하게 볼 수 있습니다.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>코어 디바이스의 정보, 배포상태, 로그 등을 간략하게 볼 수 있습니다.</p></figcaption></figure>
 
 ### 컴포넌트 로그 모니터링
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption><p>컴포넌트가 배포, 설치, 실행, 되는 과정을 모니터링 할 수 있습니다.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (3).png" alt=""><figcaption><p>컴포넌트가 배포, 설치, 실행, 되는 과정을 모니터링 할 수 있습니다.</p></figcaption></figure>
 
 ### 유저 생성 로그 모니터
 

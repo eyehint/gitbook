@@ -2,39 +2,40 @@
 
 ## 1. ThinQ등록하기
 
-라즈베리파이에서 DAMDA Home 앱을 실행 시킵니다. Home 에서 'ThinQ에 내 제품으로 등록하기'를 클릭합니다.\
-ThinQ 로그인을 할 수 있는 앱이 실행되어 Pin과 QR코드가 화면에 보입니다.
+라즈베리파이에서 **DAMDA Home 앱**을 실행 시킵니다.&#x20;
 
-<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
+Home 에서 **'ThinQ에 내 제품으로 등록하기**'를 클릭합니다.&#x20;
 
-스마트폰에서 사용하려는 계정을 가진 ThinQ App을 실행 시킵니다. '설정' > 'ThinQ 계정 공유' 메뉴를 선택합니다. 앱에서 제공하는 Pin이나 QR 로그인을 진행합니다. ThinQ 로그인 정보가 DAMDA 로 전달되고 자동으로 DMADA 기기를 허브로 등록하는 과정이 진행됩니다.
+ThinQ 로그인을 할 수 있는 앱이 실행되어 Pin/QR코드가 화면에 보입니다.
 
-생성된 Pin, QR 코드는 60초 동안 유효합니다. 시간이 지나 만료되면 '갱신'을 눌러 다시 받아옵니다.\
+<figure><img src="../.gitbook/assets/image (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
+스마트폰에서 사용하려는 계정을 가진 **LG ThinQ App**을 실행 시킵니다.&#x20;
 
-## &#x20;2. ThinQ앱에서 기기 확인하기
+**'설정' > 'ThinQ 계정 공유'** 메뉴를 선택하고 앱에서 제공하는 Pin이나 QR 로그인을 진행합니다. \
+ThinQ 로그인 정보가 DAMDA 기기로 전달되고 자동으로 DMADA 기기가 ThinQ 서버에 등록되는 과정이 진행됩니다.&#x20;
 
-// ThinQ앱에 추가된 기기카드 출력되는 화면 추가\
-(기존에 서버에 등록된 기기들 삭제 후 기기가 하나 생긴 화면에서 캡처하는게 좋을 것 같습니다. 그리고 제품명 변경 후 캡처하면 좋을 것 같습니다.)
+{% hint style="info" %}
+생성된 Pin/QR 코드는 **60초 동안**만 유효합니다. 시간이 지난 경우 '**갱신**' 버튼을 통해 새로 발급을 받아야 사용이 가능합니다.\
 
-## 3. 샘플 컴포넌트 배포하기
+{% endhint %}
 
-```
-// 챗팅 컴포넌트 코드 추
-```
+## &#x20;2. LG ThinQ 앱에서 등록 기기 확인하기
 
-// 배포하는 화면 추가
+DAMDA 기기가 정상적으로 등록이 완료되면 해당 기기 정보를 LG ThinQ 앱에서 확인할 수 있습니다.&#x20;
 
-// 배포 완료후, DAMDA Home에서 샘플 컴포넌트 실행화면 추가
+본인의 LG ThinQ 앱 화면에 아래와 같이 "**DAMDA 제품**" 카드가 정상적으로 나타나는지 확인해 보세요
 
-## 4. 샘플 TPA 설치하기
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-```
-// 샘플 TPA 코드 추가
-```
+## 3. ThinQ 연동 샘플 컴포넌트 배포하기 (Control app)
 
-// 샘플 TPA 설치하는 링크 추가
+업데이트 예정입니다.&#x20;
 
-## 5. 실행결과
+## 4. ThinQ 연동 샘플 TPA 설치하기 (Control App 제어)
 
-// ThinQ앱, 컴포넌트 화면 추가 or 데모 영상 추
+업데이트 예정입니다. &#x20;
+
+## 5. ThinQ 연동 샘플 실행결과
+
+업데이트 예정입니다. &#x20;
