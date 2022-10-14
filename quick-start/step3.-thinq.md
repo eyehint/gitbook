@@ -18,7 +18,7 @@ ThinQ 로그인을 할 수 있는 앱이 실행되어 Pin/QR코드가 화면에 
 
 **'설정' > 'ThinQ 계정 공유'** 메뉴를 선택하고 앱에서 제공하는 Pin 코드 또는 QR 코드 로그인을 진행합니다.&#x20;
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (2).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 ThinQ 계정 정보가 DAMDA 기기로 전달되어 자동으로 DMADA 기기가 ThinQ 서버에 등록되는 과정이 진행됩니다.&#x20;
@@ -30,7 +30,7 @@ DAMDA 기기가 정상적으로 등록이 완료되면 해당 기기 정보를 L
 
 본인의 LG ThinQ 앱 화면에 아래와 같이 "**DAMDA 제품**" 카드가 정상적으로 나타나는지 확인해 보세요
 
-<img src="../.gitbook/assets/image (4).png" alt="" data-size="original">
+<img src="../.gitbook/assets/image (7).png" alt="" data-size="original">
 
 ## 3. ThinQ 연동 샘플 컴포넌트 배포하기 (Control app)
 

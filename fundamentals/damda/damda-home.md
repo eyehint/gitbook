@@ -44,7 +44,7 @@ DAMDA가 설치된 기기를 ThinQ에 내 제품으로 등록할 수 있습니�
 
 가이드에 따라 스마트폰의 ThinQ앱을 실행시키고 앱 설정 > 'ThinQ 계정 공유' 메뉴를 통해 앱의 로그인 정보를 허브에 공유합니다. DAMDA 기기가 공유된 계정에 제품으로 자동 등록이 됩니다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (2) (9).png" alt=""><figcaption><p>Home에서 설치한 Component 리스트 확인</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Home에서 설치한 Component 리스트 확인</p></figcaption></figure>
 
 ThinQ앱에서 'DAMDA 제품'이라는 이름의 카드가 생성된 것을 확인할 수 있습니다. \
 ![](<../../.gitbook/assets/image (39).png>)
@@ -90,6 +90,6 @@ webOSTV가 같은 네트워크 상에 있다면, TV를 등록하고 제어 해�
 
 1. TV 카드를 누릅니다.&#x20;
 2. 기기 제어 패널에서 setVolume에 원하는 값을 입력합니다. \
-   ![](<../../.gitbook/assets/image (2) (1).png>)
+   ![](<../../.gitbook/assets/image (2) (1) (3).png>)
 3. "실행하기"를 클릭합니다.&#x20;
 4. TV의 볼륨이 2로 설정됩니다.&#x20;
