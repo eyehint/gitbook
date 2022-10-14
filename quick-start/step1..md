@@ -1,5 +1,5 @@
 ---
-description: DAMDA를 사용하기 위한 환경 설정 방법입니다
+description: DAMDA를 사용하기 위한 환경 설정 방법을 설명합니다.
 ---
 
 # Step1. 개발환경 구성
