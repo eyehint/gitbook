@@ -23,7 +23,7 @@ index.html 파일명으로 아래 코드를 작성해주세요.
 
 1. DAMDA Console([http://damda.lge.com](http://damda.lge.com))에 접속하고 본인의 계정을 이용하여 로그인을 합니다.&#x20;
 
-<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>[DAMDA Console] Login 화면</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption><p>[DAMDA Console] Login 화면</p></figcaption></figure>
 
 2\. 좌측 메뉴의 '**컴포넌트**'를 선택하여 컴포넌트 화면으로 진입합니다.&#x20;
 
