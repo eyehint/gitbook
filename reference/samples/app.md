@@ -79,16 +79,13 @@ description: 가전 API를 활용한 샘플코드 입니다.
 
     <figure><img src="../../.gitbook/assets/스크린샷 2022-10-14 오후 2.44.50 (1).png" alt=""><figcaption></figcaption></figure>
 
-* **Script** : 코드가 디바이스에 설치 후 '**실행'** 단계에서 실행될 스크립트
-* ```
-  npx http-server {root}/dist -p 9019
-  ```
+    * **Script** : 코드가 디바이스에 설치 후 '**실행'** 단계에서 실행될 스크립트
+    * ```
+      npx http-server {root}/dist -p 9019
+      ```
+11. 컴포넌트 생성 완료
 
-****
-
-**컴포넌트 생성 완료**
-
-<figure><img src="https://developer.damda.lge.com/assets/img/example3-2.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="https://developer.damda.lge.com/assets/img/example3-2.png" alt=""><figcaption></figcaption></figure>
 
 ****
 
