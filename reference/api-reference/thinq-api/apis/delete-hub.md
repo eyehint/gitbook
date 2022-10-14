@@ -4,7 +4,7 @@ description: DAMDA 기기 내부에 등록된 사용자의 Home 정보를 조회
 
 # DELETE /hub
 
-### ThinQ 서버에 저장된 Hub를 제거(unregister) 합니다.
+### ThinQ 서버에 저장된 Hub의 등록 정보를 제거(unregister) 합니다.
 
 #### Request
 
