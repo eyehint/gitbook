@@ -1,6 +1,6 @@
-# Step2. 컴포넌트(Hello Damda) 배포 따라하기
+# Step2. 컴포넌트(Hello DAMDA) 배포 따라하기
 
-1\. "Hello World" 웹페이지 작성하기
+## 1. "Hello DAMDA" 작성하
 
 index.html 파일명으로 아래 코드를 작성해주세요.
 
