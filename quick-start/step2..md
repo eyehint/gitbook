@@ -21,7 +21,7 @@ index.html 파일명으로 아래 코드를 작성해주세요.
 
 생성된 index.html 파일을 zip 형태로 압축을 합니다. (파일명 상관없음)
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption><p>MAC에서 index.html 압축하</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>MAC에서 index.html 압축하</p></figcaption></figure>
 
 ## 3. zip파일을 DAMDA콘솔에 업로드
 

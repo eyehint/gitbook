@@ -1,3 +1,7 @@
+---
+layout: editorial
+---
+
 # Error / Exceptions
 
 API 호출시 다음과 같은 Error / Exception이 발생할 수 있습니다.&#x20;

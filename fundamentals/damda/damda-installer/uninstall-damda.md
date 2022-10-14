@@ -21,7 +21,7 @@ description: >-
 4. 제거 과정이 진행됩니다. 완료 된 후 OK 버튼을 눌러 종료 시킬 수 있습니다.\
    ![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fl3Km0lGSEvAZ1z7FtNCb%2Fuploads%2FRh4AIubxze8T8vvwIMp1%2Fimage.png?alt=media\&token=e3e99647-d337-4e95-8cd2-10bc59892a60) ![](<../../../.gitbook/assets/image (33).png>)
 5. 제거가이 완료된 것을 확인합니다. DAMDA Console의 디바이스 탭을 새로고침 하면 삭제된 기기의 id가 더이상 보이지 않습니다\
-   ![](<../../../.gitbook/assets/image (31).png>) ![](<../../../.gitbook/assets/image (19) (3).png>)
+   ![](<../../../.gitbook/assets/image (31).png>) ![](<../../../.gitbook/assets/image (19).png>)
 {% endtab %}
 
 {% tab title="CLI" %}
