@@ -1,4 +1,4 @@
-# Step2. 컴포넌트(Hello DAMDA) 배포 따라하기
+# Step2. Hello DAMDA 따라하기
 
 ## 1. "Hello DAMDA" 작성하기&#x20;
 
@@ -87,4 +87,4 @@ DAMDA 기기 내 DAMDA Home을 실행하면 내가 새로 설치한 컴포넌트
 ex) http://192.168.50.25:30001/com.damda.sample.hellodamda/1.0.0/hellodamda/index.html
 ```
 
-<figure><img src="../.gitbook/assets/image (2) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (4) (1).png" alt=""><figcaption></figcaption></figure>

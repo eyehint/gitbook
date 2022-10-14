@@ -1,6 +1,6 @@
 # Step3. ThinQ 연결하기
 
-## 1. ThinQ등록하기
+## 1. ThinQ 제품으 등록하기
 
 라즈베리파이에서 **DAMDA Home 앱**을 실행 시킵니다.&#x20;
 
@@ -26,7 +26,7 @@ DAMDA 기기가 정상적으로 등록이 완료되면 해당 기기 정보를 L
 
 본인의 LG ThinQ 앱 화면에 아래와 같이 "**DAMDA 제품**" 카드가 정상적으로 나타나는지 확인해 보세요
 
-<figure><img src="../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ## 3. ThinQ 연동 샘플 컴포넌트 배포하기 (Control app)
 

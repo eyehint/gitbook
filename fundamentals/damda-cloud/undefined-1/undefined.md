@@ -171,7 +171,7 @@ Script 항목에서 '+'를 누르면 스크립트를 입력할 수 있는 칸이
 ```
 
 예시로 Debugging Console의 설치 스크립트는 아래와 같이 작성됩니다. 같은 내용을 Debugging Console의 상세화면에서 확인할 수 있습니다. \
-![](<../../../.gitbook/assets/image (2) (2).png>) ![](<../../../.gitbook/assets/image (14).png>)
+![](<../../../.gitbook/assets/image (2).png>) ![](<../../../.gitbook/assets/image (14).png>)
 
 ## 컴포넌트 타입 별 Tip
 
@@ -191,7 +191,7 @@ Script 항목에서 '+'를 누르면 스크립트를 입력할 수 있는 칸이
 
 <summary><strong>ValidationExcption</strong> 발생</summary>
 
-****![](<../../../.gitbook/assets/image (2) (2) (1) (1).png>)****
+****![](<../../../.gitbook/assets/image (2) (2) (1).png>)****
 
 코드 파일이 업로드 중인 경우 ValidationException 이 발생할 수 있습니다 잠시 기다렸다가 다시 저장버튼을 눌러주세요
 
