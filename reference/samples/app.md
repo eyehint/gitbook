@@ -2,4 +2,6 @@
 
 가전 API를 활용한 샘플코드 입니다.
 
-//추후 업데이트 예
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+//추후 업로드 예
