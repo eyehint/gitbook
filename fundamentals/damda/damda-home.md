@@ -14,16 +14,17 @@ DAMDA 설치 후 사용할 수 있습니다
 
 "메뉴 > 기타 > DAMDA Home"을 통해 실행할 수 있습니다
 
-![](<../../.gitbook/assets/image (18).png>)
+![](<../../.gitbook/assets/image (18) (3).png>)
 
-Home의 첫화면에서 시간 및 지역기반 날씨정보, 그리고 Hub앱이 있는 것을 확인할 수 있습니다.
+Home의 첫화면에서 **시간 및 지역기반 날씨정보**, 그리고 **DAMDA Hub앱**이 있는 것을 확인할 수 있습니다.
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption><p>Home 첫 화면</p></figcaption></figure>
 
-\
-'서울특별시 서초구 양재동' 글씨를 클릭하면 원하는 위치로 바꿔서 기상 정보를 확인할 수 있습니다.
+#### 날씨 정보 위치 변경하기&#x20;
 
-<figure><img src="../../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
+'서울특별시 서초구 양재동' 글씨를 클릭하면 원하는 위치로 바꿔서 기상 정보를 확인할 수 있습니다
+
+<figure><img src="../../.gitbook/assets/image (2) (3).png" alt=""><figcaption><p>위치 선택 화면</p></figcaption></figure>
 
 ## 설치된 앱목록 확인
 
@@ -31,14 +32,20 @@ DAMDA Console을 통해 배포한 컴포넌트들을 확인할 수 있습니다.
 index.html을 포함한 앱의 경우, 아이콘을 클릭하면 index.html로 이동합니다. 자세한 [컴포넌트 생성 방법](../damda-cloud/undefined-1/undefined.md#undefined)은 가이드를 확인해주세요. \
 DAMDA Hub를 클릭하면 DAMDA에서 제공하는 허브 기능을 사용해  수 있습니다.
 
-// home 화면 캡처
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Home 앱에서 설치된 컴포넌트(앱) 목록 확인</p></figcaption></figure>
 
 ## ThinQ 연동하기
 
 DAMDA가 설치된 기기를 ThinQ에 내 제품으로 등록할 수 있습니다.
 
-"ThinQ에 내 제품으로 등록하기"를 클릭하면 Pin이나 QR을 통해 ThinQ에 로그인할 수 있는 화면이 나타납니다. \
-가이드에 따라 스마트폰의 ThinQ앱을 실행시키고 앱 설정 > 'ThinQ 계정 공유' 메뉴를 통해 앱의 로그인 정보를 허브에 공유합니다. DAMDA 기기가 공유된 계정에 제품으로 자동 등록이 됩니다. 완료 후 ThinQ앱에서 'DAMDA 제품'이라는 이름의 카드가 생성된 것을 확인할 수 있습니다.&#x20;
+"ThinQ에 내 제품으로 등록하기"를 클릭하면 Pin이나 QR을 통해 ThinQ에 로그인할 수 있는 화면이 나타납니다.&#x20;
+
+<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+
+가이드에 따라 스마트폰의 ThinQ앱을 실행시키고 앱 설정 > 'ThinQ 계정 공유' 메뉴를 통해 앱의 로그인 정보를 허브에 공유합니다. DAMDA 기기가 공유된 계정에 제품으로 자동 등록이 됩니다. 완료 후 ThinQ앱에서 'DAMDA 제품'이라는 이름의 카드가 생성된 것을 확인할 수 있습니다. \
+
+
+<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 // home 화면 캡처&#x20;
 
@@ -83,6 +90,6 @@ webOSTV가 같은 네트워크 상에 있다면, TV를 등록하고 제어 해�
 
 1. TV 카드를 누릅니다.&#x20;
 2. 기기 제어 패널에서 setVolume에 원하는 값을 입력합니다. \
-   ![](<../../.gitbook/assets/image (2) (1) (2).png>)
+   ![](<../../.gitbook/assets/image (2) (1).png>)
 3. "실행하기"를 클릭합니다.&#x20;
 4. TV의 볼륨이 2로 설정됩니다.&#x20;

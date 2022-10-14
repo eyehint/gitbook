@@ -6,7 +6,7 @@
 
 ### 컴포넌트 로그 모니터링
 
-<figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption><p>컴포넌트가 배포, 설치, 실행, 되는 과정을 모니터링 할 수 있습니다.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption><p>컴포넌트가 배포, 설치, 실행, 되는 과정을 모니터링 할 수 있습니다.</p></figcaption></figure>
 
 ### 유저 생성 로그 모니터
 
