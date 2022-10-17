@@ -7,7 +7,7 @@
 | x-message-id    | String | Option    | <ul><li>ThinQ 플랫폼으로 요청되는 정보를 추적하기 위한 값 입니다. 특정 API의 흐름을 추적하고 에러 발생 시 원인을 찾을 수 있습니다.</li><li>생성 규칙 - url-safe-base64-no-padding (UUID Version 4)방법으로 생성합니다. - 길이는 22자입니다.</li><li>코드 예시 (Python)</li></ul><pre><code>import uuid
 import base64
 messageId = base64.urlsafe_b64encode(uuid.uuid4().bytes)[:-2]</code></pre> | None    |
-| x-client-idret  | String | Mendetory | damda console에 발급 받은 connect key를 입력합니다.                                                                                                                                                                                                                                                                                 |         |
+| x-client-id     | String | Mendetory | damda console에 발급 받은 connect key를 입력합니다.                                                                                                                                                                                                                                                                                 |         |
 | x-client-secret | String | Mendetory | damda console에 발급 받은 connect secret을 입력합니다.                                                                                                                                                                                                                                                                              |         |
 
 ### Headers 예시
