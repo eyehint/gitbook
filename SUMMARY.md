@@ -48,7 +48,7 @@
   * [가전 API](reference/api-reference/api.md)
     * [가전 상태 조회](reference/api-reference/api/undefined.md)
     * [가전 제어](reference/api-reference/api/undefined-1.md)
-    * [APIs](reference/api-reference/api/apis/README.md)
+    * [APIs](reference/api-reference/api/apis/README.md)
       * [공통 | Headers](reference/api-reference/api/apis/or-headers.md)
       * [공통 | Response](reference/api-reference/api/apis/or-response.md)
       * [공통 | Error](reference/api-reference/api/apis/or-error.md)
