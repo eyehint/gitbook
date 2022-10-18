@@ -12,6 +12,10 @@ description: 컴포넌트 생성 창에서 입력해야 하는 각 항목에 대
 
 {% hint style="info" %}
 사전에 컴포넌트로 만들 코드를 zip파일로 묶어 준비합니다. 압축파일을 풀었을 때, '압축파일명/' 밑에 코드 파일이 생성되도록 압축해야합니다.&#x20;
+
+예를들어 hellodamda.zip 압축을 해제하면 아래와 같이 구성하는 컴포넌트를 구성하는 파일들이 바로 보여야 합니다.&#x20;
+
+![](<../../../.gitbook/assets/image (2).png>)
 {% endhint %}
 
 ### 컴포넌트 기본 정보 설정
@@ -23,6 +27,14 @@ description: 컴포넌트 생성 창에서 입력해야 하는 각 항목에 대
 #### **컴포넌트 명 (필수)**
 
 <mark style="color:red;">com.\[damda계정].\[컴포넌트명]</mark> 으로 정의합니다 컴포넌트명이 중복되는 경우 생성할 수 없습니다.&#x20;
+
+계정이 <mark style="color:green;background-color:orange;"><mark style="background-color:orange;">damda.user@lge.com<mark style="background-color:orange;"></mark>이고 <mark style="color:green;"></mark> <mark style="background-color:orange;">hellodamda</mark>라는 컴포넌트를 만들고 싶은 경우, <mark style="background-color:orange;">com.damda.user.hellodamda</mark> 라고 컴포넌트 명을 입력합니다.
+
+{% hint style="warning" %}
+규칙에 맞지 않는 컴포넌트 명을 사용할 수도 있습니다. 다만, 이 경우 damda 시스템 내에 중복되는 이름이 존재해서, 컴포넌트가 정상적으로 생성되지 않을 수 있습니다.&#x20;
+
+위와 같은 형식으로 컴포넌트 명을 작성 하시길 권장합니다.
+{% endhint %}
 
 **설명 (필수)**
 
@@ -103,7 +115,7 @@ python {root}/zip파일명 app.py
 * pip3 install이나 컴포넌트 실행을 위해 필요한 configuration 준비
 {% endtab %}
 
-{% tab title="실행 (필수)" %}
+{% tab title="실행" %}
 다음과 같은 경우에 실행됩니다.
 
 * 컴포넌트가 시작 될 때 실행

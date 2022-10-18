@@ -54,7 +54,7 @@ component를 배포하기 위해서 DAMDA Console에서 생성합니다.
 
 <figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (8).png" alt=""><figcaption></figcaption></figure>
 
 DAMDA Console->Device탭->디바이스 detail->디버깅 콘솔 버튼을 클릭하여 디버깅 콘솔에 접속할 수 있습니다.
 
