@@ -47,7 +47,7 @@ DAMDA가 설치된 기기를 ThinQ에 내 제품으로 등록할 수 있습니�
 <figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Home에서 설치한 Component 리스트 확인</p></figcaption></figure>
 
 ThinQ앱에서 'DAMDA 제품'이라는 이름의 카드가 생성된 것을 확인할 수 있습니다. \
-![](<../../.gitbook/assets/image (39).png>)
+![](<../../.gitbook/assets/image (39) (1).png>)
 
 \
 ThinQ앱에서 'DAMDA 제품' 카드를 클릭하면 DAMDA Hub와 연결된 서브기기를 제어할 수 있습니다. DAMDA Hub에 기기를 등록하는 방법은 ['서브기기 연동하기'](damda-home.md#undefined-1)를 참고해주세요. \
