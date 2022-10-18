@@ -195,13 +195,25 @@ Script 항목에서 '+'를 누르면 스크립트를 입력할 수 있는 칸이
 
 컴포넌트 코드의 root 경로에 index.html을 추가합니다. Home에서 앱(컴포넌트)의 아이콘을 클릭하면 정의한 index.html 페이지를 실행합니다. 예시로 [Hello Damda](../../../quick-start/step2..md)를 참고할 수 있습니다.
 
-### Frontend와 Backend를 각각의 zip파일로 분리해서 컴포넌트를 만드는 방법
+### Frontend와 Backend를 각각의 zip파일로 분리한 컴포넌트
+
+업데이트 예정입니다.
 
 ### Python 컴포넌트 스크립트 참고사항
 
+업데이트 예정입니다.
+
 ### Nodejs 컴포넌트 스크립트 참고사항
 
-// 상세 가이드 제공 예정
+추가로 필요한 패키지가 있는 경우, 라즈베리파이 환경에 맞는 node module 만들어 줍니다.&#x20;
+
+node module을 포함하여 zip파일로 압축 한 후 배포합니다.&#x20;
+
+{% hint style="danger" %}
+주의: 실행스크립트에 npm install을 사용하면 첫 배포만 정상적으로 진행되고 다음 배포부터는 배포 오류가 발생합니다&#x20;
+{% endhint %}
+
+React, Vue등 Front End Webapp 배포시 build된 정적 파일을 배포하여 npx http-server로 실행하는 것을 권장합니다.
 
 ## TroubleShooting
 

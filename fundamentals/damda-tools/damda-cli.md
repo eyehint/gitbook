@@ -38,7 +38,7 @@ Commands to create/delete/list components
 
 Commands to retrieve device information and a list of components installed in the device
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Deployment
 
