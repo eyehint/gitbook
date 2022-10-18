@@ -29,8 +29,8 @@ EMP는 기존 공통헤더에서 쓰던 DAMDA Connect Key가 아닌 DAMDA EMP Ke
 {
     "x-country-code": "KR",
     "x-message-id": "0123456789012345678912",
-    "x-emp-key": "abcdeq134566112313",
-    "x-emp-secret": "vbbgqfefqqeqadaeqeqeq"
+    "x-client-id": "abcdeq134566112313",
+    "x-client-secret": "vbbgqfefqqeqadaeqeqeq"
 }
 
 ## Body
@@ -49,6 +49,8 @@ EMP는 기존 공통헤더에서 쓰던 DAMDA Connect Key가 아닌 DAMDA EMP Ke
 {
     "x-country-code": "KR",
     "x-message-id": "0123456789012345678912",
+    "x-client-id": "abcdeq134566112313",
+    "x-client-secret": "vbbgqfefqqeqadaeqeqeq"
 }
 
 ## Body
