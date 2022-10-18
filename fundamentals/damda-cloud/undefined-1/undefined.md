@@ -229,7 +229,7 @@ React, Vue등 Front End Webapp 배포시 build된 정적 파일을 배포하여 
 
 <details>
 
-<summary>"일한 버전이 존재합니다" 에러 발생</summary>
+<summary>"동일한 버전이 존재합니다" 에러 발생 </summary>
 
 컴포넌트 생성 시, 같은 이름을 가진 컴포넌트가 존재하는 경우 "동일한 버전이 존재합니다"라는 에러가 발생 합니다.
 
