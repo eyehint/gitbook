@@ -8,4 +8,4 @@
 
 ## Base URL
 
-Base Url은 {DAMDA 기기 api}:8705 입니다.
+Base Url은 {DAMDA 기기 api}:5010 입니다.
