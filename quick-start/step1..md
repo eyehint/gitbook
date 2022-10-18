@@ -139,7 +139,7 @@ DAMDA Installer CLI Version: 1.0.3
     <figure><img src="../.gitbook/assets/image (37).png" alt=""><figcaption><p>설치 완료 확인</p></figcaption></figure>
 6.  설치 완료 화면에서 ID 확인을 못한 경우 Installer를 다시 실행해서 확인할 수도 있습니다.
 
-    <figure><img src="../.gitbook/assets/image (15) (2).png" alt=""><figcaption><p>Installer 첫화면에서 기기명 확인</p></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption><p>Installer 첫화면에서 기기명 확인</p></figcaption></figure>
 7.  [DAMDA Console](http://damda.lge.com/)의 디바이스 탭에서 동일한 디바이스 ID로 기기가 생성된 것을 확인할 수 있습니다.
 
     <figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>DAMDA Console 디바이스 탭에서 기기명 확인</p></figcaption></figure>

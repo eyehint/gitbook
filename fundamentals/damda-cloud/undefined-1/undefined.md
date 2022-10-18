@@ -42,6 +42,10 @@ python {root}/zip파일명 app.py
 ```
 {% endcode %}
 
+{% hint style="info" %}
+컴포넌트 버전을 추가할 때마다 zip파일을 다시 업로드 해주어야 합니다.
+{% endhint %}
+
 #### **환경 변수**
 
 컴포넌트가 실행될 때 사용할 환경 변수를 정의합니다. 여기서 설정한 환경변수는 모든 lifecycle(초기 설정, 설치, 실행, 종료)에 적용됩니다. port, phase등 실행을 위해 필요한 configuration 정보를 환경 변수로 관리할 때 사용합니다.
