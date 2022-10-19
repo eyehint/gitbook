@@ -421,7 +421,7 @@ def off(device_info, component: str, capability: str):
 def toggle(device_info, component: str, capability: str):
     SimulatorAdapter(device_info).control(
         {"command": "toggle", "param": {}})
-p
+
 ```
 
 </details>
