@@ -22,7 +22,7 @@ $ damda --install-completion    # [Optional] Install completion for the current 
 
 Commands to manage DAMDA account information so that you can use functions such as component creation/deletion/deployment by accessing the DAMDA cloud with the DAMDA CLI
 
-#### config
+#### configure
 
 Commands to set up a DAMDA account.
 
