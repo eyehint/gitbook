@@ -46,7 +46,7 @@ DAMDA Console에 접속하여 컴포넌트 탭으로 이동합니다.
 현재 [배포 준비에서 UI가 진행되지 않는 버그](undefined-1.md#known-issue)가 있습니다. 배포가 정상적으로 진행중이니, 배포 완료 여부를 [기기 정보 페이지에서 확인](undefined-1.md#damda)해주시기 바랍니다.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption><p>배포 진행 중</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (6).png" alt=""><figcaption><p>배포 진행 중</p></figcaption></figure>
 
 ## 배포 결과 확인하기
 
