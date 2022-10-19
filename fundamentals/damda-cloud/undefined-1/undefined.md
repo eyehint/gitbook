@@ -193,7 +193,7 @@ Script 항목에서 '+'를 누르면 스크립트를 입력할 수 있는 칸이
 
 ### Home에서 직접 실행할 수 있는 컴포넌트 작성 방법
 
-컴포넌트 코드의 root 경로에 index.html을 추가합니다. Home에서 앱(컴포넌트)의 아이콘을 클릭하면 정의한 index.html 페이지를 실행합니다. 예시로 [Hello Damda](../../../quick-start/step2..md)를 참고할 수 있습니다.
+컴포넌트 코드의 root 경로에 index.html을 추가합니다. Home에서 앱(컴포넌트)의 아이콘을 클릭하면 정의한 index.html 페이지를 실행합니다. 예시로 [Hello Damda](../../../quick-start/hello-damda.md)를 참고할 수 있습니다.
 
 ### Frontend와 Backend를 각각의 zip파일로 분리한 컴포넌트
 

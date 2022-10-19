@@ -2,7 +2,7 @@
 description: DAMDA제품을 ThinQ에 등록하여 ThinQ앱과 연동합니다.
 ---
 
-# Step3. ThinQ 연결하기
+# ThinQ 연결하기
 
 ## 1. ThinQ 제품으로 등록하기
 
@@ -142,7 +142,7 @@ node {root}/control_app/index.js
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-\[Optional] 디버깅 콘솔에 다음과 같은 화면이 나타나면 정상적으로 배포된 것임을 확인할 수 있습니다. ([step4..md](step4..md "mention")를 참고하세요)
+\[Optional] 디버깅 콘솔에 다음과 같은 화면이 나타나면 정상적으로 배포된 것임을 확인할 수 있습니다. ([undefined-1.md](undefined-1.md "mention")를 참고하세요)
 
 
 

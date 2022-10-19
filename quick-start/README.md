@@ -4,18 +4,18 @@ description: DAMDA를 빠르게 구성하기 위한 가이드 입니다.
 
 # Quick Start
 
-{% content-ref url="step1..md" %}
-[step1..md](step1..md)
+{% content-ref url="undefined.md" %}
+[undefined.md](undefined.md)
 {% endcontent-ref %}
 
-{% content-ref url="step2..md" %}
-[step2..md](step2..md)
+{% content-ref url="hello-damda.md" %}
+[hello-damda.md](hello-damda.md)
 {% endcontent-ref %}
 
-{% content-ref url="step3.-thinq.md" %}
-[step3.-thinq.md](step3.-thinq.md)
+{% content-ref url="thinq.md" %}
+[thinq.md](thinq.md)
 {% endcontent-ref %}
 
-{% content-ref url="step4..md" %}
-[step4..md](step4..md)
+{% content-ref url="undefined-1.md" %}
+[undefined-1.md](undefined-1.md)
 {% endcontent-ref %}

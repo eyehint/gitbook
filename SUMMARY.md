@@ -2,10 +2,10 @@
 
 * [DAMDA Overview](README.md)
 * [Quick Start](quick-start/README.md)
-  * [Step1. 개발환경 구성](quick-start/step1..md)
-  * [Step2. Hello DAMDA 따라하기](quick-start/step2..md)
-  * [Step3. ThinQ 연결하기](quick-start/step3.-thinq.md)
-  * [Step4. 디버깅 하기](quick-start/step4..md)
+  * [개발환경 구성하기](quick-start/undefined.md)
+  * [Hello DAMDA 따라하기](quick-start/hello-damda.md)
+  * [ThinQ 연결하기](quick-start/thinq.md)
+  * [내 컴포넌트 로그 확인하기](quick-start/undefined-1.md)
 
 ## FUNDAMENTALS
 
