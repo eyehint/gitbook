@@ -11,7 +11,7 @@ description: DAMDA제품을 디버깅하기 위한 방법을 설명합니다.
 Log를 Debugging 콘솔에서 보기위해서는\
 &#x20;   1\.  json type으로 작성되어야 합니다\
 &#x20;   2\. json 안에는 level, message, function, timestamp의 요소가 들어가야 합니다.\
-&#x20;   3\. Log의 path는 `/var/log/damda/{file이름}`이어야 합니다.
+&#x20;   3\. Log File의 path는 `/var/log/damda/ 로 저장 합니다. 파일명은 자유롭게 사용할 수 있습니다.`
 
 <pre class="language-python"><code class="lang-python"># main.py
 <strong>import logging
@@ -39,6 +39,8 @@ if __name__ == '__main__':
 ## 2. Test Component 생성 및 배포
 
 component를 배포하기 위해서 DAMDA Console에서 생성합니다.
+
+component명은 자유롭게 사용할 수 있으나 다른 사용자의 컴포넌트와 중복이 되면 안됩니다.
 
 <figure><img src="../.gitbook/assets/image (16) (2).png" alt=""><figcaption></figcaption></figure>
 
