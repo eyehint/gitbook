@@ -6,8 +6,6 @@ description: 웹브라우저에서 DAMDA Console을 통한 개발 대신에 CLI(
 
 ## DAMDA CLI 설치하기
 
-// 설치파일은 추후 제공될 예정입니다.
-
 <pre class="language-shell"><code class="lang-shell"><strong>$ git clone ssh://git@mod.lge.com:2222/tip/damda-cli-typer.git
 </strong>$ cd damda-cli-typer
 (requirements.txt 파이썬 환경 설정)
@@ -16,34 +14,66 @@ $ python setup.py install
  
 $ damda --install-completion    # [Optional] Install completion for the current shell</code></pre>
 
+설치파일은 추후 제공될 예정입니다.
+
 ## 사용법
 
 ### Configuration
 
 Commands to manage DAMDA account information so that you can use functions such as component creation/deletion/deployment by accessing the DAMDA cloud with the DAMDA CLI
 
-<figure><img src="../../.gitbook/assets/image (4) (5).png" alt=""><figcaption></figcaption></figure>
+#### config
 
-### Component
+Commands to set up a DAMDA account.
 
-Commands to create/delete/list components
+Command
 
-<figure><img src="../../.gitbook/assets/image (7) (6) (1).png" alt=""><figcaption></figcaption></figure>
+```
+$ damda configure [OPTIONS]
+# OPTIONS:
+#   --profile TEXT: [default:default]
+```
 
-<figure><img src="../../.gitbook/assets/image (10) (4).png" alt=""><figcaption></figcaption></figure>
+Usage
 
-<figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+&#x20; Case 1) set up an DAMDA account with the default profile
 
-### Device
+```
+$ damda configure
+DAMDA ID [default]: <Enter DAMDA ID>
+DAMDA P/W[default]: <Enter DAMDA P/W>
+```
 
-Commands to retrieve device information and a list of components installed in the device
+&#x20; Case 2) set up an DAMDA account with the default profile
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+```
+$ damda configure --profile test
+DAMDA ID [test]: <Enter DAMDA ID>
+DAMDA P/W[test]: <Enter DAMDA P/W
+```
 
-### Deployment
+#### get-configuration
 
-Commands to check component deployment and deployment results
+Command to get DAMDA account information for a specific profile.
 
-<figure><img src="../../.gitbook/assets/image (3) (6).png" alt=""><figcaption></figcaption></figure>
+Command
 
-<figure><img src="../../.gitbook/assets/image (1) (6) (1).png" alt=""><figcaption></figcaption></figure>
+<pre><code><strong>$ damda get-configuration [OPTIONS]
+</strong># OPTIONS:
+#    --profile TEXT: [default: default]</code></pre>
+
+Usage
+
+&#x20; Case 1) set up an DAMDA account with the default profile
+
+```
+$ damda get-configuration
+{'id': '<DAMDA ID>', 'pw': '<DAMDA P/W>'}
+```
+
+&#x20; Case 2)set up an DAMDA account with the default profile
+
+```
+$ damda get-configuration --profile test
+{'id': '<DAMDA ID>', 'pw': '<DAMDA P/W>'}
+```
