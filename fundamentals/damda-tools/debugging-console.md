@@ -1,5 +1,15 @@
 # DAMDA Debugging Console
 
+## 주의사항
+
+디버깅 콘솔을 사용하기 위해서는 damda 사이트 설정에서 안전하지 않은 컨텐츠 허용을 해주셔야 합니다.
+
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (1) (8).png" alt=""><figcaption></figcaption></figure>
+
+
+
 ### 기기 상태 요약정보
 
 코어 디바이스의 정보, 배포상태, 로그 등을 간략하게 볼 수 있습니다.
@@ -15,6 +25,8 @@
 ### 유저 생성 로그 모니터
 
 유저가 /var/log/damda 안에 남긴 로그를 모니터링 할 수 있습니다.
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (7) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
