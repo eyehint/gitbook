@@ -105,7 +105,7 @@ control\_app.zip\
 
 **Step 4.** DAMDA Console([https://damda.lge.com/](https://damda.lge.com))에 접속하여 Component를 등록합니다.
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (5).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 컴포넌트 이름을 com.damda.sample.control\_app 으로 작성해야 합니다.&#x20;
@@ -140,7 +140,7 @@ node {root}/control_app/index.js
 반드시 포함하여 배포하여 주시기 바랍니다.&#x20;
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
 
 \[Optional] 디버깅 콘솔에 다음과 같은 화면이 나타나면 정상적으로 배포된 것임을 확인할 수 있습니다. ([undefined-1.md](undefined-1.md "mention")를 참고하세요)
 
