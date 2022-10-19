@@ -27,13 +27,17 @@ state = get_state()
 
 ### 등록/삭제/제어/상태 함수 작성
 
-등록 / 삭제 함수는 반드시 하나씩 만들어주어야 합니다
+등록 / 삭제 함수는 반드시 하나씩 만들어주어야 합니다.
 
-모든 함수는 device\_info를 첫번째 인자로 받습니다. device\_info에 포함된 정보는 다음과 같습니다.ㅑ
+제어 함수는 기기가 할 수 있는 제어 명령 별로 하나씩 존재합니다.
+
+상태 함수가 없을 경우 기기 상태 정보가 바뀌는 것을 알 수 없습니다.
+
+모든 함수는 device\_info를 첫번째 인자로 받습니다. device\_info에 포함된 정보는 다음과 같습니다.
 
 #### device\_info
 
-json형태로 정의되어 있습니다.
+json 형태로 정의되어 있습니다.
 
 | key          | description                     |
 | ------------ | ------------------------------- |
@@ -110,7 +114,7 @@ def [함수명](device_info):
   * 기기 id 는 device\_info로 부터 받아옵니다. \
     `device_info["device_id"]`
   * 규칙에 맞춰 attribute의 key값을 만들어줍니다.\
-    &#x20;`[profile의 component id][capability의 id][attribute name]` \
+    &#x20;`{profile의 components id}{capability의 id}{attribute name}` \
     이때 capability의 id와 attribute name의 첫글자는 대문자로 작성
   * 기기로 부터 받은 상태값을 넘겨줍니다
 
@@ -119,3 +123,305 @@ def [함수명](device_info):
 set_attribute([기기의 id], [attribute key값], [상태값])
 ```
 {% endcode %}
+
+## Functions Example
+
+<details>
+
+<summary>webOSTV.py</summary>
+
+```python
+# webOSTV와 연동되는 코드
+# TV와 통신을 위해 PyWebOSTV 모듈을 import해서 사용하고 있습니다
+from devices import get_register, get_unregister, get_control, get_state, set_attribute
+from .pywebostv import PyWebOSTV
+
+
+register = get_register()
+unregister = get_unregister()
+control = get_control()
+state = get_state()
+
+
+@register
+def register_tv(device_info):
+    ip = device_info["preferences"]["ip"]
+    tv_controller = PyWebOSTV(ip).get_tv_controller()
+    tv_controller.register_tv()
+
+
+@unregister
+def unregister_tv(device_info):
+    pass
+
+
+@control
+def power_on(device_info, component: str, capability: str):
+    ip = device_info["preferences"]["ip"]
+    tv_controller = PyWebOSTV(ip).get_tv_controller()
+    tv_controller.power_on()
+
+
+@control
+def power_off(device_info, component: str, capability: str):
+    ip = device_info["preferences"]["ip"]
+    tv_controller = PyWebOSTV(ip).get_tv_controller()
+    tv_controller.register_tv()
+    tv_controller.power_off()
+
+
+@control
+def set_volume(device_info, component: str, capability: str, volume: int):
+    ip = device_info["preferences"]["ip"]
+    tv_controller = PyWebOSTV(ip).get_tv_controller()
+    tv_controller.register_tv()
+    tv_controller.set_volume(volume)
+    return {
+        "volume": volume
+    }
+
+
+@control
+def volume_up(device_info, component: str, capability: str):
+    ip = device_info["preferences"]["ip"]
+    tv_controller = PyWebOSTV(ip).get_tv_controller()
+    tv_controller.register_tv()
+    tv_controller.volume_up()
+    return {}
+
+
+@control
+def volume_down(device_info, component: str, capability: str):
+    ip = device_info["preferences"]["ip"]
+    tv_controller = PyWebOSTV(ip).get_tv_controller()
+    tv_controller.register_tv()
+    tv_controller.volume_down()
+    return {}
+
+
+@control
+def mute(device_info, component: str, capability: str, mute: bool):
+    ip = device_info["preferences"]["ip"]
+    tv_controller = PyWebOSTV(ip).get_tv_controller()
+    tv_controller.register_tv()
+    tv_controller.mute(mute)
+    return {}
+
+
+@control
+def channel_up(device_info, component: str, capability: str):
+    ip = device_info["preferences"]["ip"]
+    tv_controller = PyWebOSTV(ip).get_tv_controller()
+    tv_controller.register_tv()
+    tv_controller.channel_up()
+    return {}
+
+
+@control
+def channel_down(device_info, component: str, capability: str):
+    ip = device_info["preferences"]["ip"]
+    tv_controller = PyWebOSTV(ip).get_tv_controller()
+    tv_controller.register_tv()
+    tv_controller.channel_down()
+    return {}
+
+
+@control
+def home(device_info, component: str, capability: str):
+    ip = device_info["preferences"]["ip"]
+    tv_remote_controller = PyWebOSTV(ip).get_tv_remote_controller()
+    tv_remote_controller.home()
+    return {}
+
+
+@control
+def back(device_info, component: str, capability: str):
+    ip = device_info["preferences"]["ip"]
+    tv_remote_controller = PyWebOSTV(ip).get_tv_remote_controller()
+    tv_remote_controller.back()
+    return {}
+
+
+@control
+def ok(device_info, component: str, capability: str):
+    ip = device_info["preferences"]["ip"]
+    tv_remote_controller = PyWebOSTV(ip).get_tv_remote_controller()
+    tv_remote_controller.ok()
+    return {}
+
+
+@control
+def left(device_info, component: str, capability: str):
+    ip = device_info["preferences"]["ip"]
+    tv_remote_controller = PyWebOSTV(ip).get_tv_remote_controller()
+    tv_remote_controller.left()
+    return {}
+
+
+@control
+def right(device_info, component: str, capability: str):
+    ip = device_info["preferences"]["ip"]
+    tv_remote_controller = PyWebOSTV(ip).get_tv_remote_controller()
+    tv_remote_controller.right()
+    return {}
+
+
+@control
+def up(device_info, component: str, capability: str):
+    ip = device_info["preferences"]["ip"]
+    tv_remote_controller = PyWebOSTV(ip).get_tv_remote_controller()
+    tv_remote_controller.up()
+    return {}
+
+
+@control
+def down(device_info, component: str, capability: str):
+    ip = device_info["preferences"]["ip"]
+    tv_remote_controller = PyWebOSTV(ip).get_tv_remote_controller()
+    tv_remote_controller.down()
+    return {}
+
+@control
+def capture(device_info, component: str, capability: str, upload_uri: str):
+    ip = device_info["preferences"]["ip"]
+    tv_controller = PyWebOSTV(ip).get_tv_controller()
+    tv_controller.register_tv()
+    tv_controller.capture(upload_uri)
+    return {}
+
+@state(exceptions=(Exception, ), countdown=10)
+def subscribe_volume(device_info):
+    ip = device_info["preferences"]["ip"]
+    device_id = device_info["deviceId"]
+    try:
+        tv_controller = PyWebOSTV(ip).get_tv_controller()
+        tv_controller.register_tv()
+
+        def volume_callback(response):
+            try:
+                try:
+                    volume = response["payload"]["volumeStatus"]["volume"]
+                    muted = response["payload"]["volumeStatus"]["muteStatus"]
+                except KeyError:
+                    volume = response["payload"]["volume"]
+                    muted = response["payload"]["muted"]
+                set_attribute(device_id, "online", True)
+                set_attribute(device_id, "mainWebOSTVVolume", volume)
+                set_attribute(device_id, "mainWebOSTVMuted", muted)
+            except:
+                pass
+
+        tv_controller.subscribe_volume(volume_callback)
+    except Exception as e:
+        set_attribute(device_id, "online", False)
+        raise e
+
+
+@state(exceptions=(Exception, ), countdown=10)
+def subscribe_channel(device_info):
+    ip = device_info["preferences"]["ip"]
+    device_id = device_info["deviceId"]
+    try:
+        tv_controller = PyWebOSTV(ip).get_tv_controller()
+        tv_controller.register_tv()
+
+        def program_info_callback(response):
+            try:
+                program_name = response["payload"]["programName"]
+                channel_name = response["payload"]["channelName"]
+                channel_number = response["payload"]["channelNumber"]
+                set_attribute(device_id, "online", True)
+                set_attribute(device_id, "mainWebOSTVProgramName", program_name)
+                set_attribute(device_id, "mainWebOSTVChannelName", channel_name)
+                set_attribute(device_id, "mainWebOSTVChannelNumber", channel_number)
+            except:
+                pass
+
+        tv_controller.subscribe_program_info(program_info_callback)
+    except Exception as e:
+        set_attribute(device_id, "online", False)
+        raise e
+
+```
+
+</details>
+
+<details>
+
+<summary>sensorLight.py</summary>
+
+```python
+# 시뮬레이터 Light와 연동되는 코드
+# 시뮬레이터와 통신을 위해 SimulatorAdapter 모듈을 import해서 사용하고 있습니다
+from devices import get_register, get_unregister, get_control, get_state, set_attribute
+from .sensorSimulator.sensorAdapter import SimulatorAdapter
+
+register = get_register()
+unregister = get_unregister()
+control = get_control()
+state = get_state()
+
+
+@register
+def register_light(device_info):
+    device_info = SimulatorAdapter(device_info).start_register()
+    return device_info
+
+
+@state(exceptions=(Exception,), countdown=10)
+def get_light_state(device_info):
+    print(f"init: light sensor state {device_info}")
+
+    def handle_sensor_data(device_id: str, status: dict):
+        print(f"received: light sensor state :: {status}")
+        turn_on = status["turnOn"]
+        brightness = status["brightness"]
+        set_attribute(device_id, 'mainSensorLightTurnOn', turn_on)
+        set_attribute(device_id, 'mainSensorLightBrightness', brightness)
+    SimulatorAdapter(device_info).start_monitoring(handle_sensor_data)
+
+
+@unregister
+def unregister_light(device_info):
+    device_info = SimulatorAdapter(device_info).unregister()
+    return device_info
+
+
+@control
+def up_brightness(device_info, component: str, capability: str):
+    SimulatorAdapter(device_info).control(
+        {"command": "up", "param": {"target": "brightness"}})
+
+
+@control
+def down_brightness(device_info, component: str, capability: str):
+    SimulatorAdapter(device_info).control(
+        {"command": "down", "param": {"target": "brightness"}})
+
+
+@control
+def set_brightness(device_info, component: str, capability: str, value: int):
+    SimulatorAdapter(device_info).control(
+        {"command": "set", "param": {"target": "brightness", "value": value}})
+
+
+@control
+def on(device_info, component: str, capability: str):
+    SimulatorAdapter(device_info).control(
+        {"command": "on", "param": {}})
+
+
+@control
+def off(device_info, component: str, capability: str):
+    SimulatorAdapter(device_info).control(
+        {"command": "off", "param": {}})
+
+
+@control
+def toggle(device_info, component: str, capability: str):
+    SimulatorAdapter(device_info).control(
+        {"command": "toggle", "param": {}})
+p
+```
+
+</details>
