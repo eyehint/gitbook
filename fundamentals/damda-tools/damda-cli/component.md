@@ -42,7 +42,7 @@ $ damda create-component [OPTIONS]
 
 Recommanded Component structure (example)
 
-<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ```
 # com.example.first_0.0.1.json
@@ -62,6 +62,27 @@ $ cd <COMPONENT_PROJECT_DIR>
 $ damda create-component --source ./first.zip --configuration-file ./com.example.first.json
 ```
 
+## delete-component-version
+
+Delete a specific version of a component.
+
+### Command
+
+```
+$ damda delete-component-version [OPTIONS]
+# Options:
+#  --component-id TEXT: [required]
+#  --component-version TEXT: [required]
+#  --profile TEXT: [default: default]
+
+```
+
+### Usage
+
+```
+$ damda delete-component-version --component-id com.example.first --component-version 1.0.0
+```
+
 ## delete-component
 
 Delete all versions of a component
@@ -75,4 +96,65 @@ $ damda delete-component [OPTIONS]
 #  --profile TEXT: [default: default]
 ```
 
-###
+### Usage
+
+```
+$ damda delete-component --component-id com.example.first
+```
+
+## list-component-versions
+
+Retrieves a list of versions of a component.
+
+### Command
+
+```
+$ damda list-component-versions [OPTIONS]
+# Options
+#   --component-id TEXT: [required]
+#   --profile TEXT: [default: default]
+```
+
+### Usage
+
+```
+$ damda list-component-versions --component-id com.example.first
+['1.0.2', '1.0.1', '1.0.0']
+```
+
+## list-components
+
+Retrieves a list of CUSTOM or PUBLIC components.
+
+### Command
+
+```
+$ damda list-component-versions [OPTIONS]
+# Options:
+#  --component-id TEXT: [required]
+#  --profile TEXT: [default: default]
+```
+
+### Usage
+
+#### cast 1) list CUSTOM components
+
+```
+$ damda list-components
+[{"componentName":"com.example.first","latestVersion":"1.0.2"}]
+```
+
+#### cast 2) list PUBLIC components
+
+```
+$ damda list-components --tpye PUBLIC
+[{"componentName":"com.damda.webostv","latestVersion":"1.0.4"},
+{"componentName":"com.damda.voice","latestVersion":"1.0.4"},
+{"componentName":"com.damda.thinq-web","latestVersion":"1.0.15"},
+{"componentName":"com.damda.thinq-backend-api","latestVersion":"1.1.1"},
+{"componentName":"com.damda.instaview.resource","latestVersion":"1.0.0"},
+{"componentName":"com.damda.instaview.home","latestVersion":"1.0.0"},
+{"componentName":"com.damda.home","latestVersion":"1.0.6"}]
+
+```
+

@@ -12,7 +12,7 @@ DAMDA Console에 접속하여 컴포넌트 탭으로 이동합니다.
 
 '내 컴포넌트' 중 배포하고 싶은 컴포넌트를 선택하고 배포하기를 클릭합니다.
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>배포할 컴포넌트 선택</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>배포할 컴포넌트 선택</p></figcaption></figure>
 
 {% hint style="info" %}
 내 컴포넌트가 하나라도 포함되야 배포하기 클릭이 가능합니다.&#x20;
@@ -54,7 +54,7 @@ DAMDA Console에 접속하여 컴포넌트 탭으로 이동합니다.
 
 Damda Console에서 디바이스 탭으로 이동합니다.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>디바이스 탭 화면</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (7).png" alt=""><figcaption><p>디바이스 탭 화면</p></figcaption></figure>
 
 배포한 기기의 명 오른쪽에 <mark style="color:blue;">Details</mark>를 클릭합니다. 기기 세부 정보 창이 나타납니다. 이 창에서 배포 상태와 컴포넌트 상태를 확인합니다.
 
