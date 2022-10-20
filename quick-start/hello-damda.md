@@ -2,7 +2,7 @@
 description: DAMDA기기에 첫 어플리케이션 코드 배포합니다.
 ---
 
-# Step2. Hello DAMDA 따라하기
+# Hello DAMDA 따라하기
 
 ## 1. "Hello DAMDA" 작성하기&#x20;
 
@@ -21,9 +21,26 @@ index.html 파일명으로 아래 코드를 작성해주세요.
 
 생성된 index.html 파일을 zip 형태로 압축을 합니다. (파일명 상관없음)
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption><p>MAC에서 index.html 압축하</p></figcaption></figure>
+```
+$ ls
+index.html
+$ zip -r hellodamda.zip index.html
+$ ls
+hellodamda.zip  index.html 
+```
 
-## 3. zip파일을 DAMDA콘솔에 업로드
+{% hint style="info" %}
+hellodamda.zip의 구조는 다음과 같습니다.&#x20;
+
+hellodamda.zip\
+ㄴ index.html
+{% endhint %}
+
+{% hint style="info" %}
+위 과정이 적용된 예제 파일은 [hello-damda.md](../reference/samples/hello-damda.md "mention")에서 다운로드 가능합니다.
+{% endhint %}
+
+## 3. 컴포넌트 등록하기
 
 1. DAMDA Console([http://damda.lge.com](http://damda.lge.com))에 접속하고 본인의 계정을 이용하여 로그인을 합니다.&#x20;
 
@@ -39,6 +56,10 @@ index.html 파일명으로 아래 코드를 작성해주세요.
 
 4\. **컴포넌트명**과 **설명**을 입하고 '**다음**' 버튼을 클릭하여 컴포넌트 추가 설정 화면으로 이동합니다.&#x20;
 
+{% hint style="danger" %}
+컴포넌트명을 입력할 때는 _`com.<본인계정명>.sample.hellodamda`_ 로 작성해야 컴포넌트명의 충돌이 일어나지 않습니다.&#x20;
+{% endhint %}
+
 <figure><img src="../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption><p>[DAMDA Console] 컴포넌트 생성 - 추가설</p></figcaption></figure>
 
 5\. '**코드**' 항목의 '**추가**' 버튼을 이용하여 2단계에서 생성된 zip 파일을 추가한 뒤 '**저장**' 버튼을 통해 컴포넌트를 저장합니다.
@@ -53,7 +74,7 @@ index.html 파일명으로 아래 코드를 작성해주세요.
 
 <figure><img src="../.gitbook/assets/image (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
-2\. 내 컴포넌트(`com.damda.sample.hellodamda`)와 웹서버 퍼블릭 컴포넌트(`com.damda.webserver`)만 남겨두고 나머지는 모두 **제외** 버튼을 통해 삭제합니다. _(_※ _퍼블릭 컴포넌트는 자동으로 추가되기 때문에 불필요한 컴포넌트는 배포 내용에서 제외합니다)_
+2\. 내 컴포넌트(`com.<본인계정명>.sample.hellodamda`)와 웹서버 퍼블릭 컴포넌트(`com.damda.webserver`)만 남겨두고 나머지는 모두 **제외** 버튼을 통해 삭제합니다. _(_※ _퍼블릭 컴포넌트는 자동으로 추가되기 때문에 불필요한 컴포넌트는 배포 내용에서 제외합니다)_
 
 3\. 화면 하단 **배포 대상**에 배포할 대상 **DAMDA 기기**를 선택합니다. (※ _DAMDA 기기의 정보는 '**디바이스**' 탭을 통해 확인 가능합니다_)
 
@@ -70,7 +91,7 @@ index.html 파일명으로 아래 코드를 작성해주세요.
 #### 1) DAMDA Console에서 확인하기
 
 DAMDA Console  **'디바이스'** 화면에서 배포된 기기를 선택(_'**Details**' 누름_)하면 오른쪽 하단에 컴포넌트 상태를 확인할 수 있습니다. \
-**내 컴포넌트(**_**`com.damda.sample.hellodamda`**_**)**의 상태가 "**FINISHED**" 이고, **웹 서버 퍼블릭 컴포넌트 (**_**`com.damda.webserver`**_**)**의 상태가 "**RUNNING**" 이면 정상적으로 배포된 상태입니다.&#x20;
+**내 컴포넌트(**_**`com.<본인계졍명>.sample.hellodamda`**_**)**의 상태가 "**FINISHED**" 이고, **웹 서버 퍼블릭 컴포넌트 (**_**`com.damda.webserver`**_**)**의 상태가 "**RUNNING**" 이면 정상적으로 배포된 상태입니다.&#x20;
 
 <figure><img src="../.gitbook/assets/image (7) (3).png" alt=""><figcaption></figcaption></figure>
 
