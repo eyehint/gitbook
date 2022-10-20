@@ -1,16 +1,12 @@
 # Configuration
 
-
-
-## Configuration
-
 Commands to manage DAMDA account information so that you can use functions such as component creation/deletion/deployment by accessing the DAMDA cloud with the DAMDA CLI
 
-### configure
+## configure
 
 Commands to set up a DAMDA account.
 
-Command
+### Command
 
 ```
 $ damda configure [OPTIONS]
@@ -18,9 +14,9 @@ $ damda configure [OPTIONS]
 #   --profile TEXT: [default:default]
 ```
 
-#### Usage
+### Usage
 
-Case 1) set up an DAMDA account with the default profile
+#### Case 1) set up an DAMDA account with the default profile
 
 ```
 $ damda configure
@@ -28,7 +24,7 @@ DAMDA ID [default]: <Enter DAMDA ID>
 DAMDA P/W[default]: <Enter DAMDA P/W>
 ```
 
-Case 2) set up an DAMDA account with the default profile
+#### Case 2) set up an DAMDA account with the default profile
 
 ```
 $ damda configure --profile test
@@ -36,54 +32,54 @@ DAMDA ID [test]: <Enter DAMDA ID>
 DAMDA P/W[test]: <Enter DAMDA P/W
 ```
 
-### get-configuration
+## get-configuration
 
 Command to get DAMDA account information for a specific profile.
 
-#### Command
+### Command
 
 <pre><code><strong>$ damda get-configuration [OPTIONS]
 </strong># OPTIONS:
 #    --profile TEXT: [default: default]</code></pre>
 
-#### Usage
+### Usage
 
-Case 1) set up an DAMDA account with the default profile
+#### Case 1) set up an DAMDA account with the default profile
 
 ```
 $ damda get-configuration
 {'id': '<DAMDA ID>', 'pw': '<DAMDA P/W>'}
 ```
 
-Case 2)set up an DAMDA account with the default profile
+#### Case 2)set up an DAMDA account with the default profile
 
 ```
 $ damda get-configuration --profile test
 {'id': '<DAMDA ID>', 'pw': '<DAMDA P/W>'}
 ```
 
-### list-configurations
+## list-configurations
 
 Retrieves a list of profiles. This list contains only profile names.
 
-#### Command
+### Command
 
 ```
 $ damda list-configurations
 ```
 
-#### Usage
+### Usage
 
 ```
 $ damda list-configurations
 ['default', 'test']
 ```
 
-### delete-configuration
+## delete-configuration
 
 Delete the configuration for a specific profile
 
-#### Command
+### Command
 
 ```
 $ damda delete-configuration [OPTIONS]
@@ -91,7 +87,7 @@ $ damda delete-configuration [OPTIONS]
 #    --profile TEXT: [required]
 ```
 
-#### Usage
+### Usage
 
 ```
 # The profile option is required for this command.
