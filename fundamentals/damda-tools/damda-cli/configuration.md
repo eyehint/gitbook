@@ -10,7 +10,7 @@ Commands to manage DAMDA account information so that you can use functions such 
 
 Commands to set up a DAMDA account.
 
-#### Command
+Command
 
 ```
 $ damda configure [OPTIONS]
@@ -36,11 +36,11 @@ DAMDA ID [test]: <Enter DAMDA ID>
 DAMDA P/W[test]: <Enter DAMDA P/W
 ```
 
-#### get-configuration
+### get-configuration
 
 Command to get DAMDA account information for a specific profile.
 
-Command
+#### Command
 
 <pre><code><strong>$ damda get-configuration [OPTIONS]
 </strong># OPTIONS:
@@ -60,4 +60,40 @@ Case 2)set up an DAMDA account with the default profile
 ```
 $ damda get-configuration --profile test
 {'id': '<DAMDA ID>', 'pw': '<DAMDA P/W>'}
+```
+
+### list-configurations
+
+Retrieves a list of profiles. This list contains only profile names.
+
+#### Command
+
+```
+$ damda list-configurations
+```
+
+#### Usage
+
+```
+$ damda list-configurations
+['default', 'test']
+```
+
+### delete-configuration
+
+Delete the configuration for a specific profile
+
+#### Command
+
+```
+$ damda delete-configuration [OPTIONS]
+# Options:
+#    --profile TEXT: [required]
+```
+
+#### Usage
+
+```
+# The profile option is required for this command.
+$ damda delete-configuration --profile default
 ```
