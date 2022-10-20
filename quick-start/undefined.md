@@ -2,7 +2,7 @@
 description: DAMDA를 사용하기 위한 환경 설정 방법을 설명합니다.
 ---
 
-# Step1. 개발환경 구성
+# 개발환경 구성하기
 
 ## Setup Environment <a href="#setup-environment" id="setup-environment"></a>
 
@@ -30,8 +30,9 @@ sudo apt install -y default-jdk unzip curl python3-pip libatlas-base-dev proj-bi
 Installer setup 파일을 다운 받습니다.
 
 {% hint style="warning" %}
-현재 설치파일은 공개 되어 있지 않습니다. \
-막바지 준비를 마치고, 해커톤 시작(11/02) 전에 공개 예정입니다!
+설치 파일 사내용으로 공개합니다. 사내망에서 다운받아 주시기 바랍니다.&#x20;
+
+업데이트 중인 기능들이 있어 일부 정상동작하지 않을 수 있습니다.
 {% endhint %}
 
 Installer setup 파일:&#x20;
@@ -41,13 +42,13 @@ Installer setup 파일:&#x20;
 
 {% code title="Raspberry Pi" %}
 ```shell
-curl -O https://damda-component-artifacts.s3.ap-northeast-2.amazonaws.com/installer/1.0.3/damda-installer_1.0.3-1_pi.deb
+curl -O http://10.178.133.16/damda-installer_1.0.3-1_pi.deb
 ```
 {% endcode %}
 
 {% code title="Ubuntu" %}
 ```shell
-curl -O https://damda.s3.ap-northeast-2.amazonaws.com/installer/damda-installer_1.0.3-1_ubuntu.deb
+# 업데이트 예
 ```
 {% endcode %}
 
