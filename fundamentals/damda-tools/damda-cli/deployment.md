@@ -76,8 +76,8 @@ ion-file ./deployment_config.json
 ## list-deployments
 
 * Retrieves the list of deployment results of a specific device.
-  * Either --device-id or --device-alias is required.
-    * However, --device-alias is not yet supported.
+* Either --device-id or --device-alias is required.
+  * **However, --device-alias is not yet supported.**
 
 ### Command
 
