@@ -75,7 +75,7 @@ hellodamda.zip\
 
 <figure><img src="../.gitbook/assets/image (1) (1) (2).png" alt=""><figcaption><p>DAMDA Console 배포할 컴포넌트 선택</p></figcaption></figure>
 
-2\. 내 컴포넌트(`com.<본인계정명>.sample.hellodamda`)와 웹서버 퍼블릭 컴포넌트(`com.damda.webserver`)만 남겨두고 나머지는 모두 **제외** 버튼을 통해 삭제합니다. _(_※ _퍼블릭 컴포넌트는 자동으로 추가되기 때문에 불필요한 컴포넌트는 배포 내용에서 제외합니다)_
+2\. 내가 선택한 컴포넌트와 퍼블릭 컴포넌트들이 포함되어 배포 리스트가 만들어집니다. 제외 버튼을 통해 사용하지 않을 컴포넌트는 삭제할 수 있습니다. <mark style="color:red;">배포 목에서 제외된 컴포넌트는 DAMDA 기기에서 제거되니 주의 바랍니다.</mark> 이 예제를 정상적으로 실행하기 위해서 <mark style="color:red;">**내 컴포넌트(com.<본인계정명>.sample.hellodamda)와 웹서버 퍼블릭 컴포넌트(com.damda.webserver)는 반드시 포함**</mark>되어야합니다.
 
 3\. 화면 하단 **배포 대상**에 배포할 대상 **DAMDA 기기**를 선택합니다. (※ _DAMDA 기기의 정보는 '**디바이스**' 탭을 통해 확인 가능합니다_)
 
