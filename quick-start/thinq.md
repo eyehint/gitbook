@@ -133,7 +133,7 @@ node {root}/control_app/index.js
 
 마지막으로 requirePrivilege를 true로 설정하고 Component를 저장합니다.&#x20;
 
-<figure><img src="../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ****
 

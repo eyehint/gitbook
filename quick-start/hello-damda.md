@@ -80,12 +80,12 @@ hellodamda.zip\
 3\. 화면 하단 **배포 대상**에 배포할 대상 **DAMDA 기기**를 선택합니다. (※ _DAMDA 기기의 정보는 '**디바이스**' 탭을 통해 확인 가능합니다_)\
 
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>DAMDA Console 배포 작업 생성</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>DAMDA Console 배포 작업 생성</p></figcaption></figure>
 
 4\. '배포 요청' 버튼을 클릭하면 배포가 시작되고 배포 과정이 화면 하단에 표시됩니다.\
 
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>DAMDA Console 배포 진행 중</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption><p>DAMDA Console 배포 진행 중</p></figcaption></figure>
 
 5\. '배포 완료' 표시를 통해 컴포넌트의 배포가 완료된 것을 확인할 수 있습니다. &#x20;
 

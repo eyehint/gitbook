@@ -15,7 +15,7 @@ description: 컴포넌트 생성 창에서 입력해야 하는 각 항목에 대
 
 예를들어 hellodamda.zip 압축을 해제하면 아래와 같이 구성하는 컴포넌트를 구성하는 파일들이 바로 보여야 합니다.&#x20;
 
-![](<../../../.gitbook/assets/image (2) (2) (3).png>)
+![](<../../../.gitbook/assets/image (2) (2).png>)
 {% endhint %}
 
 ### 컴포넌트 기본 정보 설정

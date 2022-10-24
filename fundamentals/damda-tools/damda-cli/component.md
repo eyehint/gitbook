@@ -42,7 +42,7 @@ $ damda create-component [OPTIONS]
 
 Recommanded Component structure (example)
 
-<figure><img src="../../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (25) (2).png" alt=""><figcaption></figcaption></figure>
 
 ```
 # com.example.first_0.0.1.json
