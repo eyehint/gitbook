@@ -19,40 +19,6 @@ description: 가전 API를 활용한 샘플코드 입니다.
 
 * [com.damda.thinq-backend-api](../api-reference/api/undefined.md)
 
-
-
-### 웹 애플리케이션 로컬에서 실행
-
-◎ 로컬에서의 실행은 코드가 정상인지 확인하는 용도이며 백엔드 연동이 안되어 프로그램이 정상적으로 동작하지는 않습니다.
-
-{% file src="../../.gitbook/assets/thinq-web-front-example.zip" %}
-
-1. 상단의 샘플 코드 다운로드
-2.  /src/views 폴더 내 Device.vue, Login.vue의 코드 수정
-
-    1. Device  vue:  ThinQ Connect Key
-    2. Login.vue: EMP Key             &#x20;
-
-    ```javascript
-    ...
-    </template>
-
-    <script>
-    ...
-    const clientId = 발급 받은 client_id 입력
-    const clientSecret = 발급 client_secret 입
-    ```
-3. &#x20;                                                                          q
-4.  압축 해제 후 터미널에서 다음 명령 실행
-
-    ```
-    npm install
-    npm run build
-    ```
-5. [http://localhost:9001](http://localhost:9001/) 로 접속하여 로그인 페이지 확인
-
-
-
 ### 웹 애플리케이션 Damda 컴포넌트로 실행
 
 **컴포넌트 생성**
@@ -76,6 +42,7 @@ description: 가전 API를 활용한 샘플코드 입니다.
     ```
     npm install
     npm run buil
+    npm run serve
     ```
 4. [http://localhost:9001](http://localhost:9001/) 로 접속하여 로그인 페이지 확인
 5.  빌드된 웹 어플리케이션 파일 압축하기 (thinqweb.zip)
