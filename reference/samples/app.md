@@ -30,6 +30,9 @@ description: 가전 API를 활용한 샘플코드 입니다.
 1. 상단의 샘플 코드 다운로드
 2.  /src/views 폴더 내 Device.vue, Login.vue의 코드 수정
 
+    1. Device  vue:  ThinQ Connect Key
+    2. Login.vue: EMP Key             &#x20;
+
     ```javascript
     ...
     </template>
@@ -39,13 +42,14 @@ description: 가전 API를 활용한 샘플코드 입니다.
     const clientId = 발급 받은 client_id 입력
     const clientSecret = 발급 client_secret 입
     ```
-3.  압축 해제 후 터미널에서 다음 명령 실행
+3. &#x20;                                                                          q
+4.  압축 해제 후 터미널에서 다음 명령 실행
 
     ```
     npm install
     npm run build
     ```
-4. [http://localhost:9001](http://localhost:9001/) 로 접속하여 로그인 페이지 확인
+5. [http://localhost:9001](http://localhost:9001/) 로 접속하여 로그인 페이지 확인
 
 
 
