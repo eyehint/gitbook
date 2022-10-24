@@ -179,7 +179,7 @@ DAMDA Device ID: Damda-V2-ZAhi2pjmSpatGd4ITFl5zA
 
 [damda console](http://damda.lge.com/home)에도 디바이스가 만들어 진 것을 확인할 수 있습니다
 
-<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (24) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
