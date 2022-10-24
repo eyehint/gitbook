@@ -8,7 +8,11 @@ description: DAMDA제품을 ThinQ에 등록하여 ThinQ앱과 연동합니다.
 
 라즈베리파이에서 **DAMDA Home 앱**을 실행 시킵니다.&#x20;
 
+![](<../.gitbook/assets/image (34).png>)
+
 Home 에서 **'ThinQ에 내 제품으로 등록하기**'를 클릭합니다.&#x20;
+
+<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption><p>DAMDA Home 첫 화면</p></figcaption></figure>
 
 ThinQ 로그인을 할 수 있는 앱이 실행되어 Pin/QR코드가 화면에 보입니다.
 
