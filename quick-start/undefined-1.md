@@ -65,7 +65,7 @@ component명은 자유롭게 사용할 수 있으나 다른 사용자의 컴포�
 
 디버깅 콘솔을 사용하기 위해서는 damda 사이트 설정에서 안전하지 않은 컨텐츠 허용을 해주셔야 합니다.
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (3).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (1) (8).png" alt=""><figcaption></figcaption></figure>
 

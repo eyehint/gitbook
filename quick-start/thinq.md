@@ -8,11 +8,11 @@ description: DAMDA제품을 ThinQ에 등록하여 ThinQ앱과 연동합니다.
 
 라즈베리파이에서 **DAMDA Home 앱**을 실행 시킵니다.&#x20;
 
-![](<../.gitbook/assets/image (34).png>)
+![](<../.gitbook/assets/image (34) (1).png>)
 
 Home 에서 **'ThinQ에 내 제품으로 등록하기**'를 클릭합니다.&#x20;
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption><p>DAMDA Home 첫 화면</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (2).png" alt=""><figcaption><p>DAMDA Home 첫 화면</p></figcaption></figure>
 
 ThinQ 로그인을 할 수 있는 앱이 실행되어 Pin/QR코드가 화면에 보입니다.
 
@@ -38,7 +38,7 @@ DAMDA 기기가 정상적으로 등록이 완료되면 해당 기기 정보를 L
 
 본인의 LG ThinQ 앱 화면에 아래와 같이 "**DAMDA 제품**" 카드가 정상적으로 나타나는지 확인해 보세요
 
-<img src="../.gitbook/assets/image (19).png" alt="" data-size="original">
+<img src="../.gitbook/assets/image (4).png" alt="" data-size="original">
 
 ## 3. ThinQ 연동 샘플 컴포넌트 배포하기 (Control app)
 
@@ -133,7 +133,7 @@ node {root}/control_app/index.js
 
 마지막으로 requirePrivilege를 true로 설정하고 Component를 저장합니다.&#x20;
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (7).png" alt=""><figcaption></figcaption></figure>
 
 ****
 

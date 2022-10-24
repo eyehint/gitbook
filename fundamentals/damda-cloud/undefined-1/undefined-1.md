@@ -12,7 +12,7 @@ DAMDA Console에 접속하여 컴포넌트 탭으로 이동합니다.
 
 '내 컴포넌트' 중 배포하고 싶은 컴포넌트를 선택하고 배포하기를 클릭합니다.
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>배포할 컴포넌트 선택</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (8).png" alt=""><figcaption><p>배포할 컴포넌트 선택</p></figcaption></figure>
 
 {% hint style="info" %}
 내 컴포넌트가 하나라도 포함되야 배포하기 클릭이 가능합니다.&#x20;
@@ -38,7 +38,7 @@ DAMDA Console에 접속하여 컴포넌트 탭으로 이동합니다.
 
 '배포 요청' 버튼을 누르면 배포를 진행할 것인지 확인하는 팝업이 나타납니다.
 
-<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption><p>배포 생성 확인 팝업</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (5).png" alt=""><figcaption><p>배포 생성 확인 팝업</p></figcaption></figure>
 
 '예'를 누르면 배포가 시작됩니다. 배포가 완료되는 것을 기다립니다. 이 창을 닫아도 배포는 계속 진행됩니다.
 
@@ -62,7 +62,7 @@ Damda Console에서 디바이스 탭으로 이동합니다.&#x20;
 DAMDA에서 필요한 필수 컴포넌트들은 항상 함께 배포 됩니다. 따라서 컴포넌트 상태 창에는 직접 배포하지 않은 컴포넌트가 존재할 수 있습니다.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption><p>디바이스 상세 정보</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (14) (1).png" alt=""><figcaption><p>디바이스 상세 정보</p></figcaption></figure>
 
 마지막 배포 기준으로 배포상태가 업데이트 되므로, 배포한 시간이 맞는지 확인합니다. \
 배포상태가 **COMPLETE, SUCCESSFUL**이면 배포가 성공한 것입니다. \

@@ -38,7 +38,7 @@ damda 플랫폼을 이용한 작업은 개발 PC에서 damda 디바이스로 실
 * 홈허브에 탑재되었으면 하는 기능/서비스를 개발 → **DAMDA개발환경**
 * 허브가 ThinQ앱 안에서 동작되었으면 하는 기능/서비스를 개발 → **ThinQ앱플랫폼**
 
-<figure><img src=".gitbook/assets/image (8) (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 ## DAMDA 지금 시작하기 <a href="#damda-4" id="damda-4"></a>
 
