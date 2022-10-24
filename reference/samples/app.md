@@ -74,7 +74,7 @@ description: 가전 API를 활용한 샘플코드 입니다.
 
     * **Script** : 코드가 디바이스에 설치 후 '**실행'** 단계에서 실행될 스크립트
     * ```
-      npx http-server {root}/dist -p 9019
+      npx http-server {root}/thinqweb -p 9019
       ```
 12. 컴포넌트 생성 완료
 
