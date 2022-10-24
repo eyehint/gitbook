@@ -22,7 +22,7 @@
 
 라즈베리파이에서 `메뉴 -> 기타 -> DAMDA Debugging Console` 을 클릭하여 접속할 수 있습니다.
 
-![](../../.gitbook/assets/image.png)
+![](<../../.gitbook/assets/image (3).png>)
 
 
 
@@ -42,7 +42,7 @@
 
 유저가 /var/log/damda 안에 남긴 로그를 모니터링 할 수 있습니다.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (9).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (7) (2) (1).png" alt=""><figcaption></figcaption></figure>
 

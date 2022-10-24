@@ -133,7 +133,7 @@ node {root}/control_app/index.js
 
 마지막으로 requirePrivilege를 true로 설정하고 Component를 저장합니다.&#x20;
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 ****
 
@@ -146,7 +146,8 @@ node {root}/control_app/index.js
 
 <figure><img src="../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
 
-\[Optional] 디버깅 콘솔에 다음과 같은 화면이 나타나면 정상적으로 배포된 것임을 확인할 수 있습니다. ([undefined-1.md](undefined-1.md "mention")를 참고하세요)
+\[Optional] 디버깅 콘솔에 다음과 같은 화면이 나타나면 정상적으로 배포된 것임을 확인할 수 있습니다. \
+([undefined-1.md](undefined-1.md "mention")를 참고하세요)
 
 
 
