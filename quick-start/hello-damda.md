@@ -53,7 +53,7 @@ hellodamda.zip\
 3\. '**컴포넌트 생성**' 버튼을 클릭하면 컴포넌트 생성 팝업이 나타납니다. \
 
 
-<figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption><p>[DAMDA Console] 컴포넌트 생성</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (34) (2).png" alt=""><figcaption><p>[DAMDA Console] 컴포넌트 생성</p></figcaption></figure>
 
 4\. **컴포넌트명**과 **설명**을 입력하고 태그에는 Key "AppName", Value "Hello DAMDA" 를 입력해줍니다. 각 항목을 입력한 후 + 버튼을 눌러주면 태그값이 추가됩니다. '**다음**' 버튼을 클릭하여 컴포넌트 추가 설정 화면으로 이동합니다.&#x20;
 
@@ -102,7 +102,7 @@ DAMDA 기기 내 [DAMDA Home](../fundamentals/damda/damda-home.md)을 실행하�
 내가 설치한 컴포넌트의 Icon을 선택(더블클릭)하면 브라우져를 통하여 해당 컴포넌트의 화면(index.html)의 화면을 확인할 수 있습니다. \
 
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption><p>DAMDA Home 화면</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (5).png" alt=""><figcaption><p>DAMDA Home 화면</p></figcaption></figure>
 
 #### 3) 개발 PC에서 확인하기
 

@@ -14,7 +14,7 @@ DAMDA 설치 후 사용할 수 있습니다
 
 "메뉴 > 기타 > DAMDA Home"을 통해 실행할 수 있습니다
 
-![](<../../.gitbook/assets/image (18).png>)
+![](<../../.gitbook/assets/image (34).png>)
 
 Home의 첫화면에서 **시간 및 지역기반 날씨정보**, 그리고 **DAMDA Hub앱**이 있는 것을 확인할 수 있습니다.
 
@@ -75,7 +75,7 @@ webOSTV가 같은 네트워크 상에 있다면, TV를 등록하고 제어 해�
 2. TV의 IP정보를 입력해줍니다
 3.  "추가하기"버튼을 눌러줍니다.
 
-    <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>기기 추가 정보 입력</p></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>기기 추가 정보 입력</p></figcaption></figure>
 4. 잠시 기다리면 TV 카드가 추가된 것을 확인할 수 있습니다.\
    ![](<../../.gitbook/assets/image (12).png>)
 
@@ -92,6 +92,6 @@ webOSTV가 같은 네트워크 상에 있다면, TV를 등록하고 제어 해�
 2.  기기 제어 패널에서 setVolume에 원하는 값을 입력합니다. \
 
 
-    <figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption><p>기기 제어 카드 (webOSTV setVolume 예제)</p></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (21) (3).png" alt=""><figcaption><p>기기 제어 카드 (webOSTV setVolume 예제)</p></figcaption></figure>
 3. "실행하기"를 클릭합니다.&#x20;
 4. TV의 볼륨이 2로 설정됩니다.&#x20;

@@ -1,12 +1,28 @@
 # DAMDA Debugging Console
 
-## 주의사항
+## 실행방법
 
-디버깅 콘솔을 사용하기 위해서는 damda 사이트 설정에서 안전하지 않은 컨텐츠 허용을 해주셔야 합니다.
+### DAMDA Console을 통해서 실행하기
+
+`DAMDA Console -> 디바이스 탭 -> 배포한 디바이스 ID 오른쪽에 detail 클릭 -> 디버깅 콘솔 버튼을 클릭`하여 디버깅 콘솔에 접속할 수 있습니다.
+
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+
+#### 주의사항
+
+디버깅 콘솔을 사용하기 위해서는 damda 사이트 설정에서 <mark style="color:red;">안전하지 않은 컨텐츠 허용</mark>을 해주셔야 합니다.
 
 <figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (1) (8).png" alt=""><figcaption></figcaption></figure>
+
+
+
+### 라즈베리파이에서 실행하기
+
+라즈베리파이에서 `메뉴 -> 기타 -> DAMDA Debugging Console` 을 클릭하여 접속할 수 있습니다.
+
+![](../../.gitbook/assets/image.png)
 
 
 
@@ -36,7 +52,13 @@
 
 <figure><img src="../../.gitbook/assets/image (6) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
+## 이슈 전송
 
+이슈 전송 메뉴를 통하여 damda-admin에 버그 리포트를 할 수 있습니다. 자동으로 시스템 로그가 함 전송됩니다.
+
+<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+
+## 사용 예제 동영상
 
 아래는 Damda Debugging Tool 작동 예제 동영상 입니다.&#x20;
 
