@@ -4,7 +4,7 @@ description: DAMDA기기에 첫 어플리케이션 코드 배포합니다.
 
 # Hello DAMDA 따라하기
 
-## 1. "Hello DAMDA" 작성하기&#x20;
+## 1. "Hello DAMDA" 작성해보기&#x20;
 
 index.html 파일명으로 아래 코드를 작성해주세요.
 
