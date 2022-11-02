@@ -77,7 +77,7 @@ webOSTV가 같은 네트워크 상에 있다면, TV를 등록하고 제어 해�
 
     <figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p>기기 추가 정보 입력</p></figcaption></figure>
 4. 잠시 기다리면 TV 카드가 추가된 것을 확인할 수 있습니다.\
-   ![](<../../.gitbook/assets/image (12) (3) (1).png>)
+   ![](<../../.gitbook/assets/image (12) (3).png>)
 
 ### 서브기기 제어하기
 

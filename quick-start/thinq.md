@@ -159,6 +159,13 @@ node {root}/control_app/index.js
 
 TPA 개발 가이드는 [https://thinqapp.developer.lge.com/ko/documentation/get-started/tpa-quick-start/](https://thinqapp.developer.lge.com/ko/documentation/get-started/tpa-quick-start/) 를 참고해주세요
 
+{% hint style="info" %}
+TPA를 사용하기 위해서는 ThinQ앱 설정을 변경하여야 합니다. 자세한 가이드는 아래 링크를 확인해주세요.
+
+[https://thinqapp.developer.lge.com/index.php/ko/documentation/development/ihm-development/ihm\_development\_guide/](https://thinqapp.developer.lge.com/index.php/ko/documentation/development/ihm-development/ihm\_development\_guide/)
+{% endhint %}
+
 ## 5. ThinQ 연동 샘플 실행결과
 
 업데이트 예정입니다. &#x20;
+
