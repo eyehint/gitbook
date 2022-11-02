@@ -24,7 +24,7 @@
     * [계정 생성하기](fundamentals/damda-cloud/undefined/undefined.md)
     * [기타](fundamentals/undefined.md)
   * [컴포넌트 관리](fundamentals/damda-cloud/undefined-1/README.md)
-    * [DAMDA Public Component](fundamentals/damda-cloud/undefined-1/damda-public-component.md)
+    * [DAMDA Components](fundamentals/damda-cloud/undefined-1/damda-components.md)
     * [컴포넌트 생성하기](fundamentals/damda-cloud/undefined-1/undefined.md)
     * [컴포넌트 배포하기](fundamentals/damda-cloud/undefined-1/undefined-1.md)
 * [DAMDA Tools](fundamentals/damda-tools/README.md)
