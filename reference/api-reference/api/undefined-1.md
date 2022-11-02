@@ -16,4 +16,4 @@
 4. device-id와 제어 명령을 이용하여 [가전 제어 API](undefined-1.md)(POST /devices/{device-id})를 호출합니다.
 5. API 응답으로 가전 제어 결과를 반환받습니다.
 
-![](https://developer.damda.lge.com/assets/img/thinq2.png)
+<figure><img src="https://developer.damda.lge.com/assets/img/thinq2.png" alt=""><figcaption></figcaption></figure>

@@ -6,7 +6,7 @@ description: DAMDA 제품에 배포한 내 컴포넌트를 디버깅하기 위�
 
 ## 1. Debugging 용 Test Component 코드 작성
 
-내 코드의 로그를 [Debugging Console](../fundamentals/damda-tools/debugging-console.md)에서 보기 위해서는,\
+내 코드의 로그를 [Debugging Console](../fundamentals/page-1/debugging-console.md)에서 보기 위해서는,\
 &#x20;   1\.  로그가 json type으로 작성되어야 합니다\
 &#x20;   2\. json 안에는 level, message, function, timestamp의 요소가 들어가야 합니다.\
 &#x20;   3\. Log File의 path는 `/var/log/damda/`아래에 저장합니다. 파일명은 자유롭게 사용할 수 있습니다.
@@ -53,28 +53,22 @@ component명은 자유롭게 사용할 수 있으나 다른 사용자의 컴포�
 
 자세한 컴포넌트 생성 가이드는 [컴포넌트 생성](../fundamentals/damda-cloud/undefined-1/undefined.md) 페이지를 참고하세요
 
-<figure><img src="../.gitbook/assets/image (16) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (8) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (175).png" alt=""><figcaption></figcaption></figure>
 
 아래와 같이 생성된 component의 배포를 진행합니다.
 
-<figure><img src="../.gitbook/assets/image (10) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
 
 ## 3.Debugging Console
 
-디버깅 콘솔을 사용하기 위해서는 damda 사이트 설정에서 안전하지 않은 컨텐츠 허용을 해주셔야 합니다.
-
-<figure><img src="../.gitbook/assets/image (10) (3).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/image (1) (8).png" alt=""><figcaption></figcaption></figure>
-
 `DAMDA Console -> 디바이스 탭 -> 배포한 디바이스 ID 오른쪽에 detail 클릭 -> 디버깅 콘솔 버튼을 클릭`하여 디버깅 콘솔에 접속할 수 있습니다.
 
-<figure><img src="../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
 
 디버깅 콘솔 관련된 상세한 내용은 아래 페이지에서 확인해주세요
 
-{% content-ref url="../fundamentals/damda-tools/debugging-console.md" %}
-[debugging-console.md](../fundamentals/damda-tools/debugging-console.md)
+{% content-ref url="../fundamentals/page-1/debugging-console.md" %}
+[debugging-console.md](../fundamentals/page-1/debugging-console.md)
 {% endcontent-ref %}

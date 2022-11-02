@@ -8,15 +8,15 @@ description: DAMDA제품을 ThinQ에 등록하여 ThinQ앱과 연동합니다.
 
 라즈베리파이에서 **DAMDA Home 앱**을 실행 시킵니다.&#x20;
 
-![](<../.gitbook/assets/image (34) (1).png>)
+![](<../.gitbook/assets/image (5).png>)
 
 Home 에서 **'ThinQ에 내 제품으로 등록하기**'를 클릭합니다.&#x20;
 
-<figure><img src="../.gitbook/assets/image (13) (2).png" alt=""><figcaption><p>DAMDA Home 첫 화면</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (81).png" alt=""><figcaption><p>DAMDA Home 첫 화면</p></figcaption></figure>
 
 ThinQ 로그인을 할 수 있는 앱이 실행되어 Pin/QR코드가 화면에 보입니다.
 
-<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (106).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 생성된 Pin/QR 코드는 **60초 동안**만 유효합니다. 시간이 지난 경우 '**갱신**' 버튼을 통해 새로 발급을 받아야 사용이 가능합니다.
@@ -26,7 +26,7 @@ ThinQ 로그인을 할 수 있는 앱이 실행되어 Pin/QR코드가 화면에 
 
 **'설정' > 'ThinQ 계정 공유'** 메뉴를 선택하고 앱에서 제공하는 Pin 코드 또는 QR 코드 로그인을 진행합니다.&#x20;
 
-<figure><img src="../.gitbook/assets/image (11) (2) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (122).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 ThinQ 계정 정보가 DAMDA 기기로 전달되어 자동으로 DMADA 기기가 ThinQ 서버에 등록되는 과정이 진행됩니다.&#x20;
@@ -38,7 +38,7 @@ DAMDA 기기가 정상적으로 등록이 완료되면 해당 기기 정보를 L
 
 본인의 LG ThinQ 앱 화면에 아래와 같이 "**DAMDA 제품**" 카드가 정상적으로 나타나는지 확인해 보세요
 
-<img src="../.gitbook/assets/image (4).png" alt="" data-size="original">
+<img src="../.gitbook/assets/image (174).png" alt="" data-size="original">
 
 ## 3. ThinQ 연동 샘플 컴포넌트 배포하기 (Control app)
 
@@ -109,7 +109,7 @@ control\_app.zip\
 
 **Step 4.** DAMDA Console([https://damda.lge.com/](https://damda.lge.com))에 접속하여 Component를 등록합니다.
 
-<figure><img src="../.gitbook/assets/image (6) (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (139).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 컴포넌트 이름을 com.damda.sample.control\_app 으로 작성해야 합니다.&#x20;
@@ -133,7 +133,7 @@ node {root}/control_app/index.js
 
 마지막으로 requirePrivilege를 true로 설정하고 Component를 저장합니다.&#x20;
 
-<figure><img src="../.gitbook/assets/image (2) (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
 
 ****
 
@@ -144,7 +144,7 @@ node {root}/control_app/index.js
 반드시 포함하여 배포하여 주시기 바랍니다.&#x20;
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
 
 \[Optional] 디버깅 콘솔에 다음과 같은 화면이 나타나면 정상적으로 배포된 것임을 확인할 수 있습니다. \
 ([undefined-1.md](undefined-1.md "mention")를 참고하세요)
@@ -157,7 +157,7 @@ node {root}/control_app/index.js
 
 업데이트 예정입다. &#x20;
 
-TPA 개발 가이드는 [https://thinqapp.developer.lge.com/ko/documentation/development/ihm-development/ihm\_development\_guide/ ](https://thinqapp.developer.lge.com/ko/documentation/development/ihm-development/ihm\_development\_guide/)를 참고해주세요
+TPA 개발 가이드는 [https://thinqapp.developer.lge.com/ko/documentation/get-started/tpa-quick-start/](https://thinqapp.developer.lge.com/ko/documentation/get-started/tpa-quick-start/) 를 참고해주세요
 
 ## 5. ThinQ 연동 샘플 실행결과
 
