@@ -1,2 +1,0 @@
-# DAMDA Installer
-

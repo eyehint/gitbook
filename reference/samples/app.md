@@ -70,7 +70,7 @@ description: 가전 API를 활용한 샘플코드 입니다.
 10. '**코드**' 항목의 '**추가**' 버튼을 이용하여 4단계에서 압축해둔 파일을 업로드합니다.
 11. '**실행 스크립트**' 항목의 '**작성**' 버튼을 이용하여 실행 단계에서 사용할 실행 스크립트를 작성합니다.
 
-    <figure><img src="../../.gitbook/assets/스크린샷 2022-10-14 오후 2.44.50 (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/스크린샷 2022-10-14 오후 2.44.50.png" alt=""><figcaption></figcaption></figure>
 
     * **Script** : 코드가 디바이스에 설치 후 '**실행'** 단계에서 실행될 스크립트
     * ```

@@ -22,7 +22,7 @@ description: DAMDA를 사용하기 위한 환경 설정 방법을 설명합니�
 필수 패키지 들을 설치합니다.
 
 ```shell
-sudo apt install -y default-jdk unzip curl python3-pip libatlas-base-dev proj-bin proj-data libproj-dev libgeos-dev libgdal-dev python3-virtualenv docker.io docker-compose npm nodejs
+sudo apt install -y default-jdk unzip curl python3-pip libatlas-base-dev proj-bin proj-data libproj-dev libgeos-dev libgdal-dev python3-virtualenv docker.io docker-compose npm nodejs mosquitto mosquitto-clients
 ```
 
 ### Step3: Download Installer
@@ -91,7 +91,7 @@ sudo apt install ./damda-installer_1.0.3-1_ubuntu.deb
 {% hint style="info" %}
 설치 후, 아래와 같이 커널 업그레이드 안내가 나오는 경우가 있습니다.\
 확인하고 계속 진행해주세요\
-<img src="../.gitbook/assets/image (132).png" alt="" data-size="original">
+<img src="../.gitbook/assets/image (6) (3).png" alt="" data-size="original">
 {% endhint %}
 {% endtab %}
 
@@ -124,26 +124,26 @@ DAMDA Installer CLI Version: 1.0.3
 2.  DAMDA 계정과 디바이스를 연동하기위하여 DAMDA계정으로 로그인을 진행합니다.\
     Installer에 DAMDA id와 password 입력합니다.&#x20;
 
-    <figure><img src="../.gitbook/assets/image (40).png" alt=""><figcaption><p>Installer 로그인 창</p></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (17) (1).png" alt=""><figcaption><p>Installer 로그인 창</p></figcaption></figure>
 3.  "Install" 버튼 클릭합니다.&#x20;
 
-    <figure><img src="../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (7) (4).png" alt=""><figcaption><p>Install / Uninstall 선택화면</p></figcaption></figure>
 4.  설치가 완료되면 "Next" 버튼을 눌러 다음단계로 이동합니다. \
     (설치 과정은 약 10분 정도 소요됩니다. 네트워크 환경에 따라 더 오래 소요될 수 있습니다.)
 
     <figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fl3Km0lGSEvAZ1z7FtNCb%2Fuploads%2FiVEw9LLe2TVUGYZgOPBq%2Fimage.png?alt=media&#x26;token=7bd85b06-c8f6-468d-a9fb-79c896a2a43b" alt=""><figcaption><p>설치 진행 중</p></figcaption></figure>
 
-    <figure><img src="../.gitbook/assets/image (172).png" alt=""><figcaption><p>설치 완료 상태</p></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (3) (3).png" alt=""><figcaption><p>설치 완료 상태</p></figcaption></figure>
 5.  설치 과정이 완료 된 것을 확인합니다. \
     앞으로 컴포넌트 배포할 때 필요한 정보인, DAMDA 기기명을 확인할 수 있습니다.
 
-    <figure><img src="../.gitbook/assets/image (90).png" alt=""><figcaption><p>설치 완료 확인</p></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (37).png" alt=""><figcaption><p>설치 완료 확인</p></figcaption></figure>
 6.  설치 완료 화면에서 ID 확인을 못한 경우 Installer를 다시 실행해서 확인할 수도 있습니다.
 
-    <figure><img src="../.gitbook/assets/image (98).png" alt=""><figcaption><p>Installer 첫화면에서 기기명 확인</p></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption><p>Installer 첫화면에서 기기명 확인</p></figcaption></figure>
 7.  [DAMDA Console](http://damda.lge.com/)의 디바이스 탭에서 동일한 디바이스 ID로 기기가 생성된 것을 확인할 수 있습니다.
 
-    <figure><img src="../.gitbook/assets/image (142).png" alt=""><figcaption><p>DAMDA Console 디바이스 탭에서 기기명 확인</p></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>DAMDA Console 디바이스 탭에서 기기명 확인</p></figcaption></figure>
 8. 이제 라즈베리파이가 DAMDA 디바이스가 되었습니다. 컴포넌트를 배포할 수 있는 준비가 완료되었습니다!
 {% endtab %}
 
@@ -179,10 +179,10 @@ DAMDA Device ID: Damda-V2-ZAhi2pjmSpatGd4ITFl5zA
 
 [damda console](http://damda.lge.com/home)에도 디바이스가 만들어 진 것을 확인할 수 있습니다
 
-<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (24) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
 {% hint style="info" %}
-'메뉴 > 기타'에서 DAMDA Home앱이 설치된 것을 확인할 수 있습니다. [DAMDA Home앱](../fundamentals/page-1/damda-home.md)에서는 설치된 컴포넌트 리스트 확인 등 다양한 기능을 사용할 수 있습니다.&#x20;
+'메뉴 > 기타'에서 DAMDA Home앱이 설치된 것을 확인할 수 있습니다. [DAMDA Home앱](../fundamentals/damda/damda-home.md)에서는 설치된 컴포넌트 리스트 확인 등 다양한 기능을 사용할 수 있습니다.&#x20;
 {% endhint %}

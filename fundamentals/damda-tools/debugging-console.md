@@ -22,7 +22,7 @@
 
 라즈베리파이에서 `메뉴 -> 기타 -> DAMDA Debugging Console` 을 클릭하여 접속할 수 있습니다.
 
-![](<../../.gitbook/assets/image (16).png>)
+![](<../../.gitbook/assets/image (34) (1).png>)
 
 
 
