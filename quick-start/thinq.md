@@ -209,4 +209,4 @@ npm run thinq_tpa -- DoB -n EXA
 
 ## 5. ThinQ 연동 샘플 실행결과
 
-{% embed url="http://10.178.133.19/poc/3.thinq.mp4" %}
+{% embed url="http://10.178.133.16/poc/3.thinq.mp4" %}
