@@ -195,6 +195,10 @@ Script 항목에서 '+'를 누르면 스크립트를 입력할 수 있는 칸이
 
 컴포넌트 코드의 root 경로에 index.html을 추가합니다. Home에서 앱(컴포넌트)의 아이콘을 클릭하면 정의한 index.html 페이지를 실행합니다. 예시로 [Hello Damda](../../../quick-start/hello-damda.md)를 참고할 수 있습니다.
 
+이때 <mark style="color:red;">**zip파일명과 컴포넌트 명의 suffix와 반드시 동일**</mark>해야합니다.
+
+예를 들어, 컴포넌트명이 **com.damda.sample.hellodamda** 이면 zip파일은 **hellodamda.zip**로 만들어야 합니다. 다른이름으로 zip파일을 생성할 경우, index.html이 인식되지 않습니다.
+
 ### Frontend와 Backend를 각각의 zip파일로 분리한 컴포넌트
 
 업데이트 예정입니다.

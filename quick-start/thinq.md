@@ -191,7 +191,7 @@ TPA를 사용하기 위해서는 ThinQ앱 설정을 변경하여야 합니다. �
 
 {% file src="../.gitbook/assets/EXA_221025.zip" %}
 
-![](<../.gitbook/assets/image (5).png>)
+![](<../.gitbook/assets/image (5) (1).png>)
 
 **Step 2.** DAMDA ThinQ Agent API (GET http://{device IP}/device )를 이용하여 기기의 Device ID를 확인합니다.&#x20;
 
@@ -209,7 +209,7 @@ npm run thinq_tpa -- DoB -n EXA
 
 **Step 5.** ThinQ App을 통해 EXA 모듈이 정상적으로 실행이 되는지 확인합니다. (ThinQ App과 TPA 모듈은 동일 네트워크에 있어야 합니다)
 
-<figure><img src="../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 5. ThinQ 연동 샘플 실행결과
 

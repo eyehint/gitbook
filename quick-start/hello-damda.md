@@ -44,7 +44,7 @@ hellodamda.zip\
 
 1. DAMDA Console([http://damda.lge.com](http://damda.lge.com))에 접속하고 본인의 계정을 이용하여 로그인을 합니다.
 
-<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>[DAMDA Console] Login 화면</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption><p>[DAMDA Console] Login 화면</p></figcaption></figure>
 
 2\. 좌측 메뉴의 '**컴포넌트**'를 선택하여 컴포넌트 화면으로 진입합니다.
 
@@ -82,7 +82,7 @@ hellodamda.zip\
 
 3\. 화면 하단 **배포 대상**에 배포할 대상 **DAMDA 기기**를 선택합니다. (※ _DAMDA 기기의 정보는 '**디바이스**' 탭을 통해 확인 가능합니다_)
 
-<figure><img src="../.gitbook/assets/image (4) (5).png" alt=""><figcaption><p>DAMDA Console 배포 작업 생성</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>DAMDA Console 배포 작업 생성</p></figcaption></figure>
 
 4\. '배포 요청' 버튼을 클릭하면 배포가 시작되고 배포 과정이 화면 하단에 표시됩니다.
 
