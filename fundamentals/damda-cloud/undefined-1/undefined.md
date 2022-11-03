@@ -8,7 +8,7 @@ description: 컴포넌트 생성 창에서 입력해야 하는 각 항목에 대
 
 [Damda Console](http://damda.lge.com/)에서 "컴포넌트 생성" 버튼을 클릭하여 컴포넌트 만들수 있습니다. 컴포넌트 생성에 필요한 정보들을 입력합니다.
 
-<figure><img src="../../../.gitbook/assets/image (5) (2) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (2) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 사전에 컴포넌트로 만들 코드를 zip파일로 묶어 준비합니다. 압축파일을 풀었을 때, '압축파일명/' 밑에 코드 파일이 생성되도록 압축해야합니다.&#x20;
@@ -241,7 +241,7 @@ React, Vue등 Front End Webapp 배포시 build된 정적 파일을 배포하여 
 
 <img src="../../../.gitbook/assets/image (2) (2).png" alt="" data-size="original">
 
-![](<../../../.gitbook/assets/image (4).png>)
+![](<../../../.gitbook/assets/image (4) (1).png>)
 
 
 

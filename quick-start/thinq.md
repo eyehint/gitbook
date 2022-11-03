@@ -12,11 +12,11 @@ description: DAMDA제품을 ThinQ에 등록하여 ThinQ앱과 연동합니다.
 
 Home 에서 **'ThinQ에 내 제품으로 등록하기**'를 클릭합니다.&#x20;
 
-<figure><img src="../.gitbook/assets/image (1) (10).png" alt=""><figcaption><p>Damda Home 첫 화면</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Damda Home 첫 화면</p></figcaption></figure>
 
 ThinQ 로그인을 할 수 있는 앱이 실행되어 Pin/QR코드가 화면에 보입니다.
 
-<figure><img src="../.gitbook/assets/image (47).png" alt=""><figcaption><p>QR/Pin코드를 통해 ThinQ에 내 제품으로 등록 진행</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>QR/Pin코드를 통해 ThinQ에 내 제품으로 등록 진행</p></figcaption></figure>
 
 {% hint style="info" %}
 생성된 Pin/QR 코드는 **60초 동안**만 유효합니다. 시간이 지난 경우 '**갱신**' 버튼을 통해 새로 발급을 받아야 사용이 가능합니다.
@@ -199,7 +199,7 @@ TPA를 사용하기 위해서는 ThinQ앱 설정을 변경하여야 합니다. �
 
 Step 3. _`interface/dashBoardCardInterface.js`_ 파일의 11번째 줄에 있는 device id 값을 자신의 device id 값으로 바꿔줍니다.&#x20;
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>
 
 **Step 4.** Terminal을 통해 EXA 모듈을 실행합니다.&#x20;
 

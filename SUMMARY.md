@@ -11,7 +11,7 @@
 
 * [DAMDA 기기](group-1/page-1.md)
   * [DAMDA Debugging Console](fundamentals/damda-tools/debugging-console.md)
-  * [DAMDA Home](fundamentals/damda/damda-home.md)
+  * [DAMDA Home](fundamentals/page-1/damda-home/README.md)
     * [기기 등록 하기](fundamentals/page-1/damda-home/undefined.md)
     * [기기 등록 해제하기](fundamentals/page-1/damda-home/undefined-1.md)
   * [Custom Sub Device](fundamentals/damda/custom-sub-device/README.md)
