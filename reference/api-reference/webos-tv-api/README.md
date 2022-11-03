@@ -26,3 +26,15 @@ Base Url은 {DAMDA 기기 api}:5011 입니다.
 | Name | Type   | Description | Required |
 | ---- | ------ | ----------- | -------- |
 | IP   | String | 연결할 TV IP 주 | Yes      |
+
+## Response
+
+### Error
+
+TV가 등록되지 않은 경우 (Status: 412 Precondition Failed)
+
+```
+{
+    "error": "WebOS TV is not registered"
+}
+```
