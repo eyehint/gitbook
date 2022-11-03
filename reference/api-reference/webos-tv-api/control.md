@@ -18,8 +18,6 @@ n/a
 {}
 ```
 
-### z
-
 ## Channel
 
 ### GET /webostv/{ip}/control/channels
@@ -195,12 +193,13 @@ n/a
 
 #### Request
 
-```
-{}
-```
+<pre><code><strong>{}</strong></code></pre>
 
 #### Response
 
 ```
 {}
 ```
+
+## Audio
+
