@@ -91,7 +91,7 @@ sudo apt install ./damda-installer_1.0.3-1_ubuntu.deb
 {% hint style="info" %}
 설치 후, 아래와 같이 커널 업그레이드 안내가 나오는 경우가 있습니다.\
 확인하고 계속 진행해주세요\
-<img src="../.gitbook/assets/image (6) (3).png" alt="" data-size="original">
+<img src="../.gitbook/assets/image (6) (3) (1).png" alt="" data-size="original">
 {% endhint %}
 {% endtab %}
 
@@ -143,7 +143,7 @@ DAMDA Installer CLI Version: 1.0.3
     <figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption><p>Installer 첫화면에서 기기명 확인</p></figcaption></figure>
 7.  [DAMDA Console](http://damda.lge.com/)의 디바이스 탭에서 동일한 디바이스 ID로 기기가 생성된 것을 확인할 수 있습니다.
 
-    <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>DAMDA Console 디바이스 탭에서 기기명 확인</p></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (5) (3).png" alt=""><figcaption><p>DAMDA Console 디바이스 탭에서 기기명 확인</p></figcaption></figure>
 8. 이제 라즈베리파이가 DAMDA 디바이스가 되었습니다. 컴포넌트를 배포할 수 있는 준비가 완료되었습니다!
 {% endtab %}
 

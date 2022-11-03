@@ -44,7 +44,7 @@
 
 유저가 /var/log/damda 안에 남긴 로그를 모니터링 할 수 있습니다.
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>컴포넌트 별 사용자 로그</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (5).png" alt=""><figcaption><p>컴포넌트 별 사용자 로그</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (7) (2) (1).png" alt=""><figcaption><p>'QuickStart > 내컴포넌트 로그 확인하기'의 로그 예시</p></figcaption></figure>
 
