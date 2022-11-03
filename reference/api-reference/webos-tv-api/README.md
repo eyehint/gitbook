@@ -4,7 +4,7 @@
 
 퍼블릭 컴포넌트 **com.damda.public.webos-tv-api**를 배포하여야 합니다.
 
-<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (12) (4).png" alt=""><figcaption></figcaption></figure>
 
 ## Base URL
 

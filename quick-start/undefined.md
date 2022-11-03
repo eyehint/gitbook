@@ -184,5 +184,5 @@ DAMDA Device ID: Damda-V2-ZAhi2pjmSpatGd4ITFl5zA
 {% endtabs %}
 
 {% hint style="info" %}
-'메뉴 > 기타'에서 DAMDA Home앱이 설치된 것을 확인할 수 있습니다. [DAMDA Home앱](../fundamentals/page-1/damda-home/)에서는 설치된 컴포넌트 리스트 확인 등 다양한 기능을 사용할 수 있습니다.&#x20;
+'메뉴 > 기타'에서 DAMDA Home앱이 설치된 것을 확인할 수 있습니다. [DAMDA Home앱](../fundamentals/damda/damda-home.md)에서는 설치된 컴포넌트 리스트 확인 등 다양한 기능을 사용할 수 있습니다.&#x20;
 {% endhint %}
