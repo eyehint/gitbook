@@ -8,7 +8,7 @@ TV에 연결을 요청하여 TV에 연결하기 위해서 필요한 정보(clien
 
 ### Request
 
-연결할 TV의 주소가 필요합니다. ([TV 리스트 조회](tv.md))
+연결할 TV의 IP 주소가 필요합니다. ([TV 리스트 조회](tv.md))
 
 ### Response
 
