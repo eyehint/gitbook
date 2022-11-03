@@ -241,7 +241,7 @@ React, Vue등 Front End Webapp 배포시 build된 정적 파일을 배포하여 
 
 <img src="../../../.gitbook/assets/image (2) (2).png" alt="" data-size="original">
 
-![](../../../.gitbook/assets/image.png)
+![](<../../../.gitbook/assets/image (1).png>)
 
 
 

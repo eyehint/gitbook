@@ -4,7 +4,7 @@
 
 ### Description
 
-Topic 1) 해당 채널을 구독합니다.
+Topic 1) 채널을 구독합니다.
 
 ### Message
 
@@ -33,4 +33,38 @@ Channel
     }
 }
 
+```
+
+
+
+## WS /webostv/{ip}/subscribe
+
+### Description
+
+Topic 2) 오디오 구독합니다.
+
+### Message
+
+Audio
+
+### Response
+
+```
+{
+    "type":"response",
+    "id":"1",
+    "payload":{
+        "volumeStatus":{
+            "activeStatus":true,
+            "adjustVolume":true,
+            "maxVolume":100,
+            "muteStatus":false,
+            "volume":0,
+            "mode":"normal",
+            "soundOutput":"tv_speaker_headphone"
+        },
+        "returnValue":true,
+        "callerId":"secondscreen.client"
+    }
+}
 ```

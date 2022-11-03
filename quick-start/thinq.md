@@ -191,11 +191,11 @@ TPA를 사용하기 위해서는 ThinQ앱 설정을 변경하여야 합니다. �
 
 {% file src="../.gitbook/assets/EXA_221025.zip" %}
 
-![](<../.gitbook/assets/image (5) (1).png>)
+![](<../.gitbook/assets/image (5).png>)
 
 **Step 2.** DAMDA ThinQ Agent API (GET http://{device IP}/device )를 이용하여 기기의 Device ID를 확인합니다.&#x20;
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 Step 3. _`interface/dashBoardCardInterface.js`_ 파일의 11번째 줄에 있는 device id 값을 자신의 device id 값으로 바꿔줍니다.&#x20;
 
