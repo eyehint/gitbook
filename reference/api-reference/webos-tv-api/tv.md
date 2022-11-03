@@ -8,7 +8,7 @@
 {% swagger-response status="200: OK" description="" %}
 ```javascript
 {
-    // Response
+    "192.168.0.41": "%5bLG%5d%20webOS%20TV%20OLED55GXKNA"
 }
 ```
 {% endswagger-response %}
