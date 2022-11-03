@@ -203,3 +203,181 @@ n/a
 
 ## Audio
 
+### GET /webostv/{ip}/control/audio
+
+#### Description
+
+오디오 상태를 가져옵니다.
+
+#### Request
+
+n/a
+
+#### Response
+
+```
+{
+    "returnValue": true,
+    "volumeStatus": {
+        "activeStatus": true,
+        "adjustVolume": true, "maxVolume": 100, "muteStatus": false,
+        "volume": 0, "mode": "normal", "soundOutput": "tv_speaker_headphone"
+    },
+    "callerId": "com.webos.service.apiadapter",
+    "mute": false,
+    "volume": 0
+}
+```
+
+### GET /webostv/{ip}/control/audio/mute
+
+#### Description
+
+음소거 상태를 가져옵니다. (true/false)
+
+#### Request
+
+n/a
+
+#### Response
+
+```
+{
+    "muted": false,
+}
+```
+
+### POST /webostv/{ip}/control/audio/mute
+
+#### Description
+
+TV를 음소거합니다. (true:음소거, false: 음소거 해)
+
+#### Request
+
+```
+{
+    "muted": true/false
+}
+```
+
+#### Response
+
+```
+{
+}
+```
+
+### POST /webostv/{ip}/control/audio/volume
+
+#### Description
+
+볼륨을 숫자 크기로 설정합니다.
+
+#### Request
+
+```
+{
+    "volume": 10
+}
+```
+
+#### Response
+
+```
+{
+}
+```
+
+### POST /webostv/{ip}/control/audio/volume/up
+
+#### Description
+
+볼륨을 한칸 올립니다.
+
+#### Request
+
+```
+{}
+```
+
+#### Response
+
+```
+{}
+```
+
+### POST /webostv/{ip}/control/audio/volume/down
+
+#### Description
+
+볼륨을 한칸 립니다.
+
+#### Request
+
+```
+{}
+```
+
+#### Response
+
+```
+{}
+```
+
+### GET /webostv/{ip}/control/audio
+
+#### Description
+
+현재 실행중인 앱을 가져옵니다.
+
+### Request
+
+n/a
+
+#### Response
+
+```
+{
+    "name": "com.webos.app.livetv"
+}
+```
+
+### POST /webostv/{ip}/control/audio
+
+#### Descriptiond
+
+앱 이름으로 앱을 실행합니다.
+
+### Request
+
+```
+"name": "com.webos.app.livetv"
+```
+
+#### Response
+
+```
+{}
+```
+
+
+
+### DELETE /webostv/{ip}/control/audio
+
+#### Descriptiond
+
+앱 이름으로 앱을 종료합니다.
+
+#### Request
+
+```
+"name": "com.webos.app.livetv"
+```
+
+#### Response
+
+```
+{}
+```
+
