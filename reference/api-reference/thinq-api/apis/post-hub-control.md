@@ -1,14 +1,18 @@
 ---
-description: DAMDA 기기 내부에 등록된 사용자의 Home 정보를 조회합니다.
+description: ThinQ에 등록된  다른 기기 제어하기 (일부기기만 제어가능)
 ---
 
-# POST /hub/control
+# POST /device/control
 
-### DAMDA 기기 및 서브기기, Component를 제어합니다.
+### ThinQ 서버에 등록된 다른 기기를 제어할 수 있습니다.
 
-#### Request
+{% hint style="info" %}
+여러개의 DAMDA 기기를 제어할 때 사용할 수 있습니다.&#x20;
+{% endhint %}
 
-> **URL** : http://localhost:8951**/hub/control**
+#### Request&#x20;
+
+> **URL** : http://{device\_ip}:8951**/device/control**
 >
 > **METHOD** : <mark style="color:green;">**POST**</mark>
 >
@@ -18,11 +22,22 @@ description: DAMDA 기기 내부에 등록된 사용자의 Home 정보를 조회
 >
 > **Parameter (Body)**
 >
-> * ctrlKey (String) \* : 제어할 대상 "Hub", "subDevice", "component"&#x20;
-> * command (String) \* : 제어 대상에서 동작하기 위해 정의된 command (제어 대상별로 다름)
-> * dataSetList (String) :&#x20;
-> * componentId (String) \* : 제어할 component의 id \
->   (componentId는 ctrlKey가 "component"일 때만 필수 값으로 요구됩니다. )
+> * deviceId (String) \* : 제어할 기기의 device ID를 입력합니다.&#x20;
+> * payload (Object) \* : 제어할 기기에서 처리하는 payload
+
+#### **Request Example**
+
+```
+{
+    "deviceId":"ae58c77e-4554-448a-aa8c-8ee776ea6ff5", 
+    "payload" :
+        {
+        "ctrlKey":"component",
+        "command":"ledon",
+        "dataSetList":{}
+    }
+}
+```
 
 #### **Response**
 
@@ -31,7 +46,7 @@ description: DAMDA 기기 내부에 등록된 사용자의 Home 정보를 조회
 > * resultCode (string) : 기기제어 결과 코드 값
 > * result (Object) : 기기 제어 결과&#x20;
 >   * messageId (Sting)
->   * msg (Object) : 기기 제어 결과 정
+>   * msg (Object) : 기기 제어 결과
 >   * msgType (String)&#x20;
 >   * timestamp (String)
 
@@ -44,8 +59,7 @@ description: DAMDA 기기 내부에 등록된 사용자의 Home 정보를 조회
         "messageId": "py4h2eI1SiieXZKYkUm6uw",
         "msg": {
             "id": "4006a0fd8b3a",
-            "result": "success",
-            "type": "HTS000"
+            "result": "success"
         },
         "msgType": "controlResult",
         "timestamp": 1647320135

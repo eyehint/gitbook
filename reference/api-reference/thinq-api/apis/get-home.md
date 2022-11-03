@@ -8,7 +8,7 @@ description: 본인 계정에 등록된 홈 목록 조회하기
 
 #### Request
 
-> **URL** : http://localhost:8951**/home**
+> **URL** : http://{device\_ip}:8951**/home**
 >
 > **METHOD** : <mark style="color:blue;">**GET**</mark>
 >

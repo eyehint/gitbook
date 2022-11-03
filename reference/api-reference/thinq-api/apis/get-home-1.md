@@ -1,14 +1,14 @@
 ---
-description: DAMDA 기기 내부에 등록된 사용자의 Home 정보를 조회합니다.
+description: 본인 계정에 등록된 기기 목록 조회하기
 ---
 
 # GET /home/devices
 
-### 등록된 사용자의 ThinQ 서비스 Home 정보를 조회합니다. &#x20;
+### ThinQ 서버에 등록된 본인의 기기 목록을 조회합니다.
 
 #### Request
 
-> **URL** : http://localhost:8951**/home**
+> **URL** : http://{device\_ip}:8951**/home/devices**
 >
 > **METHOD** : <mark style="color:blue;">**GET**</mark>
 >
@@ -27,26 +27,35 @@ description: DAMDA 기기 내부에 등록된 사용자의 Home 정보를 조회
 #### Response Example
 
 ```json
-[    
+[
     {
-        "homeId": "164903371889065633",
-        "homeName": "damda 홈",
-        "homeOrder": -1,
-        "regDtUtc": "20220404005522",
-        "lastUseDt": "20220414140037",
-        "sharedYn": "N",
-        "bgImage": "62",
-        "bgImageUrl": "",
-        "startColor": "#ECECEC",
-        "centerColor": "",
-        "endColor": "",
-        "area": "3430109",
-        "latitude": "37.4698659",
-        "longitude": "127.0266905",
-        "localizedAddress": "2330442##양재1동",
-        "newHomeYn": "N",
-        "atHomeYn": "N",
-        "concurrency2": "Y"
+        "alias": "DAMDA 허브",
+        "countryCode": "KR",
+        "deviceId": "4262dc0f-8b07-4d43-8974-30b274e8e3ab",
+        "deviceState": "D",
+        "deviceType": "9001",
+        "drServiceYn": "N",
+        "guardTimeInterval": null,
+        "homeId": "166321876998347325",
+        "key": "",
+        ...
+    },
+    {
+        "alias": "DAMDA 제품5",
+        "countryCode": "KR",
+        "deviceId": "ae58c77e-4554-448a-aa8c-8ee776ea6ff5",
+        "deviceState": "D",
+        "deviceType": "9001",
+        "drServiceYn": "N",
+        "guardTimeInterval": null,
+        "homeId": "166321876998347325",
+        "key": "",
+        "modelName": "DAMDA_9001",
+        "monitoringInterval": null,
+        "owner": "KR2209026557161",
+        "parentId": "",
+        "registeredAt": "2022-11-01T08:03:56.420757+00:00",
+        ...
     }
 ]
 ```
