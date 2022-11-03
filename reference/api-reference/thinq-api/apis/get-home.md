@@ -1,5 +1,5 @@
 ---
-description: DAMDA 기기 내부에 등록된 사용자의 Home 정보를 조회합니다.
+description: 본인 계정에 등록된 홈 목록 조회하기
 ---
 
 # GET /home
@@ -8,7 +8,7 @@ description: DAMDA 기기 내부에 등록된 사용자의 Home 정보를 조회
 
 #### Request
 
-> **URL** : http://localhost:8951**/home**
+> **URL** : http://{device\_ip}:8951**/home**
 >
 > **METHOD** : <mark style="color:blue;">**GET**</mark>
 >

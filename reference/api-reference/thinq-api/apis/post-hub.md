@@ -1,14 +1,14 @@
 ---
-description: DAMDA 기기 내부에 등록된 사용자의 Home 정보를 조회합니다.
+description: ThinQ 서버(DAMDA 서버)에 기기 등록하기
 ---
 
-# POST /hub
+# POST /device
 
-### DAMDA 기기를 서버에 등록하고, 기기에 사용자가 정의한 정보(meta)를 저장합니다.&#x20;
+### DAMDA 기기를 서버에 등록합니다.&#x20;
 
 #### Request
 
-> **URL** : http://localhost:8951**/hub**
+> **URL** : http://{device\_ip}:8951**/device**
 >
 > **METHOD** : <mark style="color:green;">**POST**</mark>
 >
@@ -25,36 +25,14 @@ description: DAMDA 기기 내부에 등록된 사용자의 Home 정보를 조회
 
 > **Type** : Object
 >
-> * device\_id (String)
 > * home\_id (String)
 > * meta (Object)
-> * device\_type (String)
-> * model\_name (String)
-> * alias\_prefix (String)
 
 #### Response Example
 
 ```json
-[    
-    {
-        "homeId": "164903371889065633",
-        "homeName": "damda 홈",
-        "homeOrder": -1,
-        "regDtUtc": "20220404005522",
-        "lastUseDt": "20220414140037",
-        "sharedYn": "N",
-        "bgImage": "62",
-        "bgImageUrl": "",
-        "startColor": "#ECECEC",
-        "centerColor": "",
-        "endColor": "",
-        "area": "3430109",
-        "latitude": "37.4698659",
-        "longitude": "127.0266905",
-        "localizedAddress": "2330442##양재1동",
-        "newHomeYn": "N",
-        "atHomeYn": "N",
-        "concurrency2": "Y"
-    }
-]
+{
+    "home_id": "166321876998347325",
+    "meta": {}
+}
 ```
