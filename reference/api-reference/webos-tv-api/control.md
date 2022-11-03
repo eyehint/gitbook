@@ -381,3 +381,85 @@ n/a
 {}
 ```
 
+## UI 및 기타
+
+### POST /webostv/{ip}/control/toast
+
+#### Descriptiond
+
+TV 화면에 Toast 메시지를 띄웁니다.
+
+#### Request
+
+```
+{
+    "message": "안녕하세요!"
+}
+```
+
+#### Response
+
+```
+{}
+```
+
+### POST /webostv/{ip}/alert/youtube
+
+#### Description
+
+Alert창을 띄워 유튜브 영상을 실행합니다.
+
+#### Request
+
+```
+{
+    "title": "[유튜브] 골드 피즈의 평범한 하루",
+    "message": "추천영상입니다. 유튜브 앱에서 시청할까요?",
+    "code": "v=96afkL4NXqI"
+}
+```
+
+#### Response
+
+```
+{}
+```
+
+### GET /webostv/{ip}/control/capture
+
+#### Description
+
+TV화면을 캡쳐합니다.
+
+#### Request
+
+N/A
+
+#### Response
+
+```
+{
+    "returnValue": true,
+    "imageUri": "http://192.168.0.41:3000/resources/dbdd8e71478ebdbcac751da54811a185848fed0e/capture.jpg"
+}
+```
+
+### POST /webostv/{ip}/control/web
+
+#### Description
+
+TV에서 웹브라우저로 웹사이트를 엽니다.
+
+#### Request
+
+```
+{
+    "url": "https://www.lge.co.kr/"
+}
+```
+
+#### Response
+
+```
+{}
+```
