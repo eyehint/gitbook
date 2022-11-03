@@ -12,11 +12,11 @@ description: DAMDA제품을 ThinQ에 등록하여 ThinQ앱과 연동합니다.
 
 Home 에서 **'ThinQ에 내 제품으로 등록하기**'를 클릭합니다.&#x20;
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Damda Home 첫 화면</p></figcaption></figure>
 
 ThinQ 로그인을 할 수 있는 앱이 실행되어 Pin/QR코드가 화면에 보입니다.
 
-<figure><img src="../.gitbook/assets/image (1) (3) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>QR/Pin코드를 통해 ThinQ에 내 제품으로 등록 진행</p></figcaption></figure>
 
 {% hint style="info" %}
 생성된 Pin/QR 코드는 **60초 동안**만 유효합니다. 시간이 지난 경우 '**갱신**' 버튼을 통해 새로 발급을 받아야 사용이 가능합니다.
@@ -26,7 +26,7 @@ ThinQ 로그인을 할 수 있는 앱이 실행되어 Pin/QR코드가 화면에 
 
 **'설정' > 'ThinQ 계정 공유'** 메뉴를 선택하고 앱에서 제공하는 Pin 코드 또는 QR 코드 로그인을 진행합니다.&#x20;
 
-<figure><img src="../.gitbook/assets/image (11) (2) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (2) (2).png" alt=""><figcaption><p>ThinQ 앱 화면</p></figcaption></figure>
 
 {% hint style="info" %}
 ThinQ 계정 정보가 DAMDA 기기로 전달되어 자동으로 DMADA 기기가 ThinQ 서버에 등록되는 과정이 진행됩니다.&#x20;
@@ -145,7 +145,7 @@ control\_app.zip\
 
 **Step 3.** DAMDA Console([https://damda.lge.com/](https://damda.lge.com))에 접속하여 Component를 등록합니다.
 
-<figure><img src="../.gitbook/assets/image (6) (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (5).png" alt=""><figcaption><p>control_app 샘플 컴포넌트 생성 1 - 기본 정보 입</p></figcaption></figure>
 
 {% hint style="warning" %}
 컴포넌트 이름을 com.<계정명>.sample.control\_app 으로 작성해야 component 충돌이 나지 않습니다.&#x20;
@@ -171,7 +171,7 @@ node {root}/control_app/index.js
 
 마지막으로 requirePrivilege를 true로 설정하고 Component를 저장합니다.&#x20;
 
-<figure><img src="../.gitbook/assets/image (2) (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (7).png" alt=""><figcaption><p>control_app 샘플 컴포넌트 생성 2 - 실행 스크립트 작성</p></figcaption></figure>
 
 **Step 5**. 등록된 내 컴포넌트(com.<계정>.sample.control\_app)를 배포하기를 통하여 내 기기로 배포합니다.&#x20;
 
@@ -191,15 +191,15 @@ TPA를 사용하기 위해서는 ThinQ앱 설정을 변경하여야 합니다. �
 
 {% file src="../.gitbook/assets/EXA_221025.zip" %}
 
-![](<../.gitbook/assets/image (5).png>)
+![](<../.gitbook/assets/image (5) (1).png>)
 
 **Step 2.** DAMDA ThinQ Agent API (GET http://{device IP}/device )를 이용하여 기기의 Device ID를 확인합니다.&#x20;
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 Step 3. _`interface/dashBoardCardInterface.js`_ 파일의 11번째 줄에 있는 device id 값을 자신의 device id 값으로 바꿔줍니다.&#x20;
 
-<figure><img src="../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 **Step 4.** Terminal을 통해 EXA 모듈을 실행합니다.&#x20;
 
@@ -209,7 +209,7 @@ npm run thinq_tpa -- DoB -n EXA
 
 **Step 5.** ThinQ App을 통해 EXA 모듈이 정상적으로 실행이 되는지 확인합니다. (ThinQ App과 TPA 모듈은 동일 네트워크에 있어야 합니다)
 
-<figure><img src="../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 5. ThinQ 연동 샘플 실행결과
 
