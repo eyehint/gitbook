@@ -1,8 +1,8 @@
 ---
-description: 본인 계정에 등록된 홈 목록 조회하기
+description: DAMDA 기기 내부에 등록된 사용자의 Home 정보를 조회합니다.
 ---
 
-# GET /home
+# GET /home/devices
 
 ### 등록된 사용자의 ThinQ 서비스 Home 정보를 조회합니다. &#x20;
 

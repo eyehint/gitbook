@@ -1,14 +1,22 @@
 ---
-description: DAMDA 기기 내부에 사용자의 계정을 등록 또는 변경 할 수 있습니다.
+description: Account 정보 등록하기
 ---
 
 # POST /account
 
-### EMP 서버에서 access\_token, refresh\_token, user\_no, expired\_time을 전달받아 DAMDA 기기 내부(DB)에 저장합니다.&#x20;
+### DAMDA 기기에 본인의 EMP 계정 정보(id/pw)를 등록합니다.&#x20;
+
+{% hint style="info" %}
+기기 등록을 하기 위해서는 계정 정보가 반드시 필요합니다
+{% endhint %}
+
+{% hint style="warning" %}
+DAMDA Home을 통해 기기를 등록한 경우에는 생략 가능합니다.
+{% endhint %}
 
 #### Request
 
-> **URL** : http://localhost:8951**/account**
+> **URL** : http://{device\_ip}:8951**/account**
 >
 > **METHOD** : <mark style="color:green;">**POST**</mark>
 >

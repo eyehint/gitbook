@@ -42,6 +42,7 @@
     * [APIs](reference/api-reference/thinq-api/apis/README.md)
       * [POST /account](reference/api-reference/thinq-api/apis/undefined.md)
       * [GET /home](reference/api-reference/thinq-api/apis/get-home.md)
+      * [GET /home/devices](reference/api-reference/thinq-api/apis/get-home-1.md)
       * [POST /hub](reference/api-reference/thinq-api/apis/post-hub.md)
       * [GET /hub](reference/api-reference/thinq-api/apis/get-hub.md)
       * [POST /hub/control](reference/api-reference/thinq-api/apis/post-hub-control.md)
