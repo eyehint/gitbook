@@ -64,4 +64,4 @@
 
 아래는 Damda Debugging Tool 작동 예제 동영상 입니다.&#x20;
 
-{% embed url="https://youtu.be/wyu5Q4bETsU" %}
+{% embed url="https://youtu.be/RfuPn4IFaT4" %}

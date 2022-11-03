@@ -6,6 +6,8 @@ description: DAMDA제품을 ThinQ에 등록하여 ThinQ앱과 연동합니다.
 
 ## 1. ThinQ 제품으로 등록하기
 
+{% embed url="https://youtu.be/esiUQKBEK7E" %}
+
 라즈베리파이에서 **DAMDA Home 앱**을 실행 시킵니다.&#x20;
 
 ![](<../.gitbook/assets/image (16).png>)
@@ -43,6 +45,8 @@ DAMDA 기기가 정상적으로 등록이 완료되면 해당 기기 정보를 L
 
 
 ## 3. ThinQ 연동 샘플 컴포넌트 배포하기 (Control app)
+
+{% embed url="https://youtu.be/Br1KBX9uqQQ" %}
 
 {% hint style="info" %}
 Control App 예제는 라즈베리파이의 GPIO를 제어하는 예제입니다. \
@@ -179,6 +183,8 @@ node {root}/control_app/index.js
 
 ## 4. ThinQ 연동 샘플 TPA 설치하기 (Control App 제어)
 
+{% embed url="https://youtu.be/yWgRM6t7P9g" %}
+
 TPA 개발 환경 설정은 [https://thinqapp.developer.lge.com/ko/documentation/get-started/tpa-quick-start/](https://thinqapp.developer.lge.com/ko/documentation/get-started/tpa-quick-start/) 를 참고해주세요 (helloworld 출력까지 진행이 필요합니다)
 
 {% hint style="info" %}
@@ -213,6 +219,4 @@ npm run thinq_tpa -- DoB -n EXA
 
 ## 5. ThinQ 연동 샘플 실행결과
 
-
-
-{% embed url="http://10.178.133.16/poc/3.thinq.mp4" %}
+{% embed url="https://youtu.be/wXPKjlyaJOg" %}

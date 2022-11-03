@@ -102,3 +102,9 @@ description: 가전 API를 활용한 샘플코드 입니다.
 
     <figure><img src="https://developer.damda.lge.com/assets/img/example3-6.png" alt=""><figcaption></figcaption></figure>
 
+
+
+## 실행예제
+
+{% embed url="https://youtu.be/5cmlZMfLHXQ" %}
+
