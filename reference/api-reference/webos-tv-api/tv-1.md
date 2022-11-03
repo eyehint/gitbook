@@ -20,4 +20,4 @@ API 호출 후 TV 화면에 나타난 Alert 창에서 "예"를 눌러야 등록�
 
 기존에 등록된 TV의 경우 Alert창이 나타나지 않고 바로 등록이 완료됩니다.
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
