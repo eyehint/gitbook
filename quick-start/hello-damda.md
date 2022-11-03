@@ -124,7 +124,7 @@ ex) http://192.168.50.25:30001/com.damda.sample.hellodamda/1.0.0/hellodamda/inde
 * 컴포넌트 배포하고 확인하기
 
 {% hint style="info" %}
-&#x20;상세한 컴포넌트 생성 가이드는 [undefined.md](../fundamentals/damda-cloud/undefined-1/undefined.md "mention") 참고하세요
+&#x20;상세한 컴포넌트 생성 가이드는 [undefined-1.md](../fundamentals/damda-cloud/undefined-1/undefined-1.md "mention") 참고하세요
 {% endhint %}
 
 {% embed url="https://youtu.be/ODX5d-1aVPc" %}

@@ -29,7 +29,7 @@ Home의 첫화면에서 **시간 및 지역기반 날씨정보**, 그리고 **DA
 ## 설치된 앱목록 확인
 
 DAMDA Console을 통해 배포한 컴포넌트들을 확인할 수 있습니다.\
-index.html을 포함한 앱의 경우, 아이콘을 클릭하면 index.html로 이동합니다. 자세한 [컴포넌트 생성 방법](../damda-cloud/undefined-1/undefined.md#undefined)은 가이드를 확인해주세요. \
+index.html을 포함한 앱의 경우, 아이콘을 클릭하면 index.html로 이동합니다. 자세한 [컴포넌트 생성 방법](../damda-cloud/undefined-1/undefined-1.md#undefined)은 가이드를 확인해주세요. \
 DAMDA Hub를 클릭하면 DAMDA에서 제공하는 허브 기능을 사용해  수 있습니다.
 
 <figure><img src="../../.gitbook/assets/image (43).png" alt=""><figcaption><p>Home 앱에서 설치된 컴포넌트(앱) 목록 확인</p></figcaption></figure>

@@ -1,130 +1,225 @@
 ---
-description: DAMDA를 통해 컴포넌트 배포하는 방법 가이드 입니다
+description: 컴포넌트 생성 창에서 입력해야 하는 각 항목에 대한 가이드 페이지 입니다.
 ---
 
-# 컴포넌트 배포하기
+# 컴포넌트 생성하기
 
-## 컴포넌트 선택
+## 컴포넌트 정보 입력&#x20;
 
-DAMDA Console에 접속하여 컴포넌트 탭으로 이동합니다.
+[Damda Console](http://damda.lge.com/)에서 "컴포넌트 생성" 버튼을 클릭하여 컴포넌트 만들수 있습니다. 컴포넌트 생성에 필요한 정보들을 입력합니다.
 
-<figure><img src="../../../.gitbook/assets/image (42).png" alt=""><figcaption><p>컴포넌트 탭 화면</p></figcaption></figure>
-
-'내 컴포넌트' 중 배포하고 싶은 컴포넌트를 선택하고 배포하기를 클릭합니다.
-
-<figure><img src="../../../.gitbook/assets/image (4) (8).png" alt=""><figcaption><p>배포할 컴포넌트 선택</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-내 컴포넌트가 하나라도 포함되야 배포하기 클릭이 가능합니다.&#x20;
+사전에 컴포넌트로 만들 코드를 zip파일로 묶어 준비합니다. 압축파일을 풀었을 때, '압축파일명/' 밑에 코드 파일이 생성되도록 압축해야합니다.&#x20;
 
-따라서 '퍼블릭 컴포넌트만' 배포하고 싶다면 우선 내 컴포넌트를 하나 선택하고 '배포하기'를 누른뒤, 배포 목록에서 선택했던 내 컴포넌트를 제외해 주세요 (조금 더 편리한 배포가 가능하도록 UI 개선 예정입니다 :star:)
+예를들어 hellodamda.zip 압축을 해제하면 아래와 같이 구성하는 컴포넌트를 구성하는 파일들이 바로 보여야 합니다.&#x20;
 
-내 컴포넌트 생성 방법은 [컴포넌트 생성하기](undefined.md)을 참조하세요
+![](<../../../.gitbook/assets/image (2) (2) (2).png>)
 {% endhint %}
 
-## 배포하기 목록 확인
+### 컴포넌트 기본 정보 설정
 
-배포 작업 생성 팝업이 나타납니다. 이 팝업에 포함된 배포할 목록을 검토합니다.
+![](<../../../.gitbook/assets/image (2) (6) (1).png>)                  ![](<../../../.gitbook/assets/image (2) (5) (1).png>)
 
-<figure><img src="../../../.gitbook/assets/image (39).png" alt=""><figcaption><p>배포 작업 설정 화면 (컴포넌트 목록 편집, 배포할 기기 선택)</p></figcaption></figure>
+#### ****
 
-배포 목록에는 퍼블릭 컴포넌트 전체가 자동으로 추가됩니다. 원하지 않는 퍼블릭 컴포넌트는 제외하고 배포합니다.
+#### **컴포넌트 명 (필수)**
 
-{% hint style="danger" %}
-**제외된 컴포넌트는 damda 기기에서 삭제됩니다. 계속 사용하고 싶은 컴포넌트는 항상 추가해주시기 바랍니다.**
-{% endhint %}
+<mark style="color:red;">com.\[damda계정].\[컴포넌트명]</mark> 으로 정의합니다 컴포넌트명이 중복되는 경우 생성할 수 없습니다.&#x20;
 
-'배포 대상'에 원하는 damda 기기명을 선택해줍니다.&#x20;
-
-'배포 요청' 버튼을 누르면 배포를 진행할 것인지 확인하는 팝업이 나타납니다.
-
-<figure><img src="../../../.gitbook/assets/image (8) (5).png" alt=""><figcaption><p>배포 생성 확인 팝업</p></figcaption></figure>
-
-'예'를 누르면 배포가 시작됩니다. 배포가 완료되는 것을 기다립니다. 이 창을 닫아도 배포는 계속 진행됩니다.
+계정이 <mark style="color:green;background-color:orange;"><mark style="background-color:orange;">damda.user@lge.com<mark style="background-color:orange;"></mark>이고 <mark style="color:green;"></mark> <mark style="background-color:orange;">hellodamda</mark>라는 컴포넌트를 만들고 싶은 경우, <mark style="background-color:orange;">com.damda.user.hellodamda</mark> 라고 컴포넌트 명을 입력합니다.
 
 {% hint style="warning" %}
-현재 [배포 준비에서 UI가 진행되지 않는 버그](undefined-1.md#known-issue)가 있습니다. 배포가 정상적으로 진행중이니, 배포 완료 여부를 [기기 정보 페이지에서 확인](undefined-1.md#damda)해주시기 바랍니다.
+규칙에 맞지 않는 컴포넌트 명을 사용할 수도 있습니다. 다만, 이 경우 damda 시스템 내에 중복되는 이름이 존재해서, 컴포넌트가 정상적으로 생성되지 않을 수 있습니다.&#x20;
+
+위와 같은 형식으로 컴포넌트 명을 작성하시길 권장합니다.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (7) (6).png" alt=""><figcaption><p>배포 진행 중</p></figcaption></figure>
+**설명 (필수)**
 
-## 배포 결과 확인하기
+어떤 컴포넌트인지 간략한 설명을 적어줍니다. 필수로 입력해야 합니다.
 
-### DAMDA 콘솔에서 확인하기&#x20;
+#### **태그**&#x20;
 
-Damda Console에서 디바이스 탭으로 이동합니다.&#x20;
+컴포넌트의 기타 정보를 태그로 추가해서 관리할 수 있습니다.
 
-<figure><img src="../../../.gitbook/assets/image (4) (7).png" alt=""><figcaption><p>디바이스 탭 화면</p></figcaption></figure>
+#### **코드 (필수)**
 
-배포한 기기의 명 오른쪽에 <mark style="color:blue;">Details</mark>를 클릭합니다. 기기 세부 정보 창이 나타납니다. 이 창에서 배포 상태와 컴포넌트 상태를 확인합니다.
+zip파일로 올립니다. 이때 zip 파일명을 기준으로 실행스크립트 경로를 작성하게 됩니다.
+
+{% code title="app.py 실행 스크립트 예시 " %}
+```
+python {root}/zip파일명 app.py 
+```
+{% endcode %}
 
 {% hint style="info" %}
-DAMDA에서 필요한 필수 컴포넌트들은 항상 함께 배포 됩니다. 따라서 컴포넌트 상태 창에는 직접 배포하지 않은 컴포넌트가 존재할 수 있습니다.
+컴포넌트 버전을 추가할 때마다 zip파일을 다시 업로드 해주어야 합니다.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (14) (1).png" alt=""><figcaption><p>디바이스 상세 정보</p></figcaption></figure>
+#### **환경 변수**
 
-마지막 배포 기준으로 배포상태가 업데이트 되므로, 배포한 시간이 맞는지 확인합니다. \
-배포상태가 **COMPLETE, SUCCESSFUL**이면 배포가 성공한 것입니다. \
-COMPLETE, SUCCESSFUL이 아닌 경우는 [배포가 정상으로 완료되지 않을 때](undefined-1.md#undefined-4) 를 확인해보시기 바랍니다.
+컴포넌트가 실행될 때 사용할 환경 변수를 정의합니다. 여기서 설정한 환경변수는 모든 lifecycle(초기 설정, 설치, 실행, 종료)에 적용됩니다. port, phase등 실행을 위해 필요한 configuration 정보를 환경 변수로 관리할 때 사용합니다.
 
-컴포넌트 상태가 Broken 인 것은 컴포넌트가 정상적으로 설치되지 않은 것을 의미합니다. [배포 완료 후 컴포넌트 상태가 'Broken' 일 때](undefined-1.md#broken)  참고해보시기 바랍니다.
+#### **실행 스크립트 (**Life cycle 스크립트)
 
-### DAMDA 기기에서 확인하기
+실행스크립트는 컴포넌트의 life cycle 별로 정의합니다. **초기 설정, 설치, 실행, 종료** 4가지 종류가 있습니다.
 
-업데이트 예정입니다.
+{% tabs %}
+{% tab title="초기 설정" %}
+다음과 같은 경우에 실행됩니다.&#x20;
 
-### 디버깅 콘솔에서 확인하기
+* 컴포넌트가 코어 디바이스에 처음 배포 될 때
+* 컴포넌트의 버전이 바뀌었을때
+* 컴포넌트의 설정 업데이트로 bootstrap 스크립트가 바뀌었을때
+* GGC s/w가 재시작되거나 코어 디바이스가 재시작 될 때 실행
 
-업데이트 예정입니다.
+다음과 같은 항목을 포함할 수 있습니다.
 
-### index.html 확인하기
+* Script: bootstrap에서 실행할 스크립트
+* RequiresPrivilege: root 권한으로 실행할지 여부 (default: false)
+* Skipif: 스크립트의 실행 여부를 판단
+  * onpath runnable: runnable이 있으면 skip
+  * exists file: file이 있으면 skip
+* Timeout: 스크립트 실행에 대한 타임아웃 (default: 120초)
+* Setenv: bootstrap에서만 사용할 환경변수
 
-업데이트 예정입니다.
+활용 예시
 
+* 컴포넌트 실행을 위해 필요한 apt install&#x20;
+{% endtab %}
 
+{% tab title="설치" %}
+다음과 같은 경우에 실행됩니다.
 
-## Known Issue
+* 컴포넌트를 설치할때 실행
+* GGC s/w가 실행 (launch)될 때 마다 실행
 
-1. "배포 준비" 단계에서 UI가 변경되지 않는 버그가 있습니다. DAMDA Console이나 라즈베리파이 상의 디버깅 콘솔을 통해 배포 완료 여부를 확인할 수 있습니다.
+다음과 같은 항목을 포함할 수 있습니다.
+
+* Script: install에서 실행할 스크립트
+* RequiresPrivilege: root 권한으로 실행할지 여부 (default: false)
+* Skipif: 스크립트의 실행 여부를 판단
+  * onpath runnable: runnable이 있으면 skip
+  * exists file: file이 있으면 skip
+* Timeout: 스크립트 실행에 대한 타임아웃 (default: 120초)
+* Setenv: install에서만 사용할 환경변수
+
+특징
+
+* 완료 시  컴포넌트 상태가 "INSTALLED"로 됨
+
+활용 예시
+
+* pip3 install이나 컴포넌트 실행을 위해 필요한 configuration 준비
+{% endtab %}
+
+{% tab title="실행" %}
+다음과 같은 경우에 실행됩니다.
+
+* 컴포넌트가 시작 될 때 실행
+
+다음과 같은 항목을 포함할 수 있습니다.
+
+* Script: run에서 실행할 스크립트
+* RequiresPrivilege: root 권한으로 실행할지 여부 (default: false)
+* Skipif: 스크립트의 실행 여부를 판단
+  * onpath runnable: runnable이 있으면 skip
+  * exists file: file이 있으면 skip
+* Timeout: 스크립트 실행에 대한 타임아웃, **타임아웃이 없음**
+* Setenv: run에서만 사용할 환경변수
+
+특징
+
+* 스크립트 실행 중에는  "RUNNING"로 되고, 완료 시  컴포넌트 상태가 "FINISHED"로 됨
+* 타임아웃이 없음
+* Startup이나 Run 둘 중 하나만 사용할 수 있음
+
+활용 예시
+
+* 타임아웃이 없기 때문에 서버를 띄우거나 호스팅을 할때 이 스크립트를 활용
+* 여러개 서버를 띄우거나 호스팅 할 경우 괄호()로 스크립트를 묶어주고 && 로 여러개 스크립트를 백그라운드(&)로 실행
+{% endtab %}
+
+{% tab title="종료" %}
+다음과 같은 경우에 실행됩니다.
+
+* 컴포넌트를 내릴 때 실행 (shut down)
+
+다음과 같은 항목을 포함할 수 있습니다.
+
+* Script: shutdown에서 실행할 스크립트
+* RequiresPrivilege: root 권한으로 실행할지 여부 (default: false)
+* Skipif: 스크립트의 실행 여부를 판단
+  * onpath runnable: runnable이 있으면 skip
+  * exists file: file이 있으면 skip
+* Timeout: 스크립트 실행에 대한 타임아웃 (default: 15초)
+* Setenv: shutdown에서만 사용할 환경변수
+
+특징
+
+* 스크립트 실행 중에는  "STOPPING"로 됨
+* Startup에서 실행한 백그라운드 프로세스를 내릴때 사용
+
+활용 예시
+
+* MySQL process 내리기 (/etc/init.d/mysqld stop)
+{% endtab %}
+{% endtabs %}
+
+### Life cycle 상세 설정
+
+각 life cycle 의 '작성' 버튼을 눌러 단계별 세부내용을 설정할 수 있습니다.
+
+<figure><img src="../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
+
+**환경 변수**
+
+각 life cycle에서 사용될 환경변수를 정의합니다. 이 곳에 선언된 환경변수는, 정의된 life cycle에서만 유효합니다.&#x20;
+
+#### Script
+
+Script 항목에서 '+'를 누르면 스크립트를 입력할 수 있는 칸이 생성됩니다. 여러 줄의 스크립트를 작성하고 싶은 경우, 칸을 추가하며 한 칸당 하나의 스크립트를 입력합니다. 이때 추가한 스크립트들은 컴포넌트 정보 창에서 아래와 같은 형태로 보여지게 됩니다.
+
+```
+(스크립트 1) && (스크립트 2) && (스크립트 3)
+```
+
+예시로 Debugging Console의 설치 스크립트는 아래와 같이 작성됩니다. 같은 내용을 Debugging Console의 상세화면에서 확인할 수 있습니다. \
+![](<../../../.gitbook/assets/image (2) (7) (1).png>) ![](<../../../.gitbook/assets/image (14).png>)
+
+## 컴포넌트 타입 별 Tip
+
+###
 
 ## TroubleShooting
 
 <details>
 
-<summary>배포가 정상으로 완료되지 않을 때</summary>
+<summary><strong>ValidationExcption</strong> 발생</summary>
 
-다양한 원인으로 배포가 실패할 수 있습니다.&#x20;
+****![](<../../../.gitbook/assets/image (2) (2) (1).png>)****
 
-우선 damda 기기(라즈베리파이)가 **인터넷에 접속되어 있는지** 확인합니다.&#x20;
-
-만약 **기기를 부팅한지 얼마 안됐다면**, 아직 damda가 실행 준비중일 수 있습니다. 5분정도 기다렸다가 다시 시도해주세요.&#x20;
-
-위와 같은 상황이 아닌데도 배포가 실패했다면 **지원이 필요한 상황**입니다. damda 기기에서 디버깅 콘솔을 통해 이슈 전송을 해주세요
+코드 파일이 업로드 중인 경우 ValidationException 이 발생할 수 있습니다 잠시 기다렸다가 다시 저장버튼을 눌러주세요
 
 </details>
 
 <details>
 
-<summary>배포 완료 후 컴포넌트 상태가 'Broken' 일 때 </summary>
+<summary>"동일한 버전이 존재합니다" 혹 "NotOwnedComponentError" 에러 발생 </summary>
 
-컴포넌트에 정의된 스크립트들을 실행하던 도중 에러가 발생하면 Broken 상태가 됩니다. 다양한 원인이 있으나 아래와 같은 케이스에 해당하는지 확인 할 수 있습니다.
+컴포넌트 생성 시, 같은 이름을 가진 컴포넌트가 존재하는 경우 "동일한 버전이 존재합니다" 혹 "NotOwnedComponentError" 라는 에러가 발생 합니다.
 
-* 스크립트경로에 zip파일명이 빠진 경우:  \
-  "{root}/zip파일명/코드파일경로" 로 작성되어야 합니다. [컴포넌트 배포 따라하기](../../../quick-start/hello-damda.md#3.-zip-damda)에서 간단한 예제를 확인할 수 있습니다.
-* 코드에 올린 'zip 파일명'과 스크립트 경로상 'zip 파일명'이 동일하지 않은 경우:\
-  경로 문제가 생겨 코드가 정상적으로 실행되지 않을 수 있습니다. 업로드한 파일명과 스크립트를 다시 한번 확인 부탁드립니다.
-* zip 파일 압축 해제 했을 때, 실행파일 경로가 바로 존재하지 않는 경우:
-  * 예시\
-    <mark style="color:green;">(정상)</mark> hellodamda.zip 해제 -> hellodamda/app.py  \
-    <mark style="color:red;">(에러)</mark> hellodamda.zip 해제 -> hellodamda/hellodamda/app.py
+기존에 만든 컴포넌트에 새로운 버전을 추가 할때도 버전을 잘 못입력하면 "동일한 버전이 존재합니다"라는 에러가 발생할 수 있습니다.
 
-</details>
+<img src="../../../.gitbook/assets/image (2) (2).png" alt="" data-size="original">
 
-<details>
+![](<../../../.gitbook/assets/image (4).png>)
 
-<summary>이전에 설치한 컴포넌트가 보이지 않습니다.</summary>
 
-사라진 컴포넌트가 배포에 포함되었는지 다시 한번 확인 합니다. 배포 시 선택하지 않은 컴포넌트들은, 디바이스에서 삭제 됩니다. 디바이스에서 계속 사용할 컴포넌트는 항상 배포에 포함시켜주어야 합니다.
 
 </details>
+
+
+

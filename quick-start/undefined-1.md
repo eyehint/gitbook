@@ -51,7 +51,7 @@ component를 배포하기 위해서 DAMDA Console에서 생성합니다.
 
 component명은 자유롭게 사용할 수 있으나 다른 사용자의 컴포넌트와 중복이 되면 안됩니다.
 
-자세한 컴포넌트 생성 가이드는 [컴포넌트 생성](../fundamentals/damda-cloud/undefined-1/undefined.md) 페이지를 참고하세요
+자세한 컴포넌트 생성 가이드는 [컴포넌트 생성](../fundamentals/damda-cloud/undefined-1/undefined-1.md) 페이지를 참고하세요
 
 <figure><img src="../.gitbook/assets/image (16) (2).png" alt=""><figcaption></figcaption></figure>
 
