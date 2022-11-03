@@ -1,30 +1,24 @@
 ---
-description: DAMDA 기기 내부에 등록된 사용자의 Home 정보를 조회합니다.
+description: 기기에서 ThinQ 서버로 정보 전달하기 (for TPA 통신)
 ---
 
-# DELETE /clear
+# POST /monitoring
 
-### DAMDA 기기를 초기화 합니다.&#x20;
-
-{% hint style="info" %}
-초기화 : 서브 기기 전체 삭제, ThinQ 기기 등록 정보 삭제, 사용자 계정 정보 삭
-{% endhint %}
+기기의 다양한 정보를 ThinQ 서버로 저장합니다. 해당 정보는 TPA에서 활용이 가능합니다.&#x20;
 
 #### Request
 
-> **URL** : http://localhost:8951**/clear**
+> **URL** : http://{device\_ip}:8951**/monitoring**
 >
-> **METHOD** : <mark style="color:red;">**DELETE**</mark>
+> **METHOD** : <mark style="color:green;">**POST**</mark>
 >
 > **Header**&#x20;
 >
 > * message-id (option) : 로깅을 위한 id, 미 입력시 기기 내부에서 자동으로 생성
 >
-> **Parameter (Body)**
+> **Parameter (Body)**ㅡ
 >
-> * None
-
-#### **Response**
+> * #### **Response**
 
 > **Type** : Object
 

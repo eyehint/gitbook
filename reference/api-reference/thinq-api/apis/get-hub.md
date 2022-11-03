@@ -1,14 +1,10 @@
----
-description: DAMDA 기기 정보 조회하기
----
+# GET /hub
 
-# GET /device
-
-### ThinQ 서비스에 저장된 DAMDA 기기의 상세 정보를 조회합니다. &#x20;
+### ThinQ 서비스에 저장된 DAMDA 기기의 정보를 조회합니다. &#x20;
 
 #### Request
 
-> **URL** : http://{device\_ip}:8951**/device**
+> **URL** : http://localhost:8951**/hub**
 >
 > **METHOD** : <mark style="color:blue;">**GET**</mark>
 >
