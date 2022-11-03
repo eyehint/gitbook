@@ -1,14 +1,14 @@
 ---
-description: ThinQ 서버에서 기기 정보 삭제하기
+description: DAMDA 기기 내부에 등록된 사용자의 Home 정보를 조회합니다.
 ---
 
-# DELETE /device
+# DELETE /hub
 
-### ThinQ 서버에서 기기 정보를 제거(unregister) 합니다.
+### ThinQ 서버에 저장된 Hub의 등록 정보를 제거(unregister) 합니다.
 
 #### Request
 
-> **URL** : http://{device\_ip}:8951**/device**
+> **URL** : http://localhost:8951**/hub**
 >
 > **METHOD** : <mark style="color:red;">**DELETE**</mark>
 >

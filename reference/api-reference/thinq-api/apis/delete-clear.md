@@ -16,9 +16,23 @@ description: 기기에서 ThinQ 서버로 정보 전달하기 (for TPA 통신)
 >
 > * message-id (option) : 로깅을 위한 id, 미 입력시 기기 내부에서 자동으로 생성
 >
-> **Parameter (Body)**ㅡ
+> **Parameter (Body)**
 >
-> * #### **Response**
+> * monitoring (Object)
+
+#### Request Example
+
+```
+{
+    "monitoring" :
+    {
+        "LED Status":"ON",
+        "Device Stauts": "GOOD"
+    }
+}
+```
+
+#### Response
 
 > **Type** : Object
 
@@ -27,3 +41,4 @@ description: 기기에서 ThinQ 서버로 정보 전달하기 (for TPA 통신)
 ```json
 {}
 ```
+
