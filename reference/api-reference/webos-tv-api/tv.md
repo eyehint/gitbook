@@ -1,5 +1,19 @@
 # TV 리스트 조회
 
+{% swagger method="get" path="" baseUrl="/webostv" summary="" %}
+{% swagger-description %}
+
+{% endswagger-description %}
+
+{% swagger-response status="200: OK" description="" %}
+```javascript
+{
+    // Response
+}
+```
+{% endswagger-response %}
+{% endswagger %}
+
 ## GET /webostv
 
 ### Description
