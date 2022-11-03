@@ -50,7 +50,7 @@ hellodamda.zip\
 
 <figure><img src="../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption><p>[DAMDA Console] 컴포넌트</p></figcaption></figure>
 
-3\. '**컴포넌트 생성**' 버튼을 클릭하면 컴포넌트 생성 팝업이 나타납니다. \\
+3\. '**컴포넌트 생성**' 버튼을 클릭하면 컴포넌트 생성 팝업이 나타납니다.
 
 <figure><img src="../.gitbook/assets/image (34) (2).png" alt=""><figcaption><p>[DAMDA Console] 컴포넌트 생성</p></figcaption></figure>
 
@@ -80,7 +80,7 @@ hellodamda.zip\
 제공되는 퍼블릭 컴포넌트들에 대한 설명은 [damda-components.md](../fundamentals/damda-cloud/undefined-1/damda-components.md "mention")를 참고하세요
 {% endhint %}
 
-3\. 화면 하단 **배포 대상**에 배포할 대상 **DAMDA 기기**를 선택합니다. (※ _DAMDA 기기의 정보는 '**디바이스**' 탭을 통해 확인 가능합니다_)\\
+3\. 화면 하단 **배포 대상**에 배포할 대상 **DAMDA 기기**를 선택합니다. (※ _DAMDA 기기의 정보는 '**디바이스**' 탭을 통해 확인 가능합니다_)
 
 <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>DAMDA Console 배포 작업 생성</p></figcaption></figure>
 
@@ -102,7 +102,7 @@ DAMDA Console **'디바이스'** 화면에서 배포된 기기를 선택(_'**Det
 #### 2) DAMDA 기기 (DAMDA Home)에서 확인하기
 
 DAMDA 기기 내 [DAMDA Home](../fundamentals/damda/damda-home.md)을 실행하면 내가 새로 설치한 컴포넌트가 화면에 나타나는 것을 확인할 수 있습니다.\
-내가 설치한 컴포넌트의 Icon을 선택(더블클릭)하면 브라우져를 통하여 해당 컴포넌트의 화면(index.html)의 화면을 확인할 수 있습니다. \\
+내가 설치한 컴포넌트의 Icon을 선택(더블클릭)하면 브라우져를 통하여 해당 컴포넌트의 화면(index.html)의 화면을 확인할 수 있습니다.
 
 <figure><img src="../.gitbook/assets/image (11) (5).png" alt=""><figcaption><p>DAMDA Home 화면</p></figcaption></figure>
 
@@ -116,3 +116,13 @@ ex) http://192.168.50.25:30001/com.damda.sample.hellodamda/1.0.0/hellodamda/inde
 ```
 
 <figure><img src="../.gitbook/assets/image (2) (4).png" alt=""><figcaption><p>개발 PC 브라우저로 접속</p></figcaption></figure>
+
+## :pencil: 요약
+
+* 컴포넌트 코드 준비하기: 파일 구조 및 zip파일 압축
+* 컴포넌트 등록(생성) 하기
+* 컴포넌트 배포하고 확인하기
+
+{% hint style="info" %}
+&#x20;상세한 컴포넌트 생성 가이드는 [undefined.md](../fundamentals/damda-cloud/undefined-1/undefined.md "mention") 참고하세요
+{% endhint %}
