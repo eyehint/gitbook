@@ -82,7 +82,7 @@ hellodamda.zip\
 
 3\. 화면 하단 **배포 대상**에 배포할 대상 **DAMDA 기기**를 선택합니다. (※ _DAMDA 기기의 정보는 '**디바이스**' 탭을 통해 확인 가능합니다_)
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>DAMDA Console 배포 작업 생성</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (3).png" alt=""><figcaption><p>DAMDA Console 배포 작업 생성</p></figcaption></figure>
 
 4\. '배포 요청' 버튼을 클릭하면 배포가 시작되고 배포 과정이 화면 하단에 표시됩니다.
 
@@ -101,7 +101,7 @@ DAMDA Console **'디바이스'** 화면에서 배포된 기기를 선택(_'**Det
 
 #### 2) DAMDA 기기 (DAMDA Home)에서 확인하기
 
-DAMDA 기기 내 [DAMDA Home](../fundamentals/damda/damda-home.md)을 실행하면 내가 새로 설치한 컴포넌트가 화면에 나타나는 것을 확인할 수 있습니다.\
+DAMDA 기기 내 [DAMDA Home](../fundamentals/page-1/damda-home/)을 실행하면 내가 새로 설치한 컴포넌트가 화면에 나타나는 것을 확인할 수 있습니다.\
 내가 설치한 컴포넌트의 Icon을 선택(더블클릭)하면 브라우져를 통하여 해당 컴포넌트의 화면(index.html)의 화면을 확인할 수 있습니다.
 
 <figure><img src="../.gitbook/assets/image (11) (5).png" alt=""><figcaption><p>DAMDA Home 화면</p></figcaption></figure>
