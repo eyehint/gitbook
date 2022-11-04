@@ -14,7 +14,7 @@
 
 <figure><img src="../../.gitbook/assets/image (10) (3).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1) (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
