@@ -26,7 +26,7 @@ ThinQ에 등록되지 않았다면, 아래와 같이 Home 화면에 'ThinQ에 �
 
 등록된 기기 명이 보일 때까지 기다렸다가 완료를 눌러줍니다.
 
-<figure><img src="../../../.gitbook/assets/image (51).png" alt=""><figcaption><p>기 등록 완료</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (51) (1).png" alt=""><figcaption><p>기 등록 완료</p></figcaption></figure>
 
 등록 완료 후 Home에 제품명이 보이는 것을 확인할 수 있습니다.&#x20;
 
