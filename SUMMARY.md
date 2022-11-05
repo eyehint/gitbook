@@ -82,3 +82,4 @@
   * [가전 App](reference/samples/app.md)
   * [Proto Sub Device](reference/samples/proto-sub-device.md)
   * [TV화면 캡쳐 + AWS Rekognition](reference/samples/tv-+-aws-rekognition.md)
+  * [DAMDA Hub](reference/samples/damda-hub.md)
