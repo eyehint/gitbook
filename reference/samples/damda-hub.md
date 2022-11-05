@@ -1,16 +1,14 @@
 ---
-description: hub 기능을 사용해볼 수 있는 샘플 예제입니다
+description: Hub 기능을 사용해볼 수 있는 샘플 예제입니다
 ---
 
 # DAMDA Hub
 
+com.damda.sample.damda-hub를 배포하여 사용할 수 있습니다.&#x20;
 
+이 샘플앱에서는 서브기기를 등록하고 제어해볼 수 있습니다. 나만의 서브기기 타입을 추가하면, 정의한 기기타입과 허브가 연동되어 동작하는 것을 확인할 수 있습니다. 서브기기 타입을 추가하는 방법은 [custom-sub-device](../../fundamentals/damda/custom-sub-device/ "mention")를 확인하시기 바랍니다.
 
-DAMDA Hub에 기기를 등록하는 방법은 ['서브기기 연동하기'](damda-hub.md#undefined-1)를 참고해주세요. \
-
-
-TPA를 통해 나만의 카드를 만들어서 DAMDA에 설치한 내 컴포넌트와 통신할 수도 있습니다.\
-TPA 개발 가이드: [https://thinqapp.developer.lge.com/ko/documentation/development/ihm-development/ihm\_development\_guide/](https://thinqapp.developer.lge.com/ko/documentation/development/ihm-development/ihm\_development\_guide/)
+앱 배포 후 Damda Home에 DAMDA Hub가 생성된 것을 확인할 수 있습니다. 아이콘을 눌러, damda-hub의 index.html로 이동합니다.
 
 ## DAMDA Hub 사용하기
 

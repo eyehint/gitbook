@@ -46,6 +46,18 @@ DAMDA가 설치된 기기를 ThinQ에 내 제품으로 등록할 수 있습니�
 
 <img src="../../.gitbook/assets/image (4) (6).png" alt="" data-size="original">
 
+
+
+ThinQ에 제품으로 등록하고 나면, TPA를 통해 나만의 카드를 만들어서 DAMDA에 설치한 내 컴포넌트와 통신할 수 있습니다. 컴포넌트는 [thinq-api.md](../../reference/api-reference/thinq-api.md "mention")를 사용하여 TPA와 데이터를 주고받을 수 있습니다.
+
+이러한 방법으로 만들어진 [thinq.md](../../quick-start/thinq.md "mention") 샘플을 참고하실 수 있습니다.
+
+{% hint style="info" %}
+TPA 개발 가이드: [https://thinqapp.developer.lge.com/ko/documentation/development/ihm-development/ihm\_development\_guide/](https://thinqapp.developer.lge.com/ko/documentation/development/ihm-development/ihm\_development\_guide/)
+{% endhint %}
+
+
+
 {% hint style="info" %}
 com.damda.sample.damda-hub 을 설치한 경우, 기기 카드를 누르면 hub앱을 위해 만들어진 IHM을 확인할 수 있습니다.
 
