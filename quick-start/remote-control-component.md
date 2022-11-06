@@ -158,7 +158,7 @@ client.on("message", (topic, message, packet) => {
 
 ### 3. 다른 담다 기기 제어하기&#x20;
 
-ThinQ API의 [Control API](../reference/api-reference/thinq-api/apis/post-hub-control.md)를 이용하면 내 계정에 연결된 담다 기기를 원격으로 제어할 수 있습니다.&#x20;
+ThinQ API의 [Control API](../reference/api-reference/thinq-api/apis/post-device-control.md)를 이용하면 내 계정에 연결된 담다 기기를 원격으로 제어할 수 있습니다.&#x20;
 
 ### 4. TPA에서 제어 명령 날리기
 

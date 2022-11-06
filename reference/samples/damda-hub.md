@@ -6,7 +6,7 @@ description: Hub 기능을 사용해볼 수 있는 샘플 예제입니다
 
 com.damda.sample.damda-hub를 배포하여 사용할 수 있습니다.&#x20;
 
-이 샘플앱에서는 서브기기를 등록하고 제어해볼 수 있습니다. 나만의 서브기기 타입을 추가하면, 정의한 기기타입과 허브가 연동되어 동작하는 것을 확인할 수 있습니다. 서브기기 타입을 추가하는 방법은 [custom-sub-device](../../fundamentals/damda/custom-sub-device/ "mention")를 확인하시기 바랍니다.
+이 샘플앱에서는 서브기기를 등록하고 제어해볼 수 있습니다. 나만의 서브기기 타입을 추가하면, 정의한 기기타입과 허브가 연동되어 동작하는 것을 확인할 수 있습니다. 서브기기 타입을 추가하는 방법은 [custom-sub-device](../../fundamentals/damda-device/custom-sub-device/ "mention")를 확인하시기 바랍니다.
 
 앱 배포 후 Damda Home에 DAMDA Hub가 생성된 것을 확인할 수 있습니다. 아이콘을 눌러, damda-hub의 index.html로 이동합니다.
 
@@ -38,7 +38,7 @@ webOSTV가 같은 네트워크 상에 있다면, TV를 등록하고 제어 해�
 연동된 서브기기들을 제어 해볼 수 있습니다. 서브기기 카드를 누르면 제어 할 수 있는 화면이 나옵니다. 제어 패널 안에서는 각 기기의 상세한 상태 값 또한 확인할 수 있습니다. 상태 값 및 제어 목록은 기기의 capability 파일을를 바탕으로 생성됩니다.
 
 나만의 기기 타입을 만들면 허브를 통해 내가 만든 기기를 등록하고 제어  수 있습니다. \
-새로 타입을 정의하는 방법은 [Custom Sub Device 가이드](../../fundamentals/damda/custom-sub-device/)를 참고하시기 바랍니다.
+새로 타입을 정의하는 방법은 [Custom Sub Device 가이드](../../fundamentals/damda-device/custom-sub-device/)를 참고하시기 바랍니다.
 
 #### TV 제어하기
 

@@ -17,7 +17,7 @@ description: 가전 API를 활용한 샘플코드 입니다.
 
 아래 public component를 사용하는 컴포넌트 입니다.
 
-* [com.damda.thinq-backend-api](../api-reference/api/undefined.md)
+* [com.damda.thinq-backend-api](../api-reference/home-appliance-api/check-status.md)
 
 ### 웹 애플리케이션 Damda 컴포넌트로 실행
 

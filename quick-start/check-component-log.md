@@ -6,7 +6,7 @@ description: DAMDA 제품에 배포한 내 컴포넌트를 디버깅하기 위�
 
 ## 1. Debugging 용 Test Component 코드 작성
 
-내 코드의 로그를 [Debugging Console](../fundamentals/damda-tools/debugging-console.md)에서 보기 위해서는,\
+내 코드의 로그를 [Debugging Console](../fundamentals/damda-device/debugging-console.md)에서 보기 위해서는,\
 &#x20;   1\.  로그가 json type으로 작성되어야 합니다\
 &#x20;   2\. json 안에는 level, message, function, timestamp의 요소가 들어가야 합니다.\
 &#x20;   3\. Log File의 path는 `/var/log/damda/`아래에 저장합니다. 파일명은 자유롭게 사용할 수 있습니다.
@@ -51,7 +51,7 @@ component를 배포하기 위해서 DAMDA Console에서 생성합니다.
 
 component명은 자유롭게 사용할 수 있으나 다른 사용자의 컴포넌트와 중복이 되면 안됩니다.
 
-자세한 컴포넌트 생성 가이드는 [컴포넌트 생성](../fundamentals/damda-cloud/undefined-1/undefined-1.md) 페이지를 참고하세요
+자세한 컴포넌트 생성 가이드는 [컴포넌트 생성](../fundamentals/damda-cloud/manage-component/create-component.md) 페이지를 참고하세요
 
 <figure><img src="../.gitbook/assets/image (16) (2).png" alt=""><figcaption></figcaption></figure>
 
@@ -69,6 +69,6 @@ component명은 자유롭게 사용할 수 있으나 다른 사용자의 컴포�
 
 디버깅 콘솔 관련된 상세한 내용은 아래 페이지에서 확인해주세요
 
-{% content-ref url="../fundamentals/damda-tools/debugging-console.md" %}
-[debugging-console.md](../fundamentals/damda-tools/debugging-console.md)
+{% content-ref url="../fundamentals/damda-device/debugging-console.md" %}
+[debugging-console.md](../fundamentals/damda-device/debugging-console.md)
 {% endcontent-ref %}

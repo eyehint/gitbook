@@ -19,7 +19,7 @@ DAMDA Console에 접속하여 컴포넌트 탭으로 이동합니다.
 
 따라서 '퍼블릭 컴포넌트만' 배포하고 싶다면 우선 내 컴포넌트를 하나 선택하고 '배포하기'를 누른뒤, 배포 목록에서 선택했던 내 컴포넌트를 제외해 주세요 (조금 더 편리한 배포가 가능하도록 UI 개선 예정입니다 :star:)
 
-내 컴포넌트 생성 방법은 [컴포넌트 생성하기](undefined-1.md)을 참조하세요
+내 컴포넌트 생성 방법은 [컴포넌트 생성하기](create-component.md)을 참조하세요
 {% endhint %}
 
 ## 배포하기 목록 확인
@@ -43,7 +43,7 @@ DAMDA Console에 접속하여 컴포넌트 탭으로 이동합니다.
 '예'를 누르면 배포가 시작됩니다. 배포가 완료되는 것을 기다립니다. 이 창을 닫아도 배포는 계속 진행됩니다.
 
 {% hint style="warning" %}
-현재 [배포 준비에서 UI가 진행되지 않는 버그](undefined-1-1.md#known-issue)가 있습니다. 배포가 정상적으로 진행중이니, 배포 완료 여부를 [기기 정보 페이지에서 확인](undefined-1-1.md#damda)해주시기 바랍니다.
+현재 [배포 준비에서 UI가 진행되지 않는 버그](deploy-component.md#known-issue)가 있습니다. 배포가 정상적으로 진행중이니, 배포 완료 여부를 [기기 정보 페이지에서 확인](deploy-component.md#damda)해주시기 바랍니다.
 {% endhint %}
 
 <figure><img src="../../../.gitbook/assets/image (7) (6).png" alt=""><figcaption><p>배포 진행 중</p></figcaption></figure>
@@ -66,9 +66,9 @@ DAMDA에서 필요한 필수 컴포넌트들은 항상 함께 배포 됩니다. 
 
 마지막 배포 기준으로 배포상태가 업데이트 되므로, 배포한 시간이 맞는지 확인합니다. \
 배포상태가 **COMPLETE, SUCCESSFUL**이면 배포가 성공한 것입니다. \
-COMPLETE, SUCCESSFUL이 아닌 경우는 [배포가 정상으로 완료되지 않을 때](undefined-1-1.md#undefined-4) 를 확인해보시기 바랍니다.
+COMPLETE, SUCCESSFUL이 아닌 경우는 [배포가 정상으로 완료되지 않을 때](deploy-component.md#undefined-4) 를 확인해보시기 바랍니다.
 
-컴포넌트 상태가 Broken 인 것은 컴포넌트가 정상적으로 설치되지 않은 것을 의미합니다. [배포 완료 후 컴포넌트 상태가 'Broken' 일 때](undefined-1-1.md#broken)  참고해보시기 바랍니다.
+컴포넌트 상태가 Broken 인 것은 컴포넌트가 정상적으로 설치되지 않은 것을 의미합니다. [배포 완료 후 컴포넌트 상태가 'Broken' 일 때](deploy-component.md#broken)  참고해보시기 바랍니다.
 
 ### DAMDA 기기에서 확인하기
 
