@@ -42,7 +42,7 @@ Installer setup 파일:&#x20;
 
 {% code title="Raspberry Pi" %}
 ```shell
-# 업데이트 예
+# curl -O http://10.178.133.16/damda-installer_1.0.3-1_pi.deb
 ```
 {% endcode %}
 
