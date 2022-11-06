@@ -16,7 +16,7 @@ DAMDA 설치 후 사용할 수 있습니다
 
 ![](<../../.gitbook/assets/image (16).png>)
 
-Home의 첫화면에서 **시간 및 지역기반 날씨정보**를 확인할 수 있습니다. 또한  Sample과 사용자 컴포넌트 리스트를 확인할 수 있습니다. Install 되자마자는 설치된필수 컴포넌트만 설치되어있으므로 와 같은 안내문구가 나옵니다.
+Home의 첫화면에서 **시간 및 지역기반 날씨정보**를 확인할 수 있습니다. 또한  Sample과 사용자 컴포넌트 리스트를 확인할 수 있습니다. Install 직후에는 필수 컴포넌트만 설치되어있으므로 와 같은 안내 문구가 나옵니다.
 
 <figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption><p>DAMDA Home 첫 화면</p></figcaption></figure>
 
@@ -55,8 +55,6 @@ ThinQ에 제품으로 등록하고 나면, TPA를 통해 나만의 카드를 만
 {% hint style="info" %}
 TPA 개발 가이드: [https://thinqapp.developer.lge.com/ko/documentation/development/ihm-development/ihm\_development\_guide/](https://thinqapp.developer.lge.com/ko/documentation/development/ihm-development/ihm\_development\_guide/)
 {% endhint %}
-
-
 
 {% hint style="info" %}
 com.damda.sample.damda-hub 을 설치한 경우, 기기 카드를 누르면 hub앱을 위해 만들어진 IHM을 확인할 수 있습니다.

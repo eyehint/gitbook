@@ -2,7 +2,7 @@
 
 hub와 기기를 연동하기위하여 필요한 코드를 정의합니다. python 으로 작성해야 합니다.
 
-/opt/damda/sub-devices/user-devices/functions 하위에 위치합니다
+/opt/damda/sub-devices/user-devices/user-functions 하위에 위치합니다
 
 ## 코드 작성 가이드 <a href="#id-webostv" id="id-webostv"></a>
 

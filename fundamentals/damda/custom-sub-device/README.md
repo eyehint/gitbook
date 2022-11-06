@@ -12,7 +12,7 @@ DAMDA에 새로운 서브 디바이스 타입을 추가하고 싶을 때는 아�
 
 sub-device 파일을 넣는 위치는 `/opt/damda/sub-devices/user-devices` 입니다.
 
-capability는 `capabilites/` 아래에, 기기 코드는 `functions/` 아래에, profile은 `profiles/` 아래에 추가합니다.
+capability는 `capabilites/` 아래에, 기기 코드는 `user-functions/` 아래에, profile은 `profiles/` 아래에 추가합니다.
 
 ```shell
 root@raspberrypi:/opt/damda/sub-devices/user-devices# ls -al
@@ -20,7 +20,7 @@ root@raspberrypi:/opt/damda/sub-devices/user-devices# ls -al
 drwxr-xr-x 5 root root 4096 10월 14 13:37 .
 drwxr-xr-x 4 root root 4096 10월 14 13:04 ..
 drwxr-xr-x 2 root root 4096 10월 14 13:04 capabilities
-drwxr-xr-x 2 root root 4096 10월 14 13:04 functions
+drwxr-xr-x 2 root root 4096 10월 14 13:04 user-functions
 drwxr-xr-x 2 root root 4096 10월 14 13:04 profiles
 ```
 
