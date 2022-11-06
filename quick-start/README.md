@@ -4,8 +4,8 @@ description: DAMDA를 빠르게 구성하기 위한 가이드 입니다.
 
 # Quick Start
 
-{% content-ref url="undefined.md" %}
-[undefined.md](undefined.md)
+{% content-ref url="setup_env.md" %}
+[setup\_env.md](setup\_env.md)
 {% endcontent-ref %}
 
 {% content-ref url="hello-damda.md" %}

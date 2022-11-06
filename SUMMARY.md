@@ -2,11 +2,11 @@
 
 * [DAMDA Overview](README.md)
 * [Quick Start](quick-start/README.md)
-  * [개발환경 구성하기](quick-start/undefined.md)
+  * [개발환경 구성하기](quick-start/setup\_env.md)
   * [Hello DAMDA 따라하기](quick-start/hello-damda.md)
   * [ThinQ 연결하기](quick-start/thinq.md)
   * [내 컴포넌트 로그 확인하기](quick-start/undefined-1.md)
-  * [내 컴포넌트 원격 제어하기](quick-start/undefined-2.md)
+  * [내 컴포넌트 원격 제어하기](quick-start/undefined.md)
 
 ## FUNDAMENTALS
 
