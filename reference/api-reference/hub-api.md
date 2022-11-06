@@ -1,7 +1,5 @@
 # Hub API
 
-업데이트 예정입니다
-
 {% swagger method="post" path="" baseUrl="/devices" summary="서브 기기 등록" %}
 {% swagger-description %}
 디바이스 타입 별 profile을 참고하여 요청합니다.

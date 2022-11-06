@@ -53,7 +53,6 @@
       * [DELETE /device](reference/api-reference/thinq-api/apis/delete-hub.md)
       * [POST /monitoring](reference/api-reference/thinq-api/apis/delete-clear.md)
     * [Error / Exceptions](reference/api-reference/thinq-api/error-exceptions.md)
-  * [Rule API](reference/api-reference/rule-api.md)
   * [Hub API](reference/api-reference/hub-api.md)
   * [가전 API](reference/api-reference/api.md)
     * [가전 상태 조회](reference/api-reference/api/undefined.md)
