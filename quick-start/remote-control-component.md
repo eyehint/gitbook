@@ -104,7 +104,7 @@ messageId는 control 명령에서 받은 값과 반드시 동일한 값이어야
 {% endhint %}
 
 {% hint style="danger" %}
-<mark style="color:red;">제어 결과에 대한 응답은 만 리턴되게 됩니다.</mark>
+<mark style="color:red;">제어 결과에 대한 응답은 하나의 응답만 리턴되게 됩니다.</mark>
 
 여러 컴포넌트가 같은 messageId로 응답을 보내게 되면, 먼저 응답한 컴포넌트의 결과만 보내지게 됩니다. 따라서 damda/control/result로 응답 메세지를 보낼 때 , 반드시 본인이 정의한 메세지만 응답하도록 구현해야 합니다.
 {% endhint %}
