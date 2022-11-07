@@ -8,7 +8,7 @@ description: webOSTV와 연동 하기 위한 API 입니다
 
 퍼블릭 컴포넌트 **com.damda.public.webos-tv-api**를 배포하여야 합니다.
 
-<figure><img src="../../../.gitbook/assets/image (6) (3).png" alt=""><figcaption><p>배포 목록 com.damda.public.webosp-tv-api 포함 </p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption><p>배포 목록 com.damda.public.webosp-tv-api 포함 </p></figcaption></figure>
 
 ## Base URL
 

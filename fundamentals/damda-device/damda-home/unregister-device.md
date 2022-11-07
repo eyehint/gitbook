@@ -6,7 +6,7 @@ description: ThinQ에 등록된 DAMDA 기기를 등록 해제하는 방법입니
 
 기기가 등록되어 있다면 Home의 날씨 UI 아래쪽에 제품명이 표시됩니다. 제품명을 클릭 합니다.
 
-<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>ThinQ에 등록된 상태. Home 화면 좌측에 제품명(DAMDA 제품) 표시됨</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>ThinQ에 등록된 상태. Home 화면 좌측에 제품명(DAMDA 제품) 표시됨</p></figcaption></figure>
 
 ThinQ에 등록된 DAMDA 기기의 ID 를 확인할 수 있는 팝업이 나타납니다 팝업의 좌측 하단에 "등록 해제" 버튼을 클릭합니다
 
