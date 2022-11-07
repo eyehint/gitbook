@@ -137,7 +137,7 @@ DAMDA Installer CLI Version: 1.0.3
 
     <figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fl3Km0lGSEvAZ1z7FtNCb%2Fuploads%2FiVEw9LLe2TVUGYZgOPBq%2Fimage.png?alt=media&#x26;token=7bd85b06-c8f6-468d-a9fb-79c896a2a43b" alt=""><figcaption><p>설치 진행 중</p></figcaption></figure>
 
-    <figure><img src="../.gitbook/assets/image (3) (3).png" alt=""><figcaption><p>설치 완료 상태</p></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (3) (3) (1).png" alt=""><figcaption><p>설치 완료 상태</p></figcaption></figure>
 5.  설치 과정이 완료 된 것을 확인합니다. \
     앞으로 컴포넌트 배포할 때 필요한 정보인, DAMDA 기기명을 확인할 수 있습니다.
 
