@@ -22,7 +22,7 @@ DAMDA Console에 접속하여 컴포넌트 탭으로 이동합니다.
 
 배포 작업 생성 팝업이 나타납니다. 이 팝업에 포함된 배포할 목록을 검토합니다.
 
-<figure><img src="../../../.gitbook/assets/image (42).png" alt=""><figcaption><p>배포 작업 설정 화면 (컴포넌트 목록 편집, 배포할 기기 선택)</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (42) (2).png" alt=""><figcaption><p>배포 작업 설정 화면 (컴포넌트 목록 편집, 배포할 기기 선택)</p></figcaption></figure>
 
 퍼블릭 컴포넌트가 추천 목록에 포함되어 있습니다. 사용하고 싶은 컴포넌트는 <mark style="color:green;">**"추가"**</mark> 버튼을 눌러 선택해줍니다.
 
@@ -64,7 +64,7 @@ Damda Console에서 디바이스 탭으로 이동합니다.&#x20;
 DAMDA에서 필요한 필수 컴포넌트들은 항상 함께 배포 됩니다. 따라서 컴포넌트 상태 창에는 직접 배포하지 않은 컴포넌트가 존재할 수 있습니다.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>디바이스 상세 정보</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (11).png" alt=""><figcaption><p>디바이스 상세 정보</p></figcaption></figure>
 
 마지막 배포 기준으로 배포상태가 업데이트 되므로, 배포한 시간이 맞는지 확인합니다. \
 배포상태가 **COMPLETE, SUCCESSFUL**이면 배포가 성공한 것입니다. \
@@ -79,7 +79,7 @@ COMPLETE, SUCCESSFUL이 아닌 경우는 [배포가 정상으로 완료되지 �
 ### 디버깅 콘솔에서 확인하기
 
 DAMDA 기기(DAMDA가 설치된 라즈베리파이)에서 디버깅 콘솔을 실행합니다. \
-![](../../../.gitbook/assets/image.png)
+![](<../../../.gitbook/assets/image (56).png>)
 
 디버깅 콘솔의 요약 페이지에 마지막 배포에 관한 정보가 나옵니다. 배포상태가 COMPLETED 이면 배포가 완료된 것입니다.
 
@@ -87,7 +87,16 @@ DAMDA 기기(DAMDA가 설치된 라즈베리파이)에서 디버깅 콘솔을 �
 
 ### index.html 확인하기
 
-업데이트 예정입니다.
+DAMDA 기기에서 DAMDA Home을 실행합니다.
+
+![](../../../.gitbook/assets/image.png)
+
+Home에서는 설치된 sample앱과 내 컴포넌트의 목록을 확인할 수 있습니다.&#x20;
+
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+내 컴포넌트 배포가 정상적으로 완료 되었다면, home을 실행했을 때 배포한 앱을 볼 수 있습니다. 이 때, 배포한 것이 index.html을 포함하는 앱이라면, 앱 아이콘을 눌러 해당 앱의 index.html 페이지로 이동할 수 있습니다.\
+index.html을 포함하는 앱에 관한 설명은 [[develop-component-code.md](develop-component-code.md "mention")](develop-component-code.md#home)를 참고해주시기 바랍니다.
 
 
 
