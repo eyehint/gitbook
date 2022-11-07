@@ -219,7 +219,7 @@ npm run thinq_tpa -- DoB -n EXA
 
 **Step 5.** ThinQ App을 통해 EXA 모듈이 정상적으로 실행이 되는지 확인합니다. (ThinQ App과 TPA 모듈은 동일 네트워크에 있어야 합니다)
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 5. ThinQ 연동 샘플 실행결과
 

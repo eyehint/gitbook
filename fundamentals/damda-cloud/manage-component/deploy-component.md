@@ -72,16 +72,13 @@ COMPLETE, SUCCESSFUL이 아닌 경우는 [배포가 정상으로 완료되지 �
 
 컴포넌트 상태가 Broken 인 것은 컴포넌트가 정상적으로 설치되지 않은 것을 의미합니다. [배포 완료 후 컴포넌트 상태가 'Broken' 일 때](deploy-component.md#broken)  참고해보시기 바랍니다.
 
-### DAMDA 기기에서 확인하기
-
-업데이트 예정입니다.
-
 ### 디버깅 콘솔에서 확인하기
 
-DAMDA 기기(DAMDA가 설치된 라즈베리파이)에서 디버깅 콘솔을 실행합니다. \
-![](<../../../.gitbook/assets/image (56).png>)
+DAMDA Console 혹은 DAMDA 기기에서 디버깅 콘솔을 실행합니다.&#x20;
 
 디버깅 콘솔의 요약 페이지에 마지막 배포에 관한 정보가 나옵니다. 배포상태가 COMPLETED 이면 배포가 완료된 것입니다.
+
+디버깅 콘솔에 관한 자세한 내용은 [debugging-console.md](../../damda-device/debugging-console.md "mention") 참조해주세요
 
 <figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
@@ -93,7 +90,7 @@ DAMDA 기기에서 DAMDA Home을 실행합니다.
 
 Home에서는 설치된 sample앱과 내 컴포넌트의 목록을 확인할 수 있습니다.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 내 컴포넌트 배포가 정상적으로 완료 되었다면, home을 실행했을 때 배포한 앱을 볼 수 있습니다. 이 때, 배포한 것이 index.html을 포함하는 앱이라면, 앱 아이콘을 눌러 해당 앱의 index.html 페이지로 이동할 수 있습니다.\
 index.html을 포함하는 앱에 관한 설명은 [[develop-component-code.md](develop-component-code.md "mention")](develop-component-code.md#home)를 참고해주시기 바랍니다.
