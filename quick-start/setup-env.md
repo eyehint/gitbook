@@ -4,7 +4,11 @@ description: DAMDA를 사용하기 위한 환경 설정 방법을 설명합니�
 
 # 개발환경 구성하기
 
-## Setup Environment <a href="#setup-environment" id="setup-environment"></a>
+## 0. What you can get here
+
+DAMDA 를 사용하기 위한 환경을 구성할 수 있습니다. DAMDA 가 설치되면 컴포넌트 배포를 통해 다양한 기능을 사용해 볼 수 있고, 나만의 기능을 만들어 볼 수 있습니다.
+
+## 1. Setup Environment <a href="#setup-environment" id="setup-environment"></a>
 
 ### Step1: Prerequisites
 
@@ -52,7 +56,7 @@ Installer setup 파일:&#x20;
 ```
 {% endcode %}
 
-## Setup Installer
+## 2. Setup Installer
 
 {% tabs %}
 {% tab title="Installer 설치" %}
@@ -112,7 +116,7 @@ DAMDA Installer CLI Version: 1.0.3
 {% endtab %}
 {% endtabs %}
 
-## Install DAMDA
+## 3. Install DAMDA
 
 {% tabs %}
 {% tab title="GUI" %}

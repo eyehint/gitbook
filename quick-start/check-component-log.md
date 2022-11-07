@@ -4,6 +4,10 @@ description: DAMDA 제품에 배포한 내 컴포넌트를 디버깅하기 위�
 
 # 내 컴포넌트 로그 확인하기
 
+## 0. What you can get here
+
+디버깅 콘솔에서 확인할 수 있도록, 내컴포넌트의 로그를 남기는 방법을 확인할 수 있습니다.
+
 ## 1. Debugging 용 Test Component 코드 작성
 
 내 코드의 로그를 [Debugging Console](../fundamentals/damda-device/debugging-console.md)에서 보기 위해서는,\

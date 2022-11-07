@@ -4,6 +4,10 @@ description: DAMDA제품을 ThinQ에 등록하여 ThinQ앱과 연동합니다.
 
 # ThinQ 연결하기
 
+## 0. What you can get here
+
+DAMDA 기기를 ThinQ에 등록하는 방법입니다. ThinQ에 등록하고나면, ThinQ앱과 내 컴포넌트간에 통신이 가능하도록 만들 수 있습니다.
+
 ## 1. ThinQ 제품으로 등록하기
 
 {% embed url="https://youtu.be/esiUQKBEK7E" %}

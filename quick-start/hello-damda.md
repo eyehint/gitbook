@@ -4,6 +4,10 @@ description: DAMDA기기에 첫 어플리케이션 코드 배포합니다.
 
 # Hello DAMDA 따라하기
 
+## 0. What you can get here
+
+내가 원하는 앱을 만들고, 그 앱을 컴포넌트화 하여 배포하는 기적인 방법을 확인할 수 있습니다. damda console을 통해 배포하면, damda가 설치된 기기에 내 앱이 설치된 것을 확인할 수 있습니다.
+
 ## 1. "Hello DAMDA" 작성하기
 
 index.html 파일명으로 아래 코드를 작성해주세요.
