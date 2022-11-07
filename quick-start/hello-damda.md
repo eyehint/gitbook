@@ -74,7 +74,7 @@ hellodamda.zip\
 
 <figure><img src="../.gitbook/assets/image (1) (1) (2).png" alt=""><figcaption><p>DAMDA Console 배포할 컴포넌트 선택</p></figcaption></figure>
 
-2\. 내가 선택한 컴포넌트와 퍼블릭 컴포넌트들이 포함되어 배포 리스트가 만들어집니다. 제외 버튼을 통해 사용하지 않을 컴포넌트는 삭제할 수 있습니다. <mark style="color:red;">배포 목에서 제외된 컴포넌트는 DAMDA 기기에서 제거되니 주의 바랍니다.</mark> 이 예제를 정상적으로 실행하기 위해서 <mark style="color:red;">**내 컴포넌트(com.<본인계정명>.sample.hellodamda)와 웹서버 퍼블릭 컴포넌트(com.damda.webserver)는 반드시 포함**</mark>되어야합니다.
+2\. 내가 선택한 컴포넌트와 퍼블릭 컴포넌트들이 포함되어 배포 리스트가 만들어집니다. 추가하고 싶은 퍼블릭 컴포넌트는 "추가"버튼을 눌러, 배포에 포함시켜줍니다. 제외 버튼을 통해 사용하지 않을 컴포넌트는 삭제할 수 있습니다. <mark style="color:red;">배포 목에서 제외된 컴포넌트는 DAMDA 기기에서 제거되니 주의 바랍니다.</mark> 이 예제를 정상적으로 실행하기 위해서 <mark style="color:red;">**내 컴포넌트(com.<본인계정명>.sample.hellodamda) 시 포함**</mark>되어야합니다.
 
 {% hint style="info" %}
 제공되는 퍼블릭 컴포넌트들에 대한 설명은 [damda-components.md](../fundamentals/damda-cloud/manage-component/damda-components.md "mention")를 참고하세요
@@ -95,7 +95,7 @@ hellodamda.zip\
 #### 1) DAMDA Console에서 확인하기
 
 DAMDA Console **'디바이스'** 화면에서 배포된 기기를 선택(_'**Details**' 누름_)하면 오른쪽 하단에 컴포넌트 상태를 확인할 수 있습니다.\
-**내 컴포넌트(**_**`com.<본인계졍명>.sample.hellodamda`**_**)의 상태가 "FINISHED" 이고, 웹 서버 퍼블릭 컴포넌트 (\_`com.damda.public.webserver`**\_\*\*)\*\*의 상태가 "**RUNNING**" 이면 정상적으로 배포된 상태입니다.
+**내 컴포넌트(**_**`com.<본인계졍명>.sample.hellodamda`**_**)의 상태가 "FINISHED" 이고, 웹 서버 퍼블릭 컴포넌트 (\_`com.damda.necessary.WebServer`**\_\*\*)\*\*의 상태가 "**RUNNING**" 이면 정상적으로 배포된 상태입니다.
 
 <figure><img src="../.gitbook/assets/image (7) (3).png" alt=""><figcaption><p>DAMDA Console > 디바이스 탭 > Details (기기 상세 정보)</p></figcaption></figure>
 
