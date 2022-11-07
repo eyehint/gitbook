@@ -179,7 +179,7 @@ node {root}/control_app/index.js
 
 **Step 5**. 등록된 내 컴포넌트(com.<계정>.sample.control\_app)를 배포하기를 통하여 내 기기로 배포합니다.&#x20;
 
-<figure><img src="../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 ## 4. ThinQ 연동 샘플 TPA 설치하기 (Control App 제어)
 
