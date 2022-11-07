@@ -20,6 +20,8 @@
     * [Profile](fundamentals/damda-device/custom-sub-device/profile.md)
     * [Functions](fundamentals/damda-device/custom-sub-device/functions.md)
   * [DAMDA Installer](fundamentals/damda-device/damda-installer/README.md)
+    * [DAMDA Installer 설치하기](fundamentals/damda-device/damda-installer/setup-damda-installer.md)
+    * [DAMDA 설치하기](fundamentals/damda-device/damda-installer/install-damda.md)
     * [DAMDA 삭제하기](fundamentals/damda-device/damda-installer/uninstall-damda.md)
     * [DAMDA Installer 삭제하기](fundamentals/damda-device/damda-installer/remove-damda-installer.md)
 * [DAMDA Cloud](fundamentals/damda-cloud/README.md)
