@@ -23,13 +23,15 @@ DAMDA 기기 내부는 다음과 같은 구조로 구되어 있습니다 .
 
 기본적으로 TPA에서 (또는 다른 담다 기기에서) 전달되는 제어 명령은 사용자가 직접 정의하여 사용합니다.&#x20;
 
-_\[제어 명령 예시 - 담다 허브 : 서브기기 조회하기 ]_
+정의한 메세지를 [POST /device/control](../reference/api-reference/thinq-api/apis/post-device-control.md) API를 포출하여 제어 명령을 보냅니다
+
+_\[제어 명령 예시 -_ [_담다 허브 (com.damda.sample.damda-hub)_](../reference/samples/damda-hub.md) _: 서브기기 조회하기 ]_
 
 ```
 {
-   "ctrlKey":"Hub",
-   "command":"getSubDeviceList"
-   "dataSetList":{}
+	"ctrlKey":"Hub",
+	"command":"getSubDeviceList"
+	"dataSetList":{}
 }
 ```
 
@@ -46,7 +48,27 @@ MQTT Broker Information
 * topic : damda/control
 {% endhint %}
 
-사용자 컴포넌트는 내부 MQTT의 Topic을 Subscribe하여 제어 명령을 획득할 수 있습니다.&#x20;
+사용자 컴포넌트는 위 정보로, 내부 MQTT의 Topic을 Subscribe하여 제어 명령을 획득할 수 있습니다.&#x20;
+
+#### Control mqtt 메세지 형식
+
+```
+{
+	"messageId": 제어메세지에서 받은 messageId,
+	{사용자가 보낸 제어 명령 dictionary}
+}
+```
+
+예를들어,[ '0.준비](remote-control-component.md#0.)'에서 보낸 제어명령은 아래와 같은 형태의 mqtt 메세지로 전달 됩니다.
+
+```
+{
+	"messageId": "KTf3aZiwQTmTQlTUMDJN6w",
+	"ctrlKey":"Hub",
+	"command":"getSubDeviceList"
+	ode"dataSetList":{}
+}
+```
 
 ### 2. 제어 결과 회신하기
 
@@ -55,15 +77,30 @@ ThinQ Server는 제어 명령을 전달한 뒤 특정시간 동안 결과를 대
 
 <mark style="color:red;">**따라서 원할한 컴포넌트 제어를 진행하기 위해서는 반드시 제어 결과를 회신하여야 합니다.**</mark>&#x20;
 
-제어 메시지 받기와 마찬가지로 사용자 컴포넌트와 ThinQ Agent는 MQTT 기반 통신을 진행합니다. \
+['1. 제어 메시지 받기'](remote-control-component.md#1.-1)와 마찬가지로 사용자 컴포넌트와 ThinQ Agent는 MQTT 기반 통신을 진행합니다. \
 즉, 사용자 컴포넌트가 기기 내부의 MQTT Broker (Topic : damda/control/result)로 결과를 publish하면, \
 ThinQ Agent는 그 값을 subscribe하여 ThinQ Server로 전달합니다.&#x20;
 
-{% hint style="warning" %}
-**Control 명령**에 대한 **Control 결과**는 다음과 같은 메시지 형식을 가집니다.&#x20;
+#### Control Result mqtt 메세지 형식
 
-* messageId (String) \* : control 명령에 들어있던 message id와 동일한 값 _(반드시 동일한 값이어야 함_)
-* result (object) \* :  사용자 정의 결과 값. _({} 이라도 넣어야 )_
+<pre><code><strong>{
+</strong>	"messageId": 제어메세지에서 받은 messageId,
+	"result": 제어 결과 dictionary
+}</code></pre>
+
+| Key       | Value Type | Mandatory | Description                 |
+| --------- | ---------- | --------- | --------------------------- |
+| messageId | string     | Yes       | 제어명령에서 받은 messageId를 그대로 사용 |
+| result    | dictionary | Yes       | 응답으로 보내고자 하는 결과 정보          |
+
+{% hint style="warning" %}
+messageId는 control 명령에서 받은 값과 반드시 동일한 값이어야 합
+{% endhint %}
+
+{% hint style="danger" %}
+<mark style="color:red;">제어 결과에 대한 응답은 만 리턴되게 됩니다.</mark>
+
+여러 컴포넌트가 같은 messageId로 응답을 보내게 되면, 먼저 응답한 컴포넌트의 결과만 보내지게 됩니다. 따라서 damda/control/result로 응답 메세지를 보낼 때 , 반드시 본인이 정의한 메세지만 응답하도록 구현해야 합니다.
 {% endhint %}
 
 제어 결과에 대한 MQTT Broker 정보는 다음과 같습니다. 사용자 컴포넌트는 내부 MQTT의 Topic에 제어 결과를 Publish 할 수 있습니다.&#x20;
@@ -78,7 +115,7 @@ MQTT Broker Information
 
 <details>
 
-<summary>[제어 명령 수신 및 결과 회신 예시 - control_app : index.js]</summary>
+<summary>[제어 명령 수신 및 결과 회신 예시 - control_app : index.js</summary>
 
 ```
 var mqtt = require('mqtt');
