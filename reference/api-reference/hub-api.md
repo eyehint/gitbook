@@ -6,7 +6,8 @@ description: DAMDA기기가 hub가 되어 동작합니다. 정의된 sub device�
 
 ## Prerquisites
 
-샘플 컴포넌트 **com.damda.sample.damda-hub**를 배포하여야 합니다.
+샘플 컴포넌트 **com.damda.sample.damda-hub**를 배포하여야 합니다.\
+damda-hub는 배포에 평균 5분정도 소요됩니다. 네트워크 상태에 따라 더 긴 시간이 소요될 수 있습니다.
 
 <figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption><p>배포 목록 com.damda.sample.damda-hub 포함</p></figcaption></figure>
 
