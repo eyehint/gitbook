@@ -27,7 +27,9 @@ DAMDA 기기 내부는 다음과 같은 구조로 구되어 있습니다 .
 
 기본적으로 TPA에서 (또는 다른 담다 기기에서) 전달되는 제어 명령은 사용자가 직접 정의하여 사용합니다.&#x20;
 
-정의한 메세지를 [POST /device/control](../reference/api-reference/thinq-api/apis/post-device-control.md) API를 포출하여 제어 명령을 보냅니다
+정의한 메세지를 [POST /device/control](../reference/api-reference/thinq-api/apis/post-device-control.md) API를 포출하여 제어 명령을 보냅니다.
+
+TPA에서 명령을 보내는 경우는[#4.-tpa](remote-control-component.md#4.-tpa "mention")를 참고해주세요
 
 _\[제어 명령 예시 -_ [_담다 허브 (com.damda.sample.damda-hub)_](../reference/samples/damda-hub.md) _: 서브기기 조회하기 ]_
 
