@@ -4,7 +4,7 @@ description: DAMDA Installer를 사용하여 DAMDA를 설치합니다
 
 # DAMDA 설치하기
 
-## Prerequisite
+## Prerequisites
 
 DAMDA Installer를 설치해두어야 합니다. [setup-damda-installer.md](setup-damda-installer.md "mention")를 확인하세요
 
