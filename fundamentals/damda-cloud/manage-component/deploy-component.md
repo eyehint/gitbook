@@ -90,7 +90,7 @@ DAMDA 기기에서 DAMDA Home을 실행합니다.
 
 Home에서는 설치된 sample앱과 내 컴포넌트의 목록을 확인할 수 있습니다.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 내 컴포넌트 배포가 정상적으로 완료 되었다면, home을 실행했을 때 배포한 앱을 볼 수 있습니다. 이 때, 배포한 것이 index.html을 포함하는 앱이라면, 앱 아이콘을 눌러 해당 앱의 index.html 페이지로 이동할 수 있습니다.\
 index.html을 포함하는 앱에 관한 설명은 [[develop-component-code.md](develop-component-code.md "mention")](develop-component-code.md#home)를 참고해주시기 바랍니다.

@@ -26,6 +26,10 @@ Home의 첫화면에서 **시간 및 지역기반 날씨정보**를 확인할 �
 
 <figure><img src="../../../.gitbook/assets/image (2) (3).png" alt=""><figcaption><p>위치 선택 화면</p></figcaption></figure>
 
+## 앱 테마 변경
+
+우측 상단의 DAMDA Home을 누르면 앱 테마가 변경됩니다. 맘에 드는 색상으로 사용해 보세요 :sparkles:
+
 ## 설치된 앱목록 확인
 
 DAMDA Console을 통해 배포한 컴포넌트들을 확인할 수 있습니다. 이 때 컴포넌트 중 샘플 컴포넌트와 커스텀 컴포넌트만 목록에 보이게 됩니다. 컴포넌트 명이 com.damda.necessary로 시작하는 컴포넌트와 com.damda.public으로 시작하는 컴포넌트는 보이지 않습니다.
