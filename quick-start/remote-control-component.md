@@ -12,7 +12,7 @@ description: DAMDA 제품에 배포한 내 컴포넌트를 원격으로 제어�
 
 DAMDA 기기 내부는 다음과 같은 구조로 구되어 있습니다 .
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 * ThinQ Agent : ThinQ Server와 담다 기기간의 Communication을 담당합니다.&#x20;
 * MQTT Broker : ThinQ Agent와 사용자 컴포넌트간의 제어 명령을 전달합니다.&#x20;
@@ -89,10 +89,12 @@ ThinQ Agent는 그 값을 subscribe하여 ThinQ Server로 전달합니다.&#x20;
 
 #### Control Result mqtt 메세지 형식
 
-<pre><code><strong>{
-</strong>	"messageId": 제어메세지에서 받은 messageId,
+```
+{
+	"messageId": 제어메세지에서 받은 messageId,
 	"result": 제어 결과 dictionary
-}</code></pre>
+}
+```
 
 | Key       | Value Type | Mandatory | Description                 |
 | --------- | ---------- | --------- | --------------------------- |

@@ -213,7 +213,7 @@ Script 항목에서 '+'를 누르면 스크립트를 입력할 수 있는 칸이
 
 <img src="../../../.gitbook/assets/image (2) (2).png" alt="" data-size="original">
 
-![](<../../../.gitbook/assets/image (4).png>)
+![](<../../../.gitbook/assets/image (4) (10).png>)
 
 
 
