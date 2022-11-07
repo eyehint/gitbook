@@ -1,14 +1,18 @@
+---
+description: webOSTV와 연동 하기 위한 API 입니다
+---
+
 # webOS TV API
 
-## 준비사항
+## Prerquisites
 
 퍼블릭 컴포넌트 **com.damda.public.webos-tv-api**를 배포하여야 합니다.
 
-<figure><img src="../../../.gitbook/assets/image (12) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption><p>배포 목록 com.damda.public.webosp-tv-api 포함 </p></figcaption></figure>
 
 ## Base URL
 
-Base Url은 {DAMDA 기기 api}:5011 입니다.
+Base Url은 **{DAMDA 기기 IP}:5011** 입니다.
 
 |     |                       |                                                                                                                                                                                                |
 | --- | --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -19,11 +23,11 @@ Base Url은 {DAMDA 기기 api}:5011 입니다.
 
 ## Parameter
 
-모든 webOS TV API에서 동일하게 사용되는 TV IP 파라메터 입니다.
+모든 webOS TV API에서 동일하게 사용되는 TV IP 파라터 입니다.
 
-| Name | Type   | Description | Required |
-| ---- | ------ | ----------- | -------- |
-| IP   | String | 연결할 TV IP 주 | Yes      |
+| Name | Type   | Description  | Required |
+| ---- | ------ | ------------ | -------- |
+| IP   | String | 연결할 TV IP 주소 | Yes      |
 
 ## Response
 

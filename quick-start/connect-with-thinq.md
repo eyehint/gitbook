@@ -183,7 +183,7 @@ node {root}/control_app/index.js
 
 **Step 5**. 등록된 내 컴포넌트(com.<계정>.sample.control\_app)를 배포하기를 통하여 내 기기로 배포합니다.&#x20;
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 ## 4. ThinQ 연동 샘플 TPA 설치하기 (Control App 제어)
 
@@ -209,7 +209,7 @@ TPA를 사용하기 위해서는 ThinQ앱 설정을 변경하여야 합니다. �
 
 Step 3. _`interface/dashBoardCardInterface.js`_ 파일의 11번째 줄에 있는 device id 값을 자신의 device id 값으로 바꿔줍니다.&#x20;
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 4.** Terminal을 통해 EXA 모듈을 실행합니다.&#x20;
 

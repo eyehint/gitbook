@@ -18,7 +18,7 @@ DAMDA 설치 후 사용할 수 있습니다
 
 Home의 첫화면에서 **시간 및 지역기반 날씨정보**를 확인할 수 있습니다. 또한  Sample과 사용자 컴포넌트 리스트를 확인할 수 있습니다. Install 직후에는 필수 컴포넌트만 설치되어있으므로 와 같은 안내 문구가 나옵니다.
 
-<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption><p>DAMDA Home 첫 화면</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (18) (1).png" alt=""><figcaption><p>DAMDA Home 첫 화면</p></figcaption></figure>
 
 #### 날씨 정보 위치 변경하기&#x20;
 

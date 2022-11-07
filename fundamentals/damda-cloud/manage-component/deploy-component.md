@@ -8,45 +8,47 @@ description: DAMDA를 통해 컴포넌트 배포하는 방법 가이드 입니�
 
 DAMDA Console에 접속하여 컴포넌트 탭으로 이동합니다.
 
-<figure><img src="../../../.gitbook/assets/image (42).png" alt=""><figcaption><p>컴포넌트 탭 화면</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (35).png" alt=""><figcaption><p>컴포넌트 탭 화면</p></figcaption></figure>
 
 '내 컴포넌트' 중 배포하고 싶은 컴포넌트를 선택하고 배포하기를 클릭합니다.
 
-<figure><img src="../../../.gitbook/assets/image (4) (8).png" alt=""><figcaption><p>배포할 컴포넌트 선택</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (29).png" alt=""><figcaption><p>배포할 컴포넌트 선택</p></figcaption></figure>
 
-{% hint style="info" %}
-내 컴포넌트가 하나라도 포함되야 배포하기 클릭이 가능합니다.&#x20;
+선택한 컴포넌트 없이 배포하는 경우에는 기기가 <mark style="color:red;">초기화</mark> 됩니다
 
-따라서 '퍼블릭 컴포넌트만' 배포하고 싶다면 우선 내 컴포넌트를 하나 선택하고 '배포하기'를 누른뒤, 배포 목록에서 선택했던 내 컴포넌트를 제외해 주세요 (조금 더 편리한 배포가 가능하도록 UI 개선 예정입니다 :star:)
-
-내 컴포넌트 생성 방법은 [컴포넌트 생성하기](create-component.md)을 참조하세요
-{% endhint %}
+<figure><img src="../../../.gitbook/assets/image (31).png" alt=""><figcaption><p>기기 초기화 진행 여부 팝업</p></figcaption></figure>
 
 ## 배포하기 목록 확인
 
 배포 작업 생성 팝업이 나타납니다. 이 팝업에 포함된 배포할 목록을 검토합니다.
 
-<figure><img src="../../../.gitbook/assets/image (39).png" alt=""><figcaption><p>배포 작업 설정 화면 (컴포넌트 목록 편집, 배포할 기기 선택)</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (42).png" alt=""><figcaption><p>배포 작업 설정 화면 (컴포넌트 목록 편집, 배포할 기기 선택)</p></figcaption></figure>
 
-배포 목록에는 퍼블릭 컴포넌트 전체가 자동으로 추가됩니다. 원하지 않는 퍼블릭 컴포넌트는 제외하고 배포합니다.
+퍼블릭 컴포넌트가 추천 목록에 포함되어 있습니다. 사용하고 싶은 컴포넌트는 <mark style="color:green;">**"추가"**</mark> 버튼을 눌러 선택해줍니다.
+
+제공되는 샘플 앱들은 각각 동작을 위해 필요한 퍼블릭 컴포넌트가 있으니, 가이드 확인 후 사용해주시기 바랍니다.
 
 {% hint style="danger" %}
-**제외된 컴포넌트는 damda 기기에서 삭제됩니다. 계속 사용하고 싶은 컴포넌트는 항상 추가해주시기 바랍니다.**
+**제외된 컴포넌트는 damda 기기에서 삭제됩니다. 계속 사용하고 싶은 컴포넌트는 항상 **<mark style="color:green;">**추가**</mark>**해주시기 바랍니다.**
 {% endhint %}
 
 '배포 대상'에 원하는 damda 기기명을 선택해줍니다.&#x20;
 
 '배포 요청' 버튼을 누르면 배포를 진행할 것인지 확인하는 팝업이 나타납니다.
 
-<figure><img src="../../../.gitbook/assets/image (8) (5).png" alt=""><figcaption><p>배포 생성 확인 팝업</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption><p>배포 생성 확인 팝업</p></figcaption></figure>
 
 '예'를 누르면 배포가 시작됩니다. 배포가 완료되는 것을 기다립니다. 이 창을 닫아도 배포는 계속 진행됩니다.
 
 {% hint style="warning" %}
-현재 [배포 준비에서 UI가 진행되지 않는 버그](deploy-component.md#known-issue)가 있습니다. 배포가 정상적으로 진행중이니, 배포 완료 여부를 [기기 정보 페이지에서 확인](deploy-component.md#damda)해주시기 바랍니다.
+현재 간혹 [배포 준비에서 UI가 진행되지 않는 버그](deploy-component.md#known-issue)가 있습니다. UI가 변경되지 않더라도 배포는 정상적으로 진행중입니다. 배포 완료 여부를 [기기 정보 페이지에서 확인](deploy-component.md#damda)해주시기 바랍니다.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (7) (6).png" alt=""><figcaption><p>배포 진행 중</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (28).png" alt=""><figcaption><p>배포 진행 중</p></figcaption></figure>
+
+{% hint style="info" %}
+배포작업 팝업을 종료해도 배포는 계속 진행됩니다
+{% endhint %}
 
 ## 배포 결과 확인하기
 
@@ -54,7 +56,7 @@ DAMDA Console에 접속하여 컴포넌트 탭으로 이동합니다.
 
 Damda Console에서 디바이스 탭으로 이동합니다.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (4) (7).png" alt=""><figcaption><p>디바이스 탭 화면</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption><p>디바이스 탭 화면</p></figcaption></figure>
 
 배포한 기기의 명 오른쪽에 <mark style="color:blue;">Details</mark>를 클릭합니다. 기기 세부 정보 창이 나타납니다. 이 창에서 배포 상태와 컴포넌트 상태를 확인합니다.
 
@@ -62,7 +64,7 @@ Damda Console에서 디바이스 탭으로 이동합니다.&#x20;
 DAMDA에서 필요한 필수 컴포넌트들은 항상 함께 배포 됩니다. 따라서 컴포넌트 상태 창에는 직접 배포하지 않은 컴포넌트가 존재할 수 있습니다.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (14) (1).png" alt=""><figcaption><p>디바이스 상세 정보</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (33).png" alt=""><figcaption><p>디바이스 상세 정보</p></figcaption></figure>
 
 마지막 배포 기준으로 배포상태가 업데이트 되므로, 배포한 시간이 맞는지 확인합니다. \
 배포상태가 **COMPLETE, SUCCESSFUL**이면 배포가 성공한 것입니다. \

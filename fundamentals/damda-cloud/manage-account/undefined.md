@@ -26,4 +26,4 @@ DAMDA를 설치하고 사용하기 위해서는 DAMDA 계정이 필요합니다.
 5.  DAMDA Console로 이동해 로그인이 정상적으로 되는지 확인합니다.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (32) (1).png" alt=""><figcaption></figcaption></figure>

@@ -69,7 +69,7 @@ component명은 자유롭게 사용할 수 있으나 다른 사용자의 컴포�
 
 `DAMDA Console -> 디바이스 탭 -> 배포한 디바이스 ID 오른쪽에 detail 클릭 -> 디버깅 콘솔 버튼을 클릭`하여 디버깅 콘솔에 접속할 수 있습니다.
 
-<figure><img src="../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 디버깅 콘솔 관련된 상세한 내용은 아래 페이지에서 확인해주세요
 

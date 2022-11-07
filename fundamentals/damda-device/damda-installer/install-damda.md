@@ -37,7 +37,7 @@ Installer에 DAMDA id와 password 입력합니다.&#x20;
 설치 과정이 완료 된 것을 확인합니다. \
 앞으로 컴포넌트 배포할 때 필요한 정보인, DAMDA 기기명을 확인할 수 있습니다.
 
-<figure><img src="../../../.gitbook/assets/image (37).png" alt=""><figcaption><p>설치 완료 확인</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (37) (1).png" alt=""><figcaption><p>설치 완료 확인</p></figcaption></figure>
 
 ### CLI
 
