@@ -20,7 +20,7 @@
 
 ### 라즈베리파이에서 실행하기
 
-라즈베리파이에서 `메뉴 -> 기타 -> DAMDA Debugging Console` 을 클릭하여 접속할 수 있습니다.
+라즈베리파이에서 `메뉴 -> 기타 -> DAMDA Debugging Console` 을 클릭하여 접속할 수 있습니다. 혹은 라즈베리파이에서 브라우저를 직접실행하여 localhost:8787로도 접속할 수 있습니다.
 
 ![](<../../.gitbook/assets/image (34) (1).png>)
 

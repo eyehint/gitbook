@@ -20,7 +20,10 @@ DAMDA 를 사용하기 위한 환경을 구성할 수 있습니다. DAMDA 가 �
   * 지원 OS는 **RaspberryPi OS(권장)**, Ubuntu mate 입니다.&#x20;
     * Raspberry Pi OS 공식 페이지: [https://www.raspberrypi.com/software/](https://www.raspberrypi.com/software/)
     * &#x20;Ubuntu MATE for Raspberry Pi 공식 페이지: [https://ubuntu-mate.org/raspberry-pi/](https://ubuntu-mate.org/raspberry-pi/)
-      *
+
+{% hint style="info" %}
+Ubuntu mate를 사용하는 경우, Firefox가 기본 브라우저로 설치되어있어, chromium을 설치해주셔야 damda home, damda debugging console을 아이콘을 통해 접근할 수 있습니다.
+{% endhint %}
 
 ### Step2: Install the library
 
