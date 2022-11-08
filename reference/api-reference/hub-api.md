@@ -13,19 +13,6 @@ damda-hub는 배포에 평균 5분정도 소요됩니다. 네트워크 상태에
 
 ## API List
 
-ThinQ 연동 서비스는 Http 및 websocket 기반의 REST API를 제공합니다. (default Port : 8951)
-
-제공되는 API는 다음과 같습니다.&#x20;
-
-* hub에 등록가능한 기기 타입 정보 받아오기: __&#x20;
-* 본인 계정에 등록된 홈 목록 조회하기: [<mark style="color:blue;">GET</mark> http://{device ip}:8951/home ](thinq-api/apis/get-home.md)
-* 본인 계정에 등록된 기기목록 조회하기: [<mark style="color:blue;">GET</mark> http://{device ip}:8951/home/devices ](thinq-api/apis/get-home-devices.md)
-* ThinQ 서버(damda 서버)에 기기 등록하: [<mark style="color:green;">POST</mark> http://{device ip}:8951/device](thinq-api/apis/post-device.md)
-* DAMDA 기기 정보 조회하기: [<mark style="color:blue;">GET</mark> http://{device ip}:8951/device](thinq-api/apis/get-device.md)
-* ThinQ에 등록된  다른 기기 제어하기 (일부기기만 제어가능): [<mark style="color:green;">POST</mark> http://{device ip}:8951/device/control ](thinq-api/apis/post-device-control.md)
-* ThinQ 서버에서 기기 정보 삭제하기: [<mark style="color:red;">DELETE</mark> http://{device ip}:8951/delete](thinq-api/apis/delete-device.md)
-* 기기에서 ThinQ 서버로 정보 전달하기 (for TPA 통신): [<mark style="color:green;">POST</mark> http://{device ip}:8951/monitoring](thinq-api/apis/post-monitoring.md)&#x20;
-
 {% swagger method="get" path="" baseUrl="/deviceTypes" summary="사용 가능한 서브기기 타입 리스트" %}
 {% swagger-description %}
 damda-hub가 인식 가능한 기기 타입들을 리턴합니다.
@@ -34,7 +21,7 @@ damda-hub가 인식 가능한 기기 타입들을 리턴합니다.
 {% endswagger-description %}
 
 {% swagger-response status="200: OK" description="" %}
-```javascript
+```json
 {
     "resultCode": "0000",
     "result": [
@@ -44,6 +31,217 @@ damda-hub가 인식 가능한 기기 타입들을 리턴합니다.
         "webOSTV",
         "sensorThermoHygrometer"
     ]
+}
+```
+{% endswagger-response %}
+{% endswagger %}
+
+{% swagger method="get" path="" baseUrl="/profiles/{device_type}" summary="기기 프로파일 정보 가져오기" %}
+{% swagger-description %}
+device type의 profile을 가지고 옵니다. Profile에 대한 자세한 설명은 
+
+[가이드](../../fundamentals/damda-device/custom-sub-device/profile.md)
+
+를 참조해주시기 바랍니다.
+{% endswagger-description %}
+
+{% swagger-response status="200: OK" description="지원 가능한 타입인 경우  profile 파일을 리턴" %}
+```json
+{
+    "resultCode": "0000",
+    "result": {
+        "deviceType": "webOSTV",
+        "name": "webOS",
+        "components": [
+            {
+                "label": "main",
+                "id": "main",
+                "capabilities": [
+                    {
+                        "id": "webOSTV",
+                        "version": 1
+                    }
+                ]
+            }
+        ],
+        "status": "DEVELOPMENT",
+        "preferences": [
+            {
+                "title": "IP Address",
+                "name": "ip",
+                "description": "IP address of the webOS TV",
+                "required": true,
+                "type": "string"
+            }
+        ]
+    }
+}
+```
+{% endswagger-response %}
+{% endswagger %}
+
+{% swagger method="get" path="" baseUrl="/capabilities/{id}/{version}" summary="" %}
+{% swagger-description %}
+
+{% endswagger-description %}
+
+{% swagger-response status="200: OK" description="지원 가능한 타입인 경우  capability 파일을 리턴" %}
+```javascript
+{
+    "id": "webOSTV",
+    "version": 1,
+    "name": "webOS TV",
+    "attributes": {
+        "power": {
+            "schema": {
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "on",
+                            "off"
+                        ]
+                    }
+                }
+            }
+        },
+        "volume": {
+            "schema": {
+                "properties": {
+                    "value": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 100
+                    }
+                }
+            }
+        },
+        "muted": {
+            "schema": {
+                "properties": {
+                    "value": {
+                        "type": "boolean"
+                    }
+                }
+            }
+        },
+        "programName": {
+            "schema": {
+                "properties": {
+                    "value": {
+                        "type": "string"
+                    }
+                }
+            }
+        },
+        "channelName": {
+            "schema": {
+                "properties": {
+                    "value": {
+                        "type": "string"
+                    }
+                }
+            }
+        },
+        "channelNumber": {
+            "schema": {
+                "properties": {
+                    "value": {
+                        "type": "string"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "powerOn": {
+            "name": "power_on",
+            "arguments": []
+        },
+        "powerOff": {
+            "name": "power_off",
+            "arguments": []
+        },
+        "setVolume": {
+            "name": "set_volume",
+            "arguments": [
+                {
+                    "name": "volume",
+                    "schema": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 100
+                    }
+                }
+            ]
+        },
+        "keyMute": {
+            "name": "mute",
+            "arguments": [
+                {
+                    "name": "mute",
+                    "schema": {
+                        "type": "boolean"
+                    }
+                }
+            ]
+        },
+        "volumeUp": {
+            "name": "volume_up",
+            "arguments": []
+        },
+        "volumeDown": {
+            "name": "volume_down",
+            "arguments": []
+        },
+        "channelUp": {
+            "name": "channel_up",
+            "arguments": []
+        },
+        "channelDown": {
+            "name": "channel_down",
+            "arguments": []
+        },
+        "keyHome": {
+            "name": "home",
+            "arguments": []
+        },
+        "keyBack": {
+            "name": "back",
+            "arguments": []
+        },
+        "keyOk": {
+            "name": "ok",
+            "arguments": []
+        },
+        "keyLeft": {
+            "name": "left",
+            "arguments": []
+        },
+        "keyRight": {
+            "name": "right",
+            "arguments": []
+        },
+        "keyUp": {
+            "name": "up",
+            "arguments": []
+        },
+        "keyDown": {
+            "name": "down",
+            "arguments": []
+        },
+        "capture": {
+            "name": "capture",
+            "arguments": [
+                {
+                    "name": "upload_uri",
+                    "schema": {
+                        "type": "string"
+                    }
+                }
+            ]
+        }
+    }
 }
 ```
 {% endswagger-response %}

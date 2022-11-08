@@ -69,7 +69,7 @@
       * [가전 제어](reference/api-reference/home-appliance-api/apis/post-devices-device-id.md)
       * [EMP Access Token 발급](reference/api-reference/home-appliance-api/apis/emp-access-token.md)
       * [Event/Push Callback (Websocket)](reference/api-reference/home-appliance-api/apis/event-push-callback-websocket.md)
-  * [webOS TV API](reference/api-reference/webos-tv-api/README.md)
+  * [webOS TV API](reference/api-reference/webos-tv-api/README.md)
     * [TV 리스트 조회](reference/api-reference/webos-tv-api/get-webostv.md)
     * [TV 등록](reference/api-reference/webos-tv-api/post-webostv.md)
     * [Command](reference/api-reference/webos-tv-api/command.md)
