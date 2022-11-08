@@ -20,6 +20,7 @@ DAMDA 를 사용하기 위한 환경을 구성할 수 있습니다. DAMDA 가 �
   * 지원 OS는 **RaspberryPi OS(권장)**, Ubuntu mate 입니다.&#x20;
     * Raspberry Pi OS 공식 페이지: [https://www.raspberrypi.com/software/](https://www.raspberrypi.com/software/)
     * &#x20;Ubuntu MATE for Raspberry Pi 공식 페이지: [https://ubuntu-mate.org/raspberry-pi/](https://ubuntu-mate.org/raspberry-pi/)
+      *
 
 ### Step2: Install the library
 
@@ -52,7 +53,7 @@ curl -O http://10.178.133.16/damda-installer_1.0.3-1_pi.deb
 
 {% code title="Ubuntu" %}
 ```shell
-# 업데이트 예
+curl -O http://10.178.133.16/damda-installer_1.0.3-1_ubuntu.deb
 ```
 {% endcode %}
 
@@ -87,7 +88,7 @@ Progress: [ 20%] [####################################..........................
 
 {% code title="Ubuntu" %}
 ```shell
-sudo apt install ./damda-installer_1.0.3-1_ubuntu.deb
+sudo dpkg -i ./damda-installer_1.0.3-1_ubuntu.deb
 ```
 {% endcode %}
 
