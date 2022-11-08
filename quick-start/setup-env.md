@@ -62,6 +62,7 @@ curl -O http://10.178.133.16/damda-installer_1.0.3-1_pi.deb
 {% tab title="Installer 설치" %}
 * DAMDA 사용자들만 installer 패키지를 받을 수 있습니다. 명령어 입력 후, 잠시 기다리면 DAMDA 계정을 입력하도록 메세지가 나옵니다.&#x20;
 * DAMDA 계정을 입력할 때 까지 설치가 진행되지 않습니다.&#x20;
+* DAMDA 계정 id는 메일주소입니다.
 * DAMDA 계정 입력이 잘못 된 경우 설치가 종료 되므로, 다시 설치 명령어를 입력해주시기 바랍니다.
 
 {% code title="Raspberry Pi" %}
