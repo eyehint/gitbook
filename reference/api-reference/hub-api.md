@@ -36,7 +36,7 @@ damda-hub가 인식 가능한 기기 타입들을 리턴합니다.
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger method="get" path="" baseUrl="/profiles/{device_type}" summary="기기 프로파일 정보 가져오기" %}
+{% swagger method="get" path="" baseUrl="/profiles/{device_type}" summary="기기 profile 정보 가져오기" %}
 {% swagger-description %}
 device type의 profile을 가지고 옵니다. Profile에 대한 자세한 설명은 
 
@@ -80,9 +80,13 @@ device type의 profile을 가지고 옵니다. Profile에 대한 자세한 설�
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger method="get" path="" baseUrl="/capabilities/{id}/{version}" summary="" %}
+{% swagger method="get" path="" baseUrl="/capabilities/{id}/{version}" summary="기기 capability 정보 가져오기" %}
 {% swagger-description %}
+device type의 capability 가지고 옵니다. Capability 대한 자세한 설명은 
 
+[가이드](../../fundamentals/damda-device/custom-sub-device/capability.md)
+
+를 참조해주시기 바랍니다.
 {% endswagger-description %}
 
 {% swagger-response status="200: OK" description="지원 가능한 타입인 경우  capability 파일을 리턴" %}
