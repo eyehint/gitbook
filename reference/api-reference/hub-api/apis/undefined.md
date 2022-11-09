@@ -22,7 +22,7 @@
 
 > Type: Object
 >
-> state 가 변경될 때마다 response를 을 수 있습니다. responses는 D[evice State 타입으](../types/devicestate.md)로 표현된 state가 올라옵니다.
+> state 가 변경될 때마다 response를 받을 수 있습니다. responses는 [Device State 타입](../types/devicestate.md)으로 표현된 state가 올라옵니다.
 
 #### Response Example
 
