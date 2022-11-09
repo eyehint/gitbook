@@ -39,7 +39,8 @@ Profile 파일명 규칙은 기기의 기능을 정의한 python 코드의 파�
 
 * 생략 가능이라고 적혀있지 않은 요소는 모두 필수로 들어가야합니다
 * <mark style="color:red;">**deviceType은 반드시 camelCase**</mark>**로 작성**되야합니다. 이 타입명은, functions의 파일명으로 사용됩니다
-* preferences 서브기기 등록 시 필요한 정보입니다. 서브 기기 등록과정에서 사용자에게 preferences에 정의된 값들을 입력받게됩니다.
+* preferences 서브기기 등록 시 필요한 정보입니다. 기기와 통신하기 위해서도 사용합니다. \
+  입력받아야 하는 parameter 들을 리스트로 작성합니다. 서브 기기 등록과정에서 사용자에게 preferences에 정의된 값들을 입력받아야 합니다.
 
 ## Profile Example
 

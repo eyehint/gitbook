@@ -29,6 +29,7 @@
 >
 > * resultCode (String) <mark style="color:red;">\*</mark>: API 수행 결과 코드 값
 > * result (Object) <mark style="color:red;">\*</mark> : 삭제 기기의 정보
+>   * device (Object) <mark style="color:red;">\*</mark> : [Device](../types/device.md) 타입으로 정의되어 있음
 > * registerId (String) <mark style="color:red;">\*</mark> : 기기 삭제가 성공했는지 확인하기 위한 ID
 
 #### Response Example

@@ -42,7 +42,8 @@
 > 결과 확인을 위해 response에 포함된 registerId를 사용
 >
 > * resultCode (String) <mark style="color:red;">\*</mark>: API 수행 결과 코드 값
-> * result (Object) <mark style="color:red;">\*</mark> : 등록할 기기의 정보
+> * result (Object) <mark style="color:red;">\*</mark> : 등록 진행하는 기기의 정보
+>   * device (Object) <mark style="color:red;">\*</mark> : [Device](../types/device.md) 타입으로 정의되어 있음
 > * registerId (String) <mark style="color:red;">\*</mark> : 기기 등록이 성공했는지 확인하기 위한 ID
 
 #### Response Example

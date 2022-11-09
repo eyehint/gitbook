@@ -70,6 +70,8 @@
       * [제어 결과 확인](reference/api-reference/hub-api/apis/get-devices-device-id-control.md)
       * [서브 디바이스 상태 모니터링](reference/api-reference/hub-api/apis/undefined.md)
       * [전체 서브 디바이스 상태 모니터링](reference/api-reference/hub-api/apis/undefined-1.md)
+    * [Types](reference/api-reference/hub-api/types/README.md)
+      * [Device](reference/api-reference/hub-api/types/device.md)
   * [가전 API](reference/api-reference/home-appliance-api/README.md)
     * [가전 상태 조회](reference/api-reference/home-appliance-api/check-status.md)
     * [가전 제어](reference/api-reference/home-appliance-api/control-device.md)
