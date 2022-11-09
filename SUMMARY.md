@@ -36,7 +36,7 @@
 * [DAMDA Tools](fundamentals/damda-tools/README.md)
   * [DAMDA CLI](fundamentals/damda-tools/damda-cli/README.md)
     * [Configuration](fundamentals/damda-tools/damda-cli/configuration.md)
-    * [Component](fundamentals/damda-tools/damda-cli/component.md)
+    * [Component](fundamentals/damda-tools/damda-cli/component.md)
     * [Device](fundamentals/damda-tools/damda-cli/device.md)
     * [Deployment](fundamentals/damda-tools/damda-cli/deployment.md)
   * [DAMDA Simulator](fundamentals/damda-tools/damda-simulator.md)
