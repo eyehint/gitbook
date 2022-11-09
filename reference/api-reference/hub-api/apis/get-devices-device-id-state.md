@@ -2,7 +2,7 @@
 
 ## GET /devices/{device\_id}/state
 
-기기 상태를 얻을 수 있습니다
+서브 기기 상태를 얻을 수 있습니다
 
 
 
@@ -25,7 +25,7 @@
 > Type: Object
 >
 > * resultCode (String) <mark style="color:red;">\*</mark>: API 수행 결과 코드 값
-> * result (Object) <mark style="color:red;">\*</mark> : 기기 상태
+> * result (Object) <mark style="color:red;">\*</mark> : 기기 상태 값. [DeviceState](../types/devicestate.md) 타입으로 정의됨
 
 #### Response Example
 

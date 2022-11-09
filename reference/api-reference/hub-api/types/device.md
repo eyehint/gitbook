@@ -52,3 +52,5 @@
 | preferences  | Object | 기기를 등록 할 때 사용한 정보. 기기와 통신하기 위해서도 사용함. 기기가 정의한 key, value 형태로 값을 가짐                                                       |
 | profile      | Object | 기기의 특징을 정의한 profile. [Profile](../../../../fundamentals/damda-device/custom-sub-device/profile.md)을 읽어온 데이터가 그대로 포함되어있음. |
 
+
+
