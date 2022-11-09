@@ -15,11 +15,14 @@ damda-hub는 배포에 평균 5분정도 소요됩니다. 네트워크 상태에
 
 다른 컴포넌트에서도, API를 통해 dmada-hub 컴포넌트와 통신하여 서브 의 정보를 알아오거나 등록, 제어 등을 할 수 있습니다.
 
-서브  타입 관련
+#### 서브 디바이스 타입 관련 API
 
 * [지원하는 서브 디바이스 타입 목록](hub-api/apis/get-device-types.md): <mark style="color:purple;">GET</mark> /deviceTypes
 * [특정 기기 타입 프로파일 정보](hub-api/apis/get-profiles-device-type.md): <mark style="color:purple;">GET</mark> /profiles/{device\_type}
 * [특정 capability 정보](hub-api/apis/get-capabilities-id-version.md): <mark style="color:purple;">GET</mark> <mark style="color:blue;"></mark> /capabilities/{id}/{version}
+
+#### 서브 디바이스 제어 관련 API
+
 * [서브 디바이스 등록](hub-api/apis/post-devices.md): <mark style="color:green;">POST</mark> /devices
 * [서브 디바이스 삭제](hub-api/apis/delete-devices-device-id.md): <mark style="color:red;">DLETE</mark> /devices/{device\_id}
 * [등록 / 삭제 결과 확인](hub-api/apis/get-progress-register-register-id.md): <mark style="color:purple;">GET</mark> /progress/register/{register\_id}
