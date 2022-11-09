@@ -58,7 +58,7 @@
   * [Hub API](reference/api-reference/hub-api.md)
     * [APIs](reference/api-reference/hub-api/apis/README.md)
       * [지원 기기타입 가져오기](reference/api-reference/hub-api/apis/get-device-types.md)
-      * [기기 프로파일 가져오기](reference/api-reference/hub-api/apis/get-profiles-device-type.md)
+      * [기기 profile 가져오기](reference/api-reference/hub-api/apis/get-profiles-device-type.md)
       * [기기 capability 가져오기](reference/api-reference/hub-api/apis/get-capabilities-id-version.md)
       * [서브 디바이스 등록하기](reference/api-reference/hub-api/apis/post-devices.md)
       * [서브 디바이스 삭제하기](reference/api-reference/hub-api/apis/delete-devices-device-id.md)
