@@ -120,7 +120,7 @@ DAMDA Console **'디바이스'** 화면에서 배포된 기기를 선택(_'**Det
 DAMDA 기기에서 [DAMDA Home](../fundamentals/damda-device/damda-home/)을 실행하면 내가 새로 설치한 컴포넌트가 화면에 나타나는 것을 확인할 수 있습니다. \
 내가 설치한 컴포넌트의 icon을 선택(클릭)하면 브라우져를 통하여 해당 컴포넌트의 화면(index.html)의 화면을 확인할 수 있습니다.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>DAMDA Home 화면</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (5).png" alt=""><figcaption><p>DAMDA Home 화면</p></figcaption></figure>
 
 ### 개발 PC에서 확인하기
 

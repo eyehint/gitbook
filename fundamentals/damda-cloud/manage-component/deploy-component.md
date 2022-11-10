@@ -86,7 +86,7 @@ DAMDA Console 혹은 DAMDA 기기에서 디버깅 콘솔을 실행합니다.&#x2
 
 DAMDA 기기에서 DAMDA Home을 실행합니다.
 
-![](../../../.gitbook/assets/image.png)
+![](<../../../.gitbook/assets/image (10).png>)
 
 Home에서는 설치된 sample앱과 내 컴포넌트의 목록을 확인할 수 있습니다.&#x20;
 
