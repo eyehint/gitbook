@@ -131,7 +131,7 @@ DAMDA 기기에서 [DAMDA Home](../fundamentals/damda-device/damda-home/)을 실
 ex) http://192.168.50.25:30001/com.damda.sample.hellodamda/1.0.0/hellodamda/index.html
 ```
 
-<figure><img src="../.gitbook/assets/image (2) (4).png" alt=""><figcaption><p>개발 PC 브라우저로 접속</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (4) (1).png" alt=""><figcaption><p>개발 PC 브라우저로 접속</p></figcaption></figure>
 
 ## :pencil: 요약
 

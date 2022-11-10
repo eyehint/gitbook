@@ -66,5 +66,6 @@ TPA 개발 가이드: [https://thinqapp.developer.lge.com/ko/documentation/devel
 {% hint style="info" %}
 com.damda.sample.damda-hub 을 설치한 경우, 기기 카드를 누르면 hub앱을 위해 만들어진 IHM을 확인할 수 있습니다.
 
-<mark style="color:orange;">현재 com.damda.sample.damda-hub을 설치 후 ThinQ앱을 통한TV제어에 버그가 발견되어 제어가 정상적으로 동작하지 않고 있습니다. 버그 수정 작업 진행 중입니다.</mark>
+<mark style="color:orange;">현재 com.damda.sample.damda-hub을 설치 후 ThinQ앱을 통한TV 제어에 버그가 발견되어</mark> <mark style="color:orange;"></mark><mark style="color:orange;">**빠르게 여러번 제어할 경우**</mark> <mark style="color:orange;"></mark><mark style="color:orange;">정상적으로 동작하지 않고 있습니다. 버그 수정 작업 진행 중입니다.</mark>
 {% endhint %}
+
