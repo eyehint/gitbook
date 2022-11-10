@@ -140,7 +140,7 @@ DAMDA Installer CLI Version: 1.0.3
 4.  설치가 완료되면 "Next" 버튼을 눌러 다음단계로 이동합니다. \
     (설치 과정은 약 10분 정도 소요됩니다. 네트워크 환경에 따라 더 오래 소요될 수 있습니다.)
 
-    <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>설치 진행 중<br></p></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption><p>설치 진행 중<br></p></figcaption></figure>
 
     <figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption><p>설치 완료 상태<br></p></figcaption></figure>
 5.  설치 과정이 완료 된 것을 확인합니다. \
