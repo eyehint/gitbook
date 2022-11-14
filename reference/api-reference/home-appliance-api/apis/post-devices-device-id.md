@@ -1,6 +1,6 @@
 # 가전 제어
 
-### POST /devices/{device-id}
+## POST /devices/{device-id}
 
 LG ThinQ 플랫폼에 등록되어 있는 가전을 제어하기 위한 API입니다.
 
