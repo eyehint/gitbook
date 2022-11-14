@@ -2,9 +2,15 @@
 description: DAMDA 기기 정보 조회하기
 ---
 
-# GET /device
+# 기기 정보 가져오기
 
-### ThinQ 서비스에 저장된 DAMDA 기기의 상세 정보를 조회합니다. &#x20;
+## GET /device
+
+ThinQ 서비스에 저장된 DAMDA 기기의 상세 정보를 조회합니다. &#x20;
+
+{% hint style="info" %}
+[post-account.md](post-account.md "mention") 진행 후 사용가능합니다.
+{% endhint %}
 
 #### Request
 

@@ -2,9 +2,11 @@
 description: Account 정보 등록하기
 ---
 
-# POST /account
+# ThinQ 계정 등록하기
 
-### DAMDA 기기에 본인의 EMP 계정 정보(id/pw)를 등록합니다.&#x20;
+## POST /account
+
+DAMDA 기기에 본인의 EMP 계정 정보(ThinQ앱 로그인 정보)를 등록합니다.&#x20;
 
 {% hint style="info" %}
 기기 등록을 하기 위해서는 계정 정보가 반드시 필요합니다

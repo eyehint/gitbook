@@ -2,9 +2,15 @@
 description: ThinQ 서버에서 기기 정보 삭제하기
 ---
 
-# DELETE /device
+# 기기 삭제하기
 
-### ThinQ 서버에서 기기 정보를 제거(unregister) 합니다.
+## DELETE /device
+
+ThinQ 서버에서 기기 정보를 제거(unregister) 합니다.
+
+{% hint style="info" %}
+[post-account.md](post-account.md "mention") 진행 후 사용가능합니다.
+{% endhint %}
 
 #### Request
 

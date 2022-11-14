@@ -2,9 +2,15 @@
 description: 기기에서 ThinQ 서버로 정보 전달하기 (for TPA 통신)
 ---
 
-# POST /monitoring
+# 기기 정보 전달하기
+
+## POST /monitoring
 
 기기의 다양한 정보를 ThinQ 서버로 저장합니다. 해당 정보는 TPA에서 활용이 가능합니다.&#x20;
+
+{% hint style="info" %}
+[post-account.md](post-account.md "mention") 진행 후 사용가능합니다.
+{% endhint %}
 
 #### Request
 

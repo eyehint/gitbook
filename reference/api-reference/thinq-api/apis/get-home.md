@@ -2,9 +2,15 @@
 description: 본인 계정에 등록된 홈 목록 조회하기
 ---
 
-# GET /home
+# 사용자 홈 목록 조회하기
 
-### 등록된 사용자의 ThinQ 서비스 Home 정보를 조회합니다. &#x20;
+## GET /home
+
+사용자의 ThinQ 서비스 Home 정보를 조회합니다.
+
+{% hint style="info" %}
+[post-account.md](post-account.md "mention")에서 등록된 ThinQ 계정에 대한 정보가 조회됩니다.
+{% endhint %}
 
 #### Request
 

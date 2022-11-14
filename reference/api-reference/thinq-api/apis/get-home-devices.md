@@ -2,9 +2,15 @@
 description: 본인 계정에 등록된 기기 목록 조회하기
 ---
 
-# GET /home/devices
+# 사용자 기기 목록 조회하기
 
-### ThinQ 서버에 등록된 본인의 기기 목록을 조회합니다.
+## GET /home/devices
+
+ThinQ 서버에 등록된 사용자의 기기 목록을 조회합니다.
+
+{% hint style="info" %}
+[post-account.md](post-account.md "mention")에서 등록된 ThinQ 계정에 대한 정보가 조회됩니다.
+{% endhint %}
 
 #### Request
 

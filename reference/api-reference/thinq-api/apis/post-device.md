@@ -2,9 +2,15 @@
 description: ThinQ 서버(DAMDA 서버)에 기기 등록하기
 ---
 
-# POST /device
+# 기기 등록하기
 
-### DAMDA 기기를 서버에 등록합니다.&#x20;
+## POST /device
+
+DAMDA 기기를 서버에 등록합니다.&#x20;
+
+{% hint style="info" %}
+[post-account.md](post-account.md "mention") 진행 후 사용가능합니다.
+{% endhint %}
 
 #### Request
 

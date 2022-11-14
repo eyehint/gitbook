@@ -2,12 +2,16 @@
 description: ThinQ에 등록된  다른 기기 제어하기 (일부기기만 제어가능)
 ---
 
-# POST /device/control
+# 기기 제어하기
 
-### ThinQ 서버에 등록된 다른 기기를 제어할 수 있습니다.
+## POST /device/control
+
+ThinQ 서버에 등록된 다른 기기를 제어할 수 있습니다.&#x20;
+
+하나의 기기에 제어명령을 보낼 수도 있고, DAMDA 기기간 제어를 할 수도 있습니다.
 
 {% hint style="info" %}
-여러개의 DAMDA 기기를 제어할 때 사용할 수 있습니다.&#x20;
+[post-account.md](post-account.md "mention") 진행 후 사용가능합니다.
 {% endhint %}
 
 #### Request&#x20;
