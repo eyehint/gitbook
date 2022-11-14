@@ -1,6 +1,6 @@
 # 가전 Profile 조회
 
-### GET /devices/profile/{device-id}
+## GET /devices/profile/{device-id}
 
 디바이스의 Profile을 조회하기 위한 API입니다. 디바이스 Profile이란, LG 가전의 속성을 가전 타입별로 표준화하여 기술한 정보로, LG ThinQ 플랫폼이 사용하는 디바이스 데이터입니다. 예를 들어, 냉장고에 대한 디바이스 Profile은 온도, 냉동모드, 절전모드, 도어 열림 등 냉장고의 상태를 설명하고 제어하기 위한 속성들을 정의합니다. 이 Profile을 바탕으로 디바이스의 상태를 해석하고 제어 명령을 생성할 수 있습니다.
 

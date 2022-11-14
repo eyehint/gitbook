@@ -2,16 +2,34 @@
 
 ## WS /webostv/{ip}/subscribe
 
-### Description
+메세지로 구독할 대상을 구분합니다. 채널과 오디오 정보를 구독할 수 있습니다.
 
-Topic 1) 채널을 구독합니다.
 
-### Message
 
-Channel
+**Request**
 
-### Response
+> **URL** : WS {device\_ip}:5003/devices/{device\_id}/state
+>
+> **Parameter**
+>
+> * ip (String) <mark style="color:red;">\*</mark>: 연결할 TV의 IP 주소. [get-webostv.md](get-webostv.md "mention")를 통해 얻어옵니다
+>
+> **Message**&#x20;
+>
+> 구독할 대상 정보를 보냅니다. String 형태로 보냅니다
+>
+> * 채널 구독: Channel
+> * 오디오 구독: Audio
 
+#### Response
+
+> Type: Object
+>
+> * 구독한 대상의 정보가 변경될 때마다 값을 받게됩니다.
+
+#### Response Example
+
+{% code title="채널 구독" %}
 ```
 {
     "type":"response",
@@ -32,23 +50,10 @@ Channel
         "subscribed":true
     }
 }
-
 ```
+{% endcode %}
 
-
-
-## WS /webostv/{ip}/subscribe
-
-### Description
-
-Topic 2) 오디오 구독합니다.
-
-### Message
-
-Audio
-
-### Response
-
+{% code title="오디오 구독" %}
 ```
 {
     "type":"response",
@@ -68,3 +73,4 @@ Audio
     }
 }
 ```
+{% endcode %}

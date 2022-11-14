@@ -47,11 +47,12 @@
 
 ### 에러 메시지
 
-API 실행 중 에러가 발생했을 때, 아래 표와 같은 구조로 에러 값을 반환합니다.
+API 실행 중 에러가 발생했을 때, 아래 표와 같은 구조로 에러 값을 반환합니다. 자세한 에러 메시지 정보는 [common-error.md](common-error.md "mention")를 확인해주세요
 
-| Name      | Type   | Description                 |
-| --------- | ------ | --------------------------- |
-| Error     | Object | 발생한 에러에 대한 상세 설명을 제공하는 오브젝트 |
-| └ Message | String | 해당 에러에 대한 간략한 설명            |
+| Name      | Type   | Description                      |
+| --------- | ------ | -------------------------------- |
+| Error     | Object | 발생한 에러에 대한 상세 설명을 제공하는 오브젝트      |
+| └ Message | String | 해당 에러에 대한 간략한 설명                 |
+| └ Code    | Enum   | 에러 원인을 상세하게 확인하게 위한 Error Code 값 |
 
 ## &#x20;<a href="#common-err" id="common-err"></a>

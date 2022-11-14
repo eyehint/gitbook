@@ -1,6 +1,6 @@
 # Event/Push Callback (Websocket)
 
-### WSS wss://s7vajyybvf.execute-api.ap-northeast-2.amazonaws.com/websocket
+## WSS wss://s7vajyybvf.execute-api.ap-northeast-2.amazonaws.com/websocket
 
 이 메서드는 Websoket을 통하여 ThinQ 가전의 Push 및 Evnet 콜백 메시지를 수신하기 위한 API입니다.
 
