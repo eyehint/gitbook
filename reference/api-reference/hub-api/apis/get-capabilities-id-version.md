@@ -1,4 +1,4 @@
-# capability 가져오기
+# Capability 가져오기
 
 ## GET /capabilities/{id}/{version}
 
@@ -16,9 +16,10 @@ Capability는 attribute와 command를 정의를 통해, 할 수 있는 기능을
 >
 > * None
 >
-> **Parameter**
+> **Parameter (Path)**
 >
-> * None
+> * id (String) <mark style="color:red;">\*</mark>: 가져오고자 하는 capability id
+> * version (String) <mark style="color:red;">\*</mark>: 가져오고자 하는 capability version
 
 #### Response
 

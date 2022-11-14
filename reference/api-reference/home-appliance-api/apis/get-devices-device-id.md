@@ -1,6 +1,6 @@
 # 가전 상태 조회
 
-## GET /devices/{device-id}
+### GET /devices/{device-id}
 
 디바이스의 현재 상태를 조회하기 위한 API입니다. \
 

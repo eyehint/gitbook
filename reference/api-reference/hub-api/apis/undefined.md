@@ -12,7 +12,7 @@
 >
 > **Parameter (Path)**
 >
-> * deviceId (String) <mark style="color:red;">\*</mark>: 정보 조회할 기기의 id
+> * device\_id (String) <mark style="color:red;">\*</mark>: 정보 조회할 기기의 id
 >
 > **Message**&#x20;
 >

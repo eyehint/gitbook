@@ -3,10 +3,10 @@
 {% hint style="info" %}
 EMP(Enterprise Membership Platform) : LG전자 회원 플랫폼을 의미합니다
 
-EMP는 기존 공통헤더에서 쓰던 DAMDA Connect Key가 아닌 DAMDA EMP Key를 발급받아서 입력해야 합니다. [헤더 예제](emp-access-token.md#request-example)를 참고하세요.
+EMP는 기존 공통헤더에서 쓰던 DAMDA Connect Key가 아닌 DAMDA EMP Key를 발급받아서 입력해야 합니다. 헤더 예제를 참고하세요.
 {% endhint %}
 
-## POST /token
+### POST /token
 
 ThinQ API에 사용되는 회원 계정의 Access Token을 발급하기 위한 API입니다. ID/Password 및 Refresh Token 방식을 지원하며, 현재 LG Account만 지원됩니다.
 

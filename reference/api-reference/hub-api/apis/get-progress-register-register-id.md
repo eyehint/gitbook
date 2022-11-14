@@ -1,4 +1,4 @@
-# 등록 / 삭제 결과 확인
+# 등록 / 삭제 결과 확인하기
 
 ## GET /progress/register/{register\_id}
 
@@ -16,9 +16,11 @@
 >
 > * None
 >
-> **Parameter**
+> **Parameter (Path)**
 >
-> * None
+> *   register\_id (String) <mark style="color:red;">\*</mark>: 등록, 삭제 결과를 확인하기 위한 id. [post-devices.md](post-devices.md "mention") 혹은 [delete-devices-device-id.md](delete-devices-device-id.md "mention") 호출 이후 response에서 가져올 수 있음
+>
+>     ****
 
 #### Response
 

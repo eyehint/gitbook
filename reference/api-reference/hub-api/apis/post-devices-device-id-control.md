@@ -22,7 +22,7 @@ Capability에 대한 정의는 [capability.md](../../../../fundamentals/damda-de
 >
 > **Parameter (Path)**
 >
-> * deviceId (String) <mark style="color:red;">\*</mark>: 제어할 기기의 id
+> * device\_id (String) <mark style="color:red;">\*</mark>: 제어할 기기의 id
 >
 > **Parameter (Body)**
 >
