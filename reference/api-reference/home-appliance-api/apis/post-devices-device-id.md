@@ -14,7 +14,7 @@ LG ThinQ 플랫폼에 등록되어 있는 가전을 제어하기 위한 API입�
 >
 > **Header**&#x20;
 >
-> * [공통 Headers](broken-reference)를 사용합니다.
+> * [공통 Headers](common-headers.md)를 사용합니다.
 >
 > **Parameter (Path)**
 >

@@ -12,7 +12,7 @@
 >
 > **Header**&#x20;
 >
-> * [공통 Headers](broken-reference)를 사용합니다.
+> * [공통 Headers](common-headers.md)를 사용합니다.
 >
 > **Parameter**
 >

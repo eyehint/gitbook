@@ -20,7 +20,7 @@ ThinQ API에 사용되는 회원 계정의 Access Token을 발급하기 위한 A
 >
 > **Header**&#x20;
 >
-> * Authorization을 제외한 [공통 Headers](broken-reference)를 사용합니다.
+> * Authorization을 제외한 [공통 Headers](common-headers.md)를 사용합니다.
 >
 > #### Parameter (Body)
 >

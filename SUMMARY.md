@@ -77,7 +77,7 @@
     * [가전 상태 조회](reference/api-reference/home-appliance-api/check-status.md)
     * [가전 제어](reference/api-reference/home-appliance-api/control-device.md)
     * [APIs](reference/api-reference/home-appliance-api/apis/README.md)
-      * [공통 | Headers](reference/api-reference/home-appliance-api/apis/or-headers.md)
+      * [공통 | Headers](reference/api-reference/home-appliance-api/apis/common-headers.md)
       * [공통 | Response](reference/api-reference/home-appliance-api/apis/common-response.md)
       * [공통 | Error](reference/api-reference/home-appliance-api/apis/common-error.md)
       * [가전 목록 조회](reference/api-reference/home-appliance-api/apis/get-devices.md)

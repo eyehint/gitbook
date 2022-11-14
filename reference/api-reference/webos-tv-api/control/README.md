@@ -4,10 +4,22 @@
 
 각 기능에 대해서 정의된 API로 TV를 제어합니다.&#x20;
 
+{% content-ref url="on-off.md" %}
+[on-off.md](on-off.md)
+{% endcontent-ref %}
 
+{% content-ref url="channel.md" %}
+[channel.md](channel.md)
+{% endcontent-ref %}
 
-* [ON/OFF](on-off.md)&#x20;
-* [Channel](channel.md)&#x20;
-* Audio
-* App
-* UI 및 기타
+{% content-ref url="audio.md" %}
+[audio.md](audio.md)
+{% endcontent-ref %}
+
+{% content-ref url="app.md" %}
+[app.md](app.md)
+{% endcontent-ref %}
+
+{% content-ref url="ui-and-others.md" %}
+[ui-and-others.md](ui-and-others.md)
+{% endcontent-ref %}
