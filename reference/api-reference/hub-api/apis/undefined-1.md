@@ -2,15 +2,13 @@
 
 ## &#x20;WS /devices/state
 
-
-
 웹소켓을 통해 모든 서브 기기의 상태값 변화를 지속적으로 받을 수 있습니다.
 
 
 
 **Request**
 
-> **URL** : WS /devices/state
+> **URL** : WS {device\_ip}:5003/devices/state
 >
 > **Parameter (Path)**
 >

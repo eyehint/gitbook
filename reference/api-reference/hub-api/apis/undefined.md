@@ -8,7 +8,7 @@
 
 **Request**
 
-> **URL** : WS /devices/{device\_id}/state
+> **URL** : WS {device\_ip}:5003/devices/{device\_id}/state
 >
 > **Parameter (Path)**
 >
