@@ -30,6 +30,7 @@
     * [기타](fundamentals/damda-cloud/manage-account/undefined-1.md)
   * [컴포넌트 관리](fundamentals/damda-cloud/manage-component/README.md)
     * [DAMDA Components](fundamentals/damda-cloud/manage-component/damda-components.md)
+    * [컴포넌트 초기화하기](fundamentals/damda-cloud/manage-component/initialize-component.md)
     * [컴포넌트 개발하기](fundamentals/damda-cloud/manage-component/develop-component-code.md)
     * [컴포넌트 생성하기](fundamentals/damda-cloud/manage-component/create-component.md)
     * [컴포넌트 배포하기](fundamentals/damda-cloud/manage-component/deploy-component.md)
