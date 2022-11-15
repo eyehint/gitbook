@@ -69,7 +69,7 @@ API 실행 중 에러가 발생했을 때 아래와 같은 구조로 에러 값�
 | 1305       | Not allowed api                                   | 허용되지 않은 API                                                               | 401       |
 | 1306       | Exceeded API calls API                            | 호출 횟수 초과                                                                  | 401       |
 | 1307       | Not supported country                             | 지원하지 않는 국가                                                                | 401       |
-| 1308       | No control autdority                              | 디바이스 제어권 없음 (tdinQ App에서 사용중)                                             | 401       |
+| 1308       | No control autdority                              | 디바이스 제어권 없음 (ThinQ App에서 사용중)                                             | 401       |
 | 1310       | Not supported domain                              | 제공되지 않은 도메인을 사용한 경우                                                       | 401       |
 | 1311       | Bad request format                                | 요청 포맷이 잘못된 경우                                                             | 401       |
 | 1312       | Exceeded number of event subscription             | 해당 서비스 키에 설정된 이벤트 등록 기기 수의 제한을 넘음                                         | 400       |

@@ -24,8 +24,8 @@
 >
 > * messageId (String) <mark style="color:red;">\*</mark>: [공통 Response](common-response.md#undefined-1)를 참고합니다
 > * timestamp (String) <mark style="color:red;">\*</mark>: [공통 Response](common-response.md#undefined-1)를 참고합니다
-> * response (List) : 등록된 기기 리스트를 받아옵니다
->   * deviceld (String) : 디바이스를 식별할 수 있는 ID
+> * response (List)<mark style="color:red;">\*</mark> : 등록된 기기 리스트를 받아옵니다
+>   * deviceld (String) : 디바이스를 식별할 수 있는 ID. 등록된 기기가 없는 경우 빈 배열을 값으로 가집니다.
 >   * deviceInfo (Object) <mark style="color:red;"></mark> : 디바이스에 대한 다음 정보를 담은 오브젝트
 >     * deviceType (String) : [디바이스의 가전 타입](../types/device-type.md)
 >     * modelName (String) : 디바이스의 모델 이름

@@ -77,7 +77,7 @@ ThinQ API에 사용되는 회원 계정의 Access Token을 발급하기 위한 A
 >
 > * messageId (String) <mark style="color:red;">\*</mark>: [공통 Response](common-response.md#undefined-1)를 참고합니다
 > * timestamp (String) <mark style="color:red;">\*</mark>: [공통 Response](common-response.md#undefined-1)를 참고합니다
-> * response (Object) :&#x20;
+> * response (Object) <mark style="color:red;">\*</mark>:&#x20;
 >   * 성공:&#x20;
 >     * Password 방식 : Access Token, Refresh Token, Expired time(Sec.) 반환
 >     * Refresh Token 방식 : Access Token, Expired time(Sec.) 반환

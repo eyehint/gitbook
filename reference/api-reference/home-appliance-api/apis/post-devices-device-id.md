@@ -32,6 +32,6 @@ LG ThinQ 플랫폼에 등록되어 있는 가전을 제어하기 위한 API입�
 >
 > * messageId (String) <mark style="color:red;">\*</mark>: [공통 Response](common-response.md#undefined-1)를 참고합니다
 > * timestamp (String) <mark style="color:red;">\*</mark>: [공통 Response](common-response.md#undefined-1)를 참고합니다
-> * response (Object) :&#x20;
+> * response (Object) <mark style="color:red;">\*</mark>:&#x20;
 >   * 성공: Status 200 코드와 빈 값이 반환됩니다
 >   * 실패: [공통 Response](common-response.md)에[ ](common-response.md)정의된 응답 규약에 따라 에러 코드와 에러 메시지가 반환됩니다.

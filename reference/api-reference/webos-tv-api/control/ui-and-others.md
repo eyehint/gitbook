@@ -58,11 +58,15 @@ Alert창을 띄워 유튜브 영상을 실행합니다.
 >
 > #### Parameter (Body)
 >
+> * title (String) <mark style="color:red;">\*</mark>: Toast 제목
 > * message (String) <mark style="color:red;">\*</mark>: Toast를 띄울 메세지 내용
+> * code (String) <mark style="color:red;">\*</mark>: 연결할 youtube 영상의 code. youtube 링크에서 "watch?" 뒤에 있는 값입니다.\
+>
 
 #### Request Example
 
 ```
+// youtube 링크 예시: https://www.youtube.com/watch?v=96afkL4NXqI
 {
     "title": "[유튜브] 골드 피즈의 평범한 하루",
     "message": "추천영상입니다. 유튜브 앱에서 시청할까요?",
