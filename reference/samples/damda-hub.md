@@ -4,11 +4,26 @@ description: Hub 기능을 사용해볼 수 있는 샘플 예제입니다
 
 # DAMDA Hub
 
-com.damda.sample.damda-hub를 배포하여 사용할 수 있습니다.&#x20;
+**com.damda.sample.damda-hub**를 배포하여 사용할 수 있습니다.&#x20;
+
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>퍼블릭 컴포넌트 탭에서 damda-hub 샘플앱 확인 가능</p></figcaption></figure>
+
+## 개요
 
 이 샘플앱에서는 서브기기를 등록하고 제어해볼 수 있습니다. 나만의 서브기기 타입을 추가하면, 정의한 기기타입과 허브가 연동되어 동작하는 것을 확인할 수 있습니다. 서브기기 타입을 추가하는 방법은 [custom-sub-device](../../fundamentals/damda-device/custom-sub-device/ "mention")를 확인하시기 바랍니다.
 
-앱 배포 후 Damda Home에 DAMDA Hub가 생성된 것을 확인할 수 있습니다. 아이콘을 눌러, damda-hub의 index.html로 이동합니다.
+앱 배포 후 Damda Home에 DAMDA Hub가 생성된 것을 확인할 수 있습니다. 아이콘을 눌러, damda-hub의 index.html로 이동합니다.\
+
+
+## 샘플 코드
+
+damda-hub 코드는 사내용으로 공개합니다. 사내망에서만 다운받으실 수 있습니다.
+
+```shell
+curl -O http://10.178.133.16/damda-hub.zip
+```
+
+
 
 ## DAMDA Hub 사용하기
 
@@ -33,7 +48,7 @@ webOSTV가 같은 네트워크 상에 있다면, TV를 등록하고 제어 해�
 2. TV의 IP정보를 입력해줍니다
 3.  "추가하기"버튼을 눌러줍니다.
 
-    <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>기기 추가 정보 입력</p></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (2) (3).png" alt=""><figcaption><p>기기 추가 정보 입력</p></figcaption></figure>
 4. 잠시 기다리면 TV 카드가 추가된 것을 확인할 수 있습니다.\
    ![](<../../.gitbook/assets/image (12) (3).png>)
 

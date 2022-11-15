@@ -26,7 +26,7 @@ Home의 첫화면에서 **시간 및 지역기반 날씨정보**를 확인할 �
 
 '서울특별시 서초구 양재동' 글씨를 클릭하면 원하는 위치로 바꿔서 기상 정보를 확인할 수 있습니다
 
-<figure><img src="../../../.gitbook/assets/image (2) (3) (2).png" alt=""><figcaption><p>위치 선택 화면</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (3) (2) (1).png" alt=""><figcaption><p>위치 선택 화면</p></figcaption></figure>
 
 ## 앱 테마 변경
 
