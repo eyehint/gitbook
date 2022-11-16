@@ -23,9 +23,23 @@ damda-hub 코드는 사내용으로 공개합니다. 사내망에서만 다운�
 curl -O http://10.178.133.16/damda-hub.zip
 ```
 
-## 컴포넌트 스크립트&#x20;
 
 
+## 실행 방법
+
+#### Hub 기능 테스트 (ThinQ 연동 제외)
+
+로컬 PC에 docker 가 깔려있는경우, hub기능에 한정해서 테스트 해볼 수 있습니다 (ThinQ와 연동은 되지 않습니다) Readme를 참고하여 환경설정 해주시기 바랍니다.
+
+#### ThinQ와 연동해보고 싶은 경우
+
+컴포넌트로 만들어 damda가 설치된 라즈베리파이에서 실행 시킵니다.
+
+
+
+## 컴포넌트화 하기
+
+### 컴포넌트 스크립트&#x20;
 
 <details>
 
@@ -110,6 +124,8 @@ sh {root}/damda-hub/hub-init.sh {root}/damda-hub
 * 600
 
 </details>
+
+
 
 ## DAMDA Hub 사용하기
 
