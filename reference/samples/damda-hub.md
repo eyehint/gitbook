@@ -23,7 +23,94 @@ damda-hub 코드는 사내용으로 공개합니다. 사내망에서만 다운�
 curl -O http://10.178.133.16/damda-hub.zip
 ```
 
+## 컴포넌트 스크립트&#x20;
 
+
+
+<details>
+
+<summary>초기 설정</summary>
+
+#### script&#x20;
+
+```
+python3 -m venv /damda/venv/damda-hub)
+```
+
+```
+docker pull rabbitmq:management
+```
+
+```
+docker pull redis
+```
+
+#### previlege
+
+* true
+
+#### timeout
+
+* 600
+
+</details>
+
+<details>
+
+<summary>설치</summary>
+
+#### 환경 변수
+
+* VIRTUAL\_ENV&#x20;
+
+#### script&#x20;
+
+```
+docker-compose -f {root}/damda-hub/docker-compose.yml down
+```
+
+```
+docker-compose -f {root}/damda-hub/docker-compose.yml up -d
+```
+
+```
+sh {root}/damda-hub/hub-init.sh {root}/damda-hub
+```
+
+#### previlege
+
+* true
+
+#### timeout
+
+* 600
+
+</details>
+
+<details>
+
+<summary><strong>실행</strong></summary>
+
+**환경 변수**\
+****VIRTUAL\_ENV&#x20;
+
+**script**&#x20;
+
+```
+bash {root}/damda-hub/start-hub.sh {root}/damda-hub
+```
+
+**previlege**\
+****true
+
+**timeout**\
+600
+
+</details>
+
+
+
+환경변수 VIRTUAL\_ENV /damda/venv/damda-hub script bash {root}/damda-hub/start-hub.sh {root}/damda-hub previlege true
 
 ## DAMDA Hub 사용하기
 
