@@ -31,7 +31,7 @@ curl -O http://10.178.133.16/damda-hub.zip
 
 <summary>초기 설정</summary>
 
-#### script&#x20;
+#### Script&#x20;
 
 ```
 python3 -m venv /damda/venv/damda-hub)
@@ -45,11 +45,11 @@ docker pull rabbitmq:management
 docker pull redis
 ```
 
-#### previlege
+#### RequiresPrivilege
 
 * true
 
-#### timeout
+#### Timeout
 
 * 600
 
@@ -63,7 +63,7 @@ docker pull redis
 
 * VIRTUAL\_ENV&#x20;
 
-#### script&#x20;
+#### Script&#x20;
 
 ```
 docker-compose -f {root}/damda-hub/docker-compose.yml down
@@ -77,11 +77,11 @@ docker-compose -f {root}/damda-hub/docker-compose.yml up -d
 sh {root}/damda-hub/hub-init.sh {root}/damda-hub
 ```
 
-#### previlege
+#### RequiresPrivilege
 
 * true
 
-#### timeout
+#### Timeout
 
 * 600
 
@@ -91,26 +91,25 @@ sh {root}/damda-hub/hub-init.sh {root}/damda-hub
 
 <summary><strong>실행</strong></summary>
 
-**환경 변수**\
-****VIRTUAL\_ENV&#x20;
+#### 환경 변수
 
-**script**&#x20;
+* VIRTUAL\_ENV&#x20;
+
+#### Script&#x20;
 
 ```
-bash {root}/damda-hub/start-hub.sh {root}/damda-hub
+	bash {root}/damda-hub/start-hub.sh {root}/damda-hub
 ```
 
-**previlege**\
-****true
+#### RequiresPrivilege
 
-**timeout**\
-600
+* true
+
+#### Timeout
+
+* 600
 
 </details>
-
-
-
-환경변수 VIRTUAL\_ENV /damda/venv/damda-hub script bash {root}/damda-hub/start-hub.sh {root}/damda-hub previlege true
 
 ## DAMDA Hub 사용하기
 
@@ -124,6 +123,10 @@ DAMDA가 허브가 되어 동작합니다.&#x20;
 
 허브와 같은 네트워크상에 있는 서브기기들을 연동시켜 볼 수 있습니다. 기본적으로 연동 가능한 기기 타입은 motionCamera, sensorLight, webOSTV, sensorThermoHygrometer 입니다.\
 webOSTV를 제외한 나머지 타입들은 시뮬레이터와 연동 하게 됩니다. 시뮬레이터는 해커톤 전에 제공될 예정입니다.&#x20;
+
+{% hint style="warning" %}
+현재 시뮬레이터 제공이 늦어지고있어, webOSTV로만 테스트 가능합니다.
+{% endhint %}
 
 "추가하기"버튼을 눌러 서브 디바이스의 타입과 연결 하기위한 정보들을 입력합니다.
 
