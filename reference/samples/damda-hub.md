@@ -23,6 +23,10 @@ damda-hub 코드는 사내용으로 공개합니다. 사내망에서만 다운�
 curl -O http://10.178.133.16/damda-hub.zip
 ```
 
+{% hint style="info" %}
+샘플로 제공하는 코드에서는 TPA를 통해 TV 캡처하는 기능은 동작하지 않습니다. 참고부탁드립니다.
+{% endhint %}
+
 
 
 ## 실행 방법
